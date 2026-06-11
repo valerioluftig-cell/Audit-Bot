@@ -1855,20 +1855,20 @@ _HTML = r"""<!DOCTYPE html>
     </div>
     <div id="settings-msg" style="margin-top:10px;font-size:12px;min-height:16px"></div>
     <hr style="margin:22px 0 18px;border:none;border-top:1px solid #e0e0e0">
-    <h4 style="margin:0 0 5px;font-size:14px;font-weight:700;color:#1f2328">Upload Pre-Run Data</h4>
-    <p style="margin:0 0 14px;font-size:12px;color:#57606a">Upload cached JSON extractions from previous local runs so Training shows them without re-running the pipeline.</p>
-    <label style="font-size:12px;font-weight:600;color:#1f2328;display:block;margin-bottom:6px">Parish cache files &nbsp;<span style="font-weight:400;color:#8c959f">(Parish_YYYY.json)</span></label>
-    <div id="cache-drop" style="border:1px dashed #d0d7de;border-radius:7px;padding:16px;text-align:center;cursor:pointer;background:#f6f8fa;font-size:12.5px;color:#57606a"
-      onclick="document.getElementById('cache-file-input').click()"
-      ondragover="event.preventDefault();this.style.borderColor='#6f42c1'"
-      ondragleave="this.style.borderColor='#d0d7de'"
-      ondrop="event.preventDefault();this.style.borderColor='#d0d7de';_cacheFilesChosen(event.dataTransfer.files)">
-      Drop <code>.json</code> files here or <span style="color:#6f42c1;font-weight:600;text-decoration:underline">browse</span>
-      <span id="cache-badge" style="display:none;margin-left:8px;background:rgba(111,66,193,.12);color:#6f42c1;border:1px solid rgba(111,66,193,.3);border-radius:12px;padding:1px 8px;font-size:11px;font-weight:700"></span>
+    <h4 style="margin:0 0 5px;font-size:14px;font-weight:700;color:#1f2328">Import Run</h4>
+    <p style="margin:0 0 14px;font-size:12px;color:#57606a">Select all files from a local run folder — PDFs, output Excels, and JSON cache files together. The server sorts them automatically.</p>
+    <div id="import-drop" style="border:1px dashed #d0d7de;border-radius:7px;padding:20px 16px;text-align:center;cursor:pointer;background:#f6f8fa;transition:border-color .18s"
+      onclick="document.getElementById('import-file-input').click()"
+      ondragover="event.preventDefault();this.style.borderColor='#6f42c1';this.style.background='rgba(111,66,193,.04)'"
+      ondragleave="this.style.borderColor='#d0d7de';this.style.background='#f6f8fa'"
+      ondrop="event.preventDefault();this.style.borderColor='#d0d7de';this.style.background='#f6f8fa';_importFilesChosen(event.dataTransfer.files)">
+      <div style="font-size:13px;color:#57606a">Drop <b>all files from a run folder</b> here, or <span style="color:#6f42c1;font-weight:600;text-decoration:underline">browse</span></div>
+      <div style="font-size:11px;color:#8c959f;margin-top:4px">PDFs + Excels + JSON cache — mixed is fine</div>
+      <div id="import-preview" style="margin-top:10px;font-size:11.5px;color:#57606a;display:none"></div>
     </div>
-    <input type="file" id="cache-file-input" multiple accept=".json" style="display:none" onchange="_cacheFilesChosen(this.files)"/>
-    <button onclick="uploadCacheFiles()" style="margin-top:10px;width:100%;padding:7px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Upload to Training</button>
-    <div id="cache-msg" style="margin-top:8px;font-size:12px;min-height:16px"></div>
+    <input type="file" id="import-file-input" multiple accept=".pdf,.xlsx,.json" style="display:none" onchange="_importFilesChosen(this.files)"/>
+    <button onclick="importRunFiles()" style="margin-top:10px;width:100%;padding:7px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Import to Training</button>
+    <div id="import-msg" style="margin-top:8px;font-size:12px;min-height:16px"></div>
   </div>
 </div>
 
@@ -2345,27 +2345,30 @@ _HTML = r"""<!DOCTYPE html>
   function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
   function escAttr(s){return String(s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
 
-  // ── Cache file upload (Settings modal) ───────────────────────────────────
-  let _cacheFiles=[];
-  function _cacheFilesChosen(files){
-    _cacheFiles=Array.from(files);
-    const badge=document.getElementById('cache-badge');
-    badge.textContent=_cacheFiles.length+' file'+ (_cacheFiles.length===1?'':'s');
-    badge.style.display='inline-block';
+  // ── Run import (Settings modal) ───────────────────────────────────────────
+  let _importFiles=[];
+  function _importFilesChosen(files){
+    _importFiles=Array.from(files);
+    const pdfs=_importFiles.filter(f=>f.name.toLowerCase().endsWith('.pdf'));
+    const jsons=_importFiles.filter(f=>f.name.toLowerCase().endsWith('.json'));
+    const xlsxs=_importFiles.filter(f=>f.name.toLowerCase().endsWith('.xlsx'));
+    const prev=document.getElementById('import-preview');
+    prev.style.display='block';
+    prev.innerHTML=`<span style="color:var(--purple)">&#128196; ${pdfs.length} PDFs</span> &nbsp; <span style="color:var(--green)">&#128196; ${xlsxs.length} Excels</span> &nbsp; <span style="color:var(--dim)">&#128196; ${jsons.length} JSON cache</span> &nbsp; <b>${_importFiles.length} total</b>`;
   }
-  async function uploadCacheFiles(){
-    const msg=document.getElementById('cache-msg');
-    if(!_cacheFiles.length){msg.textContent='No files selected.';msg.style.color='var(--orange)';return;}
+  async function importRunFiles(){
+    const msg=document.getElementById('import-msg');
+    if(!_importFiles.length){msg.textContent='No files selected.';msg.style.color='var(--orange)';return;}
     msg.textContent='Uploading…';msg.style.color='var(--dim)';
     const form=new FormData();
-    _cacheFiles.forEach(f=>form.append('files',f));
+    _importFiles.forEach(f=>form.append('files',f));
     try{
-      const r=await fetch('/admin/upload-cache',{method:'POST',body:form});
+      const r=await fetch('/admin/import-run',{method:'POST',body:form});
       const d=await r.json();
       if(!r.ok) throw new Error(d.detail||'Upload failed');
-      msg.textContent=`✓ Uploaded ${d.count} file(s). Reload Training to see them.`;
+      msg.innerHTML=`&#10003; Imported: ${d.pdfs} PDFs, ${d.excels} Excels, ${d.cache} cache files into run <code>${d.run_id}</code>`;
       msg.style.color='var(--green)';
-      _cacheFiles=[];document.getElementById('cache-badge').style.display='none';
+      _importFiles=[];document.getElementById('import-preview').style.display='none';
       loadLibrary();
     }catch(e){msg.textContent='Error: '+e.message;msg.style.color='var(--red)';}
   }
@@ -3920,21 +3923,50 @@ _COMPARE_JOBS: dict[str, dict] = {}  # job_id -> {status, summary, error}
 _CODED_STORE: dict[int, str] = {}    # year -> path to coded excel dir
 
 
-@app.post("/admin/upload-cache")
-async def upload_cache(files: list[UploadFile] = File(...)):
-    """Accept Parish_YYYY.json cache files and store them so Training can find them."""
+@app.post("/admin/import-run")
+async def import_run(files: list[UploadFile] = File(...)):
+    """Accept a mixed batch of files from a local run folder and sort them into the right places."""
     import datetime as _dt
     ts = _dt.datetime.now().strftime("%Y%m%d_%H%M%S")
-    dest = _app_dir() / "runs" / f"imported_{ts}" / "output" / "cache"
-    dest.mkdir(parents=True, exist_ok=True)
-    saved = 0
+    run_id = f"imported_{ts}"
+    run_dir = _app_dir() / "runs" / run_id
+    pdf_dir   = run_dir / "pdfs"
+    out_dir   = run_dir / "output"
+    cache_dir = out_dir / "cache"
+    for d in (pdf_dir, out_dir, cache_dir):
+        d.mkdir(parents=True, exist_ok=True)
+
+    counts = {"pdfs": 0, "excels": 0, "cache": 0, "other": 0}
     for f in files:
-        if not f.filename.endswith(".json"):
-            continue
         data = await f.read()
-        (dest / f.filename).write_bytes(data)
-        saved += 1
-    return {"count": saved, "dir": str(dest)}
+        name = f.filename or ""
+        lo = name.lower()
+        if lo.endswith(".pdf"):
+            (pdf_dir / name).write_bytes(data)
+            counts["pdfs"] += 1
+        elif lo == "meta.json":
+            (run_dir / name).write_bytes(data)
+        elif lo.endswith(".json"):
+            (cache_dir / name).write_bytes(data)
+            counts["cache"] += 1
+        elif lo.endswith(".xlsx"):
+            (out_dir / name).write_bytes(data)
+            counts["excels"] += 1
+        else:
+            counts["other"] += 1
+
+    # Write a minimal meta.json if one wasn't included
+    meta_path = run_dir / "meta.json"
+    if not meta_path.exists():
+        import datetime as _dt2
+        now = _dt2.datetime.now()
+        meta_path.write_text(json.dumps({
+            "job_id": run_id,
+            "label": f"Imported {now.strftime('%b %d %Y')}",
+            "started_fmt": now.strftime("%b %d %Y, %I:%M %p").replace(" 0", " "),
+        }))
+
+    return {**counts, "run_id": run_id}
 
 
 @app.get("/excel-view/{year}/{parish}/{stmt_type}")
