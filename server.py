@@ -1705,42 +1705,18 @@ _HTML = r"""<!DOCTYPE html>
     .callout{background:var(--surf);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:8px;padding:16px 18px;margin:16px 0;font-size:12.5px;color:var(--dim);line-height:1.7}
     .callout strong{color:var(--text)}
     code{font-family:"Cascadia Code","Fira Code","Consolas",monospace;font-size:11px;background:var(--surf2);border:1px solid var(--border);border-radius:3px;padding:1px 5px;color:var(--text)}
-    /* ── Review tab ── */
-    .rv-toolbar{display:flex;align-items:center;gap:8px;margin-bottom:20px;flex-wrap:wrap}
-    .rv-filter{background:var(--surf);border:1px solid var(--border);border-radius:6px;padding:5px 12px;font-size:12px;font-weight:500;color:var(--dim);cursor:pointer;transition:all .15s}
-    .rv-filter:hover{border-color:var(--purple);color:var(--purple)}
-    .rv-filter.active{background:rgba(111,66,193,.1);border-color:var(--purple);color:var(--purple);font-weight:600}
-    .rv-empty{text-align:center;padding:60px 20px;color:var(--dimmer);font-size:13px}
-    .rv-card{background:#ffffff;border:1px solid var(--border);border-radius:8px;padding:16px 18px;margin-bottom:12px;transition:border-color .2s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
-    .rv-card.resolved{opacity:.45;border-style:dashed;box-shadow:none}
-    .rv-card:not(.resolved):hover{border-color:var(--purple)}
-    .rv-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
-    .rv-parish{font-weight:700;font-size:13px;color:var(--text)}
-    .rv-year{font-size:11px;color:var(--dimmer)}
-    .badge-stmt{font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--surf2);border:1px solid var(--border);color:var(--dim)}
-    .badge-sev{font-size:10px;font-weight:700;letter-spacing:.4px;padding:2px 7px;border-radius:4px}
-    .sev-high{background:rgba(207,34,46,.1);color:var(--red);border:1px solid rgba(207,34,46,.25)}
-    .sev-medium{background:rgba(154,103,0,.1);color:var(--orange);border:1px solid rgba(154,103,0,.25)}
-    .sev-low{background:rgba(26,127,55,.1);color:var(--green);border:1px solid rgba(26,127,55,.2)}
-    .badge-src{font-size:10px;padding:2px 7px;border-radius:4px;background:var(--surf2);color:var(--dimmer);border:1px solid var(--border)}
-    .rv-field{font-size:12px;font-weight:600;color:var(--purple);margin-bottom:4px}
-    .rv-row{display:flex;gap:16px;margin-bottom:6px;flex-wrap:wrap}
-    .rv-lbl{font-size:11px;color:var(--dimmer);text-transform:uppercase;letter-spacing:.5px}
-    .rv-val{font-size:13px;font-weight:600;color:var(--text);font-family:monospace}
-    .rv-alt{font-size:12px;color:var(--orange);font-family:monospace}
-    .rv-reason{font-size:12px;color:var(--dim);margin-bottom:8px;line-height:1.55}
-    .rv-snippet{font-family:"Cascadia Code","Fira Code","Consolas",monospace;font-size:11px;color:var(--dim);background:var(--surf2);border:1px solid var(--border);border-radius:5px;padding:8px 12px;margin-bottom:10px;white-space:pre-wrap;word-break:break-all;max-height:80px;overflow-y:auto}
-    .rv-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    /* rv-btn kept for PDF page modal buttons */
     .rv-btn{border:none;border-radius:6px;padding:5px 13px;font-size:12px;font-weight:600;cursor:pointer;transition:opacity .15s}
     .rv-btn:hover{opacity:.8}
     .btn-confirm{background:rgba(26,127,55,.12);color:var(--green);border:1px solid rgba(26,127,55,.25)}
     .btn-page{background:rgba(111,66,193,.1);color:var(--purple);border:1px solid rgba(111,66,193,.25)}
     .btn-correct{background:rgba(154,103,0,.1);color:var(--orange);border:1px solid rgba(154,103,0,.2)}
     .btn-skip{background:var(--surf2);color:var(--dimmer);border:1px solid var(--border)}
-    .rv-resolved-tag{font-size:11px;color:var(--green);font-weight:600}
-    .rv-correct-form{margin-top:10px;display:none;gap:8px;flex-direction:column}
-    .rv-correct-form input,.rv-correct-form textarea{background:#ffffff;border:1px solid var(--border);border-radius:5px;padding:6px 10px;font-size:12px;color:var(--text);width:100%;outline:none;font-family:inherit}
-    .rv-correct-form input:focus,.rv-correct-form textarea:focus{border-color:var(--purple);box-shadow:0 0 0 3px rgba(111,66,193,.1)}
+    .badge-stmt{font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--surf2);border:1px solid var(--border);color:var(--dim)}
+    .badge-sev{font-size:10px;font-weight:700;letter-spacing:.4px;padding:2px 7px;border-radius:4px}
+    .sev-high{background:rgba(207,34,46,.1);color:var(--red);border:1px solid rgba(207,34,46,.25)}
+    .sev-medium{background:rgba(154,103,0,.1);color:var(--orange);border:1px solid rgba(154,103,0,.25)}
+    .sev-low{background:rgba(26,127,55,.1);color:var(--green);border:1px solid rgba(26,127,55,.2)}
     /* Chat modal */
     .chat-box{display:flex;flex-direction:column;height:420px}
     .chat-ctx{padding:10px 14px;background:var(--surf2);border-bottom:1px solid var(--border);font-size:11.5px;color:var(--dim);line-height:1.6;flex-shrink:0}
@@ -1828,6 +1804,28 @@ _HTML = r"""<!DOCTYPE html>
     .dash-stmt-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--border);margin-right:1px}
     .dash-stmt-dot.ok{background:#1a7f37}
     .dash-section-hdr{font-size:12px;font-weight:700;color:var(--text);margin:20px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+    /* ── Spreadsheet split view ── */
+    .lib-view-tabs{display:flex;border-bottom:1px solid var(--border);background:var(--surf);flex-shrink:0}
+    .lib-view-tab{background:none;border:none;border-bottom:2px solid transparent;padding:7px 16px;font-size:11.5px;font-weight:500;color:var(--dim);cursor:pointer;transition:color .15s}
+    .lib-view-tab.active{color:var(--purple);border-bottom-color:var(--purple);font-weight:600}
+    .xl-split{display:flex;flex:1;overflow:hidden}
+    .xl-side{flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0}
+    .xl-side+.xl-side{border-left:3px solid var(--border)}
+    .xl-side-hdr{padding:6px 12px;font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;background:var(--surf2);border-bottom:1px solid var(--border);flex-shrink:0}
+    .xl-side-hdr.truth{border-top:2px solid var(--green);color:var(--green)}
+    .xl-side-hdr.pipeline{border-top:2px solid var(--purple);color:var(--purple)}
+    .xl-scroll{overflow:auto;flex:1}
+    .xl-tbl{border-collapse:collapse;font-size:11px}
+    .xl-tbl td{border:1px solid #e8e8e8;padding:2px 8px;white-space:nowrap;max-width:240px;overflow:hidden;text-overflow:ellipsis;font-family:monospace;font-size:10.5px;color:var(--text)}
+    .xl-tbl td.xl-rn{background:var(--surf2);color:var(--dimmer);font-family:inherit;font-size:10px;font-weight:600;position:sticky;left:0;z-index:1;min-width:30px;text-align:center}
+    .xl-tbl tr.xl-hdr td{background:var(--surf2);font-weight:700;font-family:inherit;position:sticky;top:0;z-index:2;text-align:center}
+    .xl-tbl tr.xl-hdr td.xl-rn{z-index:3}
+    .xl-diff{background:rgba(207,34,46,.12)!important;color:var(--red)!important}
+    .xl-target{background:rgba(111,66,193,.25)!important;outline:2px solid var(--purple);outline-offset:-2px;font-weight:700!important}
+    .xl-missing{color:var(--dimmer);font-style:italic;text-align:center;padding:40px 20px;font-size:13px}
+    /* ── All-flags sidebar ── */
+    .lib-allflags-btn{display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;cursor:pointer;border:none;border-bottom:1px solid var(--border);background:var(--surf);font-size:12px;font-weight:600;color:var(--dim);text-align:left;transition:background .1s}
+    .lib-allflags-btn:hover{background:var(--surf2)}.lib-allflags-btn.active{background:rgba(111,66,193,.1);color:var(--purple)}
   </style>
 </head>
 <body>
@@ -1835,7 +1833,6 @@ _HTML = r"""<!DOCTYPE html>
   <span class="topbar-title">Louisiana Parish Audit Pipeline</span>
   <nav class="tabs">
     <button class="tab-btn active" onclick="switchTab('run',this)">Run Pipeline</button>
-    <button class="tab-btn" onclick="switchTab('review',this)" id="tab-review-btn">Review <span id="review-badge" style="display:none;background:var(--orange);color:#000;font-size:10px;font-weight:700;padding:1px 6px;border-radius:10px;margin-left:4px">0</span></button>
     <button class="tab-btn" onclick="switchTab('library',this)" id="tab-library-btn">Training <span id="library-badge" style="display:none;background:rgba(255,255,255,.25);color:#fff;font-size:10px;font-weight:700;padding:1px 6px;border-radius:10px;margin-left:4px">0</span></button>
     <button class="tab-btn" onclick="switchTab('about',this)">How It Works</button>
   </nav>
@@ -1854,9 +1851,24 @@ _HTML = r"""<!DOCTYPE html>
     <div id="settings-key-current" style="font-size:11.5px;color:#57606a;margin-bottom:14px"></div>
     <div style="display:flex;gap:8px;justify-content:flex-end">
       <button onclick="closeSettings()" style="padding:6px 16px;border:1px solid #d0d7de;background:#fff;border-radius:6px;cursor:pointer;font-size:13px">Cancel</button>
-      <button onclick="saveSettings()" style="padding:6px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Save</button>
+      <button onclick="saveSettings()" style="padding:6px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Save Key</button>
     </div>
     <div id="settings-msg" style="margin-top:10px;font-size:12px;min-height:16px"></div>
+    <hr style="margin:22px 0 18px;border:none;border-top:1px solid #e0e0e0">
+    <h4 style="margin:0 0 5px;font-size:14px;font-weight:700;color:#1f2328">Upload Pre-Run Data</h4>
+    <p style="margin:0 0 14px;font-size:12px;color:#57606a">Upload cached JSON extractions from previous local runs so Training shows them without re-running the pipeline.</p>
+    <label style="font-size:12px;font-weight:600;color:#1f2328;display:block;margin-bottom:6px">Parish cache files &nbsp;<span style="font-weight:400;color:#8c959f">(Parish_YYYY.json)</span></label>
+    <div id="cache-drop" style="border:1px dashed #d0d7de;border-radius:7px;padding:16px;text-align:center;cursor:pointer;background:#f6f8fa;font-size:12.5px;color:#57606a"
+      onclick="document.getElementById('cache-file-input').click()"
+      ondragover="event.preventDefault();this.style.borderColor='#6f42c1'"
+      ondragleave="this.style.borderColor='#d0d7de'"
+      ondrop="event.preventDefault();this.style.borderColor='#d0d7de';_cacheFilesChosen(event.dataTransfer.files)">
+      Drop <code>.json</code> files here or <span style="color:#6f42c1;font-weight:600;text-decoration:underline">browse</span>
+      <span id="cache-badge" style="display:none;margin-left:8px;background:rgba(111,66,193,.12);color:#6f42c1;border:1px solid rgba(111,66,193,.3);border-radius:12px;padding:1px 8px;font-size:11px;font-weight:700"></span>
+    </div>
+    <input type="file" id="cache-file-input" multiple accept=".json" style="display:none" onchange="_cacheFilesChosen(this.files)"/>
+    <button onclick="uploadCacheFiles()" style="margin-top:10px;width:100%;padding:7px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Upload to Training</button>
+    <div id="cache-msg" style="margin-top:8px;font-size:12px;min-height:16px"></div>
   </div>
 </div>
 
@@ -1923,22 +1935,6 @@ _HTML = r"""<!DOCTYPE html>
   </div>
 </div></div>
 
-<div id="panel-review" class="panel"><div class="wrap-wide" style="padding-top:28px">
-  <div class="page-title">
-    <h2>Review Queue</h2>
-    <p>Uncertainties flagged by Claude or detected by validation — confirm correct values or provide corrections to improve future runs.</p>
-  </div>
-  <div class="rv-toolbar">
-    <button class="rv-filter active" onclick="setFilter('all',this)">All</button>
-    <button class="rv-filter" onclick="setFilter('unresolved',this)">Unresolved</button>
-    <button class="rv-filter" onclick="setFilter('cbs',this)">CBS</button>
-    <button class="rv-filter" onclick="setFilter('soa',this)">SOA</button>
-    <button class="rv-filter" onclick="setFilter('sona',this)">SONA</button>
-    <button class="rv-filter" onclick="setFilter('ca',this)">CA</button>
-    <button class="rv-filter" onclick="setFilter('high',this)">High Severity</button>
-  </div>
-  <div id="rv-list"><p class="rv-empty">No uncertainties yet — run the pipeline to populate the review queue.</p></div>
-</div></div>
 
 <!-- Page image modal -->
 <div class="modal-overlay" id="page-modal">
@@ -1984,6 +1980,7 @@ _HTML = r"""<!DOCTYPE html>
     <!-- Sidebar: year accordion -->
     <div class="lib-sidebar">
       <input class="lib-search-input" id="lib-search" placeholder="Search parishes…" oninput="filterLibrary(this.value)">
+      <button class="lib-allflags-btn" id="lib-allflags-btn" onclick="libShowAllFlags()">&#9873; All Flags <span id="allflags-count" style="margin-left:auto;font-size:10.5px;color:var(--dimmer)"></span></button>
       <div id="lib-year-list"><div style="padding:20px 14px;font-size:12px;color:var(--dimmer)">Loading…</div></div>
     </div>
     <!-- Main area -->
@@ -2011,10 +2008,53 @@ _HTML = r"""<!DOCTYPE html>
             <button class="lib-page-btn" id="lib-next" onclick="libPageStep(1)" disabled>&#8594;</button>
           </div>
         </div>
-        <div class="lib-content">
+        <!-- view mode tabs -->
+        <div class="lib-view-tabs">
+          <button class="lib-view-tab active" id="vt-data" onclick="libSwitchView('data')">Data</button>
+          <button class="lib-view-tab" id="vt-sheet" onclick="libSwitchView('sheet')">Spreadsheet</button>
+        </div>
+        <!-- data view -->
+        <div id="lib-view-data" class="lib-content">
           <div class="lib-pdf-pane" id="lib-pdf-pane"></div>
           <div class="lib-data-pane" id="lib-data-pane"></div>
         </div>
+        <!-- spreadsheet view -->
+        <div id="lib-view-sheet" style="display:none;flex:1;overflow:hidden;flex-direction:column">
+          <div style="padding:6px 12px;background:var(--surf2);border-bottom:1px solid var(--border);font-size:11.5px;color:var(--dim);flex-shrink:0">
+            Statement: <select id="xl-stmt-sel" style="border:none;background:transparent;font-size:11.5px;font-weight:600;color:var(--text);cursor:pointer;outline:none" onchange="libLoadSpreadsheet()">
+              <option value="cbs">CBS — Balance Sheet</option>
+              <option value="soa">SOA — Activities</option>
+              <option value="sona">SONA — Net Position</option>
+              <option value="ca">CA — Capital Assets</option>
+            </select>
+            <span id="xl-status" style="margin-left:12px;color:var(--dimmer)"></span>
+          </div>
+          <div class="xl-split" style="flex:1;overflow:hidden">
+            <div class="xl-side">
+              <div class="xl-side-hdr truth">Truth (Coded Excel)</div>
+              <div class="xl-scroll" id="xl-truth-scroll"><div id="xl-truth"><p class="xl-missing">Loading…</p></div></div>
+            </div>
+            <div class="xl-side">
+              <div class="xl-side-hdr pipeline">Pipeline Output</div>
+              <div class="xl-scroll" id="xl-pipe-scroll"><div id="xl-pipe"><p class="xl-missing">Loading…</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- All flags view -->
+      <div id="lib-allflags-view" style="display:none;flex:1;flex-direction:column;overflow:hidden">
+        <div class="lib-toolbar"><h3>All Flags</h3>
+          <select id="af-year-sel" style="margin-left:8px;border:1px solid var(--border);border-radius:5px;padding:3px 8px;font-size:12px;background:var(--surf)" onchange="libLoadAllFlags()">
+            <option value="">All years</option>
+          </select>
+          <select id="af-stmt-sel" style="margin-left:6px;border:1px solid var(--border);border-radius:5px;padding:3px 8px;font-size:12px;background:var(--surf)" onchange="libLoadAllFlags()">
+            <option value="">All statements</option>
+            <option value="cbs">CBS</option><option value="soa">SOA</option>
+            <option value="sona">SONA</option><option value="ca">CA</option>
+          </select>
+          <span id="af-count" style="margin-left:auto;font-size:11.5px;color:var(--dimmer)"></span>
+        </div>
+        <div style="flex:1;overflow-y:auto;padding:16px" id="af-list"></div>
       </div>
     </div>
   </div>
@@ -2096,7 +2136,6 @@ _HTML = r"""<!DOCTYPE html>
       try{
         const msg=JSON.parse(e.data);
         if(msg==="__DONE__"){source.close();runBtn.disabled=false;if(_statusPollTimer){clearInterval(_statusPollTimer);_statusPollTimer=null;}setStatus("done","All parishes complete");showDownloads(jobId);}
-        else if(msg&&typeof msg==="object"&&msg.type==="uncertainty"){addReviewItem(jobId,msg.data);}
         else if(typeof msg==="string"&&msg.trim())appendLog(msg);
       }catch(_){}
     };
@@ -2233,13 +2272,11 @@ _HTML = r"""<!DOCTYPE html>
     currentJobId=jobId;
     appendLog(`Run: ${_runLabel}  ·  ${_startFmt}`,"line-header");
     appendLog("─".repeat(54),"");
-    clearReview();
     const source=new EventSource("/progress/"+jobId);
     source.onmessage=e=>{
       try{
         const msg=JSON.parse(e.data);
         if(msg==="__DONE__"){source.close();runBtn.disabled=false;if(_statusPollTimer){clearInterval(_statusPollTimer);_statusPollTimer=null;}setStatus("done","All parishes complete");showDownloads(jobId);}
-        else if(msg&&typeof msg==="object"&&msg.type==="uncertainty"){addReviewItem(jobId,msg.data);}
         else if(typeof msg==="string"&&msg.trim())appendLog(msg);
       }catch(_){}
     };
@@ -2304,106 +2341,154 @@ _HTML = r"""<!DOCTYPE html>
     document.getElementById("downloads-card").style.display="block";
   }
 
-  // ── Review queue ──────────────────────────────────────────────────────────
-  let _reviewItems={}, _reviewFilter='all', _reviewJobId=null;
-  function clearReview(){_reviewItems={};_reviewJobId=null;document.getElementById('rv-list').innerHTML='<p class="rv-empty">Waiting for pipeline to start...</p>';updateReviewBadge();}
-  function updateReviewBadge(){
-    const unresolved=Object.values(_reviewItems).filter(x=>!x.resolved).length;
-    const badge=document.getElementById('review-badge');
-    if(unresolved>0){badge.textContent=unresolved;badge.style.display='inline-block';}
-    else{badge.style.display='none';}
-  }
-  function setFilter(f,btn){
-    _reviewFilter=f;
-    document.querySelectorAll('.rv-filter').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    renderReviewList();
-  }
-  function addReviewItem(jobId,item){
-    _reviewJobId=jobId;
-    _reviewItems[item.id]=item;
-    renderReviewList();
-    updateReviewBadge();
-  }
-  function renderReviewList(){
-    const list=document.getElementById('rv-list');
-    let items=Object.values(_reviewItems);
-    if(_reviewFilter==='unresolved') items=items.filter(x=>!x.resolved);
-    else if(['cbs','soa','sona','ca'].includes(_reviewFilter)) items=items.filter(x=>x.statement_type===_reviewFilter);
-    else if(_reviewFilter==='high') items=items.filter(x=>x.severity==='high');
-    if(!items.length){list.innerHTML='<p class="rv-empty">No items match this filter.</p>';return;}
-    list.innerHTML='';
-    items.sort((a,b)=>(['high','medium','low'].indexOf(a.severity)-['high','medium','low'].indexOf(b.severity))||a.id-b.id);
-    items.forEach(item=>list.appendChild(buildCard(item)));
-  }
-  function buildCard(item){
-    const div=document.createElement('div');
-    div.className='rv-card'+(item.resolved?' resolved':'');
-    div.id='rv-card-'+item.id;
-    const fmtNum=v=>v!=null?Number(v).toLocaleString():null;
-    const extracted=fmtNum(item.extracted_value);
-    const alt=fmtNum(item.alternative_value);
-    div.innerHTML=`
-      <div class="rv-head">
-        <span class="rv-parish">${item.parish}</span><span class="rv-year">${item.year}</span>
-        <span class="badge-stmt">${item.statement_type.toUpperCase()}</span>
-        <span class="badge-sev sev-${item.severity}">${item.severity}</span>
-        <span class="badge-src">${item.source}</span>
-        ${item.resolved?'<span class="rv-resolved-tag">&#10003; Resolved</span>':''}
-      </div>
-      <div class="rv-field">${item.field_path||''}${item.fund?` &mdash; ${item.fund}`:''}</div>
-      <div class="rv-row">
-        ${extracted!=null?`<div><div class="rv-lbl">Extracted</div><div class="rv-val">${extracted}</div></div>`:''}
-        ${alt!=null?`<div><div class="rv-lbl">Alternative</div><div class="rv-alt">${alt}</div></div>`:''}
-      </div>
-      <div class="rv-reason">${item.reason||''}</div>
-      ${item.text_snippet?`<pre class="rv-snippet">${escHtml(item.text_snippet)}</pre>`:''}
-      ${!item.resolved?`
-      <div class="rv-actions" id="rv-actions-${item.id}">
-        ${item.page_number?`<button class="rv-btn btn-page" onclick="viewPage('${_reviewJobId}','${escAttr(item.parish)}',${item.page_number},'${escAttr(item.extracted_value||'')}','${escAttr(item.text_snippet||'')}')">&#128196; Page ${item.page_number}</button>`:''}
-        <button class="rv-btn btn-confirm" onclick="submitFeedback(${item.id},'confirmed')">&#10003; Confirm correct</button>
-        <button class="rv-btn btn-correct" onclick="toggleCorrectForm(${item.id})">&#9998; Correct value</button>
-        <button class="rv-btn" style="background:rgba(188,140,255,.12);color:var(--purple);border:1px solid rgba(188,140,255,.25)" onclick="openChat(${item.id})">&#129302; Ask AI</button>
-        <button class="rv-btn btn-skip" onclick="submitFeedback(${item.id},'skipped')">Skip</button>
-      </div>
-      <div class="rv-correct-form" id="rv-form-${item.id}">
-        <input type="text" id="rv-val-${item.id}" placeholder="Correct value (number or text)"/>
-        <input type="text" id="rv-note-${item.id}" placeholder="Optional note (e.g. 'typo in PDF, correct from supporting schedule')"/>
-        <div style="display:flex;gap:8px">
-          <button class="rv-btn btn-confirm" onclick="submitCorrection(${item.id})">Submit correction</button>
-          <button class="rv-btn btn-skip" onclick="toggleCorrectForm(${item.id})">Cancel</button>
-        </div>
-      </div>`:''}
-    `;
-    return div;
-  }
-  function escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  // ── Utility ───────────────────────────────────────────────────────────────
+  function escHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
   function escAttr(s){return String(s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
-  function toggleCorrectForm(id){
-    const f=document.getElementById('rv-form-'+id);
-    f.style.display=f.style.display==='flex'?'none':'flex';
+
+  // ── Cache file upload (Settings modal) ───────────────────────────────────
+  let _cacheFiles=[];
+  function _cacheFilesChosen(files){
+    _cacheFiles=Array.from(files);
+    const badge=document.getElementById('cache-badge');
+    badge.textContent=_cacheFiles.length+' file'+ (_cacheFiles.length===1?'':'s');
+    badge.style.display='inline-block';
   }
-  function submitFeedback(id,action,correctedValue,note){
-    fetch('/feedback/'+id,{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({action,corrected_value:correctedValue||null,note:note||null})
-    }).then(r=>r.json()).then(()=>{
-      if(_reviewItems[id]){_reviewItems[id].resolved=1;}
-      const card=document.getElementById('rv-card-'+id);
-      if(card){
-        card.classList.add('resolved');
-        const actions=document.getElementById('rv-actions-'+id);
-        if(actions) actions.innerHTML='<span class="rv-resolved-tag">&#10003; Resolved</span>';
-        const form=document.getElementById('rv-form-'+id);
-        if(form) form.style.display='none';
+  async function uploadCacheFiles(){
+    const msg=document.getElementById('cache-msg');
+    if(!_cacheFiles.length){msg.textContent='No files selected.';msg.style.color='var(--orange)';return;}
+    msg.textContent='Uploading…';msg.style.color='var(--dim)';
+    const form=new FormData();
+    _cacheFiles.forEach(f=>form.append('files',f));
+    try{
+      const r=await fetch('/admin/upload-cache',{method:'POST',body:form});
+      const d=await r.json();
+      if(!r.ok) throw new Error(d.detail||'Upload failed');
+      msg.textContent=`✓ Uploaded ${d.count} file(s). Reload Training to see them.`;
+      msg.style.color='var(--green)';
+      _cacheFiles=[];document.getElementById('cache-badge').style.display='none';
+      loadLibrary();
+    }catch(e){msg.textContent='Error: '+e.message;msg.style.color='var(--red)';}
+  }
+
+  // ── Spreadsheet view ──────────────────────────────────────────────────────
+  let _xlYear=null, _xlParish=null, _xlTargetVal=null;
+  function libSwitchView(mode){
+    document.getElementById('lib-view-data').style.display=mode==='data'?'flex':'none';
+    document.getElementById('lib-view-sheet').style.display=mode==='sheet'?'flex':'none';
+    document.getElementById('vt-data').classList.toggle('active',mode==='data');
+    document.getElementById('vt-sheet').classList.toggle('active',mode==='sheet');
+    if(mode==='sheet'&&_xlYear&&_xlParish) libLoadSpreadsheet();
+  }
+  async function libLoadSpreadsheet(targetVal){
+    if(targetVal!==undefined) _xlTargetVal=targetVal;
+    const stmt=document.getElementById('xl-stmt-sel').value;
+    const statusEl=document.getElementById('xl-status');
+    statusEl.textContent='Loading…';
+    document.getElementById('xl-truth').innerHTML='<p class="xl-missing">Loading…</p>';
+    document.getElementById('xl-pipe').innerHTML='<p class="xl-missing">Loading…</p>';
+    try{
+      const r=await fetch(`/excel-view/${_xlYear}/${encodeURIComponent(_xlParish)}/${stmt}`);
+      const d=await r.json();
+      _xlRenderSide('xl-truth','xl-truth-scroll',d.truth,_xlTargetVal,'truth');
+      _xlRenderSide('xl-pipe','xl-pipe-scroll',d.pipeline,_xlTargetVal,'pipe');
+      statusEl.textContent=d.truth?'':'No coded file found for this year.';
+    }catch(e){statusEl.textContent='Error: '+e.message;}
+  }
+  function _xlRenderSide(elId,scrollId,rows,targetVal,side){
+    const el=document.getElementById(elId);
+    const scroll=document.getElementById(scrollId);
+    if(!rows||!rows.length){el.innerHTML='<p class="xl-missing">File not found for this parish.</p>';return;}
+    // Build HTML table
+    const ncols=Math.max(...rows.map(r=>r.length));
+    let html='<table class="xl-tbl"><tr class="xl-hdr"><td class="xl-rn">#</td>';
+    for(let c=0;c<ncols;c++) html+=`<td>${String.fromCharCode(65+c)}</td>`;
+    html+='</tr>';
+    let targetRow=-1,targetCol=-1;
+    rows.forEach((row,ri)=>{
+      html+=`<tr><td class="xl-rn">${ri+1}</td>`;
+      for(let ci=0;ci<ncols;ci++){
+        const v=row[ci]!=null?row[ci]:'';
+        const vs=String(v);
+        let cls='';
+        const isTarget=targetVal!=null&&vs!==''&&(vs===String(targetVal)||vs.replace(/,/g,'')===String(targetVal).replace(/,/g,''));
+        if(isTarget){cls='xl-target';if(targetRow<0){targetRow=ri;targetCol=ci;}}
+        html+=`<td class="${cls}" title="${escHtml(vs)}">${escHtml(vs)}</td>`;
       }
-      updateReviewBadge();
-    }).catch(console.error);
+      html+='</tr>';
+    });
+    html+='</table>';
+    el.innerHTML=html;
+    // Scroll target into view
+    if(targetRow>=0){
+      requestAnimationFrame(()=>{
+        const tbl=el.querySelector('.xl-tbl');
+        if(!tbl) return;
+        const trs=tbl.querySelectorAll('tr');
+        const tr=trs[targetRow+1]; // +1 for header row
+        if(tr){
+          const td=tr.querySelectorAll('td')[targetCol+1]; // +1 for row-num col
+          if(td) td.scrollIntoView({block:'center',inline:'center'});
+        }
+      });
+    }
   }
-  function submitCorrection(id){
-    const val=document.getElementById('rv-val-'+id).value.trim();
-    const note=document.getElementById('rv-note-'+id).value.trim();
-    if(!val){alert('Please enter the correct value.');return;}
-    submitFeedback(id,'corrected',val,note);
+
+  // ── All Flags view ────────────────────────────────────────────────────────
+  let _allFlagsData=[];
+  function _libShowViewMain(which){
+    document.getElementById('lib-empty').style.display='none';
+    document.getElementById('lib-dashboard').style.display='none';
+    document.getElementById('lib-viewer').style.display='none';
+    document.getElementById('lib-allflags-view').style.display='none';
+    if(which==='dash') document.getElementById('lib-dashboard').style.display='flex';
+    else if(which==='viewer') document.getElementById('lib-viewer').style.display='flex';
+    else if(which==='allflags') document.getElementById('lib-allflags-view').style.display='flex';
+    else document.getElementById('lib-empty').style.display='flex';
+  }
+  async function libShowAllFlags(){
+    document.querySelectorAll('.lib-parish-row').forEach(r=>r.classList.remove('active'));
+    document.querySelectorAll('.lib-year-btn').forEach(b=>b.classList.remove('active'));
+    document.getElementById('lib-allflags-btn').classList.add('active');
+    _libShowViewMain('allflags');
+    // populate year select
+    const yrSel=document.getElementById('af-year-sel');
+    const years=Object.keys(_libByYear).map(Number).sort((a,b)=>b-a);
+    yrSel.innerHTML='<option value="">All years</option>'+years.map(y=>`<option value="${y}">${y}</option>`).join('');
+    await libLoadAllFlags();
+  }
+  async function libLoadAllFlags(){
+    const year=document.getElementById('af-year-sel').value;
+    const stmt=document.getElementById('af-stmt-sel').value;
+    const listEl=document.getElementById('af-list');
+    listEl.innerHTML='<p style="color:var(--dimmer);font-size:12px">Loading…</p>';
+    try{
+      // Load all flag data for selected year(s)
+      const years=year?[parseInt(year)]:Object.keys(_libByYear).map(Number);
+      let allFlags=[];
+      for(const yr of years){
+        const d=await fetch('/compare-flags/'+yr).then(r=>r.json()).catch(()=>({items:[]}));
+        allFlags=allFlags.concat((d.items||[]).map(f=>({...f,year:yr})));
+      }
+      if(stmt) allFlags=allFlags.filter(f=>f.statement_type===stmt);
+      allFlags.sort((a,b)=>(['high','medium','low'].indexOf(a.severity)-['high','medium','low'].indexOf(b.severity))||(a.parish||'').localeCompare(b.parish||''));
+      document.getElementById('af-count').textContent=allFlags.length+' flags';
+      document.getElementById('allflags-count').textContent=allFlags.length;
+      if(!allFlags.length){listEl.innerHTML='<p style="color:var(--dimmer);font-size:13px;text-align:center;padding:40px">No flags found.</p>';return;}
+      listEl.innerHTML=allFlags.map(f=>`
+        <div style="background:#fff;border:1px solid var(--border);border-radius:7px;padding:12px 14px;margin-bottom:10px;cursor:pointer" onclick="openLibEntry(${f.year},'${escAttr(f.parish||'')}')">
+          <div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;flex-wrap:wrap">
+            <span style="font-weight:700;font-size:13px">${escHtml(f.parish||'')}</span>
+            <span style="font-size:11px;color:var(--dimmer)">${f.year}</span>
+            <span class="badge-stmt">${(f.statement_type||'').toUpperCase()}</span>
+            <span class="badge-sev sev-${f.severity||'low'}">${f.severity||''}</span>
+          </div>
+          <div style="font-size:11.5px;font-weight:600;color:var(--purple)">${escHtml(f.field_path||'')}${f.fund?' — '+escHtml(f.fund):''}</div>
+          <div style="display:flex;gap:16px;margin-top:4px;font-size:11.5px">
+            ${f.extracted_value!=null?`<span>Pipeline: <b style="font-family:monospace">${Number(f.extracted_value).toLocaleString()}</b></span>`:''}
+            ${f.alternative_value!=null?`<span>Coded: <b style="font-family:monospace;color:var(--orange)">${Number(f.alternative_value).toLocaleString()}</b></span>`:''}
+          </div>
+        </div>`).join('');
+    }catch(e){listEl.innerHTML='<p style="color:var(--red)">Error loading flags: '+e.message+'</p>';}
   }
   // ── PDF page viewer (review tab — knows job_id & page number) ────────────
   function viewPage(jobId,parish,page,value,snippet){
@@ -2630,11 +2715,7 @@ _HTML = r"""<!DOCTYPE html>
 
   function filterLibrary(q){renderLibSidebar(q);}
 
-  function _libShowOnly(which){
-    document.getElementById('lib-empty').style.display='none';
-    document.getElementById('lib-dashboard').style.display=which==='dash'?'flex':'none';
-    document.getElementById('lib-viewer').style.display=which==='viewer'?'flex':'none';
-  }
+  function _libShowOnly(which){_libShowViewMain(which);}
 
   // ── Training comparison state ─────────────────────────────────────────────
   let _trainFiles=[], _trainYear=null;
@@ -2860,8 +2941,12 @@ _HTML = r"""<!DOCTYPE html>
 
   async function openLibEntry(year, parish){
     _libCurrent={year,parish}; _libActiveYear=year;
+    _xlYear=year; _xlParish=parish; _xlTargetVal=null;
+    document.getElementById('lib-allflags-btn').classList.remove('active');
     renderLibSidebar(document.getElementById('lib-search').value);
     _libShowOnly('viewer');
+    // Reset to data view when opening new parish
+    libSwitchView('data');
     _libPage=1;
     document.getElementById('lib-viewer-title').textContent=parish+' ('+year+')';
     const info=await fetch('/pdf-info/'+year+'/'+encodeURIComponent(parish)).then(r=>r.json()).catch(()=>({total_pages:0,best_page:1}));
@@ -2979,6 +3064,10 @@ _HTML = r"""<!DOCTYPE html>
                 onmousedown="this.style.transform='scale(.97)'" onmouseup="this.style.transform=''"
                 onmouseleave="this.style.transform=''" onmouseenter="this.style.background='rgba(111,66,193,.2)'">
                 &#128269; Find in PDF
+              </button>
+              <button onclick="document.getElementById('xl-stmt-sel').value='${f.statement_type||'cbs'}';libSwitchView('sheet');libLoadSpreadsheet(${extVal!=null?JSON.stringify(extVal):'null'})"
+                style="width:100%;padding:5px 8px;background:rgba(26,127,55,.08);border:1px solid rgba(26,127,55,.3);color:var(--green);border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;margin-bottom:4px">
+                &#128196; View in Spreadsheet
               </button>
               <button onclick="libDiagnoseFlag(${f.id},this)"
                 style="width:100%;padding:5px 8px;background:rgba(139,92,246,.08);border:1px solid rgba(139,92,246,.25);color:#a78bfa;border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;margin-bottom:6px;transition:background .1s,transform .08s"
@@ -3829,6 +3918,85 @@ def _find_best_cache(year: int) -> Path:
 
 _COMPARE_JOBS: dict[str, dict] = {}  # job_id -> {status, summary, error}
 _CODED_STORE: dict[int, str] = {}    # year -> path to coded excel dir
+
+
+@app.post("/admin/upload-cache")
+async def upload_cache(files: list[UploadFile] = File(...)):
+    """Accept Parish_YYYY.json cache files and store them so Training can find them."""
+    import datetime as _dt
+    ts = _dt.datetime.now().strftime("%Y%m%d_%H%M%S")
+    dest = _app_dir() / "runs" / f"imported_{ts}" / "output" / "cache"
+    dest.mkdir(parents=True, exist_ok=True)
+    saved = 0
+    for f in files:
+        if not f.filename.endswith(".json"):
+            continue
+        data = await f.read()
+        (dest / f.filename).write_bytes(data)
+        saved += 1
+    return {"count": saved, "dir": str(dest)}
+
+
+@app.get("/excel-view/{year}/{parish}/{stmt_type}")
+def excel_view(year: int, parish: str, stmt_type: str):
+    """Return both truth and pipeline Excel rows for side-by-side display."""
+    import openpyxl as _xl
+    stmt_map = {"cbs": "CBS", "soa": "SOA", "sona": "SONA", "ca": "Capital Assets"}
+    suffix = stmt_map.get(stmt_type.lower())
+    if not suffix:
+        raise HTTPException(400, "Unknown statement type")
+    filename = f"Louisiana {year} {suffix}.xlsx"
+
+    def _read_parish_sheet(path: Path):
+        if not path or not path.exists():
+            return None
+        try:
+            wb = _xl.load_workbook(path, data_only=True)
+            # Find sheet matching parish name (case-insensitive, space-insensitive)
+            norm = lambda s: s.lower().replace(" ", "").replace(".", "")
+            target = norm(parish)
+            sheet = next((wb[n] for n in wb.sheetnames if norm(n) == target), None)
+            if not sheet:
+                # Try partial match
+                sheet = next((wb[n] for n in wb.sheetnames if target in norm(n)), None)
+            if not sheet:
+                return None
+            rows = []
+            for row in sheet.iter_rows():
+                rows.append([cell.value for cell in row])
+            # Trim trailing empty rows
+            while rows and all(v is None for v in rows[-1]):
+                rows.pop()
+            return rows
+        except Exception as e:
+            print(f"[excel-view] error reading {path}: {e}", flush=True)
+            return None
+
+    # Truth file
+    truth_path = _app_dir() / "coded" / str(year) / filename
+    truth_rows = _read_parish_sheet(truth_path)
+
+    # Pipeline output — search runs dirs most recent first
+    pipeline_rows = None
+    runs_root = _app_dir() / "runs"
+    if runs_root.exists():
+        for job_dir in sorted(runs_root.iterdir(), reverse=True):
+            p = job_dir / "output" / filename
+            if p.exists():
+                pipeline_rows = _read_parish_sheet(p)
+                if pipeline_rows is not None:
+                    break
+
+    # Serialize (convert non-string cell values)
+    def _ser(rows):
+        if rows is None:
+            return None
+        out = []
+        for row in rows:
+            out.append([str(v) if v is not None else None for v in row])
+        return out
+
+    return {"truth": _ser(truth_rows), "pipeline": _ser(pipeline_rows), "filename": filename}
 
 
 def _ensure_pipeline_dir():
