@@ -35,6 +35,9 @@ def _config_path() -> Path:
     return _app_dir() / "config.json"
 
 def _load_api_key() -> str:
+    # Azure / Railway: key set as environment variable
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return os.environ["ANTHROPIC_API_KEY"]
     try:
         cfg = json.loads(_config_path().read_text())
         return cfg.get("api_key", "")
@@ -4274,8 +4277,11 @@ Return ONLY valid JSON — no markdown, no preamble:
 
 if __name__ == "__main__":
     import uvicorn
-    if not _get_api_key():
-        print("No API key found. Open http://localhost:8000 and click the gear icon to add your Anthropic key.")
-    threading.Thread(target=lambda: (time.sleep(1.5), webbrowser.open("http://localhost:8000")), daemon=True).start()
-    print("Parish Audit Pipeline @ http://localhost:8000  (Ctrl+C to stop)")
-    uvicorn.run(app, host="127.0.0.1", port=8000, log_level="info")
+    _port = int(os.environ.get("PORT", 8000))
+    _host = "0.0.0.0" if os.environ.get("WEBSITE_SITE_NAME") else "127.0.0.1"
+    if not _get_api_key() and not os.environ.get("ANTHROPIC_API_KEY"):
+        print("No API key found. Open the app and click the gear icon to add your Anthropic key.")
+    if _host == "127.0.0.1":
+        threading.Thread(target=lambda: (time.sleep(1.5), webbrowser.open(f"http://localhost:{_port}")), daemon=True).start()
+    print(f"Parish Audit Pipeline @ http://{'localhost' if _host == '127.0.0.1' else '0.0.0.0'}:{_port}  (Ctrl+C to stop)")
+    uvicorn.run(app, host=_host, port=_port, log_level="info")
