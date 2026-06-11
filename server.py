@@ -3112,7 +3112,8 @@ _HTML = r"""<!DOCTYPE html>
                 onmouseleave="this.style.transform=''" onmouseenter="this.style.background='rgba(111,66,193,.2)'">
                 &#128269; Find in PDF
               </button>
-              <button onclick="document.getElementById('xl-stmt-sel').value='${f.statement_type||'cbs'}';libSwitchView('sheet');libLoadSpreadsheet(${extVal!=null?JSON.stringify(extVal):'null'})"
+              <button data-xlstmt="${escAttr(f.statement_type||'cbs')}" data-xlval="${escAttr(extVal)}"
+                onclick="document.getElementById('xl-stmt-sel').value=this.dataset.xlstmt;_xlTargetVal=this.dataset.xlval;libSwitchView('sheet')"
                 style="width:100%;padding:5px 8px;background:rgba(26,127,55,.08);border:1px solid rgba(26,127,55,.3);color:var(--green);border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;margin-bottom:4px">
                 &#128196; View in Spreadsheet
               </button>
