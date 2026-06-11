@@ -1,0 +1,47 @@
+# ── Local user data (never commit) ───────────────────────────────────────────
+config.json
+feedback.db
+.env
+**/.env
+
+# ── Pipeline output (generated at runtime) ────────────────────────────────────
+runs/
+pdfs/
+coded_excels/
+output/
+
+# ── Build artifacts ───────────────────────────────────────────────────────────
+dist/
+build/
+*.spec.bak
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# ── Scratch / local dev files ─────────────────────────────────────────────────
+explore_*.py
+verify_*.py
+probe_*.py
+scan_*.py
+test_*.py
+run_detect_test.py
+*.txt
+!requirements.txt
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

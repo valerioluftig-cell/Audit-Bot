@@ -1,0 +1,9 @@
+{
+  "_comment": "Manual page overrides for parishes where OCR is too garbled for keyword detection. Pages are 1-indexed (as shown in PDF viewers). Add entries as: 'ParishName': { 'stmt_type': [page, page, ...] }",
+  "Orleans": {
+    "sona": [36],
+    "soa":  [37],
+    "cbs":  [38],
+    "ca":   [70, 71]
+  }
+}

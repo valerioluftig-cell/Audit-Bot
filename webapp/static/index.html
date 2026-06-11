@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parish Audit Pipeline</title>
+  <style>
+    :root {
+      --bg:     #0d1117;
+      --surf:   #161b22;
+      --surf2:  #1c2128;
+      --border: #30363d;
+      --text:   #e6edf3;
+      --dim:    #8b949e;
+      --dimmer: #484f58;
+      --blue:   #58a6ff;
+      --green:  #3fb950;
+      --orange: #e3b341;
+      --red:    #f85149;
+      --purple: #bc8cff;
+      --cyan:   #39c5cf;
+      --kw:     #ff7b72;
+      --str:    #a5d6ff;
+      --cm:     #8b949e;
+      --fn:     #d2a8ff;
+      --nm:     #79c0ff;
+      --sp:     #ffa657;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+      padding-bottom: 80px;
+    }
+
+    /* ── Top bar ──────────────────────────────────── */
+    .topbar {
+      background: var(--surf);
+      border-bottom: 1px solid var(--border);
+      padding: 0 28px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 10;
+    }
+    .topbar-title {
+      font-size: 13px; font-weight: 700; color: var(--text);
+      padding: 15px 0; letter-spacing: -0.1px;
+    }
+    .tabs { display: flex; }
+    .tab-btn {
+      background: none; border: none;
+      border-bottom: 2px solid transparent;
+      padding: 17px 18px 15px;
+      font-size: 13px; font-weight: 500; color: var(--dim);
+      cursor: pointer; transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--blue); border-bottom-color: var(--blue); font-weight: 600; }
+
+    /* ── Panels ───────────────────────────────────── */
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .wrap      { max-width: 780px; margin: 0 auto; padding: 36px 28px 0; }
+    .wrap-wide { max-width: 920px; margin: 0 auto; padding: 36px 28px 0; }
+
+    /* ── Page title ───────────────────────────────── */
+    .page-title { margin-bottom: 28px; }
+    .page-title h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.3px; color: var(--text); }
+    .page-title p  { margin-top: 5px; font-size: 13px; color: var(--dim); }
+
+    /* ── Upload zone ──────────────────────────────── */
+    .upload-zone {
+      background: var(--surf);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: 48px 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.18s, background 0.18s;
+      user-select: none;
+    }
+    .upload-zone:hover, .upload-zone.drag-over {
+      border-color: var(--blue);
+      background: rgba(88, 166, 255, 0.04);
+    }
+    .uz-icon {
+      display: block; margin: 0 auto 14px;
+      color: var(--dimmer);
+    }
+    .uz-main   { font-size: 13.5px; color: var(--dim); }
+    .uz-browse { color: var(--blue); font-weight: 600; cursor: pointer;
+                 text-decoration: underline; text-underline-offset: 2px; }
+    .uz-hint   { margin-top: 6px; font-size: 11.5px; color: var(--dimmer); }
+    .file-badge {
+      display: inline-block; margin-top: 12px; padding: 4px 12px;
+      background: rgba(88, 166, 255, 0.1);
+      border: 1px solid rgba(88, 166, 255, 0.3);
+      color: var(--blue); border-radius: 20px;
+      font-size: 11px; font-weight: 600;
+    }
+
+    /* ── Controls ─────────────────────────────────── */
+    .controls { display: flex; align-items: center; gap: 10px; margin-top: 12px; }
+    .year-field {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 7px; padding: 0 14px; height: 42px;
+      font-size: 13px; color: var(--dim);
+    }
+    .year-field input {
+      width: 58px; border: none; outline: none;
+      font-size: 13px; font-weight: 600; color: var(--text); background: transparent;
+    }
+    .run-btn {
+      flex: 1; height: 42px;
+      background: var(--blue); color: #0d1117;
+      border: none; border-radius: 7px;
+      font-size: 13px; font-weight: 700; cursor: pointer;
+      transition: opacity 0.18s;
+      letter-spacing: 0.2px;
+    }
+    .run-btn:hover:not(:disabled) { opacity: 0.88; }
+    .run-btn:disabled { opacity: 0.35; cursor: default; }
+
+    /* ── Card ─────────────────────────────────────── */
+    .card {
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 8px; margin-top: 18px; overflow: hidden;
+    }
+    .card-hdr {
+      padding: 10px 16px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 8px; background: var(--surf2);
+    }
+    .card-hdr h3 {
+      font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.7px; color: var(--dim);
+    }
+    .status-dot {
+      width: 7px; height: 7px; border-radius: 50%; background: var(--dimmer); flex-shrink: 0;
+    }
+    .status-dot.running { background: var(--orange); animation: pulse 1.2s ease-in-out infinite; }
+    .status-dot.done    { background: var(--green); }
+    .status-dot.error   { background: var(--red); }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+    /* ── Log ──────────────────────────────────────── */
+    .log {
+      font-family: "Cascadia Code","Fira Code","Consolas","Menlo",monospace;
+      font-size: 12px; line-height: 1.7;
+      background: #090c10; color: var(--dim);
+      padding: 14px 18px; height: 300px;
+      overflow-y: auto; white-space: pre-wrap; word-break: break-word;
+    }
+    .line-ok     { color: var(--green); }
+    .line-skip   { color: var(--orange); }
+    .line-error  { color: var(--red); }
+    .line-header { color: var(--blue); font-weight: 600; }
+    .line-manual { color: var(--purple); }
+
+    /* ── Downloads ────────────────────────────────── */
+    .dl-section { padding: 14px 14px 4px; }
+    .dl-section + .dl-section { border-top: 1px solid var(--border); padding-top: 14px; }
+    .dl-section-label {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.9px;
+      text-transform: uppercase; color: var(--dimmer); margin-bottom: 10px;
+    }
+    .dl-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 8px; margin-bottom: 10px;
+    }
+    .dl-btn {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 12px; border: 1px solid var(--border); border-radius: 7px;
+      text-decoration: none; color: var(--dim); font-size: 12px; font-weight: 500;
+      transition: border-color 0.18s, color 0.18s, background 0.18s;
+    }
+    .dl-btn:hover { border-color: var(--blue); color: var(--blue); background: rgba(88,166,255,.04); }
+    .dl-icon {
+      flex-shrink: 0; width: 28px; height: 28px;
+      background: var(--surf2); border: 1px solid var(--border);
+      border-radius: 5px; display: flex; align-items: center; justify-content: center;
+      font-size: 9px; font-weight: 700; letter-spacing: 0.3px;
+    }
+    .dl-icon.parish    { color: var(--blue); }
+    .dl-icon.statement { color: var(--green); }
+    .dl-name { word-break: break-word; line-height: 1.3; }
+
+    /* ═══════════════════════════════════════════════
+       HOW IT WORKS TAB
+    ═══════════════════════════════════════════════ */
+    .section { margin-bottom: 64px; }
+    .sec-kicker {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.4px;
+      text-transform: uppercase; color: var(--blue); margin-bottom: 5px;
+    }
+    .sec-title {
+      font-size: 19px; font-weight: 700; letter-spacing: -0.2px;
+      color: var(--text); margin-bottom: 8px;
+    }
+    .sec-body {
+      font-size: 13px; color: var(--dim); line-height: 1.75;
+      max-width: 680px; margin-bottom: 22px;
+    }
+
+    /* Flow */
+    .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; }
+    .flow-step {
+      background: var(--surf); border: 1px solid var(--border);
+      padding: 16px 14px 18px; position: relative;
+    }
+    .flow-step:first-child { border-radius: 8px 0 0 8px; }
+    .flow-step:last-child  { border-radius: 0 8px 8px 0; }
+    .flow-step::before {
+      content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    }
+    .s1::before { background: var(--blue); }
+    .s2::before { background: var(--orange); }
+    .s3::before { background: var(--green); }
+    .s4::before { background: var(--purple); }
+    .s5::before { background: var(--cyan); }
+    .step-n {
+      font-size: 10px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; margin-bottom: 7px;
+    }
+    .s1 .step-n { color: var(--blue); }
+    .s2 .step-n { color: var(--orange); }
+    .s3 .step-n { color: var(--green); }
+    .s4 .step-n { color: var(--purple); }
+    .s5 .step-n { color: var(--cyan); }
+    .step-title { font-size: 12px; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+    .step-lib {
+      font-size: 10px; color: var(--dimmer); text-transform: uppercase;
+      letter-spacing: 0.5px; margin-bottom: 9px;
+    }
+    .step-pts { list-style: none; }
+    .step-pts li {
+      font-size: 11px; color: var(--dim); line-height: 1.55;
+      padding: 1px 0 1px 10px; position: relative;
+    }
+    .step-pts li::before { content: "–"; position: absolute; left: 0; color: var(--dimmer); }
+
+    /* Code blocks */
+    .code-wrap {
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 8px; overflow: hidden; margin: 16px 0;
+    }
+    .code-bar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 7px 14px; background: var(--surf2); border-bottom: 1px solid var(--border);
+    }
+    .code-label { font-size: 11px; font-weight: 600; color: var(--dim); }
+    .code-file  { font-family: monospace; font-size: 10px; color: var(--dimmer); }
+    pre {
+      padding: 16px 18px; overflow-x: auto;
+      font-family: "Cascadia Code","Fira Code","JetBrains Mono","Consolas","Menlo",monospace;
+      font-size: 12px; line-height: 1.7; color: var(--text); tab-size: 4;
+    }
+    .kw  { color: var(--kw); }
+    .str { color: var(--str); }
+    .cm  { color: var(--cm); font-style: italic; }
+    .fn  { color: var(--fn); }
+    .nm  { color: var(--nm); }
+    .sp  { color: var(--sp); }
+    .hl {
+      display: block; background: rgba(88,166,255,.07);
+      margin: 0 -18px; padding: 0 18px; border-left: 2px solid var(--blue);
+    }
+    .hl-g {
+      display: block; background: rgba(63,185,80,.07);
+      margin: 0 -18px; padding: 0 18px; border-left: 2px solid var(--green);
+    }
+    .hl-r {
+      display: block; background: rgba(248,81,73,.07);
+      margin: 0 -18px; padding: 0 18px; border-left: 2px solid var(--red);
+    }
+
+    /* Statements */
+    .stmt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .stmt-card {
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 8px; padding: 18px; border-left: 3px solid;
+    }
+    .cbs  { border-left-color: var(--blue); }
+    .soa  { border-left-color: var(--orange); }
+    .sona { border-left-color: var(--green); }
+    .ca   { border-left-color: var(--purple); }
+    .stmt-abbr {
+      font-size: 10px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; margin-bottom: 3px;
+    }
+    .cbs  .stmt-abbr { color: var(--blue); }
+    .soa  .stmt-abbr { color: var(--orange); }
+    .sona .stmt-abbr { color: var(--green); }
+    .ca   .stmt-abbr { color: var(--purple); }
+    .stmt-name { font-size: 12.5px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .stmt-desc { font-size: 11.5px; color: var(--dim); line-height: 1.65; }
+    .stmt-fields { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; }
+    .sf {
+      font-size: 10.5px; padding: 2px 7px; border-radius: 4px;
+      background: var(--surf2); border: 1px solid var(--border); color: var(--dim);
+    }
+
+    /* Tables */
+    .tbl-wrap {
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 8px; overflow: hidden; margin: 16px 0;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.8px;
+      text-transform: uppercase; color: var(--dim); text-align: left;
+      padding: 9px 14px; background: var(--surf2); border-bottom: 1px solid var(--border);
+    }
+    td {
+      font-size: 12.5px; padding: 9px 14px;
+      border-bottom: 1px solid var(--border); vertical-align: middle;
+    }
+    tr:last-child td { border-bottom: none; }
+    .td-orig   { font-family: monospace; font-size: 12px; color: var(--text); }
+    .td-bad    { font-family: monospace; font-size: 12px; color: var(--red); }
+    .td-fix    { font-family: monospace; font-size: 11px; color: var(--green); }
+    .td-parish { font-size: 11px; color: var(--dimmer); }
+    .td-name   { font-weight: 700; color: var(--text); }
+    .td-role   { font-size: 10px; font-weight: 600; text-transform: uppercase;
+                 letter-spacing: 0.4px; color: var(--blue); }
+    .td-desc   { color: var(--dim); font-size: 12.5px; }
+    .td-mono   { font-family: monospace; font-size: 11px; color: var(--dimmer); }
+
+    /* Callout */
+    .callout {
+      background: var(--surf); border: 1px solid var(--border);
+      border-left: 3px solid var(--orange); border-radius: 8px;
+      padding: 16px 18px; margin: 16px 0;
+      font-size: 12.5px; color: var(--dim); line-height: 1.7;
+    }
+    .callout strong { color: var(--text); }
+
+    code {
+      font-family: "Cascadia Code","Fira Code","Consolas",monospace;
+      font-size: 11px; background: var(--surf2);
+      border: 1px solid var(--border); border-radius: 3px;
+      padding: 1px 5px; color: var(--text);
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="topbar-title">Louisiana Parish Audit Pipeline</span>
+  <nav class="tabs">
+    <button class="tab-btn active" onclick="switchTab('run', this)">Run Pipeline</button>
+    <button class="tab-btn"        onclick="switchTab('about', this)">How It Works</button>
+  </nav>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     TAB 1 — RUN PIPELINE
+════════════════════════════════════════════════ -->
+<div id="panel-run" class="panel active">
+<div class="wrap">
+
+  <div class="page-title">
+    <h2>Run the Pipeline</h2>
+    <p>Upload parish audit PDFs — the pipeline detects statements, calls Claude, and returns clean Excel files.</p>
+  </div>
+
+  <div class="upload-zone" id="drop-zone">
+    <svg class="uz-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="17 8 12 3 7 8"/>
+      <line x1="12" y1="3" x2="12" y2="15"/>
+    </svg>
+    <p class="uz-main">Drop PDF files here, or <span class="uz-browse" id="browse-link">browse</span></p>
+    <p class="uz-hint">One PDF per parish — filename becomes the parish name (e.g. Orleans.pdf)</p>
+    <span class="file-badge" id="file-badge" style="display:none"></span>
+  </div>
+  <input type="file" id="file-input" multiple accept=".pdf" style="display:none" />
+
+
+  <div class="controls">
+    <label class="year-field">
+      Fiscal year
+      <input type="number" id="year-input" value="2013" min="2000" max="2040" />
+    </label>
+    <button class="run-btn" id="run-btn" onclick="runPipeline()">Run Pipeline</button>
+  </div>
+
+  <div class="card" id="log-card" style="display:none">
+    <div class="card-hdr">
+      <div class="status-dot" id="status-dot"></div>
+      <h3>Progress</h3>
+    </div>
+    <div class="log" id="log"></div>
+  </div>
+
+  <div class="card" id="downloads-card" style="display:none">
+    <div class="card-hdr"><h3>Downloads</h3></div>
+    <div id="dl-body"></div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     TAB 2 — HOW IT WORKS
+════════════════════════════════════════════════ -->
+<div id="panel-about" class="panel">
+<div class="wrap-wide">
+
+  <!-- Architecture -->
+  <div class="section">
+    <div class="sec-kicker">Architecture</div>
+    <div class="sec-title">Five-stage pipeline</div>
+    <p class="sec-body">
+      Each parish PDF passes through five sequential stages. Extraction and detection run locally
+      with no API calls. Claude is invoked once per parish with the assembled statement text, and
+      results are cached to disk so re-runs skip the API entirely.
+    </p>
+
+    <div class="flow">
+      <div class="flow-step s1">
+        <div class="step-n">01 / Upload</div>
+        <div class="step-title">PDF Ingest</div>
+        <div class="step-lib">FastAPI · multipart</div>
+        <ul class="step-pts">
+          <li>Browser POST to <code>/run</code></li>
+          <li>Saved to per-job temp dir</li>
+          <li>Filename becomes parish name</li>
+        </ul>
+      </div>
+      <div class="flow-step s2">
+        <div class="step-n">02 / Detect</div>
+        <div class="step-title">Page Detection</div>
+        <div class="step-lib">pdfplumber</div>
+        <ul class="step-pts">
+          <li>Every page text extracted</li>
+          <li>50+ keyword patterns per type</li>
+          <li>±3-page confirmation window</li>
+        </ul>
+      </div>
+      <div class="flow-step s3">
+        <div class="step-n">03 / Assemble</div>
+        <div class="step-title">Text Assembly</div>
+        <div class="step-lib">extractor.py</div>
+        <ul class="step-pts">
+          <li>Anchor + continuation pages</li>
+          <li>In-thousands flag detected</li>
+          <li>Manual overrides applied</li>
+        </ul>
+      </div>
+      <div class="flow-step s4">
+        <div class="step-n">04 / Parse</div>
+        <div class="step-title">LLM Extraction</div>
+        <div class="step-lib">Anthropic Claude</div>
+        <ul class="step-pts">
+          <li>Structured JSON per statement</li>
+          <li>All line items and totals</li>
+          <li>Results cached to disk</li>
+        </ul>
+      </div>
+      <div class="flow-step s5">
+        <div class="step-n">05 / Output</div>
+        <div class="step-title">Excel Build</div>
+        <div class="step-lib">openpyxl</div>
+        <ul class="step-pts">
+          <li>4 workbooks, 1 sheet/parish</li>
+          <li>Cross-sectional aggregation</li>
+          <li>Streamed to browser via SSE</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Detection -->
+  <div class="section">
+    <div class="sec-kicker">Stage 2</div>
+    <div class="sec-title">Page detection</div>
+    <p class="sec-body">
+      The core challenge is unreliable OCR from scanned documents. The detector uses layered logic:
+      OCR-variant keyword groups that must all match, exclude lists that reject lookalike pages, a
+      notes-page guard that inspects only the title area, and a confirmation window that verifies
+      data content before committing to an anchor page.
+    </p>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Notes-page guard — title area only, not footnote footers</span>
+        <span class="code-file">pipeline/extractor.py</span>
+      </div>
+<pre><span class="kw">def</span> <span class="fn">_is_notes_page</span>(text: <span class="sp">str</span>) -> <span class="sp">bool</span>:
+    <span class="cm"># Notes title is always in the first ~200 chars (parish name + title + date).</span>
+    <span class="cm"># Checking only the top means a "see notes to financial statements" footer</span>
+    <span class="cm"># on a CBS page does NOT fire this guard and stop collection early.</span>
+    first400 = text[:<span class="nm">400</span>]
+    very_top = text[:<span class="nm">200</span>]
+    <span class="kw">return</span> (
+<span class="hl">        <span class="str">"notes to financial"</span>   <span class="kw">in</span> first400</span>
+<span class="hl">        <span class="kw">or</span> <span class="str">"notes to the financial"</span> <span class="kw">in</span> first400</span>
+<span class="hl">        <span class="kw">or</span> <span class="str">"notes to the basic"</span>    <span class="kw">in</span> first400</span>
+        <span class="kw">or</span> (<span class="str">"notes to the"</span> <span class="kw">in</span> very_top <span class="kw">and</span> <span class="str">"statements"</span> <span class="kw">in</span> very_top)
+        <span class="kw">or</span> (<span class="str">"notes to"</span>     <span class="kw">in</span> text[:<span class="nm">150</span>] <span class="kw">and</span> <span class="str">"statements"</span> <span class="kw">in</span> text[:<span class="nm">150</span>])
+    )</pre>
+    </div>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">CBS pattern set — each group handles a different OCR corruption mode</span>
+        <span class="code-file">pipeline/extractor.py</span>
+      </div>
+<pre>STATEMENT_PATTERNS = {
+    <span class="str">"cbs"</span>: {
+        <span class="str">"require_any"</span>: [
+<span class="hl">            [<span class="str">"balance sheet"</span>, <span class="str">"governmental fund"</span>],           <span class="cm"># standard</span></span>
+<span class="hl">            [<span class="str">"balance sheet"</span>, <span class="str">"governmental activities"</span>, <span class="str">"assets"</span>],  <span class="cm"># large cities</span></span>
+            [<span class="str">"balance sheet"</span>, <span class="str">"eund"</span>],                        <span class="cm"># F→e: Union, Claiborne</span>
+            [<span class="str">"balance sheel"</span>, <span class="str">"governmental fund"</span>],           <span class="cm"># t→l: Cameron</span>
+            [<span class="str">"balance. sheet"</span>, <span class="str">"governmental fund"</span>],          <span class="cm"># period insert: Lafourche</span>
+            [<span class="str">"balancesheet"</span>,  <span class="str">"governmental fund"</span>],           <span class="cm"># merged: St. John the Baptist</span>
+            [<span class="str">"balanc e sheet"</span>, <span class="str">"ernmental fund"</span>],             <span class="cm"># space-split: Caldwell</span>
+<span class="hl">            [<span class="str">"governmental fund"</span>, <span class="str">"comparative totals"</span>, <span class="str">"assets"</span>],  <span class="cm"># no title: Winn</span></span>
+        ],
+        <span class="str">"exclude"</span>: [
+            <span class="str">"combining balance sheet"</span>, <span class="str">"combining statement"</span>,
+            <span class="str">"reconciliation"</span>, <span class="str">"reconcl"</span>,       <span class="cm"># catches "reconclliatioh" OCR variant</span>
+            <span class="str">"discretely presented"</span>, <span class="str">"fiduciary"</span>,
+        ] + MDA_EXCLUDE,
+    },
+}</pre>
+    </div>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Core matcher — TOC guard + exclude check + require_any logic</span>
+        <span class="code-file">pipeline/extractor.py</span>
+      </div>
+<pre><span class="kw">def</span> <span class="fn">_matches_any</span>(text: <span class="sp">str</span>, patterns: <span class="sp">dict</span>, allow_notes: <span class="sp">bool</span> = <span class="kw">False</span>) -> <span class="sp">bool</span>:
+<span class="hl-r">    <span class="kw">if not</span> allow_notes <span class="kw">and</span> <span class="fn">_is_notes_page</span>(text):
+        <span class="kw">return False</span>   <span class="cm"># notes title in first 200 chars → not a primary statement</span></span>
+
+<span class="hl-r">    <span class="cm"># Table of contents lists every statement name but contains no data.</span>
+    <span class="cm"># Dotted leaders (10+ periods) uniquely identify TOC formatting.</span>
+    <span class="kw">if</span> <span class="str">"table of contents"</span> <span class="kw">in</span> text[:<span class="nm">400</span>] <span class="kw">or</span> <span class="str">"........."</span> <span class="kw">in</span> text:
+        <span class="kw">return False</span></span>
+
+    <span class="kw">for</span> excl <span class="kw">in</span> patterns.get(<span class="str">"exclude"</span>, []):
+        <span class="kw">if</span> excl <span class="kw">in</span> text:
+            <span class="kw">return False</span>   <span class="cm"># MDA, reconciliation, combining, fiduciary, etc.</span>
+
+<span class="hl-g">    <span class="cm"># AND within a group, OR across groups — any one full match is enough</span>
+    <span class="kw">for</span> req_group <span class="kw">in</span> patterns.get(<span class="str">"require_any"</span>, []):
+        <span class="kw">if all</span>(kw <span class="kw">in</span> text <span class="kw">for</span> kw <span class="kw">in</span> req_group):
+            <span class="kw">return True</span></span>
+    <span class="kw">return False</span></pre>
+    </div>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Confirmation window + continuation — anchor commit and multi-page collection</span>
+        <span class="code-file">pipeline/extractor.py  ·  find_statement_pages()</span>
+      </div>
+<pre><span class="kw">for</span> i, text <span class="kw">in</span> <span class="fn">enumerate</span>(texts):
+    <span class="kw">if</span> <span class="fn">_matches_any</span>(text, patterns):
+<span class="hl">        <span class="cm"># Require at least one confirmation keyword within ±3 pages.</span>
+        <span class="cm"># A TOC page lists statement names but won't have "fund balance", etc.</span>
+        window = <span class="str">" "</span>.<span class="fn">join</span>(texts[<span class="fn">max</span>(<span class="nm">0</span>, i<span class="nm">-1</span>):<span class="fn">min</span>(n, i<span class="nm">+4</span>)])
+        <span class="kw">if any</span>(kw <span class="kw">in</span> window <span class="kw">for</span> kw <span class="kw">in</span> CONFIRMATION[stmt_type]):
+            anchor = i; <span class="kw">break</span></span>
+
+collected = [anchor]
+<span class="kw">for</span> j <span class="kw">in</span> <span class="fn">range</span>(anchor + <span class="nm">1</span>, <span class="fn">min</span>(n, anchor + max_continuation + <span class="nm">1</span>)):
+    new_section = <span class="fn">any</span>([
+        <span class="str">"independent auditor"</span>   <span class="kw">in</span> t,
+<span class="hl">        <span class="fn">_is_notes_page</span>(t),                               <span class="cm"># title check only — not footers</span></span>
+        (<span class="str">"reconciliation of"</span>     <span class="kw">in</span> t <span class="kw">and</span> stmt_type == <span class="str">"cbs"</span>),
+<span class="hl">        (<span class="str">"balance sheet"</span> <span class="kw">in</span> t[:<span class="nm">300</span>] <span class="kw">and</span> stmt_type == <span class="str">"soa"</span>),   <span class="cm"># [:300] = title only</span></span>
+        (<span class="str">"balance sheel"</span>  <span class="kw">in</span> t[:<span class="nm">300</span>] <span class="kw">and</span> stmt_type == <span class="str">"soa"</span>),   <span class="cm"># t→l OCR variant</span>
+    ])
+    <span class="kw">if</span> new_section: <span class="kw">break</span>
+    <span class="kw">if</span> <span class="fn">len</span>(t) > <span class="nm">150</span>: collected.<span class="fn">append</span>(j)</pre>
+    </div>
+  </div>
+
+  <!-- OCR -->
+  <div class="section">
+    <div class="sec-kicker">Engineering challenge</div>
+    <div class="sec-title">OCR corruption</div>
+    <p class="sec-body">
+      Louisiana parish audits are scanned documents. OCR produces systematic corruptions —
+      letter substitutions, word merges, inserted punctuation — that vary by scanning hardware.
+      For most parishes, adding a new pattern variant resolves the issue. For others (Orleans),
+      the corruption is too severe for any pattern and requires a manual page override.
+    </p>
+
+    <div class="tbl-wrap">
+      <table>
+        <tr><th>Original text</th><th>OCR output</th><th>Fix</th><th>Parish</th></tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">Balance Sheel</td>
+          <td class="td-fix">"balance sheel"</td>
+          <td class="td-parish">Cameron</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">Balance. Sheet</td>
+          <td class="td-fix">"balance. sheet"</td>
+          <td class="td-parish">Lafourche</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">BalanceSheet</td>
+          <td class="td-fix">"balancesheet"</td>
+          <td class="td-parish">St. John the Baptist</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">Balaoca</td>
+          <td class="td-fix">manual_pages.json</td>
+          <td class="td-parish">Orleans</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Governmental Funds</td>
+          <td class="td-bad">Governmental Eunds</td>
+          <td class="td-fix">"eund"</td>
+          <td class="td-parish">Union, Claiborne</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Statement of Activities</td>
+          <td class="td-bad">StaXmcnl of Activities</td>
+          <td class="td-fix">manual_pages.json</td>
+          <td class="td-parish">Orleans</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Management's Discussion</td>
+          <td class="td-bad">Managements Discussion</td>
+          <td class="td-fix">MDA_EXCLUDE list</td>
+          <td class="td-parish">Tangipahoa</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="callout">
+      <strong>Why MDA exclusion matters:</strong> Management Discussion &amp; Analysis pages describe
+      capital assets and revenues in narrative form. Their text overlaps heavily with actual statements —
+      the same keywords appear but in sentences rather than table headers. Without <code>MDA_EXCLUDE</code>
+      and the notes-page guard, these pages would anchor the detector and the wrong content would be sent to Claude.
+    </div>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">manual_pages.json — last-resort override when OCR is beyond any pattern fix</span>
+        <span class="code-file">manual_pages.json  ·  pages are 1-indexed (as shown in PDF viewer)</span>
+      </div>
+<pre>{
+  <span class="str">"Orleans"</span>: {
+<span class="hl">    <span class="str">"sona"</span>: [<span class="nm">36</span>],      <span class="cm">// p36: "Statement of Net Positon" — readable</span></span>
+<span class="hl">    <span class="str">"soa"</span>:  [<span class="nm">37</span>],      <span class="cm">// p37: "StaXmcnl of Activities" — unreachable by any pattern</span></span>
+<span class="hl">    <span class="str">"cbs"</span>:  [<span class="nm">38</span>],      <span class="cm">// p38: "Balaoca – Govemnuintal Funds" — unreachable</span></span>
+<span class="hl">    <span class="str">"ca"</span>:   [<span class="nm">70</span>, <span class="nm">71</span>]   <span class="cm">// p70-71: Note 5 Capital Assets, additions/deletions table</span></span>
+  }
+}</pre>
+    </div>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Capital Assets fallback — searches Notes section when no primary schedule is found</span>
+        <span class="code-file">pipeline/extractor.py  ·  find_statement_pages()</span>
+      </div>
+<pre><span class="cm"># If no standalone CA schedule found as a primary financial statement,</span>
+<span class="cm"># search the Notes section with stricter patterns requiring both a</span>
+<span class="cm"># beginning/ending structure AND non-depreciable asset categories.</span>
+<span class="kw">if</span> anchor <span class="kw">is None and</span> stmt_type == <span class="str">"ca"</span>:
+    CA_NOTES_PATTERNS = [
+<span class="hl">        [<span class="str">"capital assets"</span>, <span class="str">"accumulated depreciation"</span>, <span class="str">"beginning"</span>],</span>
+<span class="hl">        [<span class="str">"capital assets"</span>, <span class="str">"accumulated depreciation"</span>, <span class="str">"additions"</span>, <span class="str">"not being depreciated"</span>],</span>
+        [<span class="str">"capital assets"</span>, <span class="str">"additions"</span>, <span class="str">"deletions"</span>],      <span class="cm"># Assumption parish format</span>
+        [<span class="str">"capital asset"</span>,  <span class="str">"depreciable"</span>, <span class="str">"additions"</span>, <span class="str">"disposals"</span>],  <span class="cm"># Lincoln format</span>
+        [<span class="str">"capital assets"</span>, <span class="str">"accumulated depreciation"</span>, <span class="str">"cost at december"</span>],  <span class="cm"># Iberville</span>
+    ]
+    <span class="kw">for</span> i, text <span class="kw">in</span> <span class="fn">enumerate</span>(texts):
+<span class="hl">        <span class="kw">if not</span> <span class="fn">_is_notes_page</span>(text): <span class="kw">continue</span>   <span class="cm"># restrict search to notes pages only</span></span>
+        <span class="kw">for</span> req_group <span class="kw">in</span> CA_NOTES_PATTERNS:
+            <span class="kw">if all</span>(kw <span class="kw">in</span> text <span class="kw">for</span> kw <span class="kw">in</span> req_group):
+                anchor = i; <span class="kw">break</span></pre>
+    </div>
+  </div>
+
+  <!-- Statements -->
+  <div class="section">
+    <div class="sec-kicker">Output</div>
+    <div class="sec-title">The four financial statements</div>
+    <p class="sec-body">
+      Every Louisiana parish audit contains these four statements. The pipeline produces a separate
+      Excel workbook for each, with one worksheet per parish for cross-sectional comparison.
+    </p>
+
+    <div class="stmt-grid">
+      <div class="stmt-card cbs">
+        <div class="stmt-abbr">CBS</div>
+        <div class="stmt-name">Combined Balance Sheet</div>
+        <div class="stmt-desc">
+          Governmental funds view. Each major fund (General, Debt Service, Capital Projects, etc.)
+          is a column. Shows cash and receivables held, payables and deferred inflows owed, and fund
+          balance broken down by spendability: nonspendable, restricted, committed, assigned, unassigned.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Cash &amp; deposits</span>
+          <span class="sf">Taxes receivable</span>
+          <span class="sf">Accounts payable</span>
+          <span class="sf">Deferred inflows</span>
+          <span class="sf">Fund balances by type</span>
+        </div>
+      </div>
+      <div class="stmt-card soa">
+        <div class="stmt-abbr">SOA</div>
+        <div class="stmt-name">Statement of Activities</div>
+        <div class="stmt-desc">
+          Government-wide income statement. Each function shows total expenses, program revenues earned
+          back (charges, grants), and the net cost covered by general revenues — property taxes,
+          sales taxes, investment income. Ends with change in net position.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Expenses by function</span>
+          <span class="sf">Charges for services</span>
+          <span class="sf">Operating &amp; capital grants</span>
+          <span class="sf">Property taxes</span>
+          <span class="sf">Sales taxes</span>
+          <span class="sf">Net position change</span>
+        </div>
+      </div>
+      <div class="stmt-card sona">
+        <div class="stmt-abbr">SONA</div>
+        <div class="stmt-name">Statement of Net Position</div>
+        <div class="stmt-desc">
+          Government-wide balance sheet. Unlike the CBS, includes capital assets (infrastructure,
+          buildings, equipment) and long-term liabilities (bonds, pension obligations).
+          Net position = assets + deferred outflows − liabilities − deferred inflows.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Capital assets net</span>
+          <span class="sf">Long-term liabilities</span>
+          <span class="sf">Deferred outflows</span>
+          <span class="sf">Deferred inflows</span>
+          <span class="sf">Net position components</span>
+        </div>
+      </div>
+      <div class="stmt-card ca">
+        <div class="stmt-abbr">CA</div>
+        <div class="stmt-name">Capital Assets Schedule</div>
+        <div class="stmt-desc">
+          Tracks each asset category from beginning to ending balance: land, construction in progress,
+          buildings, machinery, infrastructure. Shows additions, disposals, and annual depreciation.
+          May appear as a primary statement or embedded in the Notes section.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Land</span>
+          <span class="sf">Infrastructure</span>
+          <span class="sf">Buildings</span>
+          <span class="sf">Additions / Disposals</span>
+          <span class="sf">Accumulated depreciation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Web app -->
+  <div class="section">
+    <div class="sec-kicker">Stage 1 &amp; 5</div>
+    <div class="sec-title">Web interface</div>
+    <p class="sec-body">
+      FastAPI accepts batch PDF uploads, runs the pipeline in a background thread, and streams
+      each log line to the browser via Server-Sent Events. Download buttons appear when all four
+      workbooks are ready.
+    </p>
+
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Background job + SSE stream — each log line pushed to browser in real time</span>
+        <span class="code-file">webapp/app.py</span>
+      </div>
+<pre><span class="sp">@app</span>.post(<span class="str">"/run"</span>)
+<span class="kw">async def</span> <span class="fn">run</span>(files: list[UploadFile] = <span class="fn">File</span>(...), year: <span class="sp">int</span> = <span class="fn">Form</span>(...)):
+    job_id = <span class="sp">str</span>(uuid.<span class="fn">uuid4</span>())[:<span class="nm">8</span>]
+    q: queue.Queue[<span class="sp">str</span>] = queue.<span class="fn">Queue</span>()
+    JOBS[job_id] = {<span class="str">"queue"</span>: q, <span class="str">"status"</span>: <span class="str">"running"</span>}
+
+    <span class="kw">def</span> <span class="fn">_run</span>():
+<span class="hl">        <span class="fn">run_pipeline</span>(..., progress_callback=<span class="kw">lambda</span> msg: q.<span class="fn">put</span>(msg))
+        q.<span class="fn">put</span>(<span class="str">"__DONE__"</span>)   <span class="cm"># sentinel closes the SSE stream</span></span>
+
+    threading.<span class="fn">Thread</span>(target=_run, daemon=<span class="kw">True</span>).<span class="fn">start</span>()
+    <span class="kw">return</span> {<span class="str">"job_id"</span>: job_id}
+
+
+<span class="sp">@app</span>.get(<span class="str">"/progress/{job_id}"</span>)
+<span class="kw">def</span> <span class="fn">progress</span>(job_id: <span class="sp">str</span>):
+    <span class="kw">def</span> <span class="fn">stream</span>():
+        q = JOBS[job_id][<span class="str">"queue"</span>]
+        <span class="kw">while True</span>:
+            <span class="kw">try</span>:
+                msg = q.<span class="fn">get</span>(timeout=<span class="nm">25</span>)
+            <span class="kw">except</span> queue.Empty:
+                <span class="kw">yield</span> <span class="str">"data: \n\n"</span>   <span class="cm"># heartbeat keeps connection alive</span>
+                <span class="kw">continue</span>
+<span class="hl">            <span class="kw">yield</span> <span class="sp">f</span><span class="str">"data: {json.dumps(msg)}\n\n"</span>
+            <span class="kw">if</span> msg == <span class="str">"__DONE__"</span>: <span class="kw">break</span></span>
+
+    <span class="kw">return</span> <span class="fn">StreamingResponse</span>(
+        <span class="fn">stream</span>(), media_type=<span class="str">"text/event-stream"</span>,
+        headers={<span class="str">"Cache-Control"</span>: <span class="str">"no-cache"</span>, <span class="str">"X-Accel-Buffering"</span>: <span class="str">"no"</span>},
+    )</pre>
+    </div>
+  </div>
+
+  <!-- Tech stack -->
+  <div class="section">
+    <div class="sec-kicker">Dependencies</div>
+    <div class="sec-title">Tech stack</div>
+
+    <div class="tbl-wrap">
+      <table>
+        <tr><th style="width:20%">Library</th><th style="width:18%">Role</th><th>What it does in this pipeline</th></tr>
+        <tr>
+          <td><div class="td-name">pdfplumber</div><div class="td-mono">pip install pdfplumber</div></td>
+          <td><div class="td-role">PDF extraction</div></td>
+          <td class="td-desc">Extracts text from every page of a scanned PDF. Newlines are normalised to spaces so multi-line titles can be matched as substrings.</td>
+        </tr>
+        <tr>
+          <td><div class="td-name">Anthropic Claude</div><div class="td-mono">claude-3-5-sonnet</div></td>
+          <td><div class="td-role">LLM parsing</div></td>
+          <td class="td-desc">Receives raw OCR text per statement and returns a validated JSON object with every line item — fund columns, asset categories, revenue sources, depreciation schedules.</td>
+        </tr>
+        <tr>
+          <td><div class="td-name">FastAPI</div><div class="td-mono">pip install fastapi</div></td>
+          <td><div class="td-role">Web server</div></td>
+          <td class="td-desc">Handles multipart PDF uploads, spawns background pipeline threads, streams progress via SSE, and serves completed Excel files. Four routes total.</td>
+        </tr>
+        <tr>
+          <td><div class="td-name">uvicorn</div><div class="td-mono">pip install uvicorn</div></td>
+          <td><div class="td-role">ASGI server</div></td>
+          <td class="td-desc">Runs the FastAPI app locally. Start with <code>python -m uvicorn app:app --port 8000</code>, then open <code>localhost:8000</code>.</td>
+        </tr>
+        <tr>
+          <td><div class="td-name">openpyxl</div><div class="td-mono">pip install openpyxl</div></td>
+          <td><div class="td-role">Excel output</div></td>
+          <td class="td-desc">Builds four workbooks (CBS, SOA, SONA, Capital Assets). Each parish gets its own worksheet. A Cross-Sectional sheet aggregated last enables state-wide comparison.</td>
+        </tr>
+        <tr>
+          <td><div class="td-name">threading + Queue</div><div class="td-mono">stdlib</div></td>
+          <td><div class="td-role">Concurrency</div></td>
+          <td class="td-desc">Pipeline runs in a daemon thread; <code>progress_callback</code> puts each log line in a <code>queue.Queue</code>; the SSE endpoint drains and yields it to the browser.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div style="height:40px"></div>
+</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     SCRIPTS
+════════════════════════════════════════════════ -->
+<script>
+  function switchTab(name, btn) {
+    document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.getElementById("panel-" + name).classList.add("active");
+    btn.classList.add("active");
+  }
+
+
+  let selectedFiles = [];
+  let currentJobId  = null;
+
+  const dropZone  = document.getElementById("drop-zone");
+  const fileInput = document.getElementById("file-input");
+  const badge     = document.getElementById("file-badge");
+
+  document.getElementById("browse-link").addEventListener("click", e => { e.stopPropagation(); fileInput.click(); });
+  dropZone.addEventListener("click", () => fileInput.click());
+  dropZone.addEventListener("dragover",  e => { e.preventDefault(); dropZone.classList.add("drag-over"); });
+  dropZone.addEventListener("dragleave", () => dropZone.classList.remove("drag-over"));
+  dropZone.addEventListener("drop", e => {
+    e.preventDefault(); dropZone.classList.remove("drag-over");
+    selectedFiles = [...e.dataTransfer.files].filter(f => f.name.toLowerCase().endsWith(".pdf"));
+    updateBadge();
+  });
+  fileInput.addEventListener("change", () => { selectedFiles = [...fileInput.files]; updateBadge(); });
+
+  function updateBadge() {
+    if (!selectedFiles.length) { badge.style.display = "none"; return; }
+    badge.textContent = selectedFiles.length + " PDF" + (selectedFiles.length !== 1 ? "s" : "") + " selected";
+    badge.style.display = "inline-block";
+  }
+
+  async function runPipeline() {
+    if (!selectedFiles.length) { alert("Please select at least one PDF file."); return; }
+    const year   = parseInt(document.getElementById("year-input").value);
+    const runBtn = document.getElementById("run-btn");
+    runBtn.disabled = true;
+
+    document.getElementById("log").innerHTML = "";
+    document.getElementById("downloads-card").style.display = "none";
+    document.getElementById("log-card").style.display = "block";
+    setStatus("running");
+    appendLog("Uploading " + selectedFiles.length + " PDF(s)...", "");
+
+    const form = new FormData();
+    form.append("year", year);
+    for (const f of selectedFiles) form.append("files", f);
+
+    let jobId;
+    try {
+      const resp = await fetch("/run", { method: "POST", body: form });
+      if (!resp.ok) {
+        let detail = "Server error " + resp.status;
+        try { const j = await resp.json(); detail = j.detail || detail; } catch (_) {}
+        throw new Error(detail);
+      }
+      ({ job_id: jobId } = await resp.json());
+    } catch (err) {
+      appendLog("[ERROR] " + err.message, "error");
+      runBtn.disabled = false; setStatus("error"); return;
+    }
+
+    currentJobId = jobId;
+    appendLog("Job " + jobId + " started", "");
+    appendLog("─".repeat(54), "");
+
+    const source = new EventSource("/progress/" + jobId);
+    source.onmessage = e => {
+      try {
+        const msg = JSON.parse(e.data);
+        if (msg === "__DONE__") {
+          source.close(); runBtn.disabled = false; setStatus("done"); showDownloads(jobId);
+        } else if (msg && msg.trim()) { appendLog(msg); }
+      } catch (_) {}
+    };
+    source.onerror = () => {
+      appendLog("[ERROR] Connection lost.", "error");
+      source.close(); runBtn.disabled = false; setStatus("error");
+    };
+  }
+
+  function appendLog(msg, forceClass) {
+    const logEl = document.getElementById("log");
+    const div   = document.createElement("div");
+    const cls   = forceClass !== undefined ? forceClass : classifyLine(msg);
+    if (cls) div.className = cls;
+    div.textContent = msg;
+    logEl.appendChild(div);
+    logEl.scrollTop = logEl.scrollHeight;
+  }
+
+  function classifyLine(msg) {
+    const m = msg.toLowerCase();
+    if (m.includes("[error]"))         return "line-error";
+    if (m.includes("[skip]"))          return "line-skip";
+    if (m.includes("[manual]"))        return "line-manual";
+    if (m.includes("done."))           return "line-ok";
+    if (m.includes("saved:"))          return "line-ok";
+    if (/^\[\s*\d+\/\d+\]/.test(msg)) return "line-header";
+    return "";
+  }
+
+  function setStatus(state) {
+    document.getElementById("status-dot").className = "status-dot " + state;
+  }
+
+  async function showDownloads(jobId) {
+    const data = await (await fetch("/files/" + jobId)).json();
+    const body = document.getElementById("dl-body");
+    body.innerHTML = "";
+
+    const byParish    = data.by_parish    || [];
+    const byStatement = data.by_statement || [];
+
+    if (!byParish.length && !byStatement.length) {
+      body.innerHTML = "<p style='padding:14px;color:var(--dimmer);font-size:12px'>No Excel files produced.</p>";
+      document.getElementById("downloads-card").style.display = "block";
+      return;
+    }
+
+    function makeSection(label, files, iconClass) {
+      if (!files.length) return;
+      const sec = document.createElement("div");
+      sec.className = "dl-section";
+      const lbl = document.createElement("div");
+      lbl.className = "dl-section-label";
+      lbl.textContent = label;
+      sec.appendChild(lbl);
+      const grid = document.createElement("div");
+      grid.className = "dl-grid";
+      for (const fname of files) {
+        const a = document.createElement("a");
+        a.href     = "/download/" + jobId + "/" + encodeURIComponent(fname);
+        a.download = fname;
+        a.className = "dl-btn";
+        // strip extension for icon label
+        const stem = fname.replace(/\.xlsx$/i, "");
+        const tag  = iconClass === "parish" ? "XLSX" : stem.split(" ").pop();
+        a.innerHTML =
+          '<span class="dl-icon ' + iconClass + '">' + tag + '</span>' +
+          '<span class="dl-name">' + fname + '</span>';
+        grid.appendChild(a);
+      }
+      sec.appendChild(grid);
+      body.appendChild(sec);
+    }
+
+    makeSection("By Parish — all statements in one file", byParish, "parish");
+    makeSection("By Statement — all parishes in one file", byStatement, "statement");
+
+    document.getElementById("downloads-card").style.display = "block";
+  }
+</script>
+</body>
+</html>

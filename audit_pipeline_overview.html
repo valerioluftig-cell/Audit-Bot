@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louisiana Parish Audit Pipeline — Technical Overview</title>
+  <style>
+    :root {
+      --bg:       #0d1117;
+      --surf:     #161b22;
+      --surf2:    #1c2128;
+      --border:   #30363d;
+      --text:     #e6edf3;
+      --dim:      #8b949e;
+      --dimmer:   #484f58;
+      --blue:     #58a6ff;
+      --green:    #3fb950;
+      --orange:   #e3b341;
+      --red:      #f85149;
+      --purple:   #bc8cff;
+      --cyan:     #39c5cf;
+      --kw:       #ff7b72;
+      --str:      #a5d6ff;
+      --cm:       #8b949e;
+      --fn:       #d2a8ff;
+      --nm:       #79c0ff;
+      --sp:       #ffa657;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+
+    .wrap { max-width: 880px; margin: 0 auto; padding: 0 32px; }
+
+    /* ── Page header ─────────────────────────────── */
+    .page-header {
+      padding: 52px 0 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 60px;
+    }
+    .kicker {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.6px;
+      text-transform: uppercase; color: var(--blue); margin-bottom: 10px;
+    }
+    .page-header h1 {
+      font-size: 30px; font-weight: 700; letter-spacing: -0.6px;
+      line-height: 1.15; color: var(--text); margin-bottom: 10px;
+    }
+    .page-header .sub {
+      font-size: 15px; color: var(--dim); max-width: 600px; line-height: 1.6;
+      margin-bottom: 22px;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.3px;
+      padding: 4px 11px; border-radius: 20px;
+      border: 1px solid var(--border); color: var(--dim);
+    }
+
+    /* ── Sections ────────────────────────────────── */
+    .section { margin-bottom: 68px; }
+    .sec-kicker {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.4px;
+      text-transform: uppercase; color: var(--blue); margin-bottom: 5px;
+    }
+    .sec-title {
+      font-size: 20px; font-weight: 700; letter-spacing: -0.2px;
+      color: var(--text); margin-bottom: 8px;
+    }
+    .sec-body {
+      font-size: 13.5px; color: var(--dim); line-height: 1.75;
+      max-width: 680px; margin-bottom: 24px;
+    }
+
+    /* ── Pipeline flow ───────────────────────────── */
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 2px;
+    }
+    .flow-step {
+      background: var(--surf);
+      border: 1px solid var(--border);
+      padding: 18px 15px 20px;
+      position: relative;
+    }
+    .flow-step:first-child { border-radius: 8px 0 0 8px; }
+    .flow-step:last-child  { border-radius: 0 8px 8px 0; }
+    .flow-step::before {
+      content: ""; position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+    }
+    .s1::before { background: var(--blue); }
+    .s2::before { background: var(--orange); }
+    .s3::before { background: var(--green); }
+    .s4::before { background: var(--purple); }
+    .s5::before { background: var(--cyan); }
+
+    .step-n {
+      font-size: 10px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .s1 .step-n { color: var(--blue); }
+    .s2 .step-n { color: var(--orange); }
+    .s3 .step-n { color: var(--green); }
+    .s4 .step-n { color: var(--purple); }
+    .s5 .step-n { color: var(--cyan); }
+
+    .step-title {
+      font-size: 12.5px; font-weight: 700; color: var(--text); margin-bottom: 3px;
+    }
+    .step-lib {
+      font-size: 10px; font-weight: 600; color: var(--dimmer);
+      text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;
+    }
+    .step-pts { list-style: none; }
+    .step-pts li {
+      font-size: 11.5px; color: var(--dim); line-height: 1.55;
+      padding: 1px 0 1px 11px; position: relative;
+    }
+    .step-pts li::before {
+      content: "–"; position: absolute; left: 0; color: var(--dimmer);
+    }
+
+    /* ── Code blocks ─────────────────────────────── */
+    .code-wrap {
+      background: var(--surf);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 18px 0;
+      font-size: 0; /* removes whitespace gap */
+    }
+    .code-bar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 8px 16px; background: var(--surf2);
+      border-bottom: 1px solid var(--border);
+    }
+    .code-label { font-size: 11px; font-weight: 600; color: var(--dim); }
+    .code-file  { font-family: "Consolas","Menlo",monospace; font-size: 10.5px; color: var(--dimmer); }
+    pre {
+      padding: 18px 20px; overflow-x: auto;
+      font-family: "Cascadia Code","Fira Code","JetBrains Mono","Consolas","Menlo",monospace;
+      font-size: 12.5px; line-height: 1.7; color: var(--text);
+      tab-size: 4;
+    }
+    /* Syntax */
+    .kw  { color: var(--kw); }
+    .str { color: var(--str); }
+    .cm  { color: var(--cm); font-style: italic; }
+    .fn  { color: var(--fn); }
+    .nm  { color: var(--nm); }
+    .sp  { color: var(--sp); }
+    /* Highlighted line */
+    .hl {
+      display: block;
+      background: rgba(88, 166, 255, 0.07);
+      margin: 0 -20px; padding: 0 20px;
+      border-left: 2px solid var(--blue);
+    }
+    .hl-g {
+      display: block;
+      background: rgba(63, 185, 80, 0.07);
+      margin: 0 -20px; padding: 0 20px;
+      border-left: 2px solid var(--green);
+    }
+    .hl-r {
+      display: block;
+      background: rgba(248, 81, 73, 0.07);
+      margin: 0 -20px; padding: 0 20px;
+      border-left: 2px solid var(--red);
+    }
+
+    /* ── Statements grid ─────────────────────────── */
+    .stmt-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+    }
+    .stmt-card {
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 8px; padding: 20px; border-left: 3px solid;
+    }
+    .cbs  { border-left-color: var(--blue); }
+    .soa  { border-left-color: var(--orange); }
+    .sona { border-left-color: var(--green); }
+    .ca   { border-left-color: var(--purple); }
+
+    .stmt-abbr {
+      font-size: 10px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; margin-bottom: 3px;
+    }
+    .cbs  .stmt-abbr { color: var(--blue); }
+    .soa  .stmt-abbr { color: var(--orange); }
+    .sona .stmt-abbr { color: var(--green); }
+    .ca   .stmt-abbr { color: var(--purple); }
+
+    .stmt-name { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 7px; }
+    .stmt-desc { font-size: 12px; color: var(--dim); line-height: 1.65; }
+    .stmt-fields { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 5px; }
+    .sf {
+      font-size: 10.5px; padding: 2px 7px; border-radius: 4px;
+      background: var(--surf2); border: 1px solid var(--border); color: var(--dim);
+    }
+
+    /* ── OCR table ───────────────────────────────── */
+    .tbl-wrap {
+      background: var(--surf); border: 1px solid var(--border);
+      border-radius: 8px; overflow: hidden; margin: 18px 0;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.8px;
+      text-transform: uppercase; color: var(--dim); text-align: left;
+      padding: 9px 16px; background: var(--surf2);
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      font-size: 12.5px; padding: 9px 16px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    tr:last-child td { border-bottom: none; }
+    .td-orig   { font-family: monospace; color: var(--text); }
+    .td-bad    { font-family: monospace; color: var(--red); }
+    .td-fix    { font-size: 11px; color: var(--green); font-family: monospace; }
+    .td-parish { font-size: 11px; color: var(--dimmer); }
+    .td-name   { font-weight: 700; color: var(--text); }
+    .td-role   {
+      font-size: 10px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.4px; color: var(--blue);
+    }
+    .td-desc   { color: var(--dim); font-size: 12.5px; }
+    .td-mono   { font-family: monospace; font-size: 11px; color: var(--dimmer); }
+
+    /* ── Callout ─────────────────────────────────── */
+    .callout {
+      background: var(--surf); border: 1px solid var(--border);
+      border-left: 3px solid var(--orange);
+      border-radius: 8px; padding: 18px 20px; margin: 18px 0;
+      font-size: 13px; color: var(--dim); line-height: 1.7;
+    }
+    .callout strong { color: var(--text); }
+
+    /* ── Inline code ─────────────────────────────── */
+    code {
+      font-family: "Cascadia Code","Fira Code","Consolas",monospace;
+      font-size: 11.5px; background: var(--surf2);
+      border: 1px solid var(--border); border-radius: 3px;
+      padding: 1px 5px; color: var(--text);
+    }
+
+    /* ── Footer ──────────────────────────────────── */
+    .footer {
+      border-top: 1px solid var(--border); padding-top: 24px; margin-top: 64px;
+      font-size: 11px; color: var(--dimmer); line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ════════════════════════════════════════════
+       HEADER
+  ════════════════════════════════════════════ -->
+  <div class="page-header">
+    <div class="kicker">Technical Overview</div>
+    <h1>Louisiana Parish Audit Pipeline</h1>
+    <p class="sub">
+      An automated pipeline that reads scanned parish audit PDFs, detects four standard
+      financial statements using keyword pattern matching, parses line items via Claude,
+      and writes the results to structured Excel workbooks for cross-parish analysis.
+    </p>
+    <div class="chips">
+      <span class="chip">64 Parishes</span>
+      <span class="chip">Fiscal Year 2013</span>
+      <span class="chip">4 Statement Types</span>
+      <span class="chip">Python 3.11</span>
+      <span class="chip">Anthropic Claude</span>
+      <span class="chip">FastAPI</span>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       1. PIPELINE ARCHITECTURE
+  ════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="sec-kicker">Architecture</div>
+    <div class="sec-title">Five-stage pipeline</div>
+    <p class="sec-body">
+      Each parish audit PDF passes through five sequential stages. Text extraction and page
+      detection run locally with no API calls; the Claude API is invoked once per parish with
+      the assembled statement text, and results are cached to disk so re-runs are free.
+    </p>
+
+    <div class="flow">
+      <div class="flow-step s1">
+        <div class="step-n">01 / Upload</div>
+        <div class="step-title">PDF Ingest</div>
+        <div class="step-lib">FastAPI · multipart</div>
+        <ul class="step-pts">
+          <li>Browser POST to <code>/run</code></li>
+          <li>Saved to per-job temp dir</li>
+          <li>Filename = parish name</li>
+        </ul>
+      </div>
+      <div class="flow-step s2">
+        <div class="step-n">02 / Detect</div>
+        <div class="step-title">Page Detection</div>
+        <div class="step-lib">pdfplumber</div>
+        <ul class="step-pts">
+          <li>Every page text extracted</li>
+          <li>50+ keyword patterns per type</li>
+          <li>±3-page confirmation window</li>
+        </ul>
+      </div>
+      <div class="flow-step s3">
+        <div class="step-n">03 / Assemble</div>
+        <div class="step-title">Text Assembly</div>
+        <div class="step-lib">extractor.py</div>
+        <ul class="step-pts">
+          <li>Anchor + continuation pages</li>
+          <li>In-thousands flag detected</li>
+          <li>Manual overrides applied</li>
+        </ul>
+      </div>
+      <div class="flow-step s4">
+        <div class="step-n">04 / Parse</div>
+        <div class="step-title">LLM Extraction</div>
+        <div class="step-lib">Anthropic API</div>
+        <ul class="step-pts">
+          <li>Structured JSON per statement</li>
+          <li>All line items + totals</li>
+          <li>Results cached to disk</li>
+        </ul>
+      </div>
+      <div class="flow-step s5">
+        <div class="step-n">05 / Output</div>
+        <div class="step-title">Excel Build</div>
+        <div class="step-lib">openpyxl</div>
+        <ul class="step-pts">
+          <li>4 workbooks, 1 sheet/parish</li>
+          <li>Cross-sectional aggregation</li>
+          <li>SSE-streamed to browser</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       2. PAGE DETECTION
+  ════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="sec-kicker">Stage 2</div>
+    <div class="sec-title">Page detection — how it works</div>
+    <p class="sec-body">
+      The core challenge is that PDF text extraction from scanned documents is unreliable.
+      Rather than looking for exact strings, the detector uses layered logic: OCR-variant
+      keyword patterns that must all match, exclude lists that reject lookalike pages, a notes-page
+      guard that inspects only the title area, and a confirmation window that verifies data content
+      before committing to an anchor page.
+    </p>
+
+    <!-- _is_notes_page -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Notes-page guard — checks title area only, not footers</span>
+        <span class="code-file">pipeline/extractor.py</span>
+      </div>
+<pre><span class="kw">def</span> <span class="fn">_is_notes_page</span>(text: <span class="sp">str</span>) -> <span class="sp">bool</span>:
+    <span class="cm"># Notes title is always in the first ~200 chars (parish + title + date).</span>
+    <span class="cm"># Checking only the top means a "see notes to financial statements" footer</span>
+    <span class="cm"># on a CBS page does NOT fire this guard and stop collection early.</span>
+    first400 = text[:<span class="nm">400</span>]
+    very_top = text[:<span class="nm">200</span>]
+    <span class="kw">return</span> (
+<span class="hl">        <span class="str">"notes to financial"</span>   <span class="kw">in</span> first400</span>
+<span class="hl">        <span class="kw">or</span> <span class="str">"notes to the financial"</span> <span class="kw">in</span> first400</span>
+<span class="hl">        <span class="kw">or</span> <span class="str">"notes to the basic"</span>    <span class="kw">in</span> first400</span>
+        <span class="kw">or</span> (<span class="str">"notes to the"</span> <span class="kw">in</span> very_top <span class="kw">and</span> <span class="str">"statements"</span> <span class="kw">in</span> very_top)
+        <span class="kw">or</span> (<span class="str">"notes to"</span>     <span class="kw">in</span> text[:<span class="nm">150</span>] <span class="kw">and</span> <span class="str">"statements"</span> <span class="kw">in</span> text[:<span class="nm">150</span>])
+    )</pre>
+    </div>
+
+    <!-- STATEMENT_PATTERNS excerpt -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">CBS pattern set — every group handles a different OCR corruption mode</span>
+        <span class="code-file">pipeline/extractor.py</span>
+      </div>
+<pre>STATEMENT_PATTERNS = {
+    <span class="str">"cbs"</span>: {
+        <span class="str">"require_any"</span>: [
+<span class="hl">            [<span class="str">"balance sheet"</span>, <span class="str">"governmental fund"</span>],          <span class="cm"># standard</span></span>
+<span class="hl">            [<span class="str">"balance sheet"</span>, <span class="str">"governmental activities"</span>, <span class="str">"assets"</span>],  <span class="cm"># large cities</span></span>
+            [<span class="str">"balance sheet"</span>, <span class="str">"governmental fn"</span>],            <span class="cm"># OCR: "fnnds", "fnds"</span>
+            [<span class="str">"balance sheet"</span>, <span class="str">"govemmental fund"</span>],           <span class="cm"># dropped 'r'</span>
+            [<span class="str">"balance sheet"</span>, <span class="str">"eund"</span>],                       <span class="cm"># F→e: Union, Claiborne</span>
+            [<span class="str">"balance sheel"</span>, <span class="str">"governmental fund"</span>],          <span class="cm"># t→l: Cameron</span>
+            [<span class="str">"balance. sheet"</span>, <span class="str">"governmental fund"</span>],         <span class="cm"># period insert: Lafourche</span>
+            [<span class="str">"balancesheet"</span>,  <span class="str">"governmental fund"</span>],          <span class="cm"># merged: St. John the Baptist</span>
+            [<span class="str">"balanc e sheet"</span>, <span class="str">"ernmental fund"</span>],            <span class="cm"># space-split: Caldwell</span>
+<span class="hl">            [<span class="str">"governmental fund"</span>, <span class="str">"comparative totals"</span>, <span class="str">"assets"</span>],  <span class="cm"># no title: Winn</span></span>
+        ],
+        <span class="str">"exclude"</span>: [
+            <span class="str">"combining balance sheet"</span>, <span class="str">"combining statement"</span>,
+            <span class="str">"reconciliation"</span>, <span class="str">"reconcl"</span>,      <span class="cm"># "reconclliatioh" OCR variant</span>
+            <span class="str">"discretely presented"</span>, <span class="str">"fiduciary"</span>,
+        ] + MDA_EXCLUDE,
+    },
+}</pre>
+    </div>
+
+    <!-- _matches_any -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Core pattern matcher — applied to every page for every statement type</span>
+        <span class="code-file">pipeline/extractor.py</span>
+      </div>
+<pre><span class="kw">def</span> <span class="fn">_matches_any</span>(text: <span class="sp">str</span>, patterns: <span class="sp">dict</span>, allow_notes: <span class="sp">bool</span> = <span class="kw">False</span>) -> <span class="sp">bool</span>:
+<span class="hl-r">    <span class="cm"># Notes pages: title check first so CBS/SOA footer refs don't fire</span>
+    <span class="kw">if not</span> allow_notes <span class="kw">and</span> <span class="fn">_is_notes_page</span>(text):
+        <span class="kw">return False</span></span>
+
+<span class="hl-r">    <span class="cm"># Table of contents pages list every statement title but contain no data.</span>
+    <span class="cm"># Dotted leaders (10+ periods) uniquely identify TOC formatting.</span>
+    <span class="kw">if</span> <span class="str">"table of contents"</span> <span class="kw">in</span> text[:<span class="nm">400</span>] <span class="kw">or</span> <span class="str">"........."</span> <span class="kw">in</span> text:
+        <span class="kw">return False</span></span>
+
+    <span class="cm"># All exclude terms must be absent</span>
+    <span class="kw">for</span> excl <span class="kw">in</span> patterns.get(<span class="str">"exclude"</span>, []):
+        <span class="kw">if</span> excl <span class="kw">in</span> text:
+            <span class="kw">return False</span>
+
+<span class="hl-g">    <span class="cm"># Any one require_any group must fully match (AND within group, OR across groups)</span>
+    <span class="kw">for</span> req_group <span class="kw">in</span> patterns.get(<span class="str">"require_any"</span>, []):
+        <span class="kw">if all</span>(kw <span class="kw">in</span> text <span class="kw">for</span> kw <span class="kw">in</span> req_group):
+            <span class="kw">return True</span></span>
+    <span class="kw">return False</span></pre>
+    </div>
+
+    <!-- Confirmation window -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Confirmation window — prevents false positives from TOC or intro pages</span>
+        <span class="code-file">pipeline/extractor.py  ·  find_statement_pages()</span>
+      </div>
+<pre>anchor = <span class="kw">None</span>
+<span class="kw">for</span> i, text <span class="kw">in</span> <span class="fn">enumerate</span>(texts):
+    <span class="kw">if</span> <span class="fn">_matches_any</span>(text, patterns):
+<span class="hl">        <span class="cm"># Require at least one confirmation keyword within ±3 pages.</span>
+        <span class="cm"># A TOC page lists statement names but won't have "fund balance", etc.</span>
+        window = <span class="str">" "</span>.<span class="fn">join</span>(texts[<span class="fn">max</span>(<span class="nm">0</span>, i<span class="nm">-1</span>):<span class="fn">min</span>(n, i<span class="nm">+4</span>)])
+        <span class="kw">if any</span>(kw <span class="kw">in</span> window <span class="kw">for</span> kw <span class="kw">in</span> CONFIRMATION[stmt_type]):
+            anchor = i
+            <span class="kw">break</span></span>
+
+CONFIRMATION = {
+    <span class="str">"cbs"</span>:  [<span class="str">"assets"</span>, <span class="str">"liabilities"</span>, <span class="str">"fund balance"</span>],
+    <span class="str">"soa"</span>:  [<span class="str">"expenses"</span>, <span class="str">"general revenues"</span>],
+    <span class="str">"sona"</span>: [<span class="str">"primary"</span>, <span class="str">"assets"</span>, <span class="str">"liabilities"</span>],
+    <span class="str">"ca"</span>:   [<span class="str">"depreciation"</span>, <span class="str">"beginning balance"</span>, <span class="str">"increases"</span>],
+}</pre>
+    </div>
+
+    <!-- Continuation stops -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Continuation logic — collects multi-page statements, stops at section boundaries</span>
+        <span class="code-file">pipeline/extractor.py  ·  find_statement_pages()</span>
+      </div>
+<pre>collected = [anchor]
+<span class="kw">for</span> j <span class="kw">in</span> <span class="fn">range</span>(anchor + <span class="nm">1</span>, <span class="fn">min</span>(n, anchor + max_continuation + <span class="nm">1</span>)):
+    t = texts[j]
+    new_section = <span class="fn">any</span>([
+        <span class="str">"independent auditor"</span>  <span class="kw">in</span> t,
+        <span class="str">"management's discussion"</span> <span class="kw">in</span> t,
+<span class="hl">        <span class="fn">_is_notes_page</span>(t),                              <span class="cm"># title check, not footer</span></span>
+        <span class="str">"required supplementary"</span> <span class="kw">in</span> t,
+        (<span class="str">"combining balance sheet"</span> <span class="kw">in</span> t <span class="kw">and</span> stmt_type == <span class="str">"cbs"</span>),
+        (<span class="str">"reconciliation of"</span>      <span class="kw">in</span> t <span class="kw">and</span> stmt_type == <span class="str">"cbs"</span>),
+<span class="hl">        <span class="cm"># SOA: stop on any balance sheet title (checks [:300] so only title fires, not line items)</span>
+        (<span class="str">"balance sheet"</span> <span class="kw">in</span> t[:<span class="nm">300</span>] <span class="kw">and</span> stmt_type == <span class="str">"soa"</span>),</span>
+        (<span class="str">"balance sheel"</span>  <span class="kw">in</span> t[:<span class="nm">300</span>] <span class="kw">and</span> stmt_type == <span class="str">"soa"</span>),  <span class="cm"># t→l OCR</span>
+    ])
+    <span class="kw">if</span> new_section: <span class="kw">break</span>
+    <span class="kw">if</span> <span class="fn">len</span>(t) > <span class="nm">150</span>: collected.<span class="fn">append</span>(j)</pre>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       3. OCR CORRUPTION
+  ════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="sec-kicker">Engineering challenge</div>
+    <div class="sec-title">OCR corruption — real examples</div>
+    <p class="sec-body">
+      Louisiana parish audits are scanned documents. OCR produces systematic corruptions —
+      letter substitutions, word merges, inserted punctuation — that differ by scanning hardware
+      and scanner settings. The pipeline handles these with layered pattern variants rather than
+      single exact-match strings.
+    </p>
+
+    <div class="tbl-wrap">
+      <table>
+        <tr>
+          <th>Original text</th>
+          <th>OCR output</th>
+          <th>Pattern fix</th>
+          <th>Parish</th>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">Balance Sheel</td>
+          <td class="td-fix">"balance sheel"</td>
+          <td class="td-parish">Cameron</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">Balance. Sheet</td>
+          <td class="td-fix">"balance. sheet"</td>
+          <td class="td-parish">Lafourche</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">BalanceSheet</td>
+          <td class="td-fix">"balancesheet"</td>
+          <td class="td-parish">St. John the Baptist</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Balance Sheet</td>
+          <td class="td-bad">Balaoca</td>
+          <td class="td-fix">manual_pages.json</td>
+          <td class="td-parish">Orleans</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Governmental Funds</td>
+          <td class="td-bad">Governmental Eunds</td>
+          <td class="td-fix">"eund"</td>
+          <td class="td-parish">Union, Claiborne</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Governmental Funds</td>
+          <td class="td-bad">Govemmental Funds</td>
+          <td class="td-fix">"govemmental"</td>
+          <td class="td-parish">West Carroll</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Statement of Activities</td>
+          <td class="td-bad">StaXmcnl of Activities</td>
+          <td class="td-fix">manual_pages.json</td>
+          <td class="td-parish">Orleans</td>
+        </tr>
+        <tr>
+          <td class="td-orig">Management's Discussion</td>
+          <td class="td-bad">Managements Discussion</td>
+          <td class="td-fix">MDA_EXCLUDE list</td>
+          <td class="td-parish">Tangipahoa</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="callout">
+      <strong>Why this matters:</strong> Management Discussion &amp; Analysis pages describe capital assets
+      and financial activities in narrative form. Their text overlaps heavily with the actual financial
+      statements — the same keywords appear, but in sentence context rather than table headers.
+      Without a dedicated <code>MDA_EXCLUDE</code> list and the notes-page guard, these pages would
+      anchor the detector and the wrong pages would be sent to Claude.
+    </div>
+
+    <!-- Manual overrides -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">manual_pages.json — last-resort override for parishes beyond any pattern fix</span>
+        <span class="code-file">manual_pages.json  ·  1-indexed (as shown in PDF viewer)</span>
+      </div>
+<pre>{
+  <span class="str">"_comment"</span>: <span class="str">"Pages are 1-indexed. Add entries as: 'ParishName': { 'stmt_type': [page, ...] }"</span>,
+  <span class="str">"Orleans"</span>: {
+<span class="hl">    <span class="str">"sona"</span>: [<span class="nm">36</span>],       <span class="cm">// p36: "Statement of Net Positon" — readable</span></span>
+<span class="hl">    <span class="str">"soa"</span>:  [<span class="nm">37</span>],       <span class="cm">// p37: "StaXmcnl of Activities" — unreachable by any pattern</span></span>
+<span class="hl">    <span class="str">"cbs"</span>:  [<span class="nm">38</span>],       <span class="cm">// p38: "Balaoca – Govemnuintal Funds" — unreachable</span></span>
+<span class="hl">    <span class="str">"ca"</span>:   [<span class="nm">70</span>, <span class="nm">71</span>]    <span class="cm">// p70-71: Note 5 — Capital Assets, additions/deletions table</span></span>
+  }
+}</pre>
+    </div>
+
+    <!-- CA notes fallback -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Capital Assets fallback — searches Notes section when no primary schedule found</span>
+        <span class="code-file">pipeline/extractor.py  ·  find_statement_pages()</span>
+      </div>
+<pre><span class="cm"># If no standalone CA schedule was found as a primary financial statement,</span>
+<span class="cm"># search inside the Notes section with stricter patterns that require</span>
+<span class="cm"># both a beginning/ending structure AND non-depreciable categories.</span>
+<span class="kw">if</span> anchor <span class="kw">is None and</span> stmt_type == <span class="str">"ca"</span>:
+    CA_NOTES_PATTERNS = [
+<span class="hl">        [<span class="str">"capital assets"</span>, <span class="str">"accumulated depreciation"</span>, <span class="str">"beginning"</span>],</span>
+<span class="hl">        [<span class="str">"capital assets"</span>, <span class="str">"accumulated depreciation"</span>, <span class="str">"additions"</span>, <span class="str">"not being depreciated"</span>],</span>
+        [<span class="str">"capital assets"</span>, <span class="str">"additions"</span>, <span class="str">"deletions"</span>],      <span class="cm"># Assumption parish format</span>
+        [<span class="str">"capital asset"</span>,  <span class="str">"depreciable"</span>, <span class="str">"additions"</span>, <span class="str">"disposals"</span>],  <span class="cm"># Lincoln format</span>
+        [<span class="str">"capital assets"</span>, <span class="str">"accumulated depreciation"</span>, <span class="str">"cost at december"</span>],  <span class="cm"># Iberville</span>
+    ]
+    <span class="kw">for</span> i, text <span class="kw">in</span> <span class="fn">enumerate</span>(texts):
+<span class="hl">        <span class="kw">if not</span> <span class="fn">_is_notes_page</span>(text): <span class="kw">continue</span>  <span class="cm"># only search inside notes</span></span>
+        <span class="kw">for</span> req_group <span class="kw">in</span> CA_NOTES_PATTERNS:
+            <span class="kw">if all</span>(kw <span class="kw">in</span> text <span class="kw">for</span> kw <span class="kw">in</span> req_group):
+                anchor = i; <span class="kw">break</span></pre>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       4. FINANCIAL STATEMENTS
+  ════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="sec-kicker">Output</div>
+    <div class="sec-title">The four financial statements</div>
+    <p class="sec-body">
+      Every Louisiana parish audit contains these four statements. The pipeline produces a
+      separate Excel workbook for each, with one worksheet per parish, enabling cross-sectional
+      comparison across all 64 parishes.
+    </p>
+
+    <div class="stmt-grid">
+      <div class="stmt-card cbs">
+        <div class="stmt-abbr">CBS</div>
+        <div class="stmt-name">Combined Balance Sheet</div>
+        <div class="stmt-desc">
+          Governmental funds view. Each major fund (General, Debt Service, Capital Projects, etc.)
+          is a column. Shows what the government holds in cash and receivables, what it owes in
+          payables and deferred inflows, and the remaining fund balance — broken down by spendability
+          classification (nonspendable, restricted, committed, assigned, unassigned).
+          The most structurally variable statement across parishes.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Cash &amp; deposits</span>
+          <span class="sf">Taxes receivable</span>
+          <span class="sf">Accounts payable</span>
+          <span class="sf">Deferred inflows</span>
+          <span class="sf">Fund balances by type</span>
+        </div>
+      </div>
+
+      <div class="stmt-card soa">
+        <div class="stmt-abbr">SOA</div>
+        <div class="stmt-name">Statement of Activities</div>
+        <div class="stmt-desc">
+          Government-wide income statement equivalent. Each function (public safety, public works,
+          health, culture, etc.) shows total expenses, program revenues earned back (charges for
+          services, operating grants, capital grants), and the net cost covered by general revenues.
+          Property taxes and sales taxes appear here, along with change in net position.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Expenses by function</span>
+          <span class="sf">Charges for services</span>
+          <span class="sf">Operating &amp; capital grants</span>
+          <span class="sf">Property taxes</span>
+          <span class="sf">Sales taxes</span>
+          <span class="sf">Change in net position</span>
+        </div>
+      </div>
+
+      <div class="stmt-card sona">
+        <div class="stmt-abbr">SONA</div>
+        <div class="stmt-name">Statement of Net Position</div>
+        <div class="stmt-desc">
+          Government-wide balance sheet. Unlike the CBS, this includes long-lived capital assets
+          (infrastructure, buildings, equipment) and long-term liabilities (bonds, pension obligations,
+          compensated absences). Net position = total assets + deferred outflows − total liabilities −
+          deferred inflows. Broken into invested in capital assets, restricted, and unrestricted.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Capital assets net</span>
+          <span class="sf">Long-term liabilities</span>
+          <span class="sf">Deferred outflows</span>
+          <span class="sf">Deferred inflows</span>
+          <span class="sf">Net position components</span>
+        </div>
+      </div>
+
+      <div class="stmt-card ca">
+        <div class="stmt-abbr">CA</div>
+        <div class="stmt-name">Capital Assets Schedule</div>
+        <div class="stmt-desc">
+          Tracks every asset category from beginning to ending balance across the fiscal year:
+          land (not depreciated), construction in progress, buildings, machinery, infrastructure.
+          Shows additions (new purchases or completions), disposals, and annual depreciation charges.
+          May appear as a primary financial statement or as Note 4 / Note 5 inside the notes section.
+        </div>
+        <div class="stmt-fields">
+          <span class="sf">Land</span>
+          <span class="sf">Infrastructure</span>
+          <span class="sf">Buildings</span>
+          <span class="sf">Machinery</span>
+          <span class="sf">Additions / Disposals</span>
+          <span class="sf">Accumulated depreciation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       5. WEB APP
+  ════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="sec-kicker">Stage 1 &amp; 5</div>
+    <div class="sec-title">Web interface — upload and live streaming</div>
+    <p class="sec-body">
+      A FastAPI server accepts batch PDF uploads, runs the pipeline in a background thread,
+      and streams each log line to the browser via Server-Sent Events. The user sees a
+      live-scrolling terminal log and download buttons appear when all four workbooks are ready.
+    </p>
+
+    <!-- SSE streaming -->
+    <div class="code-wrap">
+      <div class="code-bar">
+        <span class="code-label">Background job + SSE stream — browser receives each log line in real time</span>
+        <span class="code-file">webapp/app.py</span>
+      </div>
+<pre><span class="sp">@app</span>.post(<span class="str">"/run"</span>)
+<span class="kw">async def</span> <span class="fn">run</span>(files: list[UploadFile] = <span class="fn">File</span>(...), year: <span class="sp">int</span> = <span class="fn">Form</span>(...)):
+    job_id = <span class="sp">str</span>(uuid.<span class="fn">uuid4</span>())[:<span class="nm">8</span>]
+    q: queue.Queue[<span class="sp">str</span>] = queue.<span class="fn">Queue</span>()
+    JOBS[job_id] = {<span class="str">"queue"</span>: q, <span class="str">"status"</span>: <span class="str">"running"</span>, <span class="str">"output_dir"</span>: <span class="sp">str</span>(out_dir)}
+
+    <span class="kw">def</span> <span class="fn">_run</span>():
+<span class="hl">        <span class="fn">run_pipeline</span>(..., progress_callback=<span class="kw">lambda</span> msg: q.<span class="fn">put</span>(msg))
+        q.<span class="fn">put</span>(<span class="str">"__DONE__"</span>)   <span class="cm"># sentinel — closes the SSE stream</span></span>
+
+    threading.<span class="fn">Thread</span>(target=_run, daemon=<span class="kw">True</span>).<span class="fn">start</span>()
+    <span class="kw">return</span> {<span class="str">"job_id"</span>: job_id}
+
+
+<span class="sp">@app</span>.get(<span class="str">"/progress/{job_id}"</span>)
+<span class="kw">def</span> <span class="fn">progress</span>(job_id: <span class="sp">str</span>):
+    <span class="kw">def</span> <span class="fn">stream</span>():
+        q = JOBS[job_id][<span class="str">"queue"</span>]
+        <span class="kw">while True</span>:
+            <span class="kw">try</span>:
+                msg = q.<span class="fn">get</span>(timeout=<span class="nm">25</span>)
+            <span class="kw">except</span> queue.Empty:
+                <span class="kw">yield</span> <span class="str">"data: \n\n"</span>   <span class="cm"># heartbeat — keeps connection alive</span>
+                <span class="kw">continue</span>
+<span class="hl">            <span class="kw">yield</span> <span class="sp">f</span><span class="str">"data: {json.dumps(msg)}\n\n"</span>
+            <span class="kw">if</span> msg == <span class="str">"__DONE__"</span>: <span class="kw">break</span></span>
+
+    <span class="kw">return</span> <span class="fn">StreamingResponse</span>(
+        <span class="fn">stream</span>(),
+        media_type=<span class="str">"text/event-stream"</span>,
+        headers={<span class="str">"Cache-Control"</span>: <span class="str">"no-cache"</span>, <span class="str">"X-Accel-Buffering"</span>: <span class="str">"no"</span>},
+    )</pre>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════════
+       6. TECH STACK
+  ════════════════════════════════════════════ -->
+  <div class="section">
+    <div class="sec-kicker">Dependencies</div>
+    <div class="sec-title">Tech stack</div>
+
+    <div class="tbl-wrap">
+      <table>
+        <tr>
+          <th style="width:20%">Library</th>
+          <th style="width:18%">Role</th>
+          <th>What it does in this pipeline</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="td-name">pdfplumber</div>
+            <div class="td-mono">pip install pdfplumber</div>
+          </td>
+          <td><div class="td-role">PDF extraction</div></td>
+          <td class="td-desc">Extracts text from every page of a scanned PDF. Newlines are normalized to spaces so multi-line titles can be matched as substrings without splitting across lines.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="td-name">Anthropic Claude</div>
+            <div class="td-mono">claude-3-5-sonnet</div>
+          </td>
+          <td><div class="td-role">LLM parsing</div></td>
+          <td class="td-desc">Receives raw OCR text for each statement type and returns a validated JSON object with every line item — fund columns, asset categories, revenue sources, depreciation schedules. Handles OCR garbling in the text itself.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="td-name">FastAPI</div>
+            <div class="td-mono">pip install fastapi</div>
+          </td>
+          <td><div class="td-role">Web server</div></td>
+          <td class="td-desc">Handles multipart PDF uploads, spawns background pipeline threads, streams progress via SSE, and serves completed Excel files for download. Four routes total.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="td-name">uvicorn</div>
+            <div class="td-mono">pip install uvicorn</div>
+          </td>
+          <td><div class="td-role">ASGI server</div></td>
+          <td class="td-desc">Runs the FastAPI application locally. Start with <code>python -m uvicorn app:app --port 8000</code> then open <code>localhost:8000</code>.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="td-name">openpyxl</div>
+            <div class="td-mono">pip install openpyxl</div>
+          </td>
+          <td><div class="td-role">Excel output</div></td>
+          <td class="td-desc">Builds four workbooks (CBS, SOA, SONA, Capital Assets). Each parish gets its own worksheet. A Cross-Sectional sheet appended last aggregates standardised key metrics across all processed parishes.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="td-name">threading + Queue</div>
+            <div class="td-mono">stdlib</div>
+          </td>
+          <td><div class="td-role">Concurrency</div></td>
+          <td class="td-desc">The pipeline runs in a daemon thread so the web server stays responsive. Each <code>progress_callback</code> invocation puts a message in a <code>queue.Queue</code>; the SSE endpoint drains the queue and yields it to the browser.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="footer">
+    Louisiana Parish Audit Pipeline &nbsp;·&nbsp; Python 3.11 &nbsp;·&nbsp;
+    pdfplumber · anthropic · fastapi · openpyxl &nbsp;·&nbsp;
+    Source: <code>audit_project/pipeline/</code> and <code>audit_project/webapp/</code>
+  </div>
+
+</div>
+</body>
+</html>
