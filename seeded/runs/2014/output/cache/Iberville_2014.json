@@ -1,0 +1,989 @@
+{
+  "cbs": {
+    "parish": "Iberville",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Drainage Maintenance",
+      "Building Maintenance",
+      "Public Sales Tax",
+      "Solid Waste",
+      "Capital Improvement Fund",
+      "Medical Facility",
+      "CSBG",
+      "Iberville Parish Louisiana Recovery Authority",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 3176173,
+        "Drainage Maintenance": 820428,
+        "Building Maintenance": 561406,
+        "Public Sales Tax": 3977828,
+        "Solid Waste": 3309225,
+        "Capital Improvement Fund": 3321131,
+        "Medical Facility": 1375556,
+        "CSBG": 49993,
+        "Iberville Parish Louisiana Recovery Authority": 7335673,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 23827413
+      },
+      "investments": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 2304610,
+        "Drainage Maintenance": 2570739,
+        "Building Maintenance": 1496419,
+        "Public Sales Tax": 399415,
+        "Solid Waste": 524785,
+        "Capital Improvement Fund": 188368,
+        "Medical Facility": 1400321,
+        "CSBG": 424350,
+        "Iberville Parish Louisiana Recovery Authority": 800959,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 10119866
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": 292436,
+        "Drainage Maintenance": null,
+        "Building Maintenance": 29450,
+        "Public Sales Tax": null,
+        "Solid Waste": 205300,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": 29500,
+        "Iberville Parish Louisiana Recovery Authority": 4000,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 560686
+      },
+      "other_assets": {
+        "General": 48880,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 48880
+      },
+      "total_assets": {
+        "General": 6273519,
+        "Drainage Maintenance": 3430617,
+        "Building Maintenance": 4406743,
+        "Public Sales Tax": 3738010,
+        "Solid Waste": 3309399,
+        "Capital Improvement Fund": 2675377,
+        "Medical Facility": 474343,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": 8185512,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 34656745
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 464739,
+        "Drainage Maintenance": 84406,
+        "Building Maintenance": 155322,
+        "Public Sales Tax": 115384,
+        "Solid Waste": 255771,
+        "Capital Improvement Fund": 129393,
+        "Medical Facility": 1400321,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": 214072,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 2819108
+      },
+      "retainage_payable": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_liabilities": {
+        "General": 465581,
+        "Drainage Maintenance": 136923,
+        "Building Maintenance": 64546,
+        "Public Sales Tax": 38867,
+        "Solid Waste": 7485,
+        "Capital Improvement Fund": 53239,
+        "Medical Facility": null,
+        "CSBG": 374334,
+        "Iberville Parish Louisiana Recovery Authority": 60018,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1220993
+      },
+      "total_liabilities": {
+        "General": 929820,
+        "Drainage Maintenance": 221329,
+        "Building Maintenance": 239868,
+        "Public Sales Tax": 154451,
+        "Solid Waste": 263356,
+        "Capital Improvement Fund": 182632,
+        "Medical Facility": 1400321,
+        "CSBG": 374334,
+        "Iberville Parish Louisiana Recovery Authority": 274090,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 4040101
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid items",
+          "values": {
+            "General": 392436,
+            "Drainage Maintenance": null,
+            "Building Maintenance": 29450,
+            "Public Sales Tax": null,
+            "Solid Waste": 205300,
+            "Capital Improvement Fund": null,
+            "Medical Facility": null,
+            "CSBG": 29500,
+            "Iberville Parish Louisiana Recovery Authority": 4000,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 660686
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": 139220,
+            "Drainage Maintenance": 3179838,
+            "Building Maintenance": 1317957,
+            "Public Sales Tax": 4222792,
+            "Solid Waste": 3470754,
+            "Capital Improvement Fund": 3026767,
+            "Medical Facility": 1375356,
+            "CSBG": 100009,
+            "Iberville Parish Louisiana Recovery Authority": 6898367,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 24131460
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General": 1012855,
+            "Drainage Maintenance": null,
+            "Building Maintenance": null,
+            "Public Sales Tax": null,
+            "Solid Waste": null,
+            "Capital Improvement Fund": null,
+            "Medical Facility": null,
+            "CSBG": null,
+            "Iberville Parish Louisiana Recovery Authority": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 1012855
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General": 4811743,
+        "Drainage Maintenance": null,
+        "Building Maintenance": null,
+        "Public Sales Tax": null,
+        "Solid Waste": null,
+        "Capital Improvement Fund": null,
+        "Medical Facility": null,
+        "CSBG": null,
+        "Iberville Parish Louisiana Recovery Authority": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 4811743
+      },
+      "total_fund_balances": {
+        "General": 5343399,
+        "Drainage Maintenance": 3209388,
+        "Building Maintenance": 2323157,
+        "Public Sales Tax": 4352292,
+        "Solid Waste": 3474754,
+        "Capital Improvement Fund": 3026767,
+        "Medical Facility": 1375356,
+        "CSBG": 100009,
+        "Iberville Parish Louisiana Recovery Authority": 7911422,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 30616644
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 6273519,
+      "Drainage Maintenance": 3430617,
+      "Building Maintenance": 4406743,
+      "Public Sales Tax": 3738010,
+      "Solid Waste": 3309399,
+      "Capital Improvement Fund": 2675377,
+      "Medical Facility": 474343,
+      "CSBG": null,
+      "Iberville Parish Louisiana Recovery Authority": 8185512,
+      "Other Governmental Funds": null,
+      "Total Governmental Funds": null
+    },
+    "cross_sectional": {
+      "cash": 3176173,
+      "investments": null,
+      "receivables": 2304610,
+      "inventory": null,
+      "other_assets": 48880,
+      "transfers_in": null,
+      "prepaid_items": 292436,
+      "total_assets": 6273519,
+      "deferred_outflows": null,
+      "accounts_payable": 464739,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 465581,
+      "total_liabilities": 929820,
+      "deferred_inflows": null,
+      "reserved": 531656,
+      "unreserved_designated": 1012855,
+      "unreserved_undesignated": 4811743,
+      "total_fund_balances": 5343399,
+      "total_liabilities_and_fund_balances": 6273519
+    },
+    "_uncertainties": [
+      {
+        "field": "assets.other_receivables",
+        "fund": "All funds",
+        "reason": "Receivables line appears to be net of allowance for uncollectible but no breakdown between different receivable types (taxes, special assessments, other, due from governments)",
+        "extracted": "Combined into other_receivables",
+        "alternative": null,
+        "page": 35,
+        "text_snippet": "Receivables (net ornllowancc fbt uncollectible) 2304.fi10 2,5ro,739 1,496,419 399,415 524,785 188368 1.400321 424350 800,959 10.119,866",
+        "severity": "medium"
+      },
+      {
+        "field": "assets.cash_and_deposits",
+        "fund": "Other Governmental Funds",
+        "reason": "Cash value for Other Governmental Funds appears blank/missing in the PDF text but Total includes it",
+        "extracted": null,
+        "alternative": "calculated by difference",
+        "page": 35,
+        "text_snippet": "Cosh and cuh ctpiivalcnts S 3^76,173 8 820,428 8- 561,406 $ 3,977,828 8 3309,225 8 3321,131 8 1375,556 S 49,993 8 7335.673 8 23.827,413",
+        "severity": "low"
+      },
+      {
+        "field": "assets.other_receivables",
+        "fund": "Other Governmental Funds",
+        "reason": "Receivables value for Other Governmental Funds appears blank/missing in the PDF text but Total includes it",
+        "extracted": null,
+        "alternative": "calculated by difference",
+        "page": 35,
+        "text_snippet": "Receivables (net ornllowancc fbt uncollectible) 2304.fi10 2,5ro,739 1,496,419 399,415 524,785 188368 1.400321 424350 800,959 10.119,866",
+        "severity": "low"
+      },
+      {
+        "field": "assets.prepaid_items",
+        "fund": "Other Governmental Funds",
+        "reason": "Prepaid items value for Other Governmental Funds appears blank/missing in the PDF text but Total includes it",
+        "extracted": null,
+        "alternative": "calculated by difference",
+        "page": 35,
+        "text_snippet": "P^aid Ucfiu 292,436 29,450 205300 29,500 4,000 560,586",
+        "severity": "low"
+      },
+      {
+        "field": "assets.total_assets",
+        "fund": "CSBG and Other Governmental Funds",
+        "reason": "Total assets values for these funds appear blank/missing in PDF but can be calculated from fund balances + liabilities",
+        "extracted": null,
+        "alternative": "can be derived",
+        "page": 35,
+        "text_snippet": "TOTAL ASSETS 8 6J273519 5 3.430.617 $ 4,406.743 $ 3,738.010 S; 3309399 8 2.675377 s 474.343 s 8.185.512 8 34;656;745",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.accounts_payable",
+        "fund": "CSBG and Other Governmental Funds",
+        "reason": "Accounts payable values for these funds appear blank/missing in PDF text",
+        "extracted": null,
+        "alternative": "can be derived",
+        "page": 35,
+        "text_snippet": "Accounts payable 8 464;>39 5 84,406 S 155322 8 115384 8 255,771 8 129,393 8 1,400321 8 \u2022 % .214,072 8 2.819,108",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.other_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Other payables value for Other Governmental Funds appears blank/missing in PDF text",
+        "extracted": null,
+        "alternative": "can be derived",
+        "page": 35,
+        "text_snippet": "Odicr payables 46S.581 136.923 64.546 38,867 7,485 53.239 . 374334 60.018 1.220.993",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.total_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Total liabilities value for Other Governmental Funds appears blank/missing in PDF text",
+        "extracted": null,
+        "alternative": "can be derived",
+        "page": 35,
+        "text_snippet": "Total iiabflitics 929.820 221329 239.868 154.451 - 263356 182.632 1.400321 374.334 274.090 4.040.101",
+        "severity": "low"
+      },
+      {
+        "field": "fund_balances.restricted",
+        "fund": "Other Governmental Funds",
+        "reason": "Restricted fund balance value for Other Governmental Funds appears blank/missing in PDF text",
+        "extracted": null,
+        "alternative": "can be derived",
+        "page": 35,
+        "text_snippet": "Restricted 139,220 3,179,838 1317,957 4,222,792 3,470,754 3,026,767 1375356, 100,009 6.898367 24,131,460",
+        "severity": "low"
+      },
+      {
+        "field": "total_liabilities_and_fund_balances",
+        "fund": "Total Governmental Funds",
+        "reason": "Total liabilities and fund balances for Total Governmental Funds column appears blank/missing in PDF",
+        "extracted": null,
+        "alternative": 34656745,
+        "page": 35,
+        "text_snippet": "TOTAL UABIUTIES AND FUND BALANCE 8 6J73il9 \u00a5 3.430.617 S \u2022> VA* me % 4,406,743 S 3,738^10 $ 3309.399 8 2.675377 s 474343 % va5,512",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.reserved",
+        "fund": "General",
+        "reason": "Calculated as sum of nonspendable (392436) + restricted (139220) = 531656",
+        "extracted": 531656,
+        "alternative": null,
+        "page": 35,
+        "text_snippet": "Non Spendable 392,436... Restricted 139,220",
+        "severity": "low"
+      },
+      {
+        "field": "assets.other_assets",
+        "fund": "General",
+        "reason": "Line labeled 'Other assets' but OCR quality makes exact value uncertain",
+        "extracted": 48880,
+        "alternative": null,
+        "page": 35,
+        "text_snippet": "Othcf nsscu 48,880 48380",
+        "severity": "medium"
+      },
+      {
+        "field": "fund_balances.total_fund_balances",
+        "fund": "Drainage Maintenance",
+        "reason": "Value appears as 3,209,388 but may be OCR error for 3,309,388",
+        "extracted": 3209388,
+        "alternative": 3309388,
+        "page": 35,
+        "text_snippet": "Total iwid balances 5.343.399 3309388 2323.157",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Iberville",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 21155383,
+        "charges_for_services": 527692,
+        "operating_grants": 164389,
+        "capital_grants": 14400,
+        "net_expense_revenue": -20448702
+      },
+      "public_safety": {
+        "expenses": 4093306,
+        "charges_for_services": 697956,
+        "operating_grants": 330982,
+        "capital_grants": null,
+        "net_expense_revenue": -3064368
+      },
+      "public_works": {
+        "expenses": 12346757,
+        "charges_for_services": 1610,
+        "operating_grants": 744394,
+        "capital_grants": 29720407,
+        "net_expense_revenue": 18319654
+      },
+      "health_and_welfare": {
+        "expenses": 2311952,
+        "charges_for_services": 100334,
+        "operating_grants": 436301,
+        "capital_grants": null,
+        "net_expense_revenue": -1775417
+      },
+      "economic_development": {
+        "expenses": 267660,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -267660
+      },
+      "culture_and_recreation": {
+        "expenses": 824014,
+        "charges_for_services": 12728,
+        "operating_grants": 126614,
+        "capital_grants": null,
+        "net_expense_revenue": -684672
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 691880,
+        "net_expense_revenue": -691880
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 41390852,
+        "charges_for_services": 1340320,
+        "operating_grants": 1802780,
+        "capital_grants": 29734807,
+        "net_expense_revenue": -8712945
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5872715,
+      "sales_taxes": 19346721,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 112796,
+      "other_taxes": 141975,
+      "occupational_licenses": null,
+      "gaming_revenues": 125556,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 1089548,
+      "non_employer_pension_contribution": null,
+      "investment_income": 28950,
+      "miscellaneous": 5249364,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Gain on sale of capital assets",
+          "amount": 81135
+        }
+      ],
+      "total_general_revenues": 31923304
+    },
+    "change_in_net_position": 23210359,
+    "net_position_beginning": 104967613,
+    "net_position_ending": 128177872,
+    "cross_sectional": {
+      "property_ad_valorem": 5872715,
+      "sales_use_taxes": 19472277,
+      "severance_taxes": null,
+      "other_tax_revenue": 254771,
+      "total_tax_revenue": 25599763,
+      "state_revenue_sharing": 1089548,
+      "state_intergovernmental": 1802780,
+      "federal_intergovernmental": 29734807,
+      "local_transfer": null,
+      "all_other_revenue": 5359449,
+      "total_other_revenue": 37986584,
+      "total_program_revenue": 32877907,
+      "total_revenues": 64464347,
+      "general_government": -20448702,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -20448702,
+      "public_safety": -3064368,
+      "public_works": 18319654,
+      "economic_development": -267660,
+      "health_and_welfare": -1775417,
+      "culture_and_recreation": -684672,
+      "interest_debt_service": -691880,
+      "all_other_expenditures": null,
+      "total_expenditures": 41390852
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Combined alcoholic beverage taxes (16,419) and gaming taxes (125,556) as other taxes; gaming also separated in its own field",
+        "extracted": 141975,
+        "alternative": null,
+        "page": 34,
+        "text_snippet": "Alcoholic beverage taxes 16,419 \u2022 16,419\nGaniihg taxes 125356 125,556",
+        "severity": "low"
+      },
+      {
+        "field": "sales_use_taxes",
+        "fund": "cross_sectional",
+        "reason": "Combined sales_taxes (19,346,721) and gaming_revenues (125,556) for cross-sectional sales_use_taxes field",
+        "extracted": 19472277,
+        "alternative": 19346721,
+        "page": 34,
+        "text_snippet": "Sales 19346,721 19346,721\nGaniihg taxes 125356 125,556",
+        "severity": "medium"
+      },
+      {
+        "field": "state_shared_revenue",
+        "fund": null,
+        "reason": "Listed as 'Unrestricted grants and contributions' which may include other sources beyond state revenue sharing",
+        "extracted": 1089548,
+        "alternative": null,
+        "page": 34,
+        "text_snippet": "Unrestricted grants and concnbutions 1,089348 1,089,548",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Iberville",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": null
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": null
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_fields",
+        "fund": null,
+        "reason": "Page provided contains only independent auditor's report and opinion letter, not the Statement of Net Position financial data",
+        "extracted": null,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "INDEPENDENT AUDITOR'S REPORT...We have audited the accompanying financial statements of the governmental activities",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Iberville",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 2975825,
+          "increases": null,
+          "decreases": null,
+          "ending": 3135380
+        },
+        "construction_in_progress": {
+          "beginning": 6375594,
+          "increases": null,
+          "decreases": null,
+          "ending": 22208945
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 31725027,
+          "increases": null,
+          "decreases": null,
+          "ending": 30995424
+        },
+        "machinery_and_equipment": {
+          "beginning": 4023678,
+          "increases": null,
+          "decreases": null,
+          "ending": 3776825
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 55243002,
+          "increases": null,
+          "decreases": null,
+          "ending": 55191369
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": 100186335,
+        "increases": null,
+        "decreases": null,
+        "ending": 115277843
+      }
+    },
+    "cross_sectional": {
+      "land": 3135380,
+      "construction_in_progress": 22208945,
+      "other_non_depreciable": null,
+      "buildings_net": 30995424,
+      "improvements_net": null,
+      "machinery_net": 3776825,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 55191369,
+      "total_governmental_net": 115277843
+    },
+    "_uncertainties": [
+      {
+        "field": "land.beginning",
+        "fund": "governmental_activities",
+        "reason": "OCR quality issue - number appears as 2,975,825 but display shows 3,lb5i380 as ending for 2014",
+        "extracted": 2975825,
+        "alternative": null,
+        "page": 30,
+        "text_snippet": "Land S 3,lb5i380 $ 2,975,825 193,511 $ 193,511 $ 3,298,891 S 3,169,336",
+        "severity": "medium"
+      },
+      {
+        "field": "land.ending",
+        "fund": "governmental_activities",
+        "reason": "OCR error in original text showing 3,lb5i380 - interpreted as 3,135,380 based on context",
+        "extracted": 3135380,
+        "alternative": 3165380,
+        "page": 30,
+        "text_snippet": "Land S 3,lb5i380 $ 2,975,825",
+        "severity": "high"
+      },
+      {
+        "field": "construction_in_progress.beginning",
+        "fund": "governmental_activities",
+        "reason": "Total column shows 6375594 but unclear if this is governmental or combined total",
+        "extracted": 6375594,
+        "alternative": 687059,
+        "page": 30,
+        "text_snippet": "Constructbn in Progress g 22.208.943 687.059 s 156.733 s 22.896.004 3 6375.594",
+        "severity": "high"
+      },
+      {
+        "field": "total_capital_assets_net.beginning",
+        "fund": "governmental_activities",
+        "reason": "OCR shows 100,18633 which appears to be missing a digit separator",
+        "extracted": 100186335,
+        "alternative": 10018633,
+        "page": 30,
+        "text_snippet": "Total g 115.277,843 g 100,18633 g 10,925.769 g 20,468.505 g 126,203,612 g 120,654,898",
+        "severity": "medium"
+      }
+    ]
+  }
+}

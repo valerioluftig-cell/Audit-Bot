@@ -1,0 +1,466 @@
+{
+  "cbs": {
+    "parish": "Tangipahoa",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road and Bridge Funds",
+      "Garbage District No. 1",
+      "Health Unit",
+      "Long Term Recovery Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 33530,
+        "Road and Bridge Funds": 8876791,
+        "Garbage District No. 1": 3237884,
+        "Health Unit": 70094,
+        "Long Term Recovery Fund": 231501,
+        "Other Governmental Funds": 3246034,
+        "Total Governmental Funds": 15695834
+      },
+      "investments": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 2202810,
+        "Road and Bridge Funds": 1365357,
+        "Garbage District No. 1": 3086864,
+        "Health Unit": 2278085,
+        "Long Term Recovery Fund": 77983,
+        "Other Governmental Funds": 861646,
+        "Total Governmental Funds": 9872745
+      },
+      "due_from_other_governments": {
+        "General Fund": 414377,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 414377
+      },
+      "due_from_other_funds": {
+        "General Fund": 399279,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": 700000,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1099279
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": 570546,
+        "Road and Bridge Funds": 100758,
+        "Garbage District No. 1": 176461,
+        "Health Unit": 20060,
+        "Long Term Recovery Fund": 150368,
+        "Other Governmental Funds": 9531,
+        "Total Governmental Funds": 1027724
+      },
+      "total_assets": {
+        "General Fund": 3620542,
+        "Road and Bridge Funds": 10342906,
+        "Garbage District No. 1": 6501209,
+        "Health Unit": 3068239,
+        "Long Term Recovery Fund": 459852,
+        "Other Governmental Funds": 4117211,
+        "Total Governmental Funds": 28109959
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 618185,
+        "Road and Bridge Funds": 1287808,
+        "Garbage District No. 1": 271599,
+        "Health Unit": 173149,
+        "Long Term Recovery Fund": 134347,
+        "Other Governmental Funds": 170359,
+        "Total Governmental Funds": 2655447
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 700000,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": 176000,
+        "Other Governmental Funds": 233179,
+        "Total Governmental Funds": 1109179
+      },
+      "other_liabilities": {
+        "General Fund": 48085,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": 104756,
+        "Health Unit": null,
+        "Long Term Recovery Fund": null,
+        "Other Governmental Funds": 291924,
+        "Total Governmental Funds": 444765
+      },
+      "total_liabilities": {
+        "General Fund": 1366270,
+        "Road and Bridge Funds": 1287808,
+        "Garbage District No. 1": 376355,
+        "Health Unit": 173149,
+        "Long Term Recovery Fund": 310347,
+        "Other Governmental Funds": 695462,
+        "Total Governmental Funds": 4209391
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Grant Funds",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Funds": null,
+            "Garbage District No. 1": null,
+            "Health Unit": null,
+            "Long Term Recovery Fund": 150368,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 150368
+          }
+        }
+      ],
+      "total": {
+        "General Fund": null,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": 150368,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 150368
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": 225386,
+            "Road and Bridge Funds": 8970571,
+            "Garbage District No. 1": 6101161,
+            "Health Unit": 2875030,
+            "Long Term Recovery Fund": null,
+            "Other Governmental Funds": 3337814,
+            "Total Governmental Funds": 21509962
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": 497560,
+            "Road and Bridge Funds": null,
+            "Garbage District No. 1": null,
+            "Health Unit": null,
+            "Long Term Recovery Fund": null,
+            "Other Governmental Funds": 49451,
+            "Total Governmental Funds": 547011
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General Fund": 72986,
+            "Road and Bridge Funds": 84527,
+            "Garbage District No. 1": 23693,
+            "Health Unit": 20060,
+            "Long Term Recovery Fund": null,
+            "Other Governmental Funds": 69324,
+            "Total Governmental Funds": 270590
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 1458340,
+        "Road and Bridge Funds": null,
+        "Garbage District No. 1": null,
+        "Health Unit": null,
+        "Long Term Recovery Fund": -863,
+        "Other Governmental Funds": -34840,
+        "Total Governmental Funds": 1422637
+      },
+      "total_fund_balances": {
+        "General Fund": 2254272,
+        "Road and Bridge Funds": 9055098,
+        "Garbage District No. 1": 6124854,
+        "Health Unit": 2895090,
+        "Long Term Recovery Fund": -863,
+        "Other Governmental Funds": 3421749,
+        "Total Governmental Funds": 23750200
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 3620542,
+      "Road and Bridge Funds": 10342906,
+      "Garbage District No. 1": 6501209,
+      "Health Unit": 3068239,
+      "Long Term Recovery Fund": 459852,
+      "Other Governmental Funds": 4117211,
+      "Total Governmental Funds": 28109959
+    },
+    "cross_sectional": {
+      "cash": 33530,
+      "investments": null,
+      "receivables": 3031564,
+      "inventory": null,
+      "other_assets": 570546,
+      "transfers_in": 399279,
+      "prepaid_items": null,
+      "total_assets": 3620542,
+      "deferred_outflows": null,
+      "accounts_payable": 618185,
+      "deferred_revenues": null,
+      "government_transfers": 700000,
+      "other_liabilities": 48085,
+      "total_liabilities": 1366270,
+      "deferred_inflows": null,
+      "reserved": 225386,
+      "unreserved_designated": 570546,
+      "unreserved_undesignated": 1458340,
+      "total_fund_balances": 2254272,
+      "total_liabilities_and_fund_balances": 3620542
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "General Fund",
+        "reason": "Labeled as 'Restricted asset - cash' which could be classified as restricted cash rather than other assets",
+        "extracted": 570546,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Restricted asset - cash 570,546",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Line item says 'Due to other governments' which might be a separate category but mapped to other_liabilities",
+        "extracted": 48085,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Due to other governments 48,085",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "General Fund",
+        "reason": "Statement shows 'Receivables, net' without breakdown - mapped to other_receivables but could include taxes and other types",
+        "extracted": 2202810,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Receivables, net 2,202,810",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": null,
+  "sona": {
+    "parish": "Tangipahoa",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 16117497,
+        "investments": 557878,
+        "taxes_receivable": null,
+        "other_receivables": 9874591,
+        "due_from_other_governments": 414377,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 80437,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 180628136
+      },
+      "other_noncurrent_assets": 1037478,
+      "total_assets": 208072079,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 2735360,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 105000,
+        "bonds_payable_noncurrent": 8239663,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1722972
+      },
+      "total_liabilities": 13247760,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Grant Funds",
+            "amount": 150368
+          }
+        ],
+        "total": 150368
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 178143136,
+        "restricted": 1239486,
+        "unrestricted": 15291329,
+        "total_net_position": 194673951
+      }
+    },
+    "component_units": {
+      "total_assets": 21932049,
+      "total_liabilities": 2075660,
+      "total_net_position": 19856389
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Line item 'Accounts, salaries, and other payables' may include both accounts payable and accrued liabilities but cannot be separated",
+        "extracted": 2735360,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accounts, salaries, and other payables 2,735,360",
+        "severity": "low"
+      },
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Due to other governments (444,765) and due to volunteer fire departments (945,892) not mapped to standard current liability fields",
+        "extracted": null,
+        "alternative": 1390657,
+        "page": 15,
+        "text_snippet": "Due to other governments 444,765 / Due to volunteer fire departments 945,892",
+        "severity": "medium"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Restricted assets - cash classified as noncurrent, but could be current restricted asset depending on restrictions",
+        "extracted": 1037478,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Restricted assets - cash 1,037,478",
+        "severity": "low"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined Capital projects (unlabeled/zero), Debt service (295,989), and Other purposes (943,497) into total restricted",
+        "extracted": 1239486,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Restricted for: Capital projects / Debt service 295,989 / Other purposes 943,497",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": null
+}

@@ -1,0 +1,834 @@
+{
+  "cbs": {
+    "parish": "Pointe Coupee",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Parishwide Roads and Drainage",
+      "Pointe Coupee Bridges",
+      "Library",
+      "Detention Center",
+      "Debt Service Road Construction",
+      "Road Improvement",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 119668,
+        "Parishwide Roads and Drainage": 83428,
+        "Pointe Coupee Bridges": 22216,
+        "Library": 1264119,
+        "Detention Center": 32075,
+        "Debt Service Road Construction": 518294,
+        "Road Improvement": 136805,
+        "Other Governmental Funds": 102998,
+        "Total Governmental Funds": 2279603
+      },
+      "investments": {
+        "General": 706925,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 706925
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 1303228,
+        "Parishwide Roads and Drainage": 134455,
+        "Pointe Coupee Bridges": null,
+        "Library": 1591230,
+        "Detention Center": 22017,
+        "Debt Service Road Construction": null,
+        "Road Improvement": 183478,
+        "Other Governmental Funds": 74416,
+        "Total Governmental Funds": 3308824
+      },
+      "due_from_other_governments": {
+        "General": 282816,
+        "Parishwide Roads and Drainage": 345830,
+        "Pointe Coupee Bridges": 48201,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": 1411,
+        "Other Governmental Funds": 22528,
+        "Total Governmental Funds": 700786
+      },
+      "due_from_other_funds": {
+        "General": 1666026,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": 95000,
+        "Road Improvement": 1875000,
+        "Other Governmental Funds": 250000,
+        "Total Governmental Funds": 3886026
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": 90129,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": 18,
+        "Total Governmental Funds": 90147
+      },
+      "other_assets": {
+        "General": 12371,
+        "Parishwide Roads and Drainage": 335,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": 660,
+        "Total Governmental Funds": 13366
+      },
+      "total_assets": {
+        "General": 3474238,
+        "Parishwide Roads and Drainage": 564048,
+        "Pointe Coupee Bridges": 70417,
+        "Library": 3562274,
+        "Detention Center": 54092,
+        "Debt Service Road Construction": 613294,
+        "Road Improvement": 2196694,
+        "Other Governmental Funds": 450620,
+        "Total Governmental Funds": 10985677
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 361105,
+        "Parishwide Roads and Drainage": 367545,
+        "Pointe Coupee Bridges": 66657,
+        "Library": 128682,
+        "Detention Center": 56814,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": 20343,
+        "Total Governmental Funds": 1001146
+      },
+      "retainage_payable": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 2409350,
+        "Parishwide Roads and Drainage": 194000,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": 904000,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": 77000,
+        "Total Governmental Funds": 3584350
+      },
+      "other_liabilities": {
+        "General": 476736,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 476736
+      },
+      "total_liabilities": {
+        "General": 3247191,
+        "Parishwide Roads and Drainage": 561545,
+        "Pointe Coupee Bridges": 66657,
+        "Library": 128682,
+        "Detention Center": 960814,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": 97343,
+        "Total Governmental Funds": 5062232
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenues",
+          "values": {
+            "General": 75652,
+            "Parishwide Roads and Drainage": null,
+            "Pointe Coupee Bridges": null,
+            "Library": null,
+            "Detention Center": null,
+            "Debt Service Road Construction": null,
+            "Road Improvement": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 75652
+          }
+        }
+      ],
+      "total": {
+        "General": 75652,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": null,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 75652
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General": 90129,
+            "Parishwide Roads and Drainage": null,
+            "Pointe Coupee Bridges": null,
+            "Library": null,
+            "Detention Center": null,
+            "Debt Service Road Construction": null,
+            "Road Improvement": null,
+            "Other Governmental Funds": 18,
+            "Total Governmental Funds": 90147
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Parishwide Roads and Drainage": null,
+            "Pointe Coupee Bridges": null,
+            "Library": null,
+            "Detention Center": null,
+            "Debt Service Road Construction": 613294,
+            "Road Improvement": 2196694,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 2809988
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General": 61266,
+            "Parishwide Roads and Drainage": 2503,
+            "Pointe Coupee Bridges": 3760,
+            "Library": 3433592,
+            "Detention Center": null,
+            "Debt Service Road Construction": null,
+            "Road Improvement": null,
+            "Other Governmental Funds": 353259,
+            "Total Governmental Funds": 3854380
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General": null,
+        "Parishwide Roads and Drainage": null,
+        "Pointe Coupee Bridges": null,
+        "Library": null,
+        "Detention Center": -906722,
+        "Debt Service Road Construction": null,
+        "Road Improvement": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": -906722
+      },
+      "total_fund_balances": {
+        "General": 151395,
+        "Parishwide Roads and Drainage": 2503,
+        "Pointe Coupee Bridges": 3760,
+        "Library": 3433592,
+        "Detention Center": -906722,
+        "Debt Service Road Construction": 613294,
+        "Road Improvement": 2196694,
+        "Other Governmental Funds": 353277,
+        "Total Governmental Funds": 5847793
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 3474238,
+      "Parishwide Roads and Drainage": 564048,
+      "Pointe Coupee Bridges": 70417,
+      "Library": 3562274,
+      "Detention Center": 54092,
+      "Debt Service Road Construction": 613294,
+      "Road Improvement": 2196694,
+      "Other Governmental Funds": 450620,
+      "Total Governmental Funds": 10985677
+    },
+    "cross_sectional": {
+      "cash": 119668,
+      "investments": 706925,
+      "receivables": 1586044,
+      "inventory": null,
+      "other_assets": 12371,
+      "transfers_in": 1666026,
+      "prepaid_items": 90129,
+      "total_assets": 3474238,
+      "deferred_outflows": null,
+      "accounts_payable": 361105,
+      "deferred_revenues": null,
+      "government_transfers": 2409350,
+      "other_liabilities": 476736,
+      "total_liabilities": 3247191,
+      "deferred_inflows": 75652,
+      "reserved": 90129,
+      "unreserved_designated": 61266,
+      "unreserved_undesignated": null,
+      "total_fund_balances": 151395,
+      "total_liabilities_and_fund_balances": 3474238
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General",
+        "reason": "Due to other governments listed separately, unclear if this should be classified as other_liabilities or separate category",
+        "extracted": 476736,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Due to other govemments 476,736",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "All funds",
+        "reason": "Line item is 'Accounts payable and accrued expenses' - combined line, unclear if should split between accounts_payable and accrued_liabilities",
+        "extracted": "Combined into accounts_payable",
+        "alternative": "Could split between two fields",
+        "page": 23,
+        "text_snippet": "Accounts payable and accrued expenses $ 361,105",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Pointe Coupee",
+    "year": 2014,
+    "in_thousands": true,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2813000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": 1017000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_works": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "economic_development": {
+        "expenses": 90000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 1820000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": 1220000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 245000,
+        "net_expense_revenue": null
+      },
+      "other_activities": [
+        {
+          "label": "Transportation and development",
+          "expenses": 2760000,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        },
+        {
+          "label": "Drainage",
+          "expenses": 1113000,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        }
+      ],
+      "total": {
+        "expenses": 11078000,
+        "charges_for_services": 1172000,
+        "operating_grants": 2233000,
+        "capital_grants": 2100000,
+        "net_expense_revenue": null
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 2911000,
+      "sales_taxes": 3274000,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": 537000,
+      "other_items": [
+        {
+          "label": "Other",
+          "amount": 139000
+        }
+      ],
+      "total_general_revenues": null
+    },
+    "change_in_net_position": 1288000,
+    "net_position_beginning": 13501000,
+    "net_position_ending": 14789000,
+    "cross_sectional": {
+      "property_ad_valorem": 2911000,
+      "sales_use_taxes": 3274000,
+      "severance_taxes": null,
+      "other_tax_revenue": 139000,
+      "total_tax_revenue": 6324000,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": 537000,
+      "all_other_revenue": 139000,
+      "total_other_revenue": 676000,
+      "total_program_revenue": 5505000,
+      "total_revenues": 11829000,
+      "general_government": null,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": null,
+      "public_safety": null,
+      "public_works": null,
+      "economic_development": null,
+      "health_and_welfare": null,
+      "culture_and_recreation": null,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 11078000
+    },
+    "_uncertainties": [
+      {
+        "field": "net_expense_revenue",
+        "fund": "governmental_activities_all_functions",
+        "reason": "Statement of Activities table shows only aggregated program revenues at governmental activities level, not broken down by individual function",
+        "extracted": null,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "Program revenues: Charges for services $ 1,172, Operating grants and contributions 2,233, Capital grants and contributions 2,100",
+        "severity": "high"
+      },
+      {
+        "field": "other_tax_revenue",
+        "fund": "cross_sectional",
+        "reason": "The 'Other' revenue category of 139 may include non-tax items, unclear if this should be classified as other_tax_revenue",
+        "extracted": 139000,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "General revenues: Ad valorem taxes 2,911, Sales taxes 3,274, Other 139",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Pointe Coupee",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": null
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": null
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "parish",
+        "fund": null,
+        "reason": "Parish name not mentioned in provided text",
+        "extracted": null,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Only references to 'Police Jury' found, no specific parish name identified",
+        "severity": "high"
+      },
+      {
+        "field": "all_statement_data",
+        "fund": "governmental_activities",
+        "reason": "Provided text is from MD&A section only, does not contain the actual Statement of Net Position referenced on pages 15-17",
+        "extracted": null,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "The Statement of Net Position and the Statement of Activities (on pages 15 and 16-17) provide information about the activities",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Pointe Coupee",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 841274,
+          "increases": null,
+          "decreases": null,
+          "ending": 841274
+        },
+        "construction_in_progress": {
+          "beginning": 2713183,
+          "increases": 618895,
+          "decreases": -2713181,
+          "ending": 618897
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 3554457,
+          "increases": 618895,
+          "decreases": -2713181,
+          "ending": 1460171
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 8917113,
+          "increases": 216049,
+          "decreases": null,
+          "ending": 9133162
+        },
+        "machinery_and_equipment": {
+          "beginning": 7024983,
+          "increases": 117328,
+          "decreases": null,
+          "ending": 7142311
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 10560782,
+          "increases": 2699614,
+          "decreases": null,
+          "ending": 13260396
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": 2832496,
+          "increases": 127858,
+          "decreases": -4624,
+          "ending": 2955730
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 29335374,
+          "increases": 3160849,
+          "decreases": -4624,
+          "ending": 32491599
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -4010421,
+          "increases": -227027,
+          "decreases": null,
+          "ending": -4237448
+        },
+        "machinery_and_equipment": {
+          "beginning": -6687304,
+          "increases": -133954,
+          "decreases": null,
+          "ending": -6821258
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": -2713733,
+          "increases": -710849,
+          "decreases": null,
+          "ending": -3424582
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": -2323621,
+          "increases": -147451,
+          "decreases": 4624,
+          "ending": -2466448
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -15735079,
+          "increases": -1219281,
+          "decreases": 4624,
+          "ending": -16949736
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 13600295,
+        "increases": 1941568,
+        "decreases": null,
+        "ending": 15541863
+      },
+      "total_capital_assets_net": {
+        "beginning": 17154752,
+        "increases": 2560463,
+        "decreases": -2713181,
+        "ending": 17002034
+      }
+    },
+    "cross_sectional": {
+      "land": 841274,
+      "construction_in_progress": 618897,
+      "other_non_depreciable": null,
+      "buildings_net": 4895714,
+      "improvements_net": null,
+      "machinery_net": 321053,
+      "other_depreciable_net": null,
+      "books_net": 489282,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 9835814,
+      "total_governmental_net": 17002034
+    },
+    "_uncertainties": [
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Equipment, furnishings, and vehicles' may combine multiple asset categories but only mapped to machinery_and_equipment",
+        "extracted": 7142311,
+        "alternative": null,
+        "page": 61,
+        "text_snippet": "Equipment, furnishings, and vehicles 7,024,983 117,328 7,142,311",
+        "severity": "medium"
+      },
+      {
+        "field": "books_and_periodicals",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Library collection' is mapped to books_and_periodicals as closest match",
+        "extracted": 2955730,
+        "alternative": null,
+        "page": 61,
+        "text_snippet": "Libraiy collection 2,832,4% 127,858 (4,624) 2,955,730",
+        "severity": "low"
+      }
+    ]
+  }
+}

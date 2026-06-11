@@ -1,0 +1,829 @@
+{
+  "cbs": {
+    "parish": "St. John the Baptist",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "1992 Sales Tax District",
+      "General Roads and Bridges",
+      "2010 Sewer Obligation Sinking",
+      "2014 Construction Bond",
+      "Non-Major General Obligation Bond",
+      "Non-Major Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 123594,
+        "1992 Sales Tax District": 4161873,
+        "General Roads and Bridges": 711962,
+        "2010 Sewer Obligation Sinking": 7013264,
+        "2014 Construction Bond": 13936598,
+        "Non-Major General Obligation Bond": 15780917,
+        "Non-Major Governmental Funds": 26975412,
+        "Total Governmental Funds": 68703620
+      },
+      "investments": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": 2057106,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": 5062424,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": 4378926,
+        "Total Governmental Funds": 11498456
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 126876,
+        "1992 Sales Tax District": 1469962,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": 567302,
+        "Non-Major Governmental Funds": 1432200,
+        "Total Governmental Funds": 3881612
+      },
+      "due_from_other_governments": {
+        "General": 52301,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": 956268,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": 2087713,
+        "Total Governmental Funds": 3096282
+      },
+      "due_from_other_funds": {
+        "General": 1135361,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": 1629607,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": 1915355,
+        "Total Governmental Funds": 4680323
+      },
+      "due_from_component_units": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": 48645,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": 101937,
+        "Total Governmental Funds": 150582
+      },
+      "other_assets": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 3544028,
+        "1992 Sales Tax District": 7261442,
+        "General Roads and Bridges": 3343697,
+        "2010 Sewer Obligation Sinking": 12075688,
+        "2014 Construction Bond": 13936598,
+        "Non-Major General Obligation Bond": 15780917,
+        "Non-Major Governmental Funds": 36068505,
+        "Total Governmental Funds": 92010875
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 817576,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": 1064620,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": 316408,
+        "Non-Major Governmental Funds": 1878308,
+        "Total Governmental Funds": 4076912
+      },
+      "retainage_payable": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 663101,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": 100000,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": 2716654,
+        "Total Governmental Funds": 3479755
+      },
+      "other_liabilities": {
+        "General": 21935,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": 21935
+      },
+      "total_liabilities": {
+        "General": 1480677,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": 100000,
+        "2010 Sewer Obligation Sinking": 1400013,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": 403799,
+        "Non-Major Governmental Funds": 5136482,
+        "Total Governmental Funds": 8520971
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General": 54842,
+            "1992 Sales Tax District": null,
+            "General Roads and Bridges": null,
+            "2010 Sewer Obligation Sinking": 201184,
+            "2014 Construction Bond": null,
+            "Non-Major General Obligation Bond": null,
+            "Non-Major Governmental Funds": 1845768,
+            "Total Governmental Funds": 2101794
+          }
+        }
+      ],
+      "total": {
+        "General": 54842,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": 201184,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": 1845768,
+        "Total Governmental Funds": 2101794
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General": 48645,
+            "1992 Sales Tax District": null,
+            "General Roads and Bridges": null,
+            "2010 Sewer Obligation Sinking": null,
+            "2014 Construction Bond": null,
+            "Non-Major General Obligation Bond": null,
+            "Non-Major Governmental Funds": 101937,
+            "Total Governmental Funds": 150582
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "1992 Sales Tax District": 7161442,
+            "General Roads and Bridges": 1671802,
+            "2010 Sewer Obligation Sinking": 12075688,
+            "2014 Construction Bond": null,
+            "Non-Major General Obligation Bond": null,
+            "Non-Major Governmental Funds": 23007658,
+            "Total Governmental Funds": 43916590
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General": null,
+            "1992 Sales Tax District": null,
+            "General Roads and Bridges": null,
+            "2010 Sewer Obligation Sinking": null,
+            "2014 Construction Bond": 13936598,
+            "Non-Major General Obligation Bond": 15377118,
+            "Non-Major Governmental Funds": 5976660,
+            "Total Governmental Funds": 35361074
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General": 1959864,
+        "1992 Sales Tax District": null,
+        "General Roads and Bridges": null,
+        "2010 Sewer Obligation Sinking": null,
+        "2014 Construction Bond": null,
+        "Non-Major General Obligation Bond": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": 1959864
+      },
+      "total_fund_balances": {
+        "General": 2008509,
+        "1992 Sales Tax District": 7161442,
+        "General Roads and Bridges": 1742500,
+        "2010 Sewer Obligation Sinking": 12075688,
+        "2014 Construction Bond": 13936598,
+        "Non-Major General Obligation Bond": 15377118,
+        "Non-Major Governmental Funds": 29086255,
+        "Total Governmental Funds": 81388110
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 3544028,
+      "1992 Sales Tax District": 7261442,
+      "General Roads and Bridges": 3343697,
+      "2010 Sewer Obligation Sinking": 12075688,
+      "2014 Construction Bond": 13936598,
+      "Non-Major General Obligation Bond": 15780917,
+      "Non-Major Governmental Funds": 36068505,
+      "Total Governmental Funds": 92010875
+    },
+    "cross_sectional": {
+      "cash": 123594,
+      "investments": null,
+      "receivables": 2236283,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 1135361,
+      "prepaid_items": 48645,
+      "total_assets": 3544028,
+      "deferred_outflows": null,
+      "accounts_payable": 817576,
+      "deferred_revenues": null,
+      "government_transfers": 663101,
+      "other_liabilities": 21935,
+      "total_liabilities": 1480677,
+      "deferred_inflows": 54842,
+      "reserved": 48645,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 1959864,
+      "total_fund_balances": 2008509,
+      "total_liabilities_and_fund_balances": 3544028
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "General",
+        "reason": "Combined Accounts (111,895) and Other (139) receivables, plus Sales and use taxes (14,987). Text shows these on separate lines.",
+        "extracted": 126876,
+        "alternative": null,
+        "page": 50,
+        "text_snippet": "Accounts 111,895 ... Sales anduse taxes 14,987 ... Other 139",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Non-Major Governmental Funds",
+        "reason": "Combined Accounts (219,852), Sales and use taxes (1,325,009), Other (107,191) minus Due from other funds portion (943,163 vs 1,915,355)",
+        "extracted": 1432200,
+        "alternative": null,
+        "page": 50,
+        "text_snippet": "Accounts ... 219,852 ... Sales anduse taxes ... 1,325,009 ... Other ... 107,191",
+        "severity": "low"
+      },
+      {
+        "field": "due_to_other_funds",
+        "fund": "Non-Major Governmental Funds",
+        "reason": "Calculated by subtracting other liabilities from total to reconcile. Row shows 162,856 + 2,553,798 for due to other funds line items.",
+        "extracted": 2716654,
+        "alternative": 2716654,
+        "page": 50,
+        "text_snippet": "Due to other funds ... 162,856 2,553,798",
+        "severity": "medium"
+      },
+      {
+        "field": "committed",
+        "fund": "Non-Major Governmental Funds",
+        "reason": "Calculated as 6,047,358 shown in text, but my extraction shows 5,976,660 after reconciliation. Need to verify math.",
+        "extracted": 5976660,
+        "alternative": 6047358,
+        "page": 50,
+        "text_snippet": "Committed ... 6,047,358",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. John the Baptist",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 11370749,
+        "charges_for_services": 1379786,
+        "operating_grants": 1850,
+        "capital_grants": 188264,
+        "net_expense_revenue": -9800849
+      },
+      "public_safety": {
+        "expenses": 8456381,
+        "charges_for_services": 1954566,
+        "operating_grants": 227993,
+        "capital_grants": null,
+        "net_expense_revenue": -6273822
+      },
+      "public_works": {
+        "expenses": 12398787,
+        "charges_for_services": 387122,
+        "operating_grants": 790221,
+        "capital_grants": 5566601,
+        "net_expense_revenue": -5654843
+      },
+      "economic_development": {
+        "expenses": 1361016,
+        "charges_for_services": null,
+        "operating_grants": 1125,
+        "capital_grants": 1656515,
+        "net_expense_revenue": 296624
+      },
+      "health_and_welfare": {
+        "expenses": 1764806,
+        "charges_for_services": 494184,
+        "operating_grants": 298607,
+        "capital_grants": null,
+        "net_expense_revenue": -972015
+      },
+      "culture_and_recreation": {
+        "expenses": 1941362,
+        "charges_for_services": 96758,
+        "operating_grants": 43347,
+        "capital_grants": null,
+        "net_expense_revenue": -1801257
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 2350194,
+        "net_expense_revenue": -2350194
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 39643295,
+        "charges_for_services": 4312416,
+        "operating_grants": 1363143,
+        "capital_grants": 7411380,
+        "net_expense_revenue": -26556356
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 12129200,
+      "sales_taxes": 19642496,
+      "severance_taxes": 37831,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 1145444,
+      "other_taxes": 618584,
+      "occupational_licenses": null,
+      "gaming_revenues": 575635,
+      "state_revenue_sharing": 110262,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 244899,
+      "miscellaneous": 677707,
+      "transfers": -2624331,
+      "other_items": [
+        {
+          "label": "Grants and contributions not restricted",
+          "amount": 19392
+        }
+      ],
+      "total_general_revenues": 32001484
+    },
+    "change_in_net_position": 5445128,
+    "net_position_beginning": 74007274,
+    "net_position_ending": 79452402,
+    "cross_sectional": {
+      "property_ad_valorem": 12129200,
+      "sales_use_taxes": 20218131,
+      "severance_taxes": 37831,
+      "other_tax_revenue": 1806977,
+      "total_tax_revenue": 34192139,
+      "state_revenue_sharing": 110262,
+      "state_intergovernmental": 19392,
+      "federal_intergovernmental": 8774523,
+      "local_transfer": -2624331,
+      "all_other_revenue": 922606,
+      "total_other_revenue": -1572071,
+      "total_program_revenue": 13086939,
+      "total_revenues": 45707007,
+      "general_government": -9800849,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -9800849,
+      "public_safety": -6273822,
+      "public_works": -5654843,
+      "economic_development": 296624,
+      "health_and_welfare": -972015,
+      "culture_and_recreation": -1801257,
+      "interest_debt_service": -2350194,
+      "all_other_expenditures": 0,
+      "total_expenditures": 39643295
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Combined beer taxes (42,949) and video poker taxes (575,635) as other taxes; uncertain if categorization is correct",
+        "extracted": 618584,
+        "alternative": null,
+        "page": 49,
+        "text_snippet": "Beer taxes 42,949\nVideo poker taxes 575,635",
+        "severity": "medium"
+      },
+      {
+        "field": "federal_intergovernmental",
+        "fund": null,
+        "reason": "Assumed total capital and operating grants represent intergovernmental revenue, but source (federal vs state) not explicitly stated",
+        "extracted": 8774523,
+        "alternative": null,
+        "page": 48,
+        "text_snippet": "Operating Grants and Contributions 1,363,143\nCapital Grants and Contributions 7,411,380",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. John the Baptist",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 68703620,
+        "investments": null,
+        "taxes_receivable": 14875716,
+        "other_receivables": 504352,
+        "due_from_other_governments": 3096282,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 150582,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 15682406,
+        "depreciable_net": 70495237,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 86177643
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 174708763,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 4076912,
+        "retainage_payable": 942369,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 526136,
+        "other_current_liabilities": 21935
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 95256361,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 6020921,
+        "restricted": 43916590,
+        "unrestricted": 29514891,
+        "total_net_position": 79452402
+      }
+    },
+    "component_units": {
+      "total_assets": 14693174,
+      "total_liabilities": 1294558,
+      "total_net_position": 13398616
+    },
+    "_uncertainties": [
+      {
+        "field": "taxes_receivable",
+        "fund": "governmental_activities",
+        "reason": "Combined ad valorem taxes and sales and use taxes into single taxes_receivable field",
+        "extracted": 14875716,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Ad valorem taxes 11,498,456 and Sales and use taxes 3,377,260",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Combined Accounts receivable and Other receivable into other_receivables field",
+        "extracted": 504352,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Accounts 331,747 and Other 172,605",
+        "severity": "low"
+      },
+      {
+        "field": "retainage_payable",
+        "fund": "governmental_activities",
+        "reason": "Contracts payable may be retainage or another type of liability",
+        "extracted": 942369,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Contracts payable 942,369",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Current (5,187,032) and noncurrent (84,501,977) amounts not broken down by type in this statement",
+        "extracted": null,
+        "alternative": 89689009,
+        "page": 47,
+        "text_snippet": "Due within one year 5,187,032, Due in more than one year 84,501,977",
+        "severity": "high"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined Special Revenue and Debt service restricted amounts",
+        "extracted": 43916590,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Restricted for: Special Revenue 29,172,521, Debt service 14,744,069",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "St. John the Baptist",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 213860831
+    },
+    "_uncertainties": [
+      {
+        "field": "total_governmental_net",
+        "fund": "governmental_activities",
+        "reason": "Only total net capital assets provided in narrative; no detailed schedule with beginning/increases/decreases columns found",
+        "extracted": 213860831,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "As of December 31, 2014, the Parish's capital assets amounted to $213,860,831 net of accumulated depreciation.",
+        "severity": "high"
+      }
+    ]
+  }
+}

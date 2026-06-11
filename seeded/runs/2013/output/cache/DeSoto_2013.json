@@ -1,0 +1,937 @@
+{
+  "cbs": {
+    "parish": "DeSoto",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Solid Waste Fund",
+      "Road Fund",
+      "Airport Fund",
+      "Jail Fund",
+      "Sales Tax",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 1781428,
+        "Solid Waste Fund": 3599880,
+        "Road Fund": 1648535,
+        "Airport Fund": 345044,
+        "Jail Fund": 4820618,
+        "Sales Tax": 3000,
+        "Other Governmental Funds": 964292,
+        "Total Governmental Funds": 13162797
+      },
+      "investments": {
+        "General Fund": 7067168,
+        "Solid Waste Fund": 6352258,
+        "Road Fund": 10699,
+        "Airport Fund": 6925401,
+        "Jail Fund": 0,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 20355526
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 4148243,
+        "Solid Waste Fund": 4276536,
+        "Road Fund": 4141732,
+        "Airport Fund": 65057,
+        "Jail Fund": 0,
+        "Sales Tax": 805224,
+        "Other Governmental Funds": 178376,
+        "Total Governmental Funds": 13615168
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 201448,
+        "Solid Waste Fund": 119358,
+        "Road Fund": 397861,
+        "Airport Fund": 0,
+        "Jail Fund": 79572,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 798239
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": 0,
+        "Solid Waste Fund": 0,
+        "Road Fund": 0,
+        "Airport Fund": 38185,
+        "Jail Fund": 0,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 38185
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": 0,
+        "Solid Waste Fund": 0,
+        "Road Fund": 44000,
+        "Airport Fund": 0,
+        "Jail Fund": 0,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 44000
+      },
+      "total_assets": {
+        "General Fund": 13198287,
+        "Solid Waste Fund": 14348032,
+        "Road Fund": 6242827,
+        "Airport Fund": 7373687,
+        "Jail Fund": 4900190,
+        "Sales Tax": 808224,
+        "Other Governmental Funds": 1142668,
+        "Total Governmental Funds": 48013915
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 296375,
+        "Solid Waste Fund": 245861,
+        "Road Fund": 345433,
+        "Airport Fund": 7088,
+        "Jail Fund": 22052,
+        "Sales Tax": 9502,
+        "Other Governmental Funds": 180044,
+        "Total Governmental Funds": 1106355
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": 1800,
+        "Solid Waste Fund": 0,
+        "Road Fund": 0,
+        "Airport Fund": 0,
+        "Jail Fund": 0,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 1800
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road Fund": null,
+        "Airport Fund": null,
+        "Jail Fund": null,
+        "Sales Tax": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 0,
+        "Solid Waste Fund": 0,
+        "Road Fund": 0,
+        "Airport Fund": 0,
+        "Jail Fund": 0,
+        "Sales Tax": 599791,
+        "Other Governmental Funds": 198448,
+        "Total Governmental Funds": 798239
+      },
+      "other_liabilities": {
+        "General Fund": 8966,
+        "Solid Waste Fund": 0,
+        "Road Fund": 0,
+        "Airport Fund": 0,
+        "Jail Fund": 0,
+        "Sales Tax": 198931,
+        "Other Governmental Funds": 78199,
+        "Total Governmental Funds": 286096
+      },
+      "total_liabilities": {
+        "General Fund": 307141,
+        "Solid Waste Fund": 245861,
+        "Road Fund": 345433,
+        "Airport Fund": 7088,
+        "Jail Fund": 22052,
+        "Sales Tax": 808224,
+        "Other Governmental Funds": 456691,
+        "Total Governmental Funds": 2192490
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable Property Taxes",
+          "values": {
+            "General Fund": 236806,
+            "Solid Waste Fund": 195922,
+            "Road Fund": 175995,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 608723
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 236806,
+        "Solid Waste Fund": 195922,
+        "Road Fund": 175995,
+        "Airport Fund": 0,
+        "Jail Fund": 0,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 608723
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Inventory",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 38185,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 38185
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Airport",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 7328414,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 7328414
+          }
+        },
+        {
+          "label": "Judicial",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 69,
+            "Total Governmental Funds": 69
+          }
+        },
+        {
+          "label": "Public Safety",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 4878138,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 4878138
+          }
+        },
+        {
+          "label": "Roads",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 5721399,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 5721399
+          }
+        },
+        {
+          "label": "Sanitation",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 13906249,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 13906249
+          }
+        },
+        {
+          "label": "Health & Welfare",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 52581,
+            "Total Governmental Funds": 52581
+          }
+        },
+        {
+          "label": "Witness & Juror Fees",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 458392,
+            "Total Governmental Funds": 458392
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Self-Insured Premiums",
+          "values": {
+            "General Fund": 13809,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 0,
+            "Total Governmental Funds": 13809
+          }
+        },
+        {
+          "label": "Animal Control",
+          "values": {
+            "General Fund": 0,
+            "Solid Waste Fund": 0,
+            "Road Fund": 0,
+            "Airport Fund": 0,
+            "Jail Fund": 0,
+            "Sales Tax": 0,
+            "Other Governmental Funds": 174935,
+            "Total Governmental Funds": 174935
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 12640531,
+        "Solid Waste Fund": 0,
+        "Road Fund": 0,
+        "Airport Fund": 0,
+        "Jail Fund": 0,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 0,
+        "Total Governmental Funds": 12640531
+      },
+      "total_fund_balances": {
+        "General Fund": 12654340,
+        "Solid Waste Fund": 13906249,
+        "Road Fund": 5721399,
+        "Airport Fund": 7366599,
+        "Jail Fund": 4878138,
+        "Sales Tax": 0,
+        "Other Governmental Funds": 685977,
+        "Total Governmental Funds": 45212702
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 13198287,
+      "Solid Waste Fund": 14348032,
+      "Road Fund": 6242827,
+      "Airport Fund": 7373687,
+      "Jail Fund": 4900190,
+      "Sales Tax": 808224,
+      "Other Governmental Funds": 1142668,
+      "Total Governmental Funds": 48013915
+    },
+    "cross_sectional": {
+      "cash": 1781428,
+      "investments": 7067168,
+      "receivables": 4148243,
+      "inventory": 0,
+      "other_assets": 0,
+      "transfers_in": 201448,
+      "prepaid_items": null,
+      "total_assets": 13198287,
+      "deferred_outflows": null,
+      "accounts_payable": 296375,
+      "deferred_revenues": null,
+      "government_transfers": 0,
+      "other_liabilities": 10766,
+      "total_liabilities": 307141,
+      "deferred_inflows": 236806,
+      "reserved": 0,
+      "unreserved_designated": 13809,
+      "unreserved_undesignated": 12640531,
+      "total_fund_balances": 12654340,
+      "total_liabilities_and_fund_balances": 13198287
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Other liabilities components aggregated from multiple line items: Master Bank Overdrafts + Advance from Grantors",
+        "extracted": 78199,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Master Bank Overdrafts 55,314; Advance from Grantors 22,885",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": null,
+        "reason": "Statement labels as 'Revenue Receivables' which may include taxes receivable, but no breakdown provided",
+        "extracted": 4148243,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Revenue Receivables $ 4,148,243",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "DeSoto",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 6078670,
+        "charges_for_services": 1328433,
+        "operating_grants": 11382,
+        "capital_grants": 0,
+        "net_expense_revenue": -4738855
+      },
+      "public_safety": {
+        "expenses": 1096246,
+        "charges_for_services": 0,
+        "operating_grants": 111066,
+        "capital_grants": 0,
+        "net_expense_revenue": -985180
+      },
+      "public_works": {
+        "expenses": 10446041,
+        "charges_for_services": 197301,
+        "operating_grants": 0,
+        "capital_grants": 398964,
+        "net_expense_revenue": -9849776
+      },
+      "economic_development": {
+        "expenses": 3299353,
+        "charges_for_services": 0,
+        "operating_grants": 2689861,
+        "capital_grants": 0,
+        "net_expense_revenue": -609492
+      },
+      "health_and_welfare": {
+        "expenses": 2206951,
+        "charges_for_services": 0,
+        "operating_grants": 1605452,
+        "capital_grants": 0,
+        "net_expense_revenue": -601499
+      },
+      "culture_and_recreation": {
+        "expenses": 279817,
+        "charges_for_services": 0,
+        "operating_grants": 0,
+        "capital_grants": 0,
+        "net_expense_revenue": -279817
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 255,
+        "net_expense_revenue": -255
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 4058906,
+          "charges_for_services": 946774,
+          "operating_grants": 0,
+          "capital_grants": 0,
+          "net_expense_revenue": -3112132
+        },
+        {
+          "label": "Transportation",
+          "expenses": 814370,
+          "charges_for_services": 242760,
+          "operating_grants": 160493,
+          "capital_grants": 0,
+          "net_expense_revenue": -411117
+        },
+        {
+          "label": "Animal Control",
+          "expenses": 345903,
+          "charges_for_services": 22434,
+          "operating_grants": 700,
+          "capital_grants": 0,
+          "net_expense_revenue": -322769
+        }
+      ],
+      "total": {
+        "expenses": 28626512,
+        "charges_for_services": 2737702,
+        "operating_grants": 4578954,
+        "capital_grants": 398964,
+        "net_expense_revenue": -20910892
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 12327537,
+      "sales_taxes": 7344797,
+      "severance_taxes": 1233958,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 242053,
+      "occupational_licenses": null,
+      "gaming_revenues": 137400,
+      "state_revenue_sharing": 51600,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 483798,
+      "miscellaneous": 1045612,
+      "transfers": -19350,
+      "other_items": [
+        {
+          "label": "Tourism",
+          "amount": 104653
+        },
+        {
+          "label": "Video Poker",
+          "amount": 137400
+        },
+        {
+          "label": "Rentals, Leases & Royalties",
+          "amount": 624592
+        },
+        {
+          "label": "Other Miscellaneous",
+          "amount": 421020
+        }
+      ],
+      "total_general_revenues": 22710005
+    },
+    "change_in_net_position": 1799113,
+    "net_position_beginning": 112259766,
+    "net_position_ending": 114058879,
+    "cross_sectional": {
+      "property_ad_valorem": 12327537,
+      "sales_use_taxes": 7482197,
+      "severance_taxes": 1233958,
+      "other_tax_revenue": 104653,
+      "total_tax_revenue": 21148345,
+      "state_revenue_sharing": 51600,
+      "state_intergovernmental": 0,
+      "federal_intergovernmental": 0,
+      "local_transfer": -19350,
+      "all_other_revenue": 1529410,
+      "total_other_revenue": 1561660,
+      "total_program_revenue": 7715620,
+      "total_revenues": 30425625,
+      "general_government": -4738855,
+      "legislative": -400475,
+      "judicial": -1677527,
+      "elections": -101110,
+      "finance_and_administration": -1705295,
+      "other_general_government": -854448,
+      "total_general_government": -4738855,
+      "public_safety": -985180,
+      "public_works": -9849776,
+      "economic_development": -609492,
+      "health_and_welfare": -601499,
+      "culture_and_recreation": -279817,
+      "interest_debt_service": -255,
+      "all_other_expenditures": -3845818,
+      "total_expenditures": 28626512
+    },
+    "_uncertainties": [
+      {
+        "field": "gaming_revenues",
+        "fund": null,
+        "reason": "Video Poker appears both as separate revenue line and included in gaming_revenues calculation; double-counted in cross_sectional sales_use_taxes",
+        "extracted": 137400,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Video Poker 137,400",
+        "severity": "medium"
+      },
+      {
+        "field": "miscellaneous",
+        "fund": null,
+        "reason": "Combined 'Rentals, Leases & Royalties' (624,592) and 'Other Miscellaneous' (421,020) as both appear to be miscellaneous items",
+        "extracted": 1045612,
+        "alternative": 421020,
+        "page": 17,
+        "text_snippet": "Rentals, Leases & Royalties 624,592\nOther Miscellaneous 421,020",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "DeSoto",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 13162797,
+        "investments": 20355526,
+        "taxes_receivable": null,
+        "other_receivables": 13659168,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": 38185,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 73781725
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 120997401,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 1106355,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": 1800,
+        "unearned_revenue": 22885,
+        "accrued_interest": null,
+        "other_current_liabilities": 55314
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 307960,
+        "net_pension_liability": null,
+        "landfill_closure": 2298127,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 3370634
+      },
+      "total_liabilities": 6938522,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 73775949,
+        "restricted": 5776,
+        "unrestricted": 40277154,
+        "total_net_position": 114058879
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Master Bank Overdrafts may be a liability classification rather than current liability",
+        "extracted": 55314,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Master Bank Overdrafts 55,314",
+        "severity": "low"
+      },
+      {
+        "field": "unearned_revenue",
+        "fund": "governmental_activities",
+        "reason": "Advance from Grantors classified as unearned revenue, but could be other liability type",
+        "extracted": 22885,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Advance from Grantors 22,885",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined OPEB Obligation (2932408), long-term due within one year (5326), and due in more than one year (450)",
+        "extracted": 3370634,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Other Postemployment Benefit Obligation 2,932,408 Long-term Liabilities- Due Within One Year 5,326 Due in More than One Year 450",
+        "severity": "medium"
+      },
+      {
+        "field": "compensated_absences_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Compensated Absences (307960) not split between current and noncurrent portions",
+        "extracted": 307960,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Compensated Absences 307,960",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "DeSoto",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 1979943,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 1979943
+        },
+        "construction_in_progress": {
+          "beginning": 498894,
+          "increases": 542003,
+          "decreases": 0,
+          "ending": 1040897
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 2478837,
+          "increases": 542003,
+          "decreases": 0,
+          "ending": 3020840
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 26363585,
+          "increases": 10457,
+          "decreases": 0,
+          "ending": 26374042
+        },
+        "machinery_and_equipment": {
+          "beginning": 12204954,
+          "increases": 1319547,
+          "decreases": 0,
+          "ending": 13524501
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 5826378,
+          "increases": 446963,
+          "decreases": 0,
+          "ending": 6273341
+        },
+        "infrastructure": {
+          "beginning": 219055672,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 219055672
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 263450589,
+          "increases": 1776967,
+          "decreases": 0,
+          "ending": 265227556
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 11767270,
+          "increases": 666580,
+          "decreases": 0,
+          "ending": 12433850
+        },
+        "machinery_and_equipment": {
+          "beginning": 7078348,
+          "increases": 1077580,
+          "decreases": 0,
+          "ending": 8155928
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 347548,
+          "increases": 285041,
+          "decreases": 0,
+          "ending": 632589
+        },
+        "infrastructure": {
+          "beginning": 171364654,
+          "increases": 1879650,
+          "decreases": 0,
+          "ending": 173244304
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": 190557820,
+          "increases": 3908851,
+          "decreases": 0,
+          "ending": 194466671
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 72892769,
+        "increases": -2131884,
+        "decreases": 0,
+        "ending": 70760885
+      },
+      "total_capital_assets_net": {
+        "beginning": 75371606,
+        "increases": -1589881,
+        "decreases": 0,
+        "ending": 73781725
+      }
+    },
+    "cross_sectional": {
+      "land": 1979943,
+      "construction_in_progress": 1040897,
+      "other_non_depreciable": 0,
+      "buildings_net": 13940192,
+      "improvements_net": 5640752,
+      "machinery_net": 5368573,
+      "other_depreciable_net": 0,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 45811368,
+      "total_governmental_net": 73781725
+    },
+    "_uncertainties": [
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Furniture and equipment' combined category - unclear if this maps to machinery_and_equipment or should be split",
+        "extracted": 13524501,
+        "alternative": null,
+        "page": 49,
+        "text_snippet": "Furniture and equipment 12,204,954 1,319,547 0 13,524,501",
+        "severity": "medium"
+      },
+      {
+        "field": "improvements_other_than_buildings",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Land improvements - structures' - unclear if this is improvements_other_than_buildings or separate category",
+        "extracted": 6273341,
+        "alternative": null,
+        "page": 49,
+        "text_snippet": "Land improvements - structures 5,826,378 446,963 0 6,273,341",
+        "severity": "medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,835 @@
+{
+  "cbs": {
+    "parish": "Claiborne",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Parish Road Maintenance",
+      "Library",
+      "Sales Tax",
+      "Criminal Court",
+      "Section 8",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 3314766,
+        "Parish Road Maintenance": 132318,
+        "Library": 763700,
+        "Sales Tax": 946574,
+        "Criminal Court": 79956,
+        "Section 8": 57110,
+        "Other Governmental Funds": 974702,
+        "Total Governmental Funds": 6269126
+      },
+      "investments": {
+        "General": 443112,
+        "Parish Road Maintenance": null,
+        "Library": 3040,
+        "Sales Tax": 6249,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": 339032,
+        "Total Governmental Funds": 797211
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 618190,
+        "Parish Road Maintenance": 1008728,
+        "Library": 709657,
+        "Sales Tax": 74185,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": 673745,
+        "Total Governmental Funds": 3084505
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": 1094,
+        "Total Governmental Funds": 1094
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 4506861,
+        "Parish Road Maintenance": 1144086,
+        "Library": 1479606,
+        "Sales Tax": 1359791,
+        "Criminal Court": 79956,
+        "Section 8": 57110,
+        "Other Governmental Funds": 1654225,
+        "Total Governmental Funds": 10281635
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 224147,
+        "Parish Road Maintenance": 98585,
+        "Library": 16827,
+        "Sales Tax": 55004,
+        "Criminal Court": 25785,
+        "Section 8": 300,
+        "Other Governmental Funds": 26219,
+        "Total Governmental Funds": 446867
+      },
+      "retainage_payable": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Parish Road Maintenance": 538,
+        "Library": 456,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": 100,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1094
+      },
+      "other_liabilities": {
+        "General": null,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General": 224147,
+        "Parish Road Maintenance": 99123,
+        "Library": 17283,
+        "Sales Tax": 55004,
+        "Criminal Court": 25785,
+        "Section 8": 14325,
+        "Other Governmental Funds": 26319,
+        "Total Governmental Funds": 461986
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable ad valorem tax revenue",
+          "values": {
+            "General": 54472,
+            "Parish Road Maintenance": 104733,
+            "Library": 68044,
+            "Sales Tax": null,
+            "Criminal Court": null,
+            "Section 8": null,
+            "Other Governmental Funds": 64421,
+            "Total Governmental Funds": 307296
+          }
+        }
+      ],
+      "total": {
+        "General": 54472,
+        "Parish Road Maintenance": 104733,
+        "Library": 68044,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": 64421,
+        "Total Governmental Funds": 307296
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted fund balances",
+          "values": {
+            "General": 485567,
+            "Parish Road Maintenance": 940230,
+            "Library": 1394279,
+            "Sales Tax": 1304787,
+            "Criminal Court": 54171,
+            "Section 8": 27159,
+            "Other Governmental Funds": 1563485,
+            "Total Governmental Funds": 5769678
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General": 3742675,
+        "Parish Road Maintenance": null,
+        "Library": null,
+        "Sales Tax": null,
+        "Criminal Court": null,
+        "Section 8": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 3742675
+      },
+      "total_fund_balances": {
+        "General": 4228242,
+        "Parish Road Maintenance": 940230,
+        "Library": 1394279,
+        "Sales Tax": 1304787,
+        "Criminal Court": 54171,
+        "Section 8": 27159,
+        "Other Governmental Funds": 1563485,
+        "Total Governmental Funds": 9512353
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 4506861,
+      "Parish Road Maintenance": 1144086,
+      "Library": 1479606,
+      "Sales Tax": 1359791,
+      "Criminal Court": 79956,
+      "Section 8": 57110,
+      "Other Governmental Funds": 1654225,
+      "Total Governmental Funds": 10281635
+    },
+    "cross_sectional": {
+      "cash": 3314766,
+      "investments": 443112,
+      "receivables": 618190,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": 4506861,
+      "deferred_outflows": null,
+      "accounts_payable": 224147,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": 224147,
+      "deferred_inflows": 54472,
+      "reserved": 485567,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 3742675,
+      "total_fund_balances": 4228242,
+      "total_liabilities_and_fund_balances": 4506861
+    },
+    "_uncertainties": [
+      {
+        "field": "due_from_other_agencies",
+        "fund": "Other Governmental Funds",
+        "reason": "Asset line item 'Due from other agencies' appears in assets section but is not a standard category in the schema",
+        "extracted": null,
+        "alternative": 22416,
+        "page": 15,
+        "text_snippet": "Due from other agencies 22,416 22,416",
+        "severity": "medium"
+      },
+      {
+        "field": "deferred_charges",
+        "fund": "General",
+        "reason": "Asset line item 'Deferred charges' appears in assets section but is not a standard category in the schema",
+        "extracted": null,
+        "alternative": 107283,
+        "page": 15,
+        "text_snippet": "Deferred charges 107,283 107,283",
+        "severity": "medium"
+      },
+      {
+        "field": "due_to_other_agencies",
+        "fund": "Section 8",
+        "reason": "Liability line item 'Due to other agencies' appears but is not a standard category in the schema",
+        "extracted": null,
+        "alternative": 14025,
+        "page": 15,
+        "text_snippet": "Due to other agencies 14,025 14,025",
+        "severity": "medium"
+      },
+      {
+        "field": "receivables",
+        "fund": "General",
+        "reason": "Only generic 'Receivables' line shown; unclear if this includes taxes receivable or is purely other receivables",
+        "extracted": 618190,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Receivables 618,190 1,008,728 709,657 74,185 673,745 3,084,505",
+        "severity": "low"
+      },
+      {
+        "field": "sales_tax_receivable",
+        "fund": "Sales Tax",
+        "reason": "Sales Tax fund shows receivables of 74,185, likely sales tax receivable but mapped to other_receivables due to generic label",
+        "extracted": 74185,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Receivables 618,190 1,008,728 709,657 74,185 673,745 3,084,505",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Claiborne",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1522797,
+        "charges_for_services": 482299,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1040498
+      },
+      "public_safety": {
+        "expenses": 317573,
+        "charges_for_services": 124395,
+        "operating_grants": 53242,
+        "capital_grants": null,
+        "net_expense_revenue": -139936
+      },
+      "public_works": {
+        "expenses": 3489014,
+        "charges_for_services": null,
+        "operating_grants": 598941,
+        "capital_grants": null,
+        "net_expense_revenue": -2890073
+      },
+      "economic_development": {
+        "expenses": 60013,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -60013
+      },
+      "health_and_welfare": {
+        "expenses": 643674,
+        "charges_for_services": 7005,
+        "operating_grants": 460878,
+        "capital_grants": null,
+        "net_expense_revenue": -175791
+      },
+      "culture_and_recreation": {
+        "expenses": 676727,
+        "charges_for_services": 3110,
+        "operating_grants": 27474,
+        "capital_grants": null,
+        "net_expense_revenue": -646143
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 41425,
+        "net_expense_revenue": -41425
+      },
+      "other_activities": [
+        {
+          "label": "Conservation",
+          "expenses": 5200,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -5200
+        }
+      ],
+      "total": {
+        "expenses": 6756423,
+        "charges_for_services": 492414,
+        "operating_grants": 1211688,
+        "capital_grants": 53242,
+        "net_expense_revenue": -4999079
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 3085488,
+      "sales_taxes": 870929,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 8821,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 1613286,
+      "non_employer_pension_contribution": null,
+      "investment_income": 153119,
+      "miscellaneous": 151558,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": 5883201
+    },
+    "change_in_net_position": 884122,
+    "net_position_beginning": 15382153,
+    "net_position_ending": 16266275,
+    "cross_sectional": {
+      "property_ad_valorem": 3085488,
+      "sales_use_taxes": 870929,
+      "severance_taxes": null,
+      "other_tax_revenue": 8821,
+      "total_tax_revenue": 3965238,
+      "state_revenue_sharing": 1613286,
+      "state_intergovernmental": 1211688,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 304677,
+      "total_other_revenue": 3129651,
+      "total_program_revenue": 1757344,
+      "total_revenues": 8852233,
+      "general_government": -1040498,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1040498,
+      "public_safety": -139936,
+      "public_works": -2890073,
+      "economic_development": -60013,
+      "health_and_welfare": -175791,
+      "culture_and_recreation": -646143,
+      "interest_debt_service": -41425,
+      "all_other_expenditures": -5200,
+      "total_expenditures": 6756423
+    },
+    "_uncertainties": [
+      {
+        "field": "operating_grants",
+        "fund": "total governmental activities",
+        "reason": "Text shows truncated value '1,211,' which appears incomplete",
+        "extracted": 1211688,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "$ 492,414 $ 1,211,( 53.242 (4,999,079)",
+        "severity": "medium"
+      },
+      {
+        "field": "state_shared_revenue",
+        "fund": "general_revenues",
+        "reason": "Line item unclear whether this represents state revenue sharing or broader grants",
+        "extracted": 1613286,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Grants and conttibutions not restticted to specific programs 1,613,286",
+        "severity": "low"
+      },
+      {
+        "field": "investment_income",
+        "fund": "general_revenues",
+        "reason": "Combined unrestricted investment earnings and net increase in fair value of investments",
+        "extracted": 153119,
+        "alternative": 129994,
+        "page": 14,
+        "text_snippet": "Unrestticted investment earnings 129,994\nNet increase (decrease) in the fair value of investments 23,125",
+        "severity": "low"
+      },
+      {
+        "field": "miscellaneous",
+        "fund": "general_revenues",
+        "reason": "Combined gain on sale of capital assets, contributions from private sources, and other",
+        "extracted": 151558,
+        "alternative": 103549,
+        "page": 14,
+        "text_snippet": "Gain on sale of capital assets 42,509\nContributions from private sources 5,500\nOther 103,549",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Claiborne",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 6269126,
+        "investments": 797211,
+        "taxes_receivable": null,
+        "other_receivables": 3084505,
+        "due_from_other_governments": 22416,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 8219499
+      },
+      "other_noncurrent_assets": 107283,
+      "total_assets": 18500040,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 446867,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 15626,
+        "accrued_interest": null,
+        "other_current_liabilities": 14025
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 155000,
+        "bonds_payable_noncurrent": 1545000,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 57248,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 2233766,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 6362770,
+        "restricted": 5283911,
+        "unrestricted": 4619394,
+        "total_net_position": 16266275
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Receivables' without detail on type - could include taxes receivable or other categories",
+        "extracted": 3084505,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Receivables 3,084,505",
+        "severity": "medium"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Deferred charges classified as noncurrent asset - unusual presentation for this line item",
+        "extracted": 107283,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Deferred charges 107,283",
+        "severity": "low"
+      },
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Due to other agencies placed in other_current_liabilities - could be separately categorized",
+        "extracted": 14025,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Due to other agencies 14,025",
+        "severity": "low"
+      },
+      {
+        "field": "long_term_liabilities.compensated_absences_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Compensated absences payable not split between current and noncurrent - assigned entirely to noncurrent",
+        "extracted": 57248,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Compensated absences payable 57,248",
+        "severity": "medium"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "governmental_activities",
+        "reason": "Calculated sum of all restricted categories - not explicitly stated as single line item",
+        "extracted": 5283911,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Retricted for: General government 471,359...Culture and recreation 1,394,279",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Claiborne",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_fields",
+        "fund": "governmental_activities",
+        "reason": "The provided PDF text contains only Changes in Net Position table (Table 2) and narrative discussion. No Capital Assets schedule with beginning/increases/decreases/ending balances was provided in the text.",
+        "extracted": null,
+        "alternative": null,
+        "page": 5,
+        "text_snippet": "Table 2 Changes in Net Position Governmental Activities 2014 2013",
+        "severity": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,871 @@
+{
+  "cbs": {
+    "parish": "Red River",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Sales Tax Fund",
+      "Ambulance Service Fund",
+      "Library Unitl Fund",
+      "Public Road Fund",
+      "Facilities Maintenance Fund",
+      "Other non-major Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 3858507,
+        "Sales Tax Fund": 1669150,
+        "Ambulance Service Fund": 1341444,
+        "Library Unitl Fund": 1725707,
+        "Public Road Fund": 739740,
+        "Facilities Maintenance Fund": 1214386,
+        "Other non-major Governmental Funds": 1970277,
+        "Total Governmental Funds": 12519211
+      },
+      "investments": {
+        "General Fund": 2000000,
+        "Sales Tax Fund": 9335860,
+        "Ambulance Service Fund": 6830520,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": 648599,
+        "Other non-major Governmental Funds": 239909,
+        "Total Governmental Funds": 19054888
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 1010211,
+        "Sales Tax Fund": 229286,
+        "Ambulance Service Fund": 138909,
+        "Library Unitl Fund": 1628080,
+        "Public Road Fund": 28478,
+        "Facilities Maintenance Fund": 881416,
+        "Other non-major Governmental Funds": 508105,
+        "Total Governmental Funds": 4424485
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 9185,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": 4960,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": 1158,
+        "Other non-major Governmental Funds": 3050,
+        "Total Governmental Funds": 18353
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 6877903,
+        "Sales Tax Fund": 11234296,
+        "Ambulance Service Fund": 8315833,
+        "Library Unitl Fund": 4003544,
+        "Public Road Fund": 768218,
+        "Facilities Maintenance Fund": 2098852,
+        "Other non-major Governmental Funds": 2718291,
+        "Total Governmental Funds": 36016937
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 175746,
+        "Sales Tax Fund": 630,
+        "Ambulance Service Fund": 22499,
+        "Library Unitl Fund": 172974,
+        "Public Road Fund": 28263,
+        "Facilities Maintenance Fund": 253924,
+        "Other non-major Governmental Funds": 68977,
+        "Total Governmental Funds": 723013
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 175746,
+        "Sales Tax Fund": 630,
+        "Ambulance Service Fund": 22499,
+        "Library Unitl Fund": 172974,
+        "Public Road Fund": 28263,
+        "Facilities Maintenance Fund": 253924,
+        "Other non-major Governmental Funds": 68977,
+        "Total Governmental Funds": 723013
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": 4747,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": 10571,
+        "Library Unitl Fund": 4539,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": 3016,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": 22873
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid Expenses",
+          "values": {
+            "General Fund": 9185,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": 4960,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": 1158,
+            "Other non-major Governmental Funds": 3050,
+            "Total Governmental Funds": 18353
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Dedicated property taxes",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": 3818841,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": 1958043,
+            "Total Governmental Funds": 5776884
+          }
+        },
+        {
+          "label": "Dedicated sales taxes",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": 7062267,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": 112876,
+            "Total Governmental Funds": 7175143
+          }
+        },
+        {
+          "label": "Court fees for juror compensation",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": 215398,
+            "Total Governmental Funds": 215398
+          }
+        },
+        {
+          "label": "Federal and state grant programs",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": 266483,
+            "Total Governmental Funds": 266483
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Criminal court costs",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": 92093,
+            "Total Governmental Funds": 92093
+          }
+        },
+        {
+          "label": "Ambulance services",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": 1226107,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": null,
+            "Total Governmental Funds": 1226107
+          }
+        },
+        {
+          "label": "Road maintenance and improvements",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": null,
+            "Public Road Fund": 739955,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": 1405,
+            "Total Governmental Funds": 741360
+          }
+        },
+        {
+          "label": "Public facilities maintenance",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": null,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": 1837339,
+            "Other non-major Governmental Funds": null,
+            "Total Governmental Funds": 1837339
+          }
+        },
+        {
+          "label": "Buildings and infrastructure",
+          "values": {
+            "General Fund": null,
+            "Sales Tax Fund": 11233666,
+            "Ambulance Service Fund": null,
+            "Library Unitl Fund": null,
+            "Public Road Fund": null,
+            "Facilities Maintenance Fund": null,
+            "Other non-major Governmental Funds": null,
+            "Total Governmental Funds": 11233666
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 6688225,
+        "Sales Tax Fund": null,
+        "Ambulance Service Fund": null,
+        "Library Unitl Fund": null,
+        "Public Road Fund": null,
+        "Facilities Maintenance Fund": null,
+        "Other non-major Governmental Funds": null,
+        "Total Governmental Funds": 6688225
+      },
+      "total_fund_balances": {
+        "General Fund": 6697410,
+        "Sales Tax Fund": 11233666,
+        "Ambulance Service Fund": 8293334,
+        "Library Unitl Fund": 3819999,
+        "Public Road Fund": 739955,
+        "Facilities Maintenance Fund": 1840389,
+        "Other non-major Governmental Funds": 2646298,
+        "Total Governmental Funds": 35271051
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 6877903,
+      "Sales Tax Fund": 11234296,
+      "Ambulance Service Fund": 8315833,
+      "Library Unitl Fund": 4003544,
+      "Public Road Fund": 768218,
+      "Facilities Maintenance Fund": 2098852,
+      "Other non-major Governmental Funds": 2718291,
+      "Total Governmental Funds": 36016937
+    },
+    "cross_sectional": {
+      "cash": 3858507,
+      "investments": 2000000,
+      "receivables": 1010211,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": 9185,
+      "total_assets": 6877903,
+      "deferred_outflows": null,
+      "accounts_payable": 175746,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": 175746,
+      "deferred_inflows": 4747,
+      "reserved": 9185,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 6688225,
+      "total_fund_balances": 6697410,
+      "total_liabilities_and_fund_balances": 6877903
+    },
+    "_uncertainties": [
+      {
+        "field": "liabilities.accounts_payable",
+        "fund": "all",
+        "reason": "Line item is labeled 'Accounts payable and accrued expenses' - combined category, unclear if accrued expenses should be separately tracked",
+        "extracted": 175746,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Accounts payable and accrued expenses $ 175,746",
+        "severity": "low"
+      },
+      {
+        "field": "funds[3]",
+        "fund": "Library Unitl Fund",
+        "reason": "Fund name appears to be 'Library Unitl Fund' which may be a typo for 'Library Unit Fund' or similar",
+        "extracted": "Library Unitl Fund",
+        "alternative": "Library Unit Fund",
+        "page": 16,
+        "text_snippet": "Library Unitl Public Facilities",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Red River",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1586757,
+        "charges_for_services": 161497,
+        "operating_grants": 193365,
+        "capital_grants": null,
+        "net_expense_revenue": -1231895
+      },
+      "public_safety": {
+        "expenses": 1556720,
+        "charges_for_services": 325471,
+        "operating_grants": 99519,
+        "capital_grants": null,
+        "net_expense_revenue": -1131730
+      },
+      "public_works": {
+        "expenses": 3232725,
+        "charges_for_services": 96411,
+        "operating_grants": 1006528,
+        "capital_grants": null,
+        "net_expense_revenue": -2129786
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 572268,
+        "charges_for_services": null,
+        "operating_grants": 133509,
+        "capital_grants": null,
+        "net_expense_revenue": -438759
+      },
+      "culture_and_recreation": {
+        "expenses": 351702,
+        "charges_for_services": 1379,
+        "operating_grants": 21875,
+        "capital_grants": null,
+        "net_expense_revenue": -328448
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 7300172,
+        "charges_for_services": 584758,
+        "operating_grants": 1454796,
+        "capital_grants": null,
+        "net_expense_revenue": -5260618
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 3477010,
+      "sales_taxes": 2539681,
+      "severance_taxes": 1093840,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 526606,
+      "occupational_licenses": 68548,
+      "gaming_revenues": 2704,
+      "state_revenue_sharing": 54937,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 435499,
+      "miscellaneous": 137111,
+      "transfers": -115000,
+      "other_items": [],
+      "total_general_revenues": 8220936
+    },
+    "change_in_net_position": 2960318,
+    "net_position_beginning": 47422041,
+    "net_position_ending": 50382359,
+    "cross_sectional": {
+      "property_ad_valorem": 3477010,
+      "sales_use_taxes": 2542385,
+      "severance_taxes": 1093840,
+      "other_tax_revenue": 595154,
+      "total_tax_revenue": 7708389,
+      "state_revenue_sharing": 54937,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -115000,
+      "all_other_revenue": 572610,
+      "total_other_revenue": 512547,
+      "total_program_revenue": 2039554,
+      "total_revenues": 10260490,
+      "general_government": -1231895,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1231895,
+      "public_safety": -1131730,
+      "public_works": -2129786,
+      "economic_development": null,
+      "health_and_welfare": -438759,
+      "culture_and_recreation": -328448,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 7300172
+    },
+    "_uncertainties": [
+      {
+        "field": "net_position_ending",
+        "fund": "governmental_activities",
+        "reason": "PDF text shows garbled characters for ending net position value",
+        "extracted": 50382359,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Net Position, End of Year J^^^^J0j3gJ5^ J^_^J64j350^ $ 50,746,709",
+        "severity": "medium"
+      },
+      {
+        "field": "health_and_welfare.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "No charges for services shown in the row, unclear if blank means zero or if value is missing",
+        "extracted": null,
+        "alternative": 0,
+        "page": 15,
+        "text_snippet": "Health and welfare 572,268 133,509 (438,759)",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Red River",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 12519211,
+        "investments": 19054888,
+        "taxes_receivable": null,
+        "other_receivables": 4424485,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 18353,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 15298294
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 51315231,
+      "deferred_outflows": {
+        "items": [],
+        "total": 0
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": 723013,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": 52750,
+        "compensated_absences_noncurrent": 17758,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 139351
+      },
+      "total_liabilities": 932872,
+      "deferred_inflows": {
+        "items": [],
+        "total": 0
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 15298294,
+        "restricted": 13334619,
+        "unrestricted": 21749446,
+        "total_net_position": 50382359
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Combined line item 'Accounts payable and accrued liabilities' - unclear how to split between accounts payable and accrued liabilities",
+        "extracted": null,
+        "alternative": 723013,
+        "page": 14,
+        "text_snippet": "Accounts payable and accrued liabilities 723,013",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities.other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Mapped 'Other post-employment benefits payable' to other_long_term as no specific OPEB field exists in schema",
+        "extracted": 139351,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Other post-employment benefits payable 139,351",
+        "severity": "low"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "governmental_activities",
+        "reason": "Calculated as sum of multiple restricted categories (7062267 + 3829412 + 1961059 + 481881)",
+        "extracted": 13334619,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Restricted for: Sales tax...7,062,267; property taxes library...3,829,412; health unit...1,961,059; External legal...481,881",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Red River",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 301537,
+          "increases": null,
+          "decreases": null,
+          "ending": 301537
+        },
+        "construction_in_progress": {
+          "beginning": 1874046,
+          "increases": 536075,
+          "decreases": -1618106,
+          "ending": 792015
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 2175583,
+          "increases": 536075,
+          "decreases": -1618106,
+          "ending": 1093552
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 8371081,
+          "increases": 2426416,
+          "decreases": null,
+          "ending": 10797497
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 9574881,
+          "increases": 1201362,
+          "decreases": null,
+          "ending": 10776243
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": 3591775,
+          "increases": 293414,
+          "decreases": -808267,
+          "ending": 3076922
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": 198739,
+          "increases": 17789,
+          "decreases": null,
+          "ending": 216528
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -5743040,
+          "increases": -324814,
+          "decreases": null,
+          "ending": -6067854
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": -1497925,
+          "increases": -998348,
+          "decreases": null,
+          "ending": -2496273
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": -2309915,
+          "increases": -454051,
+          "decreases": 808267,
+          "ending": -1955699
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": -125118,
+          "increases": -17504,
+          "decreases": null,
+          "ending": -142622
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 12060478,
+        "increases": 2144264,
+        "decreases": null,
+        "ending": 14204742
+      },
+      "total_capital_assets_net": {
+        "beginning": 14236061,
+        "increases": 2680339,
+        "decreases": -1618106,
+        "ending": 15298294
+      }
+    },
+    "cross_sectional": {
+      "land": 301537,
+      "construction_in_progress": 792015,
+      "other_non_depreciable": null,
+      "buildings_net": 4729643,
+      "improvements_net": 8279970,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": 73906,
+      "furniture_net": null,
+      "vehicles_net": 1121223,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 15298294
+    },
+    "_uncertainties": [
+      {
+        "field": "vehicles",
+        "fund": "governmental_activities",
+        "reason": "Furniture, Equipment, and Vehicles combined - vehicles separately identified but furniture/equipment not broken out",
+        "extracted": 3076922,
+        "alternative": null,
+        "page": 33,
+        "text_snippet": "Furniture, Equipment, and Vehicles 3,591,775 293,414 ( 808,267) 3,076,922",
+        "severity": "medium"
+      },
+      {
+        "field": "total_depreciable_net",
+        "fund": "governmental_activities",
+        "reason": "No explicit total depreciated assets gross shown; only net values calculated per category",
+        "extracted": 14204742,
+        "alternative": null,
+        "page": 33,
+        "text_snippet": "Total Capital Assets, being depreciated 12.060.478 2.144.264 14.204.742",
+        "severity": "low"
+      }
+    ]
+  }
+}

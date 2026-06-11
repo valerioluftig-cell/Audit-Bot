@@ -1,0 +1,830 @@
+{
+  "cbs": {
+    "parish": "St. Charles",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road & Drainage Maintenance & Operation",
+      "Recreation Maintenance & Operation",
+      "General Obligation Sinking",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 1449461,
+        "Road & Drainage Maintenance & Operation": 27940,
+        "Recreation Maintenance & Operation": 3959,
+        "General Obligation Sinking": 695,
+        "Nonmajor Governmental Funds": 222282,
+        "Total Governmental Funds": 1704337
+      },
+      "investments": {
+        "General Fund": 41010050,
+        "Road & Drainage Maintenance & Operation": 36816258,
+        "Recreation Maintenance & Operation": 758961,
+        "General Obligation Sinking": 4192183,
+        "Nonmajor Governmental Funds": 8358811,
+        "Total Governmental Funds": 91136263
+      },
+      "taxes_receivable": {
+        "General Fund": 3887225,
+        "Road & Drainage Maintenance & Operation": 7283945,
+        "Recreation Maintenance & Operation": 3641975,
+        "General Obligation Sinking": 2697763,
+        "Nonmajor Governmental Funds": 8151138,
+        "Total Governmental Funds": 25662046
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road & Drainage Maintenance & Operation": null,
+        "Recreation Maintenance & Operation": null,
+        "General Obligation Sinking": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 1933002,
+        "Road & Drainage Maintenance & Operation": 1845229,
+        "Recreation Maintenance & Operation": 7915,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 242603,
+        "Total Governmental Funds": 4028749
+      },
+      "due_from_other_governments": {
+        "General Fund": 1299495,
+        "Road & Drainage Maintenance & Operation": 1137003,
+        "Recreation Maintenance & Operation": 204,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 2145234,
+        "Total Governmental Funds": 4581936
+      },
+      "due_from_other_funds": {
+        "General Fund": 632223,
+        "Road & Drainage Maintenance & Operation": 8099,
+        "Recreation Maintenance & Operation": 0,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 3059,
+        "Total Governmental Funds": 643381
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road & Drainage Maintenance & Operation": null,
+        "Recreation Maintenance & Operation": null,
+        "General Obligation Sinking": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road & Drainage Maintenance & Operation": null,
+        "Recreation Maintenance & Operation": null,
+        "General Obligation Sinking": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 442910,
+        "Road & Drainage Maintenance & Operation": 384,
+        "Recreation Maintenance & Operation": 1150,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 25282,
+        "Total Governmental Funds": 469726
+      },
+      "other_assets": {
+        "General Fund": 2095,
+        "Road & Drainage Maintenance & Operation": 1125,
+        "Recreation Maintenance & Operation": 450,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 600,
+        "Total Governmental Funds": 4270
+      },
+      "total_assets": {
+        "General Fund": 50656461,
+        "Road & Drainage Maintenance & Operation": 47119983,
+        "Recreation Maintenance & Operation": 4414614,
+        "General Obligation Sinking": 6890641,
+        "Nonmajor Governmental Funds": 19149009,
+        "Total Governmental Funds": 128230708
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 1040452,
+        "Road & Drainage Maintenance & Operation": 1669542,
+        "Recreation Maintenance & Operation": 163668,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 2222893,
+        "Total Governmental Funds": 5096555
+      },
+      "retainage_payable": {
+        "General Fund": 20782,
+        "Road & Drainage Maintenance & Operation": 135788,
+        "Recreation Maintenance & Operation": 0,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 206548,
+        "Total Governmental Funds": 363118
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Road & Drainage Maintenance & Operation": null,
+        "Recreation Maintenance & Operation": null,
+        "General Obligation Sinking": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road & Drainage Maintenance & Operation": null,
+        "Recreation Maintenance & Operation": null,
+        "General Obligation Sinking": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road & Drainage Maintenance & Operation": null,
+        "Recreation Maintenance & Operation": null,
+        "General Obligation Sinking": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 27057,
+        "Road & Drainage Maintenance & Operation": 0,
+        "Recreation Maintenance & Operation": 150,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 8115,
+        "Total Governmental Funds": 35322
+      },
+      "other_liabilities": {
+        "General Fund": 649605,
+        "Road & Drainage Maintenance & Operation": 272704,
+        "Recreation Maintenance & Operation": 53232,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 324312,
+        "Total Governmental Funds": 1299853
+      },
+      "total_liabilities": {
+        "General Fund": 1737896,
+        "Road & Drainage Maintenance & Operation": 2078034,
+        "Recreation Maintenance & Operation": 217050,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": 2761536,
+        "Total Governmental Funds": 6794516
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Advances",
+          "values": {
+            "General Fund": 4042325,
+            "Road & Drainage Maintenance & Operation": 7328651,
+            "Recreation Maintenance & Operation": 3641975,
+            "General Obligation Sinking": 2697763,
+            "Nonmajor Governmental Funds": 8157754,
+            "Total Governmental Funds": 25868468
+          }
+        },
+        {
+          "label": "Unavailable Revenues",
+          "values": {
+            "General Fund": 0,
+            "Road & Drainage Maintenance & Operation": 0,
+            "Recreation Maintenance & Operation": 0,
+            "General Obligation Sinking": 0,
+            "Nonmajor Governmental Funds": 881085,
+            "Total Governmental Funds": 881085
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 4042325,
+        "Road & Drainage Maintenance & Operation": 7328651,
+        "Recreation Maintenance & Operation": 3641975,
+        "General Obligation Sinking": 2697763,
+        "Nonmajor Governmental Funds": 9038839,
+        "Total Governmental Funds": 26749553
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General Fund": 442910,
+            "Road & Drainage Maintenance & Operation": 384,
+            "Recreation Maintenance & Operation": 1150,
+            "General Obligation Sinking": 0,
+            "Nonmajor Governmental Funds": 25282,
+            "Total Governmental Funds": 469726
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": 53538,
+            "Road & Drainage Maintenance & Operation": 33558559,
+            "Recreation Maintenance & Operation": 18217,
+            "General Obligation Sinking": 4192878,
+            "Nonmajor Governmental Funds": 5831532,
+            "Total Governmental Funds": 43654724
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": 13940018,
+            "Road & Drainage Maintenance & Operation": 4154355,
+            "Recreation Maintenance & Operation": 536222,
+            "General Obligation Sinking": 0,
+            "Nonmajor Governmental Funds": 1439688,
+            "Total Governmental Funds": 20070283
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General Fund": 21019738,
+            "Road & Drainage Maintenance & Operation": 0,
+            "Recreation Maintenance & Operation": 0,
+            "General Obligation Sinking": 0,
+            "Nonmajor Governmental Funds": 54134,
+            "Total Governmental Funds": 21073872
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 9420036,
+        "Road & Drainage Maintenance & Operation": 0,
+        "Recreation Maintenance & Operation": 0,
+        "General Obligation Sinking": 0,
+        "Nonmajor Governmental Funds": -2002,
+        "Total Governmental Funds": 9418034
+      },
+      "total_fund_balances": {
+        "General Fund": 44876240,
+        "Road & Drainage Maintenance & Operation": 37713298,
+        "Recreation Maintenance & Operation": 555589,
+        "General Obligation Sinking": 4192878,
+        "Nonmajor Governmental Funds": 7348634,
+        "Total Governmental Funds": 94686639
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 50656461,
+      "Road & Drainage Maintenance & Operation": 47119983,
+      "Recreation Maintenance & Operation": 4414614,
+      "General Obligation Sinking": 6890641,
+      "Nonmajor Governmental Funds": 19149009,
+      "Total Governmental Funds": 128230708
+    },
+    "cross_sectional": {
+      "cash": 1449461,
+      "investments": 41010050,
+      "receivables": 7119720,
+      "inventory": null,
+      "other_assets": 2095,
+      "transfers_in": 632223,
+      "prepaid_items": 442910,
+      "total_assets": 50656461,
+      "deferred_outflows": null,
+      "accounts_payable": 1061234,
+      "deferred_revenues": null,
+      "government_transfers": 27057,
+      "other_liabilities": 649605,
+      "total_liabilities": 1737896,
+      "deferred_inflows": 4042325,
+      "reserved": 496448,
+      "unreserved_designated": 34959756,
+      "unreserved_undesignated": 9420036,
+      "total_fund_balances": 44876240,
+      "total_liabilities_and_fund_balances": 50656461
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "General Fund",
+        "reason": "Combined multiple receivable line items (Sales taxes, Accounts, Other) into other_receivables aggregate",
+        "extracted": 1933002,
+        "alternative": null,
+        "page": 39,
+        "text_snippet": "Sales taxes 1,562,803; Accounts 551; Other 369,648",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Combined Due to component units, Due to other governments, and Other liabilities into aggregate",
+        "extracted": 649605,
+        "alternative": null,
+        "page": 39,
+        "text_snippet": "Due to component units -; Due to other governments 9,962; Other liabilities 639,643",
+        "severity": "medium"
+      },
+      {
+        "field": "receivables",
+        "fund": "cross_sectional",
+        "reason": "Calculated as sum of taxes_receivable (3,887,225) + other_receivables aggregate (1,933,002) + due_from_governments (1,299,495)",
+        "extracted": 7119720,
+        "alternative": null,
+        "page": 39,
+        "text_snippet": "Ad valorem taxes 3,887,225; Sales taxes 1,562,803; Accounts 551; Other 369,648; Due from other governments 1,299,495",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Charles",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 18278012,
+        "charges_for_services": 3529181,
+        "operating_grants": 5194070,
+        "capital_grants": 5192955,
+        "net_expense_revenue": -4361806
+      },
+      "public_safety": {
+        "expenses": 8821956,
+        "charges_for_services": 208520,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -8613436
+      },
+      "public_works": {
+        "expenses": 25818325,
+        "charges_for_services": 102722,
+        "operating_grants": 850993,
+        "capital_grants": 1873662,
+        "net_expense_revenue": -22990948
+      },
+      "economic_development": {
+        "expenses": 1763281,
+        "charges_for_services": 944998,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -818283
+      },
+      "health_and_welfare": {
+        "expenses": 5791088,
+        "charges_for_services": 93481,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -5697607
+      },
+      "culture_and_recreation": {
+        "expenses": 4509617,
+        "charges_for_services": 248514,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -4261103
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 450422,
+        "net_expense_revenue": -450422
+      },
+      "other_activities": [
+        {
+          "label": "Transfers- Capital Contributions",
+          "expenses": 36607,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": 36607
+        }
+      ],
+      "total": {
+        "expenses": 65432701,
+        "charges_for_services": 3880417,
+        "operating_grants": 7292062,
+        "capital_grants": 7103224,
+        "net_expense_revenue": -47156998
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 25644015,
+      "sales_taxes": 29753818,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 823155,
+      "other_taxes": 3974916,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 268392,
+      "miscellaneous": 1200372,
+      "transfers": -326134,
+      "other_items": [
+        {
+          "label": "Maintenance tax",
+          "amount": 2907938
+        },
+        {
+          "label": "Alcoholic beverage tax",
+          "amount": 46431
+        },
+        {
+          "label": "Airport expansion agreement",
+          "amount": 974547
+        },
+        {
+          "label": "Cable TV franchise tax",
+          "amount": 823155
+        }
+      ],
+      "total_general_revenues": 58384596
+    },
+    "change_in_net_position": 11227598,
+    "net_position_beginning": 251430030,
+    "net_position_ending": 262657628,
+    "cross_sectional": {
+      "property_ad_valorem": 25644015,
+      "sales_use_taxes": 29753818,
+      "severance_taxes": null,
+      "other_tax_revenue": 4751854,
+      "total_tax_revenue": 60149687,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -326134,
+      "all_other_revenue": 1468764,
+      "total_other_revenue": 1142630,
+      "total_program_revenue": 18275703,
+      "total_revenues": 79568020,
+      "general_government": 18278012,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": 18278012,
+      "public_safety": 8821956,
+      "public_works": 25818325,
+      "economic_development": 1763281,
+      "health_and_welfare": 5791088,
+      "culture_and_recreation": 4509617,
+      "interest_debt_service": 450422,
+      "all_other_expenditures": 36607,
+      "total_expenditures": 65432701
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Combined multiple tax line items (Maintenance tax, Alcoholic beverage tax, Airport expansion agreement) that don't fit standard categories",
+        "extracted": 3974916,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Maintenance tax 2,907,938, Alcoholic beverage tax 46,431, Airport expansion agreement 974,547",
+        "severity": "medium"
+      },
+      {
+        "field": "franchise_fees",
+        "fund": null,
+        "reason": "Cable TV franchise tax may be categorized as franchise fees or as other taxes",
+        "extracted": 823155,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Cable TV franchise tax 823,155",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Cannot disaggregate operating and capital grants into state vs federal sources from available data",
+        "extracted": null,
+        "alternative": 14395286,
+        "page": 37,
+        "text_snippet": "Operating Grants and Contributions 7,292,062, Capital Grants and Contributions 7,103,224",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.federal_intergovernmental",
+        "fund": null,
+        "reason": "Cannot disaggregate operating and capital grants into state vs federal sources from available data",
+        "extracted": null,
+        "alternative": 14395286,
+        "page": 37,
+        "text_snippet": "Operating Grants and Contributions 7,292,062, Capital Grants and Contributions 7,103,224",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. Charles",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 1704337,
+        "investments": 91136263,
+        "taxes_receivable": null,
+        "other_receivables": 29690795,
+        "due_from_other_governments": 4581936,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 469726,
+        "other_current_assets": 4270
+      },
+      "capital_assets": {
+        "non_depreciable": 44670035,
+        "depreciable_net": 152947341,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 197617376
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 325204703,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 5459673,
+        "retainage_payable": null,
+        "accrued_liabilities": 1039075,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 92047,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 3125000,
+        "bonds_payable_noncurrent": 27310425,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 36678607,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Advances",
+            "amount": 25868468
+          }
+        ],
+        "total": 25868468
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 181967376,
+        "restricted": 43654724,
+        "unrestricted": 37035528,
+        "total_net_position": 262657628
+      }
+    },
+    "component_units": {
+      "total_assets": 65701805,
+      "total_liabilities": 65187939,
+      "total_net_position": -5007976
+    },
+    "_uncertainties": [
+      {
+        "field": "current_assets.inventory",
+        "fund": "governmental_activities",
+        "reason": "Inventory shown as blank/dash for governmental activities, only populated for business-type",
+        "extracted": null,
+        "alternative": 0,
+        "page": 36,
+        "text_snippet": "inventory - 433,829",
+        "severity": "low"
+      },
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Due to component units (6,057) and Due to other governments (254,389) could be classified as other current liabilities or separately",
+        "extracted": null,
+        "alternative": 260446,
+        "page": 36,
+        "text_snippet": "Due to component units 6,057 - Due to other governments 254,389",
+        "severity": "medium"
+      },
+      {
+        "field": "current_assets.other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables, net shown as single line without breakdown between taxes_receivable and other_receivables",
+        "extracted": 29690795,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "Receivables, net 29,690,795",
+        "severity": "medium"
+      },
+      {
+        "field": "capital_assets.non_depreciable",
+        "fund": "governmental_activities",
+        "reason": "Calculated as sum of Land (10,484,811) and Construction in progress (34,185,224); not explicitly stated as non-depreciable total",
+        "extracted": 44670035,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "Land 10,484,811 Infrastructure 57,582,536 Plant and equipment 95,364,805 Construction In progress 34,185,224",
+        "severity": "low"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "governmental_activities",
+        "reason": "Calculated as sum of four restricted categories; breakdown provided but no explicit restricted total",
+        "extracted": 43654724,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "Restricted for: Maintenance/Operations 25,773,560 Debt service 4,848,261 Capital projects 1,280,366 Special Revenues 11,752,537",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "St. Charles",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": 330582656
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 330582656
+    },
+    "_uncertainties": [
+      {
+        "field": "all capital assets detail",
+        "fund": "governmental_activities",
+        "reason": "PDF text only contains narrative summary, not the detailed Capital Assets schedule table",
+        "extracted": null,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "As of December 31, 2014, the capital assets of the Parish amounted to $330,582,656 net of accumulated depreciation.",
+        "severity": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1033 @@
+{
+  "cbs": {
+    "parish": "Livingston",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Health Unit Fund",
+      "Jail Sales Tax Fund",
+      "Road Fund",
+      "Courthouse Capital Project Fund",
+      "Road 06 Debt Service Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 159272,
+        "Health Unit Fund": 1928496,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": 4158134,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 3479585,
+        "Total Governmental Funds": 9725487
+      },
+      "investments": {
+        "General Fund": 71236,
+        "Health Unit Fund": 3068115,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": 268772,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 3408123
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 487999,
+        "Health Unit Fund": 80,
+        "Jail Sales Tax Fund": 49,
+        "Road Fund": 1070,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 424735,
+        "Total Governmental Funds": 913933
+      },
+      "due_from_other_governments": {
+        "General Fund": 1883691,
+        "Health Unit Fund": 1829439,
+        "Jail Sales Tax Fund": 690606,
+        "Road Fund": 4351426,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 1579017,
+        "Total Governmental Funds": 10334179
+      },
+      "due_from_other_funds": {
+        "General Fund": 4026470,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": 1388509,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 153329,
+        "Total Governmental Funds": 5568308
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 116951,
+        "Total Governmental Funds": 116951
+      },
+      "inventory": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": 14210,
+        "Road Fund": 213055,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 227265
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": 132881,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 132881
+      },
+      "other_assets": {
+        "General Fund": 5982183,
+        "Health Unit Fund": 300000,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": 1161340,
+        "Road 06 Debt Service Fund": 3471867,
+        "Other Governmental Funds": 4051023,
+        "Total Governmental Funds": 14966413
+      },
+      "total_assets": {
+        "General Fund": 11701215,
+        "Health Unit Fund": 7126130,
+        "Jail Sales Tax Fund": 704865,
+        "Road Fund": 10513847,
+        "Courthouse Capital Project Fund": 1161340,
+        "Road 06 Debt Service Fund": 3471867,
+        "Other Governmental Funds": 9804640,
+        "Total Governmental Funds": 44483904
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 625412,
+        "Health Unit Fund": 30450,
+        "Jail Sales Tax Fund": 77101,
+        "Road Fund": 221383,
+        "Courthouse Capital Project Fund": 1228560,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 1080409,
+        "Total Governmental Funds": 3263315
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 196958,
+        "Health Unit Fund": 45752,
+        "Jail Sales Tax Fund": 31196,
+        "Road Fund": 243134,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 18990,
+        "Total Governmental Funds": 536030
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": 19700,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 19700
+      },
+      "due_to_other_funds": {
+        "General Fund": 991277,
+        "Health Unit Fund": 227549,
+        "Jail Sales Tax Fund": 2624842,
+        "Road Fund": 1303434,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 398823,
+        "Total Governmental Funds": 5545925
+      },
+      "other_liabilities": {
+        "General Fund": 217430,
+        "Health Unit Fund": 83014,
+        "Jail Sales Tax Fund": 4334287,
+        "Road Fund": 120634,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 166628,
+        "Total Governmental Funds": 4921993
+      },
+      "total_liabilities": {
+        "General Fund": 2050777,
+        "Health Unit Fund": 386765,
+        "Jail Sales Tax Fund": 8067426,
+        "Road Fund": 1888585,
+        "Courthouse Capital Project Fund": 1228560,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": 1664850,
+        "Total Governmental Funds": 15286963
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": null,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Inventory",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": 14210,
+            "Road Fund": 213055,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 227265
+          }
+        },
+        {
+          "label": "Advances",
+          "values": {
+            "General Fund": 3431708,
+            "Health Unit Fund": 300000,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 3731708
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Construction",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": 2452531,
+            "Total Governmental Funds": 2452531
+          }
+        },
+        {
+          "label": "Criminal Court",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": 58414,
+            "Total Governmental Funds": 58414
+          }
+        },
+        {
+          "label": "Criminal Court Witness",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": 33480,
+            "Total Governmental Funds": 33480
+          }
+        },
+        {
+          "label": "Debt Service",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": 3471867,
+            "Other Governmental Funds": 5052388,
+            "Total Governmental Funds": 8524255
+          }
+        },
+        {
+          "label": "Grant Expenditures",
+          "values": {
+            "General Fund": 90364,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 90364
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Construction",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": 467590,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 467590
+          }
+        },
+        {
+          "label": "State Grant Programs",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": 448367,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 448367
+          }
+        },
+        {
+          "label": "Federal Grant Programs",
+          "values": {
+            "General Fund": 22500,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 22500
+          }
+        },
+        {
+          "label": "Other Purposes",
+          "values": {
+            "General Fund": 15233,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 15233
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Bingo",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": 1925,
+            "Total Governmental Funds": 1925
+          }
+        },
+        {
+          "label": "Construction",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": 242461,
+            "Total Governmental Funds": 242461
+          }
+        },
+        {
+          "label": "Court Fees",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": 396353,
+            "Total Governmental Funds": 396353
+          }
+        },
+        {
+          "label": "Health Unit",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": 6439365,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 6439365
+          }
+        },
+        {
+          "label": "Road",
+          "values": {
+            "General Fund": null,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": 7496250,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 7496250
+          }
+        },
+        {
+          "label": "Other Purposes",
+          "values": {
+            "General Fund": 248113,
+            "Health Unit Fund": null,
+            "Jail Sales Tax Fund": null,
+            "Road Fund": null,
+            "Courthouse Capital Project Fund": null,
+            "Road 06 Debt Service Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 248113
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 5842520,
+        "Health Unit Fund": null,
+        "Jail Sales Tax Fund": -7376771,
+        "Road Fund": null,
+        "Courthouse Capital Project Fund": null,
+        "Road 06 Debt Service Fund": null,
+        "Other Governmental Funds": -97762,
+        "Total Governmental Funds": -1699233
+      },
+      "total_fund_balances": {
+        "General Fund": 9650438,
+        "Health Unit Fund": 6739365,
+        "Jail Sales Tax Fund": -7362561,
+        "Road Fund": 8625262,
+        "Courthouse Capital Project Fund": -67220,
+        "Road 06 Debt Service Fund": 3471867,
+        "Other Governmental Funds": 8139790,
+        "Total Governmental Funds": 29196941
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 11701215,
+      "Health Unit Fund": 7126130,
+      "Jail Sales Tax Fund": 704865,
+      "Road Fund": 10513847,
+      "Courthouse Capital Project Fund": 1161340,
+      "Road 06 Debt Service Fund": 3471867,
+      "Other Governmental Funds": 9804640,
+      "Total Governmental Funds": 44483904
+    },
+    "cross_sectional": {
+      "cash": 159272,
+      "investments": 71236,
+      "receivables": 2371690,
+      "inventory": null,
+      "other_assets": 5982183,
+      "transfers_in": 4026470,
+      "prepaid_items": null,
+      "total_assets": 11701215,
+      "deferred_outflows": null,
+      "accounts_payable": 625412,
+      "deferred_revenues": 19700,
+      "government_transfers": 991277,
+      "other_liabilities": 414388,
+      "total_liabilities": 2050777,
+      "deferred_inflows": null,
+      "reserved": 3522072,
+      "unreserved_designated": 285846,
+      "unreserved_undesignated": 5842520,
+      "total_fund_balances": 9650438,
+      "total_liabilities_and_fund_balances": 11701215
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "General Fund",
+        "reason": "Combined Pooled Cash In Other Funds, Restricted Assets Cash, and Advance to Jail Sales Tax Fund as other assets; these may warrant separate categorization",
+        "extracted": 5982183,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Pooled Cash In Other Funds 1,550,475; Restricted Assets Cash 90,364; Advance to Jail Sales Tax Fund 3,431,708",
+        "severity": "medium"
+      },
+      {
+        "field": "other_assets",
+        "fund": "Courthouse Capital Project Fund",
+        "reason": "Restricted Assets Cash classified as other assets; no separate restricted cash field in schema",
+        "extracted": 1161340,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Restricted Assets Cash 1,161,340",
+        "severity": "low"
+      },
+      {
+        "field": "other_assets",
+        "fund": "Road 06 Debt Service Fund",
+        "reason": "Restricted Assets Cash classified as other assets; no separate restricted cash field in schema",
+        "extracted": 3471867,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Restricted Assets Cash 3,471,867",
+        "severity": "low"
+      },
+      {
+        "field": "other_assets",
+        "fund": "Other Governmental Funds",
+        "reason": "Restricted Assets Cash classified as other assets; no separate restricted cash field in schema",
+        "extracted": 4051023,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Restricted Assets Cash 4,051,023",
+        "severity": "low"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Jail Sales Tax Fund",
+        "reason": "Combined Deficit In Pooled Cash (1,548,516), Due to Component Units, Due to Other Governments (54,063), and Advance from Other Funds (3,731,708) into other liabilities",
+        "extracted": 4334287,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Deficit In Pooled Cash 1,548,516; Due to Other Governments 54,063; Advance from Other Funds 3,731,708",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Combined Deficit In Pooled Cash (1,959), Due to Component Units (136,508), and Due to Other Governments (28,161) into other liabilities",
+        "extracted": 166628,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Deficit In Pooled Cash 1,959; Due to Component Units 136,508; Due to Other Governments 28,161",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Due to Other Governments (217,430) classified as other liabilities; no separate due to other governments field in schema",
+        "extracted": 217430,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Due to Other Governm ents 217,430",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Livingston",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 6117497,
+        "charges_for_services": 1737007,
+        "operating_grants": 320864,
+        "capital_grants": 1378927,
+        "net_expense_revenue": -2680699
+      },
+      "public_safety": {
+        "expenses": 5072256,
+        "charges_for_services": 1219589,
+        "operating_grants": 487053,
+        "capital_grants": 69786,
+        "net_expense_revenue": -3295828
+      },
+      "public_works": {
+        "expenses": 16464589,
+        "charges_for_services": 23175,
+        "operating_grants": 1606928,
+        "capital_grants": 1676743,
+        "net_expense_revenue": -13157743
+      },
+      "economic_development": {
+        "expenses": 27000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -27000
+      },
+      "health_and_welfare": {
+        "expenses": 1643186,
+        "charges_for_services": 35200,
+        "operating_grants": 318289,
+        "capital_grants": null,
+        "net_expense_revenue": -1289697
+      },
+      "culture_and_recreation": {
+        "expenses": 648023,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -648023
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 4658876,
+        "net_expense_revenue": -3342824
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 34631427,
+        "charges_for_services": 3014971,
+        "operating_grants": 4049186,
+        "capital_grants": 3125456,
+        "net_expense_revenue": -24441814
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 6399517,
+      "sales_taxes": 15374488,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 1429770,
+      "other_taxes": null,
+      "occupational_licenses": 944370,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 54818,
+      "miscellaneous": 2080149,
+      "transfers": -450000,
+      "other_items": [
+        {
+          "label": "Royalties",
+          "amount": 1753773
+        }
+      ],
+      "total_general_revenues": 27586885
+    },
+    "change_in_net_position": 3145071,
+    "net_position_beginning": 88188517,
+    "net_position_ending": 91333588,
+    "cross_sectional": {
+      "property_ad_valorem": 6399517,
+      "sales_use_taxes": 15374488,
+      "severance_taxes": null,
+      "other_tax_revenue": 2374140,
+      "total_tax_revenue": 24148145,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -450000,
+      "all_other_revenue": 3888740,
+      "total_other_revenue": 3438740,
+      "total_program_revenue": 10189613,
+      "total_revenues": 37776498,
+      "general_government": -2680699,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -2680699,
+      "public_safety": -3295828,
+      "public_works": -13157743,
+      "economic_development": -27000,
+      "health_and_welfare": -1289697,
+      "culture_and_recreation": -648023,
+      "interest_debt_service": -3342824,
+      "all_other_expenditures": null,
+      "total_expenditures": 34631427
+    },
+    "_uncertainties": [
+      {
+        "field": "interest_on_long_term_debt.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "Debt Service line shows capital grants of 1,316,052 but unclear if there are charges for services component",
+        "extracted": null,
+        "alternative": 1316052,
+        "page": 16,
+        "text_snippet": "Debt Service hterest and Fees 4,658,876 1,316,052 (3,342,824)",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants total 4,049,186 but cannot separate state vs federal portions from this statement",
+        "extracted": null,
+        "alternative": 4049186,
+        "page": 16,
+        "text_snippet": "operating_grants: 4049186 total",
+        "severity": "high"
+      },
+      {
+        "field": "cross_sectional.federal_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants total 4,049,186 but cannot separate state vs federal portions from this statement",
+        "extracted": null,
+        "alternative": 4049186,
+        "page": 16,
+        "text_snippet": "operating_grants: 4049186 total",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Livingston",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 9725487,
+        "investments": 3408123,
+        "taxes_receivable": null,
+        "other_receivables": 913933,
+        "due_from_other_governments": 11547592,
+        "due_from_component_units": 116951,
+        "inventory": 227265,
+        "prepaid_items": 440288,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 11551218,
+        "depreciable_net": 131785254,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 143336472
+      },
+      "other_noncurrent_assets": 9122644,
+      "total_assets": 178861138,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred Amount on Refunding of Debt",
+            "amount": 4057845
+          }
+        ],
+        "total": 4057845
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": 3799345,
+        "deposits_payable": null,
+        "unearned_revenue": 19700,
+        "accrued_interest": 1069109,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 91585395,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 57658796,
+        "restricted": 11159044,
+        "unrestricted": 22515748,
+        "total_net_position": 91333588
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Combined restricted cash and unamortized bond insurance premiums; unclear if these should be classified as other noncurrent assets",
+        "extracted": 9122644,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Unamortized Bond Insurance Premiums 348,050 ... Restricted Assets Cash 8,774,594",
+        "severity": "medium"
+      },
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Statement shows 'Accounts Payable and Accrued Expenses' combined; cannot separate accounts payable from accrued expenses",
+        "extracted": null,
+        "alternative": 3799345,
+        "page": 15,
+        "text_snippet": "Accounts Payable and Accrued Expenses 3,799,345",
+        "severity": "medium"
+      },
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Due to other governments (503,302) and due to component units (136,508) may qualify as current liabilities but not captured in schema",
+        "extracted": null,
+        "alternative": 639810,
+        "page": 15,
+        "text_snippet": "Due to Other Governments 503,302 ... Due to Component Units 136,508",
+        "severity": "low"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Non-current liabilities only show aggregated amounts (Due Within One Year: 6,948,051; Due in More than One Year: 79,109,380); no breakdown by type",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Due Within One Year 6,948,051 ... Due in More than One Year 79,109,380",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Livingston",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 5844429,
+          "increases": null,
+          "decreases": null,
+          "ending": 5844429
+        },
+        "construction_in_progress": {
+          "beginning": 15111097,
+          "increases": 10247963,
+          "decreases": -19652271,
+          "ending": 5706789
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 20955526,
+          "increases": 10247963,
+          "decreases": -19652271,
+          "ending": 11551218
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 54813717,
+          "increases": 19655722,
+          "decreases": null,
+          "ending": 74469439
+        },
+        "machinery_and_equipment": {
+          "beginning": 6238993,
+          "increases": 859063,
+          "decreases": -104284,
+          "ending": 6993772
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": 146362543,
+          "increases": null,
+          "decreases": null,
+          "ending": 146362543
+        },
+        "vehicles": null,
+        "furniture_and_fixtures": {
+          "beginning": 250660,
+          "increases": null,
+          "decreases": null,
+          "ending": 250660
+        },
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other_depreciable": [
+          {
+            "label": "Recreational Facilities",
+            "beginning": 3758232,
+            "increases": null,
+            "decreases": null,
+            "ending": 3758232
+          },
+          {
+            "label": "Sewer System",
+            "beginning": 2126234,
+            "increases": null,
+            "decreases": null,
+            "ending": 2126234
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 213550379,
+          "increases": 20514785,
+          "decreases": -104284,
+          "ending": 233960880
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -9383769,
+          "increases": -1474060,
+          "decreases": null,
+          "ending": -10857829
+        },
+        "machinery_and_equipment": {
+          "beginning": -4700048,
+          "increases": -557567,
+          "decreases": 104284,
+          "ending": -5153331
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": -66993722,
+          "increases": -28940,
+          "decreases": null,
+          "ending": -67022662
+        },
+        "vehicles": null,
+        "furniture_and_fixtures": {
+          "beginning": -268530,
+          "increases": -93956,
+          "decreases": null,
+          "ending": -362486
+        },
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other": [
+          {
+            "label": "Recreational Facilities",
+            "beginning": -306172,
+            "increases": -141749,
+            "decreases": null,
+            "ending": -447921
+          },
+          {
+            "label": "Sewer System",
+            "beginning": -9181136,
+            "increases": -9150261,
+            "decreases": null,
+            "ending": -18331397
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": -90833377,
+          "increases": -11446533,
+          "decreases": 104284,
+          "ending": -102175626
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 122717002,
+        "increases": 9068252,
+        "decreases": null,
+        "ending": 131785254
+      },
+      "total_capital_assets_net": {
+        "beginning": 143672528,
+        "increases": 19316215,
+        "decreases": -19652271,
+        "ending": 143336472
+      }
+    },
+    "cross_sectional": {
+      "land": 5844429,
+      "construction_in_progress": 5706789,
+      "other_non_depreciable": 0,
+      "buildings_net": 63611610,
+      "improvements_net": null,
+      "machinery_net": 1840441,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": -111826,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 79339881,
+      "total_governmental_net": 143336472
+    },
+    "_uncertainties": [
+      {
+        "field": "accumulated_depreciation.furniture_and_fixtures.beginning",
+        "fund": "governmental_activities",
+        "reason": "Beginning balance of Furniture and Fixtures accumulated depreciation (-268,530) exceeds the depreciable asset cost (250,660), which is unusual",
+        "extracted": -268530,
+        "alternative": null,
+        "page": 54,
+        "text_snippet": "Furniture and Fixtures 250,660... Less Accumulated Depreciation for:... Furniture and Fixtures (268,530)",
+        "severity": "medium"
+      },
+      {
+        "field": "accumulated_depreciation.sewer_system.increases",
+        "fund": "governmental_activities",
+        "reason": "Very large depreciation increase for Sewer System (-9,150,261) compared to asset base (2,126,234) suggests possible data error or major revaluation",
+        "extracted": -9150261,
+        "alternative": null,
+        "page": 54,
+        "text_snippet": "Sewer System 2,126,234... Sewer System (9,181,136) (9,150,261) (18,331,397)",
+        "severity": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,973 @@
+{
+  "cbs": {
+    "parish": "Calcasieu",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Public Works Operating Fund",
+      "Office of Juvenile Justice Services Fund",
+      "Calcasieu Parish Library Fund",
+      "Road Capital Improvement Fund",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 13551446,
+        "Public Works Operating Fund": 6565108,
+        "Office of Juvenile Justice Services Fund": 1654498,
+        "Calcasieu Parish Library Fund": 1265610,
+        "Road Capital Improvement Fund": 24111044,
+        "Nonmajor Governmental Funds": 9718103,
+        "Total Governmental Funds": 56865809
+      },
+      "investments": {
+        "General Fund": 47934238,
+        "Public Works Operating Fund": 24075466,
+        "Office of Juvenile Justice Services Fund": 6045826,
+        "Calcasieu Parish Library Fund": 4625424,
+        "Road Capital Improvement Fund": 88207759,
+        "Nonmajor Governmental Funds": 32237731,
+        "Total Governmental Funds": 203126444
+      },
+      "taxes_receivable": {
+        "General Fund": 11445770,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": 5978869,
+        "Calcasieu Parish Library Fund": 9886992,
+        "Road Capital Improvement Fund": 5955341,
+        "Nonmajor Governmental Funds": 13393692,
+        "Total Governmental Funds": 46660664
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 4356980,
+        "Public Works Operating Fund": 924185,
+        "Office of Juvenile Justice Services Fund": 36609,
+        "Calcasieu Parish Library Fund": 9574,
+        "Road Capital Improvement Fund": 1664193,
+        "Nonmajor Governmental Funds": 704485,
+        "Total Governmental Funds": 7696026
+      },
+      "due_from_other_governments": {
+        "General Fund": 252131,
+        "Public Works Operating Fund": 4460,
+        "Office of Juvenile Justice Services Fund": 223705,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": 322310,
+        "Nonmajor Governmental Funds": 1194029,
+        "Total Governmental Funds": 1996635
+      },
+      "due_from_other_funds": {
+        "General Fund": 547460,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": 1505,
+        "Calcasieu Parish Library Fund": 4456,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 169048,
+        "Total Governmental Funds": 722469
+      },
+      "due_from_component_units": {
+        "General Fund": 26195,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 930,
+        "Total Governmental Funds": 27125
+      },
+      "inventory": {
+        "General Fund": null,
+        "Public Works Operating Fund": 747312,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 428089,
+        "Total Governmental Funds": 1175401
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": 30746,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 35170,
+        "Total Governmental Funds": 65916
+      },
+      "other_assets": {
+        "General Fund": 33189,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 33189
+      },
+      "total_assets": {
+        "General Fund": 78147409,
+        "Public Works Operating Fund": 32316531,
+        "Office of Juvenile Justice Services Fund": 13971758,
+        "Calcasieu Parish Library Fund": 15792056,
+        "Road Capital Improvement Fund": 120410343,
+        "Nonmajor Governmental Funds": 57938239,
+        "Total Governmental Funds": 318576336
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 1565359,
+        "Public Works Operating Fund": 1092810,
+        "Office of Juvenile Justice Services Fund": 132234,
+        "Calcasieu Parish Library Fund": 109423,
+        "Road Capital Improvement Fund": 1591586,
+        "Nonmajor Governmental Funds": 1540113,
+        "Total Governmental Funds": 6031525
+      },
+      "retainage_payable": {
+        "General Fund": 34899,
+        "Public Works Operating Fund": 26341,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": 4456,
+        "Road Capital Improvement Fund": 175177,
+        "Nonmajor Governmental Funds": 255072,
+        "Total Governmental Funds": 495945
+      },
+      "accrued_liabilities": {
+        "General Fund": 297380,
+        "Public Works Operating Fund": 235919,
+        "Office of Juvenile Justice Services Fund": 109926,
+        "Calcasieu Parish Library Fund": 140146,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 116324,
+        "Total Governmental Funds": 899695
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": 2292,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": 29765,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 1054250,
+        "Total Governmental Funds": 1086307
+      },
+      "due_to_other_funds": {
+        "General Fund": 175076,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 563212,
+        "Total Governmental Funds": 738288
+      },
+      "other_liabilities": {
+        "General Fund": 118839,
+        "Public Works Operating Fund": 241128,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": 361316,
+        "Total Governmental Funds": 721283
+      },
+      "total_liabilities": {
+        "General Fund": 2158946,
+        "Public Works Operating Fund": 1569857,
+        "Office of Juvenile Justice Services Fund": 271925,
+        "Calcasieu Parish Library Fund": 249569,
+        "Road Capital Improvement Fund": 1591586,
+        "Nonmajor Governmental Funds": 3635215,
+        "Total Governmental Funds": 9477098
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Property taxes levied for the next fiscal year",
+          "values": {
+            "General Fund": 11531978,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": 6037189,
+            "Calcasieu Parish Library Fund": 9982988,
+            "Road Capital Improvement Fund": 6023191,
+            "Nonmajor Governmental Funds": 13520745,
+            "Total Governmental Funds": 47096091
+          }
+        },
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": 8532,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": 17026,
+            "Total Governmental Funds": 25558
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 11531978,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": 6045721,
+        "Calcasieu Parish Library Fund": 9982988,
+        "Road Capital Improvement Fund": 6023191,
+        "Nonmajor Governmental Funds": 13537771,
+        "Total Governmental Funds": 47121649
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid items",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": 30746,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": 35170,
+            "Total Governmental Funds": 65916
+          }
+        },
+        {
+          "label": "Inventories",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": 747312,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": 428089,
+            "Total Governmental Funds": 1175401
+          }
+        },
+        {
+          "label": "Loans receivable",
+          "values": {
+            "General Fund": 25764,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 25764
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Agriculture and community services",
+          "values": {
+            "General Fund": 250780,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 250780
+          }
+        },
+        {
+          "label": "Public works operations",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": 29999362,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 29999362
+          }
+        },
+        {
+          "label": "Juvenile justice operations",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": 7623366,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 7623366
+          }
+        },
+        {
+          "label": "Library purposes",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": 5559499,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 5559499
+          }
+        },
+        {
+          "label": "Roads and infrastructure",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": 112795566,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 112795566
+          }
+        },
+        {
+          "label": "Other restrictions",
+          "values": {
+            "General Fund": null,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": 26239214,
+            "Total Governmental Funds": 26239214
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Animal services",
+          "values": {
+            "General Fund": 63127,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 63127
+          }
+        },
+        {
+          "label": "Parks operations",
+          "values": {
+            "General Fund": 750649,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 750649
+          }
+        },
+        {
+          "label": "Training center operations",
+          "values": {
+            "General Fund": 459859,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 459859
+          }
+        },
+        {
+          "label": "Future capital needs",
+          "values": {
+            "General Fund": 14552880,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": 14062780,
+            "Total Governmental Funds": 28615660
+          }
+        },
+        {
+          "label": "Matching funds for capital grants",
+          "values": {
+            "General Fund": 11163729,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 11163729
+          }
+        },
+        {
+          "label": "Major infrastructure",
+          "values": {
+            "General Fund": 6175000,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 6175000
+          }
+        },
+        {
+          "label": "Cooperative endeavor agreements",
+          "values": {
+            "General Fund": 1588968,
+            "Public Works Operating Fund": null,
+            "Office of Juvenile Justice Services Fund": null,
+            "Calcasieu Parish Library Fund": null,
+            "Road Capital Improvement Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 1588968
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 29425729,
+        "Public Works Operating Fund": null,
+        "Office of Juvenile Justice Services Fund": null,
+        "Calcasieu Parish Library Fund": null,
+        "Road Capital Improvement Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 29425729
+      },
+      "total_fund_balances": {
+        "General Fund": 64456485,
+        "Public Works Operating Fund": 30746674,
+        "Office of Juvenile Justice Services Fund": 7654112,
+        "Calcasieu Parish Library Fund": 5559499,
+        "Road Capital Improvement Fund": 112795566,
+        "Nonmajor Governmental Funds": 40765253,
+        "Total Governmental Funds": 261977589
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 78147409,
+      "Public Works Operating Fund": 32316531,
+      "Office of Juvenile Justice Services Fund": 13971758,
+      "Calcasieu Parish Library Fund": 15792056,
+      "Road Capital Improvement Fund": 120410343,
+      "Nonmajor Governmental Funds": 57938239,
+      "Total Governmental Funds": 318576336
+    },
+    "cross_sectional": {
+      "cash": 13551446,
+      "investments": 47934238,
+      "receivables": 16054890,
+      "inventory": null,
+      "other_assets": 33189,
+      "transfers_in": 547460,
+      "prepaid_items": null,
+      "total_assets": 78147409,
+      "deferred_outflows": null,
+      "accounts_payable": 1600258,
+      "deferred_revenues": 2292,
+      "government_transfers": 175076,
+      "other_liabilities": 416219,
+      "total_liabilities": 2158946,
+      "deferred_inflows": 11531978,
+      "reserved": 276544,
+      "unreserved_designated": 34754212,
+      "unreserved_undesignated": 29425729,
+      "total_fund_balances": 64456485,
+      "total_liabilities_and_fund_balances": 78147409
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "General Fund",
+        "reason": "Combined multiple receivable line items: sales taxes 883,373 + franchise taxes 306,693 + interest 87,255 + other 3,963,032 + loans 33,189",
+        "extracted": 4356980,
+        "alternative": null,
+        "page": 46,
+        "text_snippet": "Sales taxes - 883,373; Franchise taxes 306,693; Interest receivable 87,255; Other receivables 3,963,032; Loans receivable 33,189",
+        "severity": "low"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Combined due to component units 26,439 + other liabilities 92,400. Enterprise zone rebate liability 154,500 appears in Public Works Operating Fund",
+        "extracted": 118839,
+        "alternative": null,
+        "page": 46,
+        "text_snippet": "Due to component units 26,439; Other liabilities 92,400",
+        "severity": "low"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "General Fund",
+        "reason": "Combined accounts payable and retainage payable for cross_sectional: 1,530,460 + 34,899 + 34,899 (retainage listed separately but summed)",
+        "extracted": 1600258,
+        "alternative": 1565359,
+        "page": 46,
+        "text_snippet": "Accounts payable $ 1,530,460; Retainage payable 34,899",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Calcasieu",
+    "year": 2013,
+    "in_thousands": true,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 23802000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": 15335000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_works": {
+        "expenses": 39564000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "economic_development": {
+        "expenses": 3884000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 14835000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": 15996000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 6993000,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        }
+      ],
+      "total": {
+        "expenses": 120409000,
+        "charges_for_services": 16237000,
+        "operating_grants": 14516000,
+        "capital_grants": 3971000,
+        "net_expense_revenue": null
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 44934000,
+      "sales_taxes": 42716000,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": 11895000,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": -440000,
+      "other_items": [
+        {
+          "label": "Unrestricted Grants",
+          "amount": 3124000
+        },
+        {
+          "label": "Other",
+          "amount": 3971000
+        },
+        {
+          "label": "Special Items",
+          "amount": 29000
+        }
+      ],
+      "total_general_revenues": null
+    },
+    "change_in_net_position": 20544000,
+    "net_position_beginning": 754326000,
+    "net_position_ending": 774870000,
+    "cross_sectional": {
+      "property_ad_valorem": 44934000,
+      "sales_use_taxes": 54611000,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 54611000,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -440000,
+      "all_other_revenue": 7124000,
+      "total_other_revenue": 6684000,
+      "total_program_revenue": 34724000,
+      "total_revenues": 141364000,
+      "general_government": null,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": null,
+      "public_safety": null,
+      "public_works": null,
+      "economic_development": null,
+      "health_and_welfare": null,
+      "culture_and_recreation": null,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 120409000
+    },
+    "_uncertainties": [
+      {
+        "field": "net_expense_revenue",
+        "fund": "governmental_activities - all functions",
+        "reason": "Condensed Statement of Activities does not show individual net expense/revenue by function, only aggregated totals",
+        "extracted": null,
+        "alternative": "Could be calculated if detailed Statement of Activities is provided",
+        "page": 34,
+        "text_snippet": "The table below provides a summary of the changes in net position...Condensed Comparative Statement of Activities",
+        "severity": "high"
+      },
+      {
+        "field": "general_revenues breakdown",
+        "fund": "governmental_activities",
+        "reason": "Other revenue of 3971 and Unrestricted Grants of 3124 are not clearly mapped to standard categories like investment income or miscellaneous",
+        "extracted": null,
+        "alternative": "Other may include investment income and miscellaneous combined",
+        "page": 34,
+        "text_snippet": "Other 3,971 1,317...Unrestricted Grants 3,124 2,385",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.total_tax_revenue",
+        "fund": "cross_sectional",
+        "reason": "Calculated as sales_taxes + gaming_revenues only. Property taxes excluded as they are mapped separately. No other tax categories visible.",
+        "extracted": 54611000,
+        "alternative": "Could be 99545 if property taxes included",
+        "page": 34,
+        "text_snippet": "Property Taxes 44,934...Sales Taxes 42,716...Gaming Revenues 11,895",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Calcasieu",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": null
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": null
+      }
+    },
+    "component_units": {
+      "total_assets": 425660049,
+      "total_liabilities": 72117752,
+      "total_net_position": 332434379
+    },
+    "_uncertainties": [
+      {
+        "field": "governmental_activities",
+        "fund": null,
+        "reason": "The provided PDF pages only contain the Component Units combining statement of net position (pages 66-67) and statement of activities (pages 68-69). The government-wide Statement of Net Position with Governmental Activities column is not present in the provided text.",
+        "extracted": null,
+        "alternative": null,
+        "page": 66,
+        "text_snippet": "CALCASIEU PARISH POLICE JURY COMBINING STATEMENT OF NET POSITION COMPONENT UNITS DECEMBER 31, 2014",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Calcasieu",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 18022000
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 7379000
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 25401000
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 74642000
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 13242000
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 395417000
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [
+          {
+            "label": "Bridges",
+            "beginning": null,
+            "increases": null,
+            "decreases": null,
+            "ending": 10106000
+          }
+        ],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": 97989562
+      },
+      "total_capital_assets_net": {
+        "beginning": 511034000,
+        "increases": null,
+        "decreases": null,
+        "ending": 518808000
+      }
+    },
+    "cross_sectional": {
+      "land": 18022000,
+      "construction_in_progress": 7379000,
+      "other_non_depreciable": 0,
+      "buildings_net": 74642000,
+      "improvements_net": null,
+      "machinery_net": 13242000,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": 10106000,
+      "leased_property_net": null,
+      "infrastructure_net": 395417000,
+      "total_governmental_net": 518808000
+    },
+    "_uncertainties": [
+      {
+        "field": "in_thousands",
+        "fund": null,
+        "reason": "Table header shows '(In Thousands)' but Statement of Net Position shows detailed amounts without thousands label - non-depreciable amount shown as 420,818,629",
+        "extracted": false,
+        "alternative": true,
+        "page": 40,
+        "text_snippet": "Capital Assets, Net of Depreciation December 31, 2014 and 2013 (In Thousands)",
+        "severity": "high"
+      },
+      {
+        "field": "total_not_depreciated.ending",
+        "fund": "governmental_activities",
+        "reason": "Calculated as sum of land (18,022) and CIP (7,379) from summary table marked '(In Thousands)' = 25,401 thousand",
+        "extracted": 25401000,
+        "alternative": null,
+        "page": 40,
+        "text_snippet": "Land $ 18,022 $ 17,550... Construction in Progress 7,379 17,830",
+        "severity": "medium"
+      },
+      {
+        "field": "total_capital_assets_net.ending",
+        "fund": "governmental_activities",
+        "reason": "Page 40 shows 518,808 (in thousands) but page 43 shows Non-depreciable 420,818,629 + Depreciable net 97,989,562 = 518,808,191 without thousands",
+        "extracted": 518808000,
+        "alternative": 518808191,
+        "page": 43,
+        "text_snippet": "Non-depreciable 420,818,629 Depreciable, net 97,989,562",
+        "severity": "high"
+      }
+    ]
+  }
+}

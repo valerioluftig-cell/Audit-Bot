@@ -6,8 +6,52 @@ Parish Audit Pipeline — single file.
 2. Browser opens automatically.
 3. Paste your Anthropic API key in the Settings panel (gear icon, top-right).
 """
-import io, json, os, queue, re, sqlite3, sys, threading, time, uuid, webbrowser
+import io, json, os, queue, re, shutil, sqlite3, sys, threading, time, uuid, webbrowser
 from pathlib import Path
+
+
+def _seed_data():
+    """On first run, copy seeded/ data into working dirs so Training is pre-populated."""
+    seed = _resource_dir() / "seeded"
+    if not seed.exists():
+        return
+    app = _app_dir()
+
+    # feedback.db — copy only if none exists yet
+    seed_db = seed / "feedback.db"
+    target_db = app / "feedback.db"
+    if seed_db.exists() and not target_db.exists():
+        try:
+            shutil.copy2(seed_db, target_db)
+            print("[seed] Copied feedback.db", flush=True)
+        except Exception as e:
+            print(f"[seed] feedback.db copy failed: {e}", flush=True)
+
+    # coded/ — copy year subdirs that don't exist yet
+    seed_coded = seed / "coded"
+    if seed_coded.exists():
+        for yr_dir in seed_coded.iterdir():
+            target = app / "coded" / yr_dir.name
+            if not target.exists():
+                try:
+                    shutil.copytree(yr_dir, target)
+                    print(f"[seed] Copied coded/{yr_dir.name}", flush=True)
+                except Exception as e:
+                    print(f"[seed] coded/{yr_dir.name} failed: {e}", flush=True)
+
+    # runs/ — copy seeded run dirs that don't exist yet
+    seed_runs = seed / "runs"
+    if seed_runs.exists():
+        target_runs = app / "runs"
+        target_runs.mkdir(exist_ok=True)
+        for run_dir in seed_runs.iterdir():
+            target = target_runs / f"seeded_{run_dir.name}"
+            if not target.exists():
+                try:
+                    shutil.copytree(run_dir, target)
+                    print(f"[seed] Copied runs/{run_dir.name} → seeded_{run_dir.name}", flush=True)
+                except Exception as e:
+                    print(f"[seed] runs/{run_dir.name} failed: {e}", flush=True)
 
 def _app_dir() -> Path:
     """
@@ -3424,6 +3468,7 @@ _HTML = r"""<!DOCTYPE html>
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile, Body as _Body
 from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse
 
+_seed_data()  # pre-populate Training with seeded run data on first start
 app = FastAPI()
 JOBS: dict[str, dict] = {}
 

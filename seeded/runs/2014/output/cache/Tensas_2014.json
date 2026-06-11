@@ -1,0 +1,882 @@
+{
+  "cbs": {
+    "parish": "Tensas",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road Fund",
+      "Health Ambulance Fund",
+      "Waste Unit Fund",
+      "Collection Fund",
+      "Landfill Site Fund",
+      "Fire Protection Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 196285,
+        "Road Fund": 114758,
+        "Health Ambulance Fund": 41693,
+        "Waste Unit Fund": 450731,
+        "Collection Fund": 255434,
+        "Landfill Site Fund": 195926,
+        "Fire Protection Fund": 22745,
+        "Other Governmental Funds": 695184,
+        "Total Governmental Funds": 1972756
+      },
+      "investments": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 735895,
+        "Road Fund": 43294,
+        "Health Ambulance Fund": 46884,
+        "Waste Unit Fund": 190577,
+        "Collection Fund": 61066,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": 10824,
+        "Other Governmental Funds": 325346,
+        "Total Governmental Funds": 1413886
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 36137,
+        "Road Fund": 39135,
+        "Health Ambulance Fund": 24086,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": 9034,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": 18069,
+        "Total Governmental Funds": 126461
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": 980324,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": 24008,
+        "Total Governmental Funds": 1004332
+      },
+      "total_assets": {
+        "General Fund": 932180,
+        "Road Fund": 194189,
+        "Health Ambulance Fund": 127712,
+        "Waste Unit Fund": 641308,
+        "Collection Fund": 340586,
+        "Landfill Site Fund": 1176250,
+        "Fire Protection Fund": 42603,
+        "Other Governmental Funds": 1062607,
+        "Total Governmental Funds": 4517435
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 28113,
+        "Road Fund": 40171,
+        "Health Ambulance Fund": 30629,
+        "Waste Unit Fund": 3211,
+        "Collection Fund": 45911,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": 38532,
+        "Total Governmental Funds": 186567
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 126461,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 126461
+      },
+      "other_liabilities": {
+        "General Fund": 52119,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": 52119,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 52119
+      },
+      "total_liabilities": {
+        "General Fund": 154574,
+        "Road Fund": 40171,
+        "Health Ambulance Fund": 30629,
+        "Waste Unit Fund": 3211,
+        "Collection Fund": 45911,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": 52119,
+        "Other Governmental Funds": 38532,
+        "Total Governmental Funds": 365147
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Road Fund": null,
+            "Health Ambulance Fund": null,
+            "Waste Unit Fund": null,
+            "Collection Fund": null,
+            "Landfill Site Fund": null,
+            "Fire Protection Fund": null,
+            "Other Governmental Funds": 24008,
+            "Total Governmental Funds": 24008
+          }
+        },
+        {
+          "label": "Landfill closure",
+          "values": {
+            "General Fund": null,
+            "Road Fund": null,
+            "Health Ambulance Fund": null,
+            "Waste Unit Fund": null,
+            "Collection Fund": null,
+            "Landfill Site Fund": 1176250,
+            "Fire Protection Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 1176250
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Special revenue projects",
+          "values": {
+            "General Fund": null,
+            "Road Fund": 154018,
+            "Health Ambulance Fund": 97083,
+            "Waste Unit Fund": 638097,
+            "Collection Fund": 294675,
+            "Landfill Site Fund": null,
+            "Fire Protection Fund": -9516,
+            "Other Governmental Funds": 1000067,
+            "Total Governmental Funds": 2174424
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 777606,
+        "Road Fund": null,
+        "Health Ambulance Fund": null,
+        "Waste Unit Fund": null,
+        "Collection Fund": null,
+        "Landfill Site Fund": null,
+        "Fire Protection Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 777606
+      },
+      "total_fund_balances": {
+        "General Fund": 777606,
+        "Road Fund": 154018,
+        "Health Ambulance Fund": 97083,
+        "Waste Unit Fund": 638097,
+        "Collection Fund": 294675,
+        "Landfill Site Fund": 1176250,
+        "Fire Protection Fund": -9516,
+        "Other Governmental Funds": 1024075,
+        "Total Governmental Funds": 4152288
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 932180,
+      "Road Fund": 194189,
+      "Health Ambulance Fund": 127712,
+      "Waste Unit Fund": 641308,
+      "Collection Fund": 340586,
+      "Landfill Site Fund": 1176250,
+      "Fire Protection Fund": 42603,
+      "Other Governmental Funds": 1062607,
+      "Total Governmental Funds": 4517435
+    },
+    "cross_sectional": {
+      "cash": 196285,
+      "investments": null,
+      "receivables": 735895,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 36137,
+      "prepaid_items": null,
+      "total_assets": 932180,
+      "deferred_outflows": null,
+      "accounts_payable": 28113,
+      "deferred_revenues": null,
+      "government_transfers": 126461,
+      "other_liabilities": 52119,
+      "total_liabilities": 154574,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 777606,
+      "total_fund_balances": 777606,
+      "total_liabilities_and_fund_balances": 932180
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "Landfill Site Fund",
+        "reason": "Line item 'Amounts held by trustee for landfill closure and post-closure care costs' could be a specialized asset category or part of other_assets",
+        "extracted": 980324,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Amounts held by trustee for landfill closure and post-closure care costs - - 980,324 980,324",
+        "severity": "medium"
+      },
+      {
+        "field": "other_assets",
+        "fund": "Other Governmental Funds",
+        "reason": "Line item 'Restricted assets' could be investments, other assets, or a separate category",
+        "extracted": 24008,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Restricted assets 24,008 24,008",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Fire Protection Fund",
+        "reason": "Intergovernmental payables appears only in Fire Protection column but total shows in General Fund. PDF formatting may have alignment issues.",
+        "extracted": 52119,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Intergovernmental payables 52,119 52,119",
+        "severity": "high"
+      },
+      {
+        "field": "other_assets",
+        "fund": "Total Governmental Funds",
+        "reason": "Total of 1004332 calculated from 980324 + 24008, not explicitly shown in PDF",
+        "extracted": 1004332,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Amounts held by trustee... 980,324 ... Restricted assets 24,008",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Tensas",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1662430,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1662430
+      },
+      "public_safety": {
+        "expenses": 293277,
+        "charges_for_services": 97296,
+        "operating_grants": 41372,
+        "capital_grants": 290213,
+        "net_expense_revenue": 135604
+      },
+      "public_works": {
+        "expenses": 2137142,
+        "charges_for_services": 431989,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1705153
+      },
+      "economic_development": {
+        "expenses": 390386,
+        "charges_for_services": 1770,
+        "operating_grants": 58500,
+        "capital_grants": null,
+        "net_expense_revenue": -330116
+      },
+      "health_and_welfare": {
+        "expenses": 577960,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -577960
+      },
+      "culture_and_recreation": {
+        "expenses": 285685,
+        "charges_for_services": 21875,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -263810
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 40653,
+        "net_expense_revenue": -40653
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 5387533,
+        "charges_for_services": 531055,
+        "operating_grants": 121747,
+        "capital_grants": 290213,
+        "net_expense_revenue": -4444518
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 1492974,
+      "sales_taxes": 1652732,
+      "severance_taxes": null,
+      "fire_insurance_premiums": 19973,
+      "franchise_fees": null,
+      "other_taxes": 249703,
+      "occupational_licenses": 66649,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 44564,
+      "state_shared_revenue": 75743,
+      "non_employer_pension_contribution": null,
+      "investment_income": 29180,
+      "miscellaneous": 261346,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Contract buyout",
+          "amount": 750000
+        }
+      ],
+      "total_general_revenues": 4642864
+    },
+    "change_in_net_position": 198346,
+    "net_position_beginning": 11112921,
+    "net_position_ending": 11311267,
+    "cross_sectional": {
+      "property_ad_valorem": 1492974,
+      "sales_use_taxes": 1652732,
+      "severance_taxes": null,
+      "other_tax_revenue": 336352,
+      "total_tax_revenue": 3482008,
+      "state_revenue_sharing": 44564,
+      "state_intergovernmental": 75743,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1040526,
+      "total_other_revenue": 1160833,
+      "total_program_revenue": 943015,
+      "total_revenues": 5585856,
+      "general_government": -1662430,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1662430,
+      "public_safety": -157673,
+      "public_works": -1705153,
+      "economic_development": -330116,
+      "health_and_welfare": -577960,
+      "culture_and_recreation": -263810,
+      "interest_debt_service": -40653,
+      "all_other_expenditures": null,
+      "total_expenditures": 5387533
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government is split into 5 subcategories (Legislative, Judicial, Elections, Finance/administrative, Other general administrative). Sum of subcategories used as no single line item exists.",
+        "extracted": 1662430,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Legislative 168,641; Judicial 341,137; Elections 28,953; Finance and administrative 519,235; Other general administrative 604,464",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.public_safety",
+        "fund": "governmental_activities",
+        "reason": "Public safety shows positive net position (135,604) rather than typical negative net expense. Using negative of this to represent net expense for cross-sectional.",
+        "extracted": -157673,
+        "alternative": 135604,
+        "page": 16,
+        "text_snippet": "Public safety 293,277 97,296 41,372 290,213 135,604",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.other_tax_revenue",
+        "fund": null,
+        "reason": "Calculated as sum of Other taxes (249,703) + Licenses and permits (66,649) + Fire insurance rebates (19,973). Fire insurance may not be tax revenue.",
+        "extracted": 336352,
+        "alternative": 316379,
+        "page": 16,
+        "text_snippet": "Other taxes 249,703; Licenses and permits 66,649; Fire insurance rebates 19,973",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Tensas",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 1413886,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 8654948
+      },
+      "other_noncurrent_assets": 1004332,
+      "total_assets": 13045922,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1429057
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 7158979,
+        "restricted": 1004332,
+        "unrestricted": 3147956,
+        "total_net_position": null
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "cash_and_deposits",
+        "fund": "governmental_activities",
+        "reason": "Cash and cash equivalents line shows 'U' instead of a numeric value",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Cash and cash equivalents U",
+        "severity": "high"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Combined two restricted asset items (980,324 + 24,008) as noncurrent assets, but these may be current or part of other categories",
+        "extracted": 1004332,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Amounts held by trustee for landfill closure and post-closure care costs 980,324; Restricted assets 24,008",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Accounts, salaries, and other payables shown without amount, and Intergovernmental payables also missing value",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accounts, salaries, and other payables; Intergovernmental payables",
+        "severity": "high"
+      },
+      {
+        "field": "long_term_liabilities.other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Only 'Due in more than one year' is shown as 1,429,057; 'Due within one year' has no amount visible",
+        "extracted": 1429057,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Due within one year; Due in more than one year 1,429,057",
+        "severity": "medium"
+      },
+      {
+        "field": "total_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Total liabilities line appears but no amount is visible in the PDF text",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Total liabilities",
+        "severity": "high"
+      },
+      {
+        "field": "net_position.total_net_position",
+        "fund": "governmental_activities",
+        "reason": "Total net position line appears but no amount is visible in the PDF text",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Total net position",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Tensas",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 743698,
+          "increases": null,
+          "decreases": null,
+          "ending": 743698
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 743698,
+          "increases": null,
+          "decreases": null,
+          "ending": 743698
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 8329544,
+          "increases": 560403,
+          "decreases": null,
+          "ending": 8889947
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": 4385403,
+          "increases": 20440,
+          "decreases": null,
+          "ending": 4405843
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 12714947,
+          "increases": 580843,
+          "decreases": null,
+          "ending": 13295790
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": 743698,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "furniture_and_fixtures",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Furniture, fixtures, and equipment' may include equipment/machinery beyond just furniture and fixtures",
+        "extracted": 4405843,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Furniture, fixtures, and equipment 4,385,403 20,440 ^ 4,405,843",
+        "severity": "medium"
+      },
+      {
+        "field": "total_depreciable.increases",
+        "fund": "governmental_activities",
+        "reason": "OCR shows '580,|843' with pipe character - interpreted as 580843",
+        "extracted": 580843,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Total $ 12,714,947 $ 580,|843 : $ 13,295,790",
+        "severity": "low"
+      },
+      {
+        "field": "accumulated_depreciation",
+        "fund": "governmental_activities",
+        "reason": "Schedule appears incomplete - no accumulated depreciation section shown on this page",
+        "extracted": null,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Capital assets being depreciated Buildings $ 8,329,544 $ 560,403 $ - $ 8,889,947",
+        "severity": "high"
+      }
+    ]
+  }
+}

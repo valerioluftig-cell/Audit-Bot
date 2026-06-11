@@ -1,0 +1,361 @@
+{
+  "cbs": {
+    "parish": "Morehouse",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [],
+    "assets": {
+      "cash_and_deposits": {},
+      "investments": {},
+      "taxes_receivable": {},
+      "special_assessments_receivable": {},
+      "other_receivables": {},
+      "due_from_other_governments": {},
+      "due_from_other_funds": {},
+      "due_from_component_units": {},
+      "inventory": {},
+      "prepaid_items": {},
+      "other_assets": {},
+      "total_assets": {}
+    },
+    "liabilities": {
+      "accounts_payable": {},
+      "retainage_payable": {},
+      "accrued_liabilities": {},
+      "deposits_payable": {},
+      "unearned_revenue": {},
+      "due_to_other_funds": {},
+      "other_liabilities": {},
+      "total_liabilities": {}
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {}
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {},
+      "total_fund_balances": {}
+    },
+    "total_liabilities_and_fund_balances": {},
+    "cross_sectional": {
+      "cash": null,
+      "investments": null,
+      "receivables": null,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": null,
+      "deferred_outflows": null,
+      "accounts_payable": null,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": null,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": null,
+      "total_fund_balances": null,
+      "total_liabilities_and_fund_balances": null
+    },
+    "_uncertainties": [
+      {
+        "field": "ALL",
+        "fund": null,
+        "reason": "The provided PDF text contains only reconciliation statements (pages 24-25), not the main Combined Balance Sheet of Governmental Funds",
+        "extracted": null,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "RECONCILIATION OF GOVERNMENTAL FUNDS BALANCE SHEET TO GOVERNMENT-WIDE STATEMENT OF NET POSITION",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Morehouse",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1085114,
+        "charges_for_services": 415857,
+        "operating_grants": 192098,
+        "capital_grants": null,
+        "net_expense_revenue": -477159
+      },
+      "public_safety": {
+        "expenses": 646127,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -646127
+      },
+      "public_works": {
+        "expenses": 3053752,
+        "charges_for_services": 109794,
+        "operating_grants": 60000,
+        "capital_grants": 95043,
+        "net_expense_revenue": -2788915
+      },
+      "economic_development": {
+        "expenses": 1155027,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1155027
+      },
+      "health_and_welfare": {
+        "expenses": 338186,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -338186
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [
+        {
+          "label": "Building maintenance",
+          "expenses": 331031,
+          "charges_for_services": 9100,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -321931
+        }
+      ],
+      "total": {
+        "expenses": 6609237,
+        "charges_for_services": 534751,
+        "operating_grants": 252098,
+        "capital_grants": 95043,
+        "net_expense_revenue": -5727345
+      }
+    },
+    "general_revenues": {
+      "property_taxes": null,
+      "sales_taxes": null,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 3928605,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 1793050,
+      "non_employer_pension_contribution": null,
+      "investment_income": 47801,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Gain on sale of capital assets",
+          "amount": 39339
+        }
+      ],
+      "total_general_revenues": 5808795
+    },
+    "change_in_net_position": 81450,
+    "net_position_beginning": 15871012,
+    "net_position_ending": 15965776,
+    "cross_sectional": {
+      "property_ad_valorem": null,
+      "sales_use_taxes": null,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 3928605,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 87140,
+      "total_other_revenue": 1880190,
+      "total_program_revenue": 881892,
+      "total_revenues": 6690697,
+      "general_government": -477159,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -477159,
+      "public_safety": -646127,
+      "public_works": -2788915,
+      "economic_development": -1155027,
+      "health_and_welfare": -338186,
+      "culture_and_recreation": null,
+      "interest_debt_service": null,
+      "all_other_expenditures": -321931,
+      "total_expenditures": 6609237
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": null,
+        "reason": "Statement of Activities shows general government as disaggregated line items (Legislative, Judicial, Elections, Finance and administrative, Other). Had to sum: 80,788+762,402+51,542+129,825+60,557=1,085,114",
+        "extracted": 1085114,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Legislative $ 80,788...Judicial 762,402...Elections 51,542...Finance and administrative 129,825...Other 60,557",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.charges_for_services",
+        "fund": null,
+        "reason": "Statement of Activities shows disaggregated charges for general government line items. Had to sum: 0+173,972+0+241,885+0=415,857",
+        "extracted": 415857,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Legislative $ - Judicial 173,972 Elections - Finance and administrative 241,885 Other -",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": null,
+        "reason": "Statement of Activities shows disaggregated net expense/revenue for general government. Had to sum: (80,788)+(396,332)+(51,542)+112,060+(60,557)=-477,159",
+        "extracted": -477159,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Legislative ( 80,788)...Judicial ( 396,332)...Elections ( 51,542)...Finance 112,060...Other ( 60,557)",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues.other_taxes",
+        "fund": null,
+        "reason": "Taxes shown as single aggregate amount $3,928,605 without breakdown by type",
+        "extracted": 3928605,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "General revenues: Taxes $ 3,928,605",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.state_shared_revenue",
+        "fund": null,
+        "reason": "Intergovernmental shown as single aggregate amount $1,793,050 without breakdown between state and federal",
+        "extracted": 1793050,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Intergovernmental 1,793,050",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.investment_income",
+        "fund": null,
+        "reason": "Combined as 'Unrestricted investment earnings and miscellaneous' $47,801 - unable to separate investment income from miscellaneous",
+        "extracted": 47801,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Unrestricted investment earnings and miscellaneous 47,801",
+        "severity": "medium"
+      },
+      {
+        "field": "net_position_beginning",
+        "fund": null,
+        "reason": "Prior period adjustment shown separately as $13,314 but unclear if beginning net position includes or excludes it",
+        "extracted": 15871012,
+        "alternative": 15884326,
+        "page": 17,
+        "text_snippet": "Net position - beginning 15,871,012 Prior period adjustment 13.314 Net position - ending $ 15.965.776",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Morehouse",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 13394417
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 37425,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Unavailable revenues",
+            "amount": -131714
+          }
+        ],
+        "total": -131714
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": 15965776
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "deferred_inflows.items[0].amount",
+        "fund": "governmental_activities",
+        "reason": "Unavailable revenue of 131,714 appears as a reconciling item but classification as deferred inflow vs adjustment is ambiguous from reconciliation format",
+        "extracted": -131714,
+        "alternative": 131714,
+        "page": 24,
+        "text_snippet": "Certain revenues are not currently available at the end of the Jury's fiscal year and are not reported in the funds. 131,714",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": null
+}

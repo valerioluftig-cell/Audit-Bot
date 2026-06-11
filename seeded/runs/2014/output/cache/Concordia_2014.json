@@ -1,0 +1,812 @@
+{
+  "cbs": {
+    "parish": "Concordia",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Drainage Fund",
+      "Sales Tax Fund",
+      "Road Debt Service Fund",
+      "Public Health Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 3075673,
+        "Drainage Fund": 1018003,
+        "Sales Tax Fund": 1748390,
+        "Road Debt Service Fund": 2563431,
+        "Public Health Fund": 441379,
+        "Other Governmental Funds": 750518,
+        "Total Governmental Funds": 9597394
+      },
+      "investments": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": 393733,
+        "Drainage Fund": 1101391,
+        "Sales Tax Fund": 257934,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": 199355,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1952413
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 47869,
+        "Drainage Fund": 12215,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": 35363,
+        "Other Governmental Funds": 120495,
+        "Total Governmental Funds": 215942
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 12550,
+        "Drainage Fund": 12000,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": 80000,
+        "Public Health Fund": null,
+        "Other Governmental Funds": 74200,
+        "Total Governmental Funds": 178750
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 3529825,
+        "Drainage Fund": 2143609,
+        "Sales Tax Fund": 2006324,
+        "Road Debt Service Fund": 2643431,
+        "Public Health Fund": 676097,
+        "Other Governmental Funds": 945213,
+        "Total Governmental Funds": 11944499
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 69082,
+        "Drainage Fund": null,
+        "Sales Tax Fund": 21581,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": 35363,
+        "Other Governmental Funds": 49925,
+        "Total Governmental Funds": 175951
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 36195,
+        "Drainage Fund": 26322,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": 21455,
+        "Total Governmental Funds": 83972
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": 178750,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 178750
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 105277,
+        "Drainage Fund": 26322,
+        "Sales Tax Fund": 200331,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": 35363,
+        "Other Governmental Funds": 71380,
+        "Total Governmental Funds": 438673
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable ad valorem taxes",
+          "values": {
+            "General Fund": 11753,
+            "Drainage Fund": 51777,
+            "Sales Tax Fund": null,
+            "Road Debt Service Fund": null,
+            "Public Health Fund": 9372,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 72902
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 11753,
+        "Drainage Fund": 51777,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": 9372,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 72902
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Drainage Fund": null,
+            "Sales Tax Fund": null,
+            "Road Debt Service Fund": 2643431,
+            "Public Health Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 2643431
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Special revenue projects",
+          "values": {
+            "General Fund": null,
+            "Drainage Fund": 2065510,
+            "Sales Tax Fund": 1805993,
+            "Road Debt Service Fund": null,
+            "Public Health Fund": 631362,
+            "Other Governmental Funds": 873833,
+            "Total Governmental Funds": 5376698
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 3412795,
+        "Drainage Fund": null,
+        "Sales Tax Fund": null,
+        "Road Debt Service Fund": null,
+        "Public Health Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 3412795
+      },
+      "total_fund_balances": {
+        "General Fund": 3412795,
+        "Drainage Fund": 2065510,
+        "Sales Tax Fund": 1805993,
+        "Road Debt Service Fund": 2643431,
+        "Public Health Fund": 631362,
+        "Other Governmental Funds": 873833,
+        "Total Governmental Funds": 11432924
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 3529825,
+      "Drainage Fund": 2143609,
+      "Sales Tax Fund": 2006324,
+      "Road Debt Service Fund": 2643431,
+      "Public Health Fund": 676097,
+      "Other Governmental Funds": 945213,
+      "Total Governmental Funds": 11944499
+    },
+    "cross_sectional": {
+      "cash": 3075673,
+      "investments": null,
+      "receivables": 441602,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 12550,
+      "prepaid_items": null,
+      "total_assets": 3529825,
+      "deferred_outflows": null,
+      "accounts_payable": 69082,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 36195,
+      "total_liabilities": 105277,
+      "deferred_inflows": 11753,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 3412795,
+      "total_fund_balances": 3412795,
+      "total_liabilities_and_fund_balances": 3529825
+    },
+    "_uncertainties": [
+      {
+        "field": "cash_and_deposits",
+        "fund": "Road Debt Service Fund",
+        "reason": "Restricted cash shown on separate line; included only restricted amount in Road Debt Service Fund cash",
+        "extracted": 2563431,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Cash and cash equivalents - restricted - - - 2,563,431",
+        "severity": "medium"
+      },
+      {
+        "field": "taxes_receivable",
+        "fund": "General Fund",
+        "reason": "Combined ad valorem taxes (250,020) and severance taxes (143,713) into single taxes_receivable field",
+        "extracted": 393733,
+        "alternative": 250020,
+        "page": 19,
+        "text_snippet": "Ad valorem taxes receivable, net 250,020... Severance taxes receivable 143,713",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Concordia",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2030091,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": 20505,
+        "net_expense_revenue": -2009586
+      },
+      "public_safety": {
+        "expenses": 197180,
+        "charges_for_services": 155840,
+        "operating_grants": 40326,
+        "capital_grants": null,
+        "net_expense_revenue": -1014
+      },
+      "public_works": {
+        "expenses": 3094988,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": 190512,
+        "net_expense_revenue": -2904476
+      },
+      "economic_development": {
+        "expenses": 94869,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -94869
+      },
+      "health_and_welfare": {
+        "expenses": 275734,
+        "charges_for_services": null,
+        "operating_grants": 123153,
+        "capital_grants": 35363,
+        "net_expense_revenue": -117218
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 384541,
+        "net_expense_revenue": -384541
+      },
+      "other_activities": [
+        {
+          "label": "Legislative",
+          "expenses": 236369,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -236369
+        },
+        {
+          "label": "Judicial",
+          "expenses": 635894,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -635894
+        },
+        {
+          "label": "Elections",
+          "expenses": 45930,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -45930
+        },
+        {
+          "label": "Finance",
+          "expenses": 337662,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -337662
+        },
+        {
+          "label": "Other general",
+          "expenses": 774236,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": 20505,
+          "net_expense_revenue": -753731
+        }
+      ],
+      "total": {
+        "expenses": 6077403,
+        "charges_for_services": 155840,
+        "operating_grants": 163479,
+        "capital_grants": 246380,
+        "net_expense_revenue": -5511704
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 1785913,
+      "sales_taxes": 2856287,
+      "severance_taxes": 1011692,
+      "fire_insurance_premiums": 83499,
+      "franchise_fees": null,
+      "other_taxes": 35256,
+      "occupational_licenses": 266261,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 107518,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 25953,
+      "miscellaneous": 241635,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Parish transportation",
+          "amount": 320993
+        },
+        {
+          "label": "Parish royalty",
+          "amount": 42329
+        }
+      ],
+      "total_general_revenues": 6777336
+    },
+    "change_in_net_position": 1265632,
+    "net_position_beginning": 10918102,
+    "net_position_ending": 12183734,
+    "cross_sectional": {
+      "property_ad_valorem": 1785913,
+      "sales_use_taxes": 2856287,
+      "severance_taxes": 1011692,
+      "other_tax_revenue": 384515,
+      "total_tax_revenue": 4677656,
+      "state_revenue_sharing": 107518,
+      "state_intergovernmental": 320993,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 309917,
+      "total_other_revenue": 2099632,
+      "total_program_revenue": 565699,
+      "total_revenues": 6777336,
+      "general_government": -2009586,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -2009586,
+      "public_safety": -1014,
+      "public_works": -2904476,
+      "economic_development": -94869,
+      "health_and_welfare": -117218,
+      "culture_and_recreation": null,
+      "interest_debt_service": -384541,
+      "all_other_expenditures": null,
+      "total_expenditures": 6077403
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government is disaggregated into Legislative, Judicial, Elections, Finance, and Other general - totaled manually",
+        "extracted": 2030091,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Legislative $ 236,369 / Judicial 635,894 / Elections 45,930 / Finance 337,662 / Other general 774,236",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Parish transportation may be state or local grant - classification unclear from statement",
+        "extracted": 320993,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Parish transportation 320,993",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.other_tax_revenue",
+        "fund": null,
+        "reason": "Calculated as fire insurance premium + other taxes + licenses/permits, but licenses may not be taxes",
+        "extracted": 384515,
+        "alternative": 118755,
+        "page": 17,
+        "text_snippet": "Other taxes 35,256 / Fire insurance premium tax 83,499 / Licenses and permits 266,261",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Concordia",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 7138217,
+        "investments": null,
+        "taxes_receivable": 1599471,
+        "other_receivables": 568885,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 10215629
+      },
+      "other_noncurrent_assets": 2563431,
+      "total_assets": 22085633,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 175950,
+        "retainage_payable": null,
+        "accrued_liabilities": 83974,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 237717,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 390767,
+        "bonds_payable_noncurrent": 9013491,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 9901899,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 1120455,
+        "restricted": 8019431,
+        "unrestricted": 3043150,
+        "total_net_position": 12183734
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Combined accounts receivable (167,238), sales and use taxes receivable (257,934), and severance taxes receivable (143,713) into other_receivables since individual categories not mapped",
+        "extracted": 568885,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Accounts receivable 167,238, Sales and use taxes receivable 257,934, Severance taxes receivable 143,713",
+        "severity": "low"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Cash and cash equivalents - restricted (2,563,431) classified as noncurrent asset; could alternatively be part of current assets",
+        "extracted": 2563431,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Cash and cash equivalents - restricted 2,563,431",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined debt service (2,643,431) and special projects (partial value visible as 5,376,xxx) to reach total restricted",
+        "extracted": 8019431,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Debt service 2,643,431, Special projects 5,376,",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Concordia",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 7038,
+          "increases": null,
+          "decreases": null,
+          "ending": 7038
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 7038,
+          "increases": null,
+          "decreases": null,
+          "ending": 7038
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 5929150,
+          "increases": 77290,
+          "decreases": null,
+          "ending": 6006440
+        },
+        "machinery_and_equipment": {
+          "beginning": 2505252,
+          "increases": 68817,
+          "decreases": -1375,
+          "ending": 2572694
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 12195458,
+          "increases": null,
+          "decreases": null,
+          "ending": 12195458
+        },
+        "vehicles": {
+          "beginning": 1049687,
+          "increases": null,
+          "decreases": null,
+          "ending": 1049687
+        },
+        "furniture_and_fixtures": {
+          "beginning": 441519,
+          "increases": null,
+          "decreases": -4675,
+          "ending": 436844
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 22121066,
+          "increases": 146107,
+          "decreases": -6050,
+          "ending": 22261123
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -11207573,
+          "increases": -851009,
+          "decreases": 6050,
+          "ending": -12052532
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 10913493,
+        "increases": -704902,
+        "decreases": null,
+        "ending": 10208591
+      },
+      "total_capital_assets_net": {
+        "beginning": 10920531,
+        "increases": -704902,
+        "decreases": null,
+        "ending": 10215629
+      }
+    },
+    "cross_sectional": {
+      "land": 7038,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 10215629
+    },
+    "_uncertainties": [
+      {
+        "field": "infrastructure",
+        "fund": "governmental_activities",
+        "reason": "Roads and bridges combined into single line item - unclear if this represents infrastructure category or should be split",
+        "extracted": 12195458,
+        "alternative": null,
+        "page": 35,
+        "text_snippet": "Roads and bridges 12,195,458 - - 12,195,458",
+        "severity": "medium"
+      },
+      {
+        "field": "vehicles",
+        "fund": "governmental_activities",
+        "reason": "Listed as Transportation equipment not vehicles - assumed equivalent based on common practice",
+        "extracted": 1049687,
+        "alternative": null,
+        "page": 35,
+        "text_snippet": "Transportation equipment 1,049,687 - - 1,049,687",
+        "severity": "low"
+      }
+    ]
+  }
+}

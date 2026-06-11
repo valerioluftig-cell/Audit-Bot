@@ -1,0 +1,645 @@
+{
+  "cbs": {
+    "parish": "St. Tammany",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Library",
+      "Public Works",
+      "Capital Improvements - General",
+      "Total Non-Major Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 1552747,
+        "Library": 277492,
+        "Public Works": 784454,
+        "Capital Improvements - General": 546548,
+        "Total Non-Major Governmental Funds": 27626589,
+        "Total Governmental Funds": 30787830
+      },
+      "investments": {
+        "General Fund": 8685447,
+        "Library": null,
+        "Public Works": 19140591,
+        "Capital Improvements - General": 21450220,
+        "Total Non-Major Governmental Funds": 64293995,
+        "Total Governmental Funds": 113570253
+      },
+      "taxes_receivable": {
+        "General Fund": 4374077,
+        "Library": 9025649,
+        "Public Works": 7722222,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 4211430,
+        "Total Governmental Funds": 29827772
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 1806688,
+        "Library": 140388,
+        "Public Works": 1135575,
+        "Capital Improvements - General": 85877,
+        "Total Non-Major Governmental Funds": 7295686,
+        "Total Governmental Funds": 10464214
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General Fund": 35390,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 316874,
+        "Total Governmental Funds": 352264
+      },
+      "inventory": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 8829,
+        "Library": null,
+        "Public Works": 6230,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 5024,
+        "Total Governmental Funds": 20083
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": 2697704,
+        "Total Non-Major Governmental Funds": 16316621,
+        "Total Governmental Funds": 19014325
+      },
+      "total_assets": {
+        "General Fund": 16463178,
+        "Library": 9443529,
+        "Public Works": 28789072,
+        "Capital Improvements - General": 24780349,
+        "Total Non-Major Governmental Funds": 136494265,
+        "Total Governmental Funds": 215970393
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 2857724,
+        "Library": 582279,
+        "Public Works": 1644450,
+        "Capital Improvements - General": 1223794,
+        "Total Non-Major Governmental Funds": 14543055,
+        "Total Governmental Funds": 20851302
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": 73336,
+        "Library": null,
+        "Public Works": 185872,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 3040773,
+        "Total Governmental Funds": 3299981
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 1676546,
+        "Total Governmental Funds": 1676546
+      },
+      "other_liabilities": {
+        "General Fund": 1636340,
+        "Library": 8659365,
+        "Public Works": 28500,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 315849,
+        "Total Governmental Funds": 10640054
+      },
+      "total_liabilities": {
+        "General Fund": 4567400,
+        "Library": 9241644,
+        "Public Works": 1858822,
+        "Capital Improvements - General": 1223794,
+        "Total Non-Major Governmental Funds": 19576223,
+        "Total Governmental Funds": 36467883
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue-ad valorem/parcel fees",
+          "values": {
+            "General Fund": 65830,
+            "Library": 131526,
+            "Public Works": null,
+            "Capital Improvements - General": null,
+            "Total Non-Major Governmental Funds": 235907,
+            "Total Governmental Funds": 433263
+          }
+        },
+        {
+          "label": "Unavailable revenue-state revenue sharing",
+          "values": {
+            "General Fund": 92821,
+            "Library": 70359,
+            "Public Works": null,
+            "Capital Improvements - General": null,
+            "Total Non-Major Governmental Funds": 72341,
+            "Total Governmental Funds": 235521
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 158651,
+        "Library": 201885,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": 308248,
+        "Total Governmental Funds": 668784
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable, prepaid items",
+          "values": {
+            "General Fund": 8829,
+            "Library": null,
+            "Public Works": 6230,
+            "Capital Improvements - General": null,
+            "Total Non-Major Governmental Funds": 5024,
+            "Total Governmental Funds": 20083
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": null,
+            "Library": null,
+            "Public Works": 26187887,
+            "Capital Improvements - General": 23556555,
+            "Total Non-Major Governmental Funds": 95759421,
+            "Total Governmental Funds": 145503863
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": null,
+            "Library": null,
+            "Public Works": 736133,
+            "Capital Improvements - General": null,
+            "Total Non-Major Governmental Funds": 20845349,
+            "Total Governmental Funds": 21581482
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 11728298,
+        "Library": null,
+        "Public Works": null,
+        "Capital Improvements - General": null,
+        "Total Non-Major Governmental Funds": null,
+        "Total Governmental Funds": 11728298
+      },
+      "total_fund_balances": {
+        "General Fund": 11737127,
+        "Library": null,
+        "Public Works": 26930250,
+        "Capital Improvements - General": 23556555,
+        "Total Non-Major Governmental Funds": 116609794,
+        "Total Governmental Funds": 178833726
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 16463178,
+      "Library": 9443529,
+      "Public Works": 28789072,
+      "Capital Improvements - General": 24780349,
+      "Total Non-Major Governmental Funds": 136494265,
+      "Total Governmental Funds": 215970393
+    },
+    "cross_sectional": {
+      "cash": 1552747,
+      "investments": 8685447,
+      "receivables": 6180765,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": 8829,
+      "total_assets": 16463178,
+      "deferred_outflows": null,
+      "accounts_payable": 2857724,
+      "deferred_revenues": 73336,
+      "government_transfers": null,
+      "other_liabilities": 1636340,
+      "total_liabilities": 4567400,
+      "deferred_inflows": 158651,
+      "reserved": 8829,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 11728298,
+      "total_fund_balances": 11737127,
+      "total_liabilities_and_fund_balances": 16463178
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "Library",
+        "reason": "Library fund has both 'Due to component units' (8,640,205) and 'Other liabilities' (19,160). Combined as 8,659,365 but statement shows 9,241,644 total liabilities which matches 582,279+8,640,205+19,160.",
+        "extracted": 8659365,
+        "alternative": 19160,
+        "page": 41,
+        "text_snippet": "Due to component units - 8,640,205 -\nUnearned revenue 73,336 - 185,872\nOther liabilities 1,636,340 19,160 28,500",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total includes 'Due to component units' 8,640,205 shown separately but combined with 'Other liabilities' in my mapping. Total other should be 1,999,849 but with component units is 10,640,054.",
+        "extracted": 10640054,
+        "alternative": 1999849,
+        "page": 41,
+        "text_snippet": "Due to component units - - 8,640,205\nOther liabilities 1,636,340 19,160 28,500 - 315,849 1,999,849",
+        "severity": "high"
+      },
+      {
+        "field": "taxes_receivable",
+        "fund": "Public Works",
+        "reason": "Public Works shows 'Sales and use tax' 7,722,222 under receivables, not 'Ad valorem/parcel fees'. Combined all tax receivables into taxes_receivable.",
+        "extracted": 7722222,
+        "alternative": null,
+        "page": 41,
+        "text_snippet": "Receivables, net of allowances for uncollectibles:\nAd valorem/parcel fees 4,374,077 9,025,649 -\nSales and use tax - - 7,722,222",
+        "severity": "low"
+      },
+      {
+        "field": "taxes_receivable",
+        "fund": "Total Governmental Funds",
+        "reason": "The total 29,827,772 represents combined ad valorem/parcel fees (16,428,046) and sales/use tax (4,211,430) which only sums to 20,639,476. Missing 9,188,296.",
+        "extracted": 29827772,
+        "alternative": null,
+        "page": 42,
+        "text_snippet": "16,428,046 29,827,772\n- 4,211,430 11,933,652",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Tammany",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 24008909,
+        "charges_for_services": 7612317,
+        "operating_grants": 560926,
+        "capital_grants": 22907,
+        "net_expense_revenue": -15812759
+      },
+      "public_safety": {
+        "expenses": 19458275,
+        "charges_for_services": 2254057,
+        "operating_grants": 333132,
+        "capital_grants": 2020349,
+        "net_expense_revenue": -14850737
+      },
+      "public_works": {
+        "expenses": 39608176,
+        "charges_for_services": 3208490,
+        "operating_grants": 4100803,
+        "capital_grants": 3640367,
+        "net_expense_revenue": -28658516
+      },
+      "economic_development": {
+        "expenses": 1313786,
+        "charges_for_services": null,
+        "operating_grants": 361434,
+        "capital_grants": 919412,
+        "net_expense_revenue": -32940
+      },
+      "health_and_welfare": {
+        "expenses": 10989796,
+        "charges_for_services": 284709,
+        "operating_grants": 3038145,
+        "capital_grants": 4118,
+        "net_expense_revenue": -7662824
+      },
+      "culture_and_recreation": {
+        "expenses": 10762156,
+        "charges_for_services": 23397,
+        "operating_grants": 296931,
+        "capital_grants": null,
+        "net_expense_revenue": -10441828
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 3252376,
+        "net_expense_revenue": -3252376
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 889591,
+          "charges_for_services": 1607527,
+          "operating_grants": 77111,
+          "capital_grants": 2666981,
+          "net_expense_revenue": 3462028
+        }
+      ],
+      "total": {
+        "expenses": 110283065,
+        "charges_for_services": 14990497,
+        "operating_grants": 8768482,
+        "capital_grants": 9274134,
+        "net_expense_revenue": -77249952
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 29832055,
+      "sales_taxes": 65667400,
+      "severance_taxes": 103154,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 2322561,
+      "other_taxes": 847612,
+      "occupational_licenses": null,
+      "gaming_revenues": 188055,
+      "state_revenue_sharing": 277808,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 3497663,
+      "miscellaneous": 103200,
+      "transfers": 292582,
+      "other_items": [
+        {
+          "label": "Hotel/motel tax",
+          "amount": 578665
+        },
+        {
+          "label": "Alcohol tax",
+          "amount": 58355
+        },
+        {
+          "label": "Cigarette paper tax",
+          "amount": 10939
+        },
+        {
+          "label": "Federal payment in lieu of ad valorem",
+          "amount": 72767
+        },
+        {
+          "label": "Sale of revocated property",
+          "amount": 53200
+        },
+        {
+          "label": "GNOE excess revenue",
+          "amount": 50000
+        }
+      ],
+      "total_general_revenues": 103005204
+    },
+    "change_in_net_position": 25755252,
+    "net_position_beginning": 516773440,
+    "net_position_ending": 542528692,
+    "cross_sectional": {
+      "property_ad_valorem": 29832055,
+      "sales_use_taxes": 65855455,
+      "severance_taxes": 103154,
+      "other_tax_revenue": 3299467,
+      "total_tax_revenue": 99090131,
+      "state_revenue_sharing": 277808,
+      "state_intergovernmental": 8768482,
+      "federal_intergovernmental": 9274134,
+      "local_transfer": 292582,
+      "all_other_revenue": 3723630,
+      "total_other_revenue": 18573006,
+      "total_program_revenue": 33033113,
+      "total_revenues": 150696250,
+      "general_government": -15812759,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -15812759,
+      "public_safety": -14850737,
+      "public_works": -28658516,
+      "economic_development": -32940,
+      "health_and_welfare": -7662824,
+      "culture_and_recreation": -10441828,
+      "interest_debt_service": -3252376,
+      "all_other_expenditures": 3462028,
+      "total_expenditures": 110283065
+    },
+    "_uncertainties": [
+      {
+        "field": "general_revenues.property_taxes",
+        "fund": null,
+        "reason": "Combined two property tax lines (general and special purpose) into single property_taxes field",
+        "extracted": 29832055,
+        "alternative": null,
+        "page": 40,
+        "text_snippet": "Property taxes, general (ad valorem, parcel fees etc.) 4,524,597\nProperty taxes, special purpose (ad valorem, parcel fees, etc.) 25,307,458",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.other_taxes",
+        "fund": null,
+        "reason": "Aggregated hotel/motel tax, alcohol tax, and cigarette paper tax into other_taxes field",
+        "extracted": 847612,
+        "alternative": null,
+        "page": 40,
+        "text_snippet": "Hotel/motel tax 578,665\nAlcohol tax 58,355\nCigarette paper tax 10,939",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.sales_use_taxes",
+        "fund": null,
+        "reason": "Added gaming revenue tax (188,055) to sales taxes (65,667,400) for cross-sectional total",
+        "extracted": 65855455,
+        "alternative": 65667400,
+        "page": 40,
+        "text_snippet": "Sales and use taxes 65,667,400\nGaming revenue tax 188,055",
+        "severity": "medium"
+      },
+      {
+        "field": "governmental_activities.other_activities",
+        "fund": null,
+        "reason": "Highways and streets categorized as public_works, but Sanitation placed in other_activities due to positive net revenue",
+        "extracted": "Sanitation in other_activities",
+        "alternative": "Could be classified differently",
+        "page": 39,
+        "text_snippet": "Highways and streets 39,608,176\nSanitation 889,591",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. Tammany",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 32231916,
+        "investments": 139982794,
+        "taxes_receivable": null,
+        "other_receivables": 52368483,
+        "due_from_other_governments": null,
+        "due_from_component_units": 360844,
+        "inventory": null,
+        "prepaid_items": 241027,
+        "other_current_assets": 2120
+      },
+      "capital_assets": {
+        "non_depreciable": 117032131,
+        "depreciable_net": 314057724,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 431089855
+      },
+      "other_noncurrent_assets": 19014325,
+      "total_assets": 675291364,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred charges on refundings",
+            "amount": 4730418
+          }
+        ],
+        "total": 4730418
+      },
+      "current_liabilities": {
+        "accounts_payable": 22029341,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 3300100,
+        "accrued_interest": 565788,
+        "other_current_liabilities": 1999849
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 137493090,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 361538436,
+        "restricted": 145503863,
+        "unrestricted": 35486393,
+        "total_net_position": 542528692
+      }
+    },
+    "component_units": {
+      "total_assets": 225334206,
+      "total_liabilities": 49969542,
+      "total_net_position": 175570802
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables not broken down by type (taxes vs other); may include taxes receivable not separately identified",
+        "extracted": 52368483,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Receivables (net of allowances for uncollectibles) 52,368,483",
+        "severity": "medium"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Restricted assets line may be part of current assets or separate category; classification unclear",
+        "extracted": 19014325,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Restricted assets 19,014,325",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Current and non-current liabilities aggregated; no detail breakdown provided for bonds, compensated absences, pension, etc.",
+        "extracted": null,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Due within one year 8,387,911 Due in more than one year 92,368,011",
+        "severity": "high"
+      },
+      {
+        "field": "due_from_component_units",
+        "fund": "governmental_activities",
+        "reason": "Line says 'Due from primary government/component units' which is ambiguous labeling for governmental activities column",
+        "extracted": 360844,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Due from primary government/component units 360,844",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": null
+}

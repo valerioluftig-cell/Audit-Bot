@@ -1,0 +1,772 @@
+{
+  "cbs": {
+    "parish": "Assumption",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Sales and Use Tax",
+      "Solid Waste",
+      "Section Eight Housing",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 868790,
+        "Sales and Use Tax": 198524,
+        "Solid Waste": 129671,
+        "Section Eight Housing": 13058,
+        "Other Governmental Funds": 1614714,
+        "Total Governmental Funds": 2824757
+      },
+      "investments": {
+        "General": 6190618,
+        "Sales and Use Tax": 1663083,
+        "Solid Waste": 1065776,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": 9204014,
+        "Total Governmental Funds": 18123491
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 1286511,
+        "Sales and Use Tax": 300205,
+        "Solid Waste": 192531,
+        "Section Eight Housing": 2782,
+        "Other Governmental Funds": 3987441,
+        "Total Governmental Funds": 5769470
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 4395,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": 55062,
+        "Total Governmental Funds": 59457
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 8350314,
+        "Sales and Use Tax": 2161812,
+        "Solid Waste": 1387978,
+        "Section Eight Housing": 15840,
+        "Other Governmental Funds": 14861231,
+        "Total Governmental Funds": 26777175
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 43061,
+        "Sales and Use Tax": 17906,
+        "Solid Waste": 224,
+        "Section Eight Housing": -1476,
+        "Other Governmental Funds": 494562,
+        "Total Governmental Funds": 554277
+      },
+      "retainage_payable": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": 16882,
+        "Sales and Use Tax": 20227,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": 92776,
+        "Total Governmental Funds": 129885
+      },
+      "deposits_payable": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 49146,
+        "Sales and Use Tax": 3097,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": 7214,
+        "Total Governmental Funds": 59457
+      },
+      "other_liabilities": {
+        "General": 217186,
+        "Sales and Use Tax": 11144,
+        "Solid Waste": null,
+        "Section Eight Housing": 2144,
+        "Other Governmental Funds": 192160,
+        "Total Governmental Funds": 422634
+      },
+      "total_liabilities": {
+        "General": 326275,
+        "Sales and Use Tax": 52374,
+        "Solid Waste": 224,
+        "Section Eight Housing": 668,
+        "Other Governmental Funds": 786712,
+        "Total Governmental Funds": 1166253
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Sales and Use Tax": 2109438,
+            "Solid Waste": null,
+            "Section Eight Housing": 6673,
+            "Other Governmental Funds": 13173048,
+            "Total Governmental Funds": 15289159
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General": 36555,
+            "Sales and Use Tax": null,
+            "Solid Waste": 1387754,
+            "Section Eight Housing": 8499,
+            "Other Governmental Funds": 901471,
+            "Total Governmental Funds": 2334279
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 7987484,
+        "Sales and Use Tax": null,
+        "Solid Waste": null,
+        "Section Eight Housing": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 7987484
+      },
+      "total_fund_balances": {
+        "General": 8024039,
+        "Sales and Use Tax": 2109438,
+        "Solid Waste": 1387754,
+        "Section Eight Housing": 15172,
+        "Other Governmental Funds": 14074519,
+        "Total Governmental Funds": 25610922
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 8350314,
+      "Sales and Use Tax": 2161812,
+      "Solid Waste": 1387978,
+      "Section Eight Housing": 15840,
+      "Other Governmental Funds": 14861231,
+      "Total Governmental Funds": 26777175
+    },
+    "cross_sectional": {
+      "cash": 868790,
+      "investments": 6190618,
+      "receivables": 1286511,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 4395,
+      "prepaid_items": null,
+      "total_assets": 8350314,
+      "deferred_outflows": null,
+      "accounts_payable": 43061,
+      "deferred_revenues": null,
+      "government_transfers": 49146,
+      "other_liabilities": 234068,
+      "total_liabilities": 326275,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": 36555,
+      "unreserved_undesignated": 7987484,
+      "total_fund_balances": 8024039,
+      "total_liabilities_and_fund_balances": 8350314
+    },
+    "_uncertainties": [
+      {
+        "field": "accounts_payable",
+        "fund": "Section Eight Housing",
+        "reason": "Negative accounts payable value in parentheses",
+        "extracted": -1476,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accounts payable $ (1,476) $ 494,562 $ 554,277",
+        "severity": "medium"
+      },
+      {
+        "field": "accrued_liabilities",
+        "fund": "General",
+        "reason": "Label 'Salaries payable' mapped to accrued_liabilities category",
+        "extracted": 16882,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Salaiies t^yable 16,882 20,227",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Assumption",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2170237,
+        "charges_for_services": 85720,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2084517
+      },
+      "public_safety": {
+        "expenses": 3430554,
+        "charges_for_services": 705549,
+        "operating_grants": 191140,
+        "capital_grants": null,
+        "net_expense_revenue": -2533865
+      },
+      "public_works": {
+        "expenses": 5847342,
+        "charges_for_services": 2204841,
+        "operating_grants": 85615,
+        "capital_grants": null,
+        "net_expense_revenue": -3556886
+      },
+      "economic_development": {
+        "expenses": 221560,
+        "charges_for_services": 2405,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -219155
+      },
+      "health_and_welfare": {
+        "expenses": 2470140,
+        "charges_for_services": 195714,
+        "operating_grants": 1161181,
+        "capital_grants": null,
+        "net_expense_revenue": -1113245
+      },
+      "culture_and_recreation": {
+        "expenses": 1276963,
+        "charges_for_services": 10590,
+        "operating_grants": 742,
+        "capital_grants": null,
+        "net_expense_revenue": -1265631
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 15416796,
+        "charges_for_services": 3204819,
+        "operating_grants": 1438678,
+        "capital_grants": null,
+        "net_expense_revenue": -10773299
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4643634,
+      "sales_taxes": 4564298,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 1071008,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 882766,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": 1890578,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": 13052284
+    },
+    "change_in_net_position": 2278985,
+    "net_position_beginning": 64597952,
+    "net_position_ending": 66876937,
+    "cross_sectional": {
+      "property_ad_valorem": 4643634,
+      "sales_use_taxes": 4564298,
+      "severance_taxes": null,
+      "other_tax_revenue": 1071008,
+      "total_tax_revenue": 10278940,
+      "state_revenue_sharing": 882766,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1890578,
+      "total_other_revenue": 2773344,
+      "total_program_revenue": 4643497,
+      "total_revenues": 17695781,
+      "general_government": -2084517,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -2084517,
+      "public_safety": -2533865,
+      "public_works": -3556886,
+      "economic_development": -219155,
+      "health_and_welfare": -1113245,
+      "culture_and_recreation": -1265631,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 15416796
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government is disaggregated into 6 line items (Legislative through Other general administration); had to sum these manually",
+        "extracted": 2170237,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Legislative $ 583,006; Judicial 970,822; Executive 45,762; Elections 51,593; Financial and administrative 351,185; Other general administration 167,869",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "Only Judicial shows $85,720 in charges; other general govt lines show no charges",
+        "extracted": 85720,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Judicial 970,822 85,720",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues.miscellaneous",
+        "fund": "governmental_activities",
+        "reason": "Other revenue line of $1,890,578 may include investment income and other items not separately identified",
+        "extracted": 1890578,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Other revenue 1,890,578",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Cannot separate state vs federal grants from Operating Grants and Contributions total of $1,438,678",
+        "extracted": null,
+        "alternative": 1438678,
+        "page": 13,
+        "text_snippet": "Operating Changes in Net Assets Charges for Grants and Governmental Component Functions/Programs Expenses Services Contributions",
+        "severity": "high"
+      },
+      {
+        "field": "cross_sectional.federal_intergovernmental",
+        "fund": null,
+        "reason": "Cannot separate state vs federal grants from Operating Grants and Contributions total of $1,438,678",
+        "extracted": null,
+        "alternative": 1438678,
+        "page": 13,
+        "text_snippet": "Grants and Contributions",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Assumption",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 2824757,
+        "investments": 18123491,
+        "taxes_receivable": null,
+        "other_receivables": 5769470,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 260463
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 42293964
+      },
+      "other_noncurrent_assets": 3899610,
+      "total_assets": 69011682,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 554277,
+        "retainage_payable": null,
+        "accrued_liabilities": 129885,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": 422634
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 163079,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 864870
+      },
+      "total_liabilities": 2134745,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 42293964,
+        "restricted": null,
+        "unrestricted": 24582973,
+        "total_net_position": 66876937
+      }
+    },
+    "component_units": {
+      "total_assets": 26698378,
+      "total_liabilities": 7279756,
+      "total_net_position": 19418622
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables line item is not broken down by type; unclear if includes taxes receivable or other specific categories",
+        "extracted": 5769470,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "Receivables 5,769,470",
+        "severity": "medium"
+      },
+      {
+        "field": "other_current_assets",
+        "fund": "governmental_activities",
+        "reason": "Other assets line item classification unclear - could be current or noncurrent",
+        "extracted": 260463,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "Other assets 260,463",
+        "severity": "medium"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Restricted investments may represent restricted cash or investments rather than other noncurrent assets",
+        "extracted": 3899610,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "Restricted investments 3,899,610",
+        "severity": "low"
+      },
+      {
+        "field": "accrued_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Salaries payable extracted as accrued liabilities; statement does not use standard accrued liabilities label",
+        "extracted": 129885,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "Salaries payable 129,885",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Other post-employment benefits payable classification unclear - may need separate categorization",
+        "extracted": 864870,
+        "alternative": null,
+        "page": 12,
+        "text_snippet": "Other post-employment benefits payable 864,870",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Assumption",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 2213381,
+          "increases": 120812,
+          "decreases": null,
+          "ending": 2334193
+        },
+        "construction_in_progress": {
+          "beginning": 488571,
+          "increases": 245918,
+          "decreases": -24425,
+          "ending": 701781
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 2701952,
+          "increases": 366730,
+          "decreases": -24425,
+          "ending": 3035974
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 23717159,
+          "increases": 139158,
+          "decreases": null,
+          "ending": 23864600
+        },
+        "machinery_and_equipment": {
+          "beginning": 7250922,
+          "increases": 369706,
+          "decreases": -314616,
+          "ending": 7306012
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 11684883,
+          "increases": 72243,
+          "decreases": null,
+          "ending": 11757126
+        },
+        "infrastructure": {
+          "beginning": 16698246,
+          "increases": 116674,
+          "decreases": null,
+          "ending": 16914920
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 59351210,
+          "increases": 697781,
+          "decreases": -314616,
+          "ending": 59742658
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -18320031,
+          "increases": -2384701,
+          "decreases": 220064,
+          "ending": -20484668
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 41031179,
+        "increases": -1686920,
+        "decreases": -94552,
+        "ending": 39249771
+      },
+      "total_capital_assets_net": {
+        "beginning": 43733131,
+        "increases": -1320190,
+        "decreases": -118977,
+        "ending": 42293964
+      }
+    },
+    "cross_sectional": {
+      "land": 2334193,
+      "construction_in_progress": 701781,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": 588844,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 42293964
+    },
+    "_uncertainties": [
+      {
+        "field": "construction_in_progress.decreases",
+        "fund": "governmental_activities",
+        "reason": "Deletions column shows (24,425) but there is also a Reclassifications column showing (8,283) - unclear if both should be counted as decreases",
+        "extracted": -24425,
+        "alternative": -32708,
+        "page": 36,
+        "text_snippet": "Construction in progress 488,571 245,918 (24,425) (8,283) 701,781",
+        "severity": "medium"
+      },
+      {
+        "field": "buildings_and_improvements.ending",
+        "fund": "governmental_activities",
+        "reason": "Reclassifications column shows 8,283 added to Buildings - this appears to be a reclassification from CIP",
+        "extracted": 23864600,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "Buildings 23,717,159 139,158 - 8,283 23,864,600",
+        "severity": "low"
+      },
+      {
+        "field": "infrastructure",
+        "fund": "governmental_activities",
+        "reason": "Roads and Bridges are shown separately but typically classified as infrastructure - combined for infrastructure total",
+        "extracted": 16914920,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "Roads 16,109,402 116,674 - - 16,326,076; Bridges 588,844 - - - 588,844",
+        "severity": "medium"
+      }
+    ]
+  }
+}

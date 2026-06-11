@@ -1,0 +1,836 @@
+{
+  "cbs": {
+    "parish": "Ouachita",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Public Works Fund",
+      "Fire Department Fund",
+      "Public Library Fund",
+      "Correctional Center Fund",
+      "Urban System Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 3114148,
+        "Public Works Fund": 3823534,
+        "Fire Department Fund": 3031680,
+        "Public Library Fund": 2243976,
+        "Correctional Center Fund": 3291518,
+        "Urban System Fund": 974693,
+        "Other Governmental Funds": 15651508,
+        "Total Governmental Funds": 32131057
+      },
+      "investments": {
+        "General Fund": 3248000,
+        "Public Works Fund": 1000000,
+        "Fire Department Fund": 7000000,
+        "Public Library Fund": 2000000,
+        "Correctional Center Fund": 1000000,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 9000000,
+        "Total Governmental Funds": 23248000
+      },
+      "taxes_receivable": {
+        "General Fund": 2931791,
+        "Public Works Fund": 9173633,
+        "Fire Department Fund": 7000975,
+        "Public Library Fund": 8622359,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 4513380,
+        "Total Governmental Funds": 32242138
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": 7050,
+        "Other Governmental Funds": 155386,
+        "Total Governmental Funds": 162436
+      },
+      "other_receivables": {
+        "General Fund": 441792,
+        "Public Works Fund": 47745,
+        "Fire Department Fund": 1641,
+        "Public Library Fund": 23348,
+        "Correctional Center Fund": null,
+        "Urban System Fund": 90123,
+        "Other Governmental Funds": 347992,
+        "Total Governmental Funds": 952641
+      },
+      "due_from_other_governments": {
+        "General Fund": 527267,
+        "Public Works Fund": 116587,
+        "Fire Department Fund": null,
+        "Public Library Fund": 372943,
+        "Correctional Center Fund": 425156,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 2222687,
+        "Total Governmental Funds": 3664640
+      },
+      "due_from_other_funds": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 506144,
+        "Total Governmental Funds": 506144
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": 4768,
+        "Public Works Fund": 266189,
+        "Fire Department Fund": null,
+        "Public Library Fund": 104709,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 164010,
+        "Total Governmental Funds": 539676
+      },
+      "prepaid_items": {
+        "General Fund": 45,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": 200,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 68751,
+        "Total Governmental Funds": 68996
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 10773955,
+        "Public Works Fund": 6430367,
+        "Fire Department Fund": 20581124,
+        "Public Library Fund": 11385086,
+        "Correctional Center Fund": 13481652,
+        "Urban System Fund": 1399849,
+        "Other Governmental Funds": 32123714,
+        "Total Governmental Funds": 96175747
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 1018691,
+        "Public Works Fund": 537386,
+        "Fire Department Fund": 991553,
+        "Public Library Fund": 465402,
+        "Correctional Center Fund": 796859,
+        "Urban System Fund": 471176,
+        "Other Governmental Funds": 2161812,
+        "Total Governmental Funds": 6442879
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": 4870,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": 2851,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 12325,
+        "Total Governmental Funds": 234125
+      },
+      "unearned_revenue": {
+        "General Fund": 337324,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": 27555,
+        "Other Governmental Funds": 646887,
+        "Total Governmental Funds": 1019255
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": 421482,
+        "Total Governmental Funds": 421482
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 1360885,
+        "Public Works Fund": 779020,
+        "Fire Department Fund": 991553,
+        "Public Library Fund": 465402,
+        "Correctional Center Fund": 799710,
+        "Urban System Fund": 1118063,
+        "Other Governmental Funds": 2603108,
+        "Total Governmental Funds": 8117741
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid expenses and other assets",
+          "values": {
+            "General Fund": 45,
+            "Public Works Fund": null,
+            "Fire Department Fund": null,
+            "Public Library Fund": 200,
+            "Correctional Center Fund": null,
+            "Urban System Fund": null,
+            "Other Governmental Funds": 68751,
+            "Total Governmental Funds": 68996
+          }
+        },
+        {
+          "label": "Inventories",
+          "values": {
+            "General Fund": 4768,
+            "Public Works Fund": 266189,
+            "Fire Department Fund": null,
+            "Public Library Fund": 104709,
+            "Correctional Center Fund": null,
+            "Urban System Fund": null,
+            "Other Governmental Funds": 164010,
+            "Total Governmental Funds": 539676
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": null,
+            "Public Works Fund": 5385158,
+            "Fire Department Fund": 19589571,
+            "Public Library Fund": 10919484,
+            "Correctional Center Fund": 12577233,
+            "Urban System Fund": 281786,
+            "Other Governmental Funds": 28150638,
+            "Total Governmental Funds": 76903870
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": 4350574,
+            "Public Works Fund": null,
+            "Fire Department Fund": null,
+            "Public Library Fund": null,
+            "Correctional Center Fund": null,
+            "Urban System Fund": null,
+            "Other Governmental Funds": 1137207,
+            "Total Governmental Funds": 5487781
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 5057683,
+        "Public Works Fund": null,
+        "Fire Department Fund": null,
+        "Public Library Fund": null,
+        "Correctional Center Fund": null,
+        "Urban System Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 5057683
+      },
+      "total_fund_balances": {
+        "General Fund": 9413070,
+        "Public Works Fund": 5651347,
+        "Fire Department Fund": 19589571,
+        "Public Library Fund": 10919684,
+        "Correctional Center Fund": 12681942,
+        "Urban System Fund": 281786,
+        "Other Governmental Funds": 29520606,
+        "Total Governmental Funds": 88058006
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 10773955,
+      "Public Works Fund": 6430367,
+      "Fire Department Fund": 20581124,
+      "Public Library Fund": 11385086,
+      "Correctional Center Fund": 13481652,
+      "Urban System Fund": 1399849,
+      "Other Governmental Funds": 32123714,
+      "Total Governmental Funds": 96175747
+    },
+    "cross_sectional": {
+      "cash": 3114148,
+      "investments": 3248000,
+      "receivables": 3900850,
+      "inventory": 4768,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": 45,
+      "total_assets": 10773955,
+      "deferred_outflows": null,
+      "accounts_payable": 1018691,
+      "deferred_revenues": 337324,
+      "government_transfers": null,
+      "other_liabilities": 4870,
+      "total_liabilities": 1360885,
+      "deferred_inflows": null,
+      "reserved": 4813,
+      "unreserved_designated": 4350574,
+      "unreserved_undesignated": 5057683,
+      "total_fund_balances": 9413070,
+      "total_liabilities_and_fund_balances": 10773955
+    },
+    "_uncertainties": [
+      {
+        "field": "taxes_receivable",
+        "fund": "General Fund",
+        "reason": "Receivables section shows 'Ad valorem taxes' and 'Sales taxes' separately. Chose to use ad valorem for taxes_receivable and include sales taxes in calculation of cross_sectional receivables.",
+        "extracted": 2931791,
+        "alternative": 4217640,
+        "page": 24,
+        "text_snippet": "Ad valorem taxes 2,931,791 ... Sales taxes 1,285,849",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "All Funds",
+        "reason": "Line item is 'Accounts payable and accrued expenses' - combined total, unable to separate accounts payable from accrued liabilities",
+        "extracted": 6442879,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Accounts payable and accrued expenses 1,018,691 $ 537,386 $ 991,553 S 465,402 S 796,859 S 471,176 S 2,161,812 6,442,879",
+        "severity": "low"
+      },
+      {
+        "field": "deposits_payable",
+        "fund": "Urban System Fund",
+        "reason": "Total deposits held (234,125) does not equal sum of individual funds shown (4,870 + 2,851 + 12,325 = 20,046). Missing value appears to be 214,079.",
+        "extracted": null,
+        "alternative": 214079,
+        "page": 24,
+        "text_snippet": "Deposits held 4.870 214,079 2,851 - 12,325 234.125",
+        "severity": "high"
+      },
+      {
+        "field": "unearned_revenue",
+        "fund": "Public Works Fund",
+        "reason": "Total unearned revenues (1,019,255) does not equal sum shown (337,324 + 27,555 + 646,887 + 7,489 = 1,019,255). Missing attribution for 7,489.",
+        "extracted": null,
+        "alternative": 7489,
+        "page": 24,
+        "text_snippet": "Unearned revenues 337,324 27,555 646,887 7,489 1,019,255",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Ouachita",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 18220865,
+        "charges_for_services": 4436451,
+        "operating_grants": 2307626,
+        "capital_grants": 3846916,
+        "net_expense_revenue": -7629872
+      },
+      "public_safety": {
+        "expenses": 33619824,
+        "charges_for_services": 4400899,
+        "operating_grants": 989132,
+        "capital_grants": 39139,
+        "net_expense_revenue": -28190654
+      },
+      "public_works": {
+        "expenses": 9146458,
+        "charges_for_services": 153646,
+        "operating_grants": 158604,
+        "capital_grants": 4581314,
+        "net_expense_revenue": -4252894
+      },
+      "economic_development": {
+        "expenses": 4697501,
+        "charges_for_services": 374610,
+        "operating_grants": 4177475,
+        "capital_grants": null,
+        "net_expense_revenue": -145416
+      },
+      "health_and_welfare": {
+        "expenses": 4752257,
+        "charges_for_services": 189225,
+        "operating_grants": 5078,
+        "capital_grants": null,
+        "net_expense_revenue": -4557954
+      },
+      "culture_and_recreation": {
+        "expenses": 7266290,
+        "charges_for_services": 231197,
+        "operating_grants": 29065,
+        "capital_grants": null,
+        "net_expense_revenue": -7006028
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 77703195,
+        "charges_for_services": 9786028,
+        "operating_grants": 7666980,
+        "capital_grants": 8467369,
+        "net_expense_revenue": -51782818
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 34147753,
+      "sales_taxes": 14255181,
+      "severance_taxes": null,
+      "fire_insurance_premiums": 1472023,
+      "franchise_fees": null,
+      "other_taxes": 3412682,
+      "occupational_licenses": 1188520,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 921047,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 73009,
+      "miscellaneous": 1594278,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Assessments",
+          "amount": 116898
+        },
+        {
+          "label": "Rents and royalties",
+          "amount": 136996
+        },
+        {
+          "label": "Gain on disposals of assets (net)",
+          "amount": 177221
+        }
+      ],
+      "total_general_revenues": 57495608
+    },
+    "change_in_net_position": 5712790,
+    "net_position_beginning": 262035781,
+    "net_position_ending": 267748571,
+    "cross_sectional": {
+      "property_ad_valorem": 34147753,
+      "sales_use_taxes": 14255181,
+      "severance_taxes": null,
+      "other_tax_revenue": 4873225,
+      "total_tax_revenue": 53276159,
+      "state_revenue_sharing": 921047,
+      "state_intergovernmental": 7666980,
+      "federal_intergovernmental": 8467369,
+      "local_transfer": null,
+      "all_other_revenue": 2281521,
+      "total_other_revenue": 18414870,
+      "total_program_revenue": 25920377,
+      "total_revenues": 97611406,
+      "general_government": -7629872,
+      "legislative": -199237,
+      "judicial": -3083567,
+      "elections": -256922,
+      "finance_and_administration": -593568,
+      "other_general_government": -3496578,
+      "total_general_government": -7629872,
+      "public_safety": -28190654,
+      "public_works": -4252894,
+      "economic_development": -145416,
+      "health_and_welfare": -4557954,
+      "culture_and_recreation": -7006028,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 77703195
+    },
+    "_uncertainties": [
+      {
+        "field": "other_tax_revenue",
+        "fund": null,
+        "reason": "Other taxes line item of 3,412,682 may include franchise fees or other tax types not separately itemized",
+        "extracted": 4873225,
+        "alternative": 3412682,
+        "page": 22,
+        "text_snippet": "Other taxes 3,412,682",
+        "severity": "medium"
+      },
+      {
+        "field": "state_intergovernmental",
+        "fund": null,
+        "reason": "Operating Grants and Contributions of 7,666,980 may include both state and federal; cannot separate without additional detail",
+        "extracted": 7666980,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Operating Grants and Contributions",
+        "severity": "high"
+      },
+      {
+        "field": "federal_intergovernmental",
+        "fund": null,
+        "reason": "Capital Grants and Contributions of 8,467,369 may include both state and federal; cannot separate without additional detail",
+        "extracted": 8467369,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Capital Grants and Contributions",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Ouachita",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 37300264,
+        "investments": 25766100,
+        "taxes_receivable": 34902157,
+        "other_receivables": 994726,
+        "due_from_other_governments": 3664640,
+        "due_from_component_units": null,
+        "inventory": 539675,
+        "prepaid_items": 326720,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 180966576
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 284692575,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": 6536200,
+        "deposits_payable": 235293,
+        "unearned_revenue": 1019255,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 9153259
+      },
+      "total_liabilities": 16944007,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 180966576,
+        "restricted": 83077695,
+        "unrestricted": 3804300,
+        "total_net_position": 267748571
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "taxes_receivable",
+        "fund": "governmental_activities",
+        "reason": "Combined ad valorem taxes (32,242,138) and sales taxes (2,660,019) as both are tax receivables; also included special assessments (162,436)",
+        "extracted": 34902157,
+        "alternative": 32242138,
+        "page": 21,
+        "text_snippet": "Ad valorem taxes 32,242,138, Sales taxes 2,660,019, Special assessments 162,436",
+        "severity": "medium"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Combined Trade receivables (979,346) and Other (15,380); excluded internal balance as it nets to zero",
+        "extracted": 994726,
+        "alternative": 979346,
+        "page": 21,
+        "text_snippet": "Trade receivables 979,346, Other 15,380",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined 'Due within one year' (1,421,391) and 'Due in more than one year' (7,731,868) as no breakdown by liability type provided",
+        "extracted": 9153259,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Due within one year 1,421,391, Due in more than one year 7,731,868",
+        "severity": "high"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Summed all restricted categories: public works, public safety, health, culture, economic dev, judicial, debt service, capital improvements, insurance claims",
+        "extracted": 83077695,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Restricted for Public works 7,023,933, Public safety 43,191,674, Health and welfare 5,112,412...",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Ouachita",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_data",
+        "fund": null,
+        "reason": "No capital assets schedule table found in provided PDF text. Page shows only depreciation policy narrative and useful life information.",
+        "extracted": null,
+        "alternative": null,
+        "page": 41,
+        "text_snippet": "NOTES TO THE FINANCIAL STATEMENTS AS OF AND FOR THE YEAR ENDED DECEMBER 31, 2014... Straight-line depreciation is used based on the following useful lives",
+        "severity": "high"
+      }
+    ]
+  }
+}

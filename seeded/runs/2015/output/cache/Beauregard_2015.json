@@ -1,0 +1,938 @@
+{
+  "cbs": {
+    "parish": "Beauregard",
+    "year": 2015,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Parishwide Road District",
+      "Road No. 6 Special Revenue",
+      "Sales Tax District No. 1",
+      "South Beau Health Unit Special Revenue",
+      "Courthouse Rec. Dist. Special Revenue",
+      "Courthouse No. 2 Sales Tax Special Revenue",
+      "Courthouse Renovation Capital Project",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 145177,
+        "Parishwide Road District": 1569627,
+        "Road No. 6 Special Revenue": 393160,
+        "Sales Tax District No. 1": 4774356,
+        "South Beau Health Unit Special Revenue": 2121897,
+        "Courthouse Rec. Dist. Special Revenue": 2634695,
+        "Courthouse No. 2 Sales Tax Special Revenue": 9164133,
+        "Courthouse Renovation Capital Project": 4717507,
+        "Nonmajor Governmental Funds": 25520552,
+        "Total Governmental Funds": null
+      },
+      "investments": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 1222735,
+        "Parishwide Road District": 36204,
+        "Road No. 6 Special Revenue": 968633,
+        "Sales Tax District No. 1": 428863,
+        "South Beau Health Unit Special Revenue": 515610,
+        "Courthouse Rec. Dist. Special Revenue": 531092,
+        "Courthouse No. 2 Sales Tax Special Revenue": 129309,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": 2593006,
+        "Total Governmental Funds": 6425452
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 107332,
+        "Parishwide Road District": 11404,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 118736
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": 54053,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": 280629,
+        "Total Governmental Funds": 334682
+      },
+      "prepaid_items": {
+        "General Fund": 226353,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 226353
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 1701597,
+        "Parishwide Road District": 1617235,
+        "Road No. 6 Special Revenue": 1415846,
+        "Sales Tax District No. 1": 5203219,
+        "South Beau Health Unit Special Revenue": 2637507,
+        "Courthouse Rec. Dist. Special Revenue": 531092,
+        "Courthouse No. 2 Sales Tax Special Revenue": 2764004,
+        "Courthouse Renovation Capital Project": 9164133,
+        "Nonmajor Governmental Funds": 7591142,
+        "Total Governmental Funds": 32625775
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 273323,
+        "Parishwide Road District": 29583,
+        "Road No. 6 Special Revenue": 20059,
+        "Sales Tax District No. 1": 128239,
+        "South Beau Health Unit Special Revenue": 535,
+        "Courthouse Rec. Dist. Special Revenue": 67905,
+        "Courthouse No. 2 Sales Tax Special Revenue": 3671,
+        "Courthouse Renovation Capital Project": 472197,
+        "Nonmajor Governmental Funds": 103737,
+        "Total Governmental Funds": 1099249
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": 77583,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": 92033,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": 26703,
+        "Total Governmental Funds": 118736
+      },
+      "other_liabilities": {
+        "General Fund": 201087,
+        "Parishwise Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": 153725,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 231308
+      },
+      "total_liabilities": {
+        "General Fund": 474410,
+        "Parishwide Road District": 29583,
+        "Road No. 6 Special Revenue": 97642,
+        "Sales Tax District No. 1": 128239,
+        "South Beau Health Unit Special Revenue": 535,
+        "Courthouse Rec. Dist. Special Revenue": 159938,
+        "Courthouse No. 2 Sales Tax Special Revenue": 3671,
+        "Courthouse Renovation Capital Project": 625922,
+        "Nonmajor Governmental Funds": 130440,
+        "Total Governmental Funds": 1650380
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General Fund": 117403,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": 57515,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": 60331,
+            "Courthouse Rec. Dist. Special Revenue": 28866,
+            "Courthouse No. 2 Sales Tax Special Revenue": 165109,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 429224
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 117403,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": 57515,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": 60331,
+        "Courthouse Rec. Dist. Special Revenue": 28866,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": 165109,
+        "Total Governmental Funds": 429224
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "inventory",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": 54053,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": 280629,
+            "Total Governmental Funds": 334682
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Purchases of equipment",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": 744819,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 744819
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": 1932609,
+            "Total Governmental Funds": 1932609
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": 842833,
+            "Road No. 6 Special Revenue": 1206636,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": 3806866,
+            "Total Governmental Funds": 5856335
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": 2576641,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 2576641
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": 342288,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": 523629,
+            "Total Governmental Funds": 865917
+          }
+        },
+        {
+          "label": "Sanitation",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": 5074980,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 5074980
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": 325299,
+            "Total Governmental Funds": 325299
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": 2760333,
+            "Courthouse Renovation Capital Project": 8538211,
+            "Nonmajor Governmental Funds": 260228,
+            "Total Governmental Funds": 11558772
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Parishwide Road District": null,
+            "Road No. 6 Special Revenue": null,
+            "Sales Tax District No. 1": null,
+            "South Beau Health Unit Special Revenue": null,
+            "Courthouse Rec. Dist. Special Revenue": null,
+            "Courthouse No. 2 Sales Tax Special Revenue": null,
+            "Courthouse Renovation Capital Project": null,
+            "Nonmajor Governmental Funds": 166333,
+            "Total Governmental Funds": 166333
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 1109784,
+        "Parishwide Road District": null,
+        "Road No. 6 Special Revenue": null,
+        "Sales Tax District No. 1": null,
+        "South Beau Health Unit Special Revenue": null,
+        "Courthouse Rec. Dist. Special Revenue": null,
+        "Courthouse No. 2 Sales Tax Special Revenue": null,
+        "Courthouse Renovation Capital Project": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 1109784
+      },
+      "total_fund_balances": {
+        "General Fund": 1109784,
+        "Parishwide Road District": 1587652,
+        "Road No. 6 Special Revenue": 1260689,
+        "Sales Tax District No. 1": 5074980,
+        "South Beau Health Unit Special Revenue": 2576641,
+        "Courthouse Rec. Dist. Special Revenue": 342288,
+        "Courthouse No. 2 Sales Tax Special Revenue": 2760333,
+        "Courthouse Renovation Capital Project": 8538211,
+        "Nonmajor Governmental Funds": 7295593,
+        "Total Governmental Funds": 30546171
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 1701597,
+      "Parishwide Road District": 1617235,
+      "Road No. 6 Special Revenue": 1415846,
+      "Sales Tax District No. 1": 5203219,
+      "South Beau Health Unit Special Revenue": 2637507,
+      "Courthouse Rec. Dist. Special Revenue": 531092,
+      "Courthouse No. 2 Sales Tax Special Revenue": 2764004,
+      "Courthouse Renovation Capital Project": 9164133,
+      "Nonmajor Governmental Funds": 7591142,
+      "Total Governmental Funds": 32625775
+    },
+    "cross_sectional": {
+      "cash": 145177,
+      "investments": null,
+      "receivables": 1222735,
+      "inventory": 54053,
+      "other_assets": null,
+      "transfers_in": 107332,
+      "prepaid_items": 226353,
+      "total_assets": 1701597,
+      "deferred_outflows": null,
+      "accounts_payable": 273323,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 201087,
+      "total_liabilities": 474410,
+      "deferred_inflows": 117403,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 1109784,
+      "total_fund_balances": 1109784,
+      "total_liabilities_and_fund_balances": 1701597
+    },
+    "_uncertainties": [
+      {
+        "field": "cross_sectional.reserved",
+        "fund": "General Fund",
+        "reason": "Cross-sectional calls for nonspendable+restricted but General Fund shows no nonspendable and no restricted items in the balance sheet",
+        "extracted": null,
+        "alternative": 0,
+        "page": 14,
+        "text_snippet": "Non-spendable - inventory - - 54,053 - ... Restricted: Purchases of equipment - 744,819 - - ... Unassigned 1,109,784 - - -",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.unreserved_designated",
+        "fund": "General Fund",
+        "reason": "Cross-sectional calls for committed+assigned but balance sheet shows no committed or assigned items for General Fund",
+        "extracted": null,
+        "alternative": 0,
+        "page": 14,
+        "text_snippet": "Total fund balances 1,109,784 1,587,652 1,260,689 5,074,980",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.other_liabilities",
+        "fund": "Parishwise Road District",
+        "reason": "Typo in fund name in JSON (should be 'Parishwide Road District'). Also 'Contracts payable' and 'Payroll liabilities' are shown but unclear which funds they belong to",
+        "extracted": null,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Accounts payable $ 273,323 $ 29,583 $ 20,059 $ 128,239 Contracts payable 77,583 Payroll liabilities 201,087",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Beauregard",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 3985607,
+        "charges_for_services": 1033568,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2952039
+      },
+      "public_safety": {
+        "expenses": 946075,
+        "charges_for_services": 75780,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -870295
+      },
+      "public_works": {
+        "expenses": 6053609,
+        "charges_for_services": 216241,
+        "operating_grants": 1033970,
+        "capital_grants": 244252,
+        "net_expense_revenue": -4559146
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 529816,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -529816
+      },
+      "culture_and_recreation": {
+        "expenses": 2323838,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2323838
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 187099,
+        "net_expense_revenue": -187099
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 1555337,
+          "charges_for_services": 51531,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -1503806
+        },
+        {
+          "label": "Other activities",
+          "expenses": 163839,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -163839
+        }
+      ],
+      "total": {
+        "expenses": 15745220,
+        "charges_for_services": 1301340,
+        "operating_grants": 1109750,
+        "capital_grants": 244252,
+        "net_expense_revenue": -13089878
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5275196,
+      "sales_taxes": 7040226,
+      "severance_taxes": 1696984,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 173860,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 119293,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 20611,
+      "miscellaneous": 634452,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Loss on disposal of assets",
+          "amount": 355486
+        }
+      ],
+      "total_general_revenues": 15316108
+    },
+    "change_in_net_position": 2226230,
+    "net_position_beginning": 50088363,
+    "net_position_ending": 52314593,
+    "cross_sectional": {
+      "property_ad_valorem": 5275196,
+      "sales_use_taxes": 7040226,
+      "severance_taxes": 1696984,
+      "other_tax_revenue": 173860,
+      "total_tax_revenue": 14186266,
+      "state_revenue_sharing": 119293,
+      "state_intergovernmental": 1109750,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1010549,
+      "total_other_revenue": 2239592,
+      "total_program_revenue": 2655342,
+      "total_revenues": 19081200,
+      "general_government": -2952039,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -2952039,
+      "public_safety": -870295,
+      "public_works": -4559146,
+      "economic_development": null,
+      "health_and_welfare": -529816,
+      "culture_and_recreation": -2323838,
+      "interest_debt_service": -187099,
+      "all_other_expenditures": -1667645,
+      "total_expenditures": 15745220
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.charges_for_services",
+        "fund": "General government",
+        "reason": "Multiple sub-categories (Legislative, Judicial, Elections, Finance, Other) with varying charge data. Summed all available charges: 0+814967+0+218601+0=1033568",
+        "extracted": 1033568,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Legislative 251,425 $ (251,425)\nJudicial 963,761 814,967 (148,794)\nElections 73,531 (73,531)\nFinance and administrative 1,124,764 218,601",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": "General government",
+        "reason": "Calculated as sum of all general government components (Leg, Judicial, Elections, Finance, Other) rather than single line item",
+        "extracted": -2952039,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Legislative 251,425 $ (251,425)\nJudicial 963,761 814,967 (148,794)\nElections 73,531 (73,531)\nFinance and administrative 1,124,764 218,601 (906,163)\nOther general government activities 1,572,126 (1,572,126)",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Beauregard",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 25520552,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 6425452,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": 334682,
+        "prepaid_items": 226353,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 6339012,
+        "depreciable_net": 29642195,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 35981207
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 68488046,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Pension-related deferrals",
+            "amount": 587818
+          }
+        ],
+        "total": 587818
+      },
+      "current_liabilities": {
+        "accounts_payable": 1531644,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 33384,
+        "other_current_liabilities": 1256668
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": 148204,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": 13691999,
+        "other_long_term": null
+      },
+      "total_liabilities": 16661899,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Pension-related deferrals",
+            "amount": 99372
+          }
+        ],
+        "total": 99372
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 21141007,
+        "restricted": 28436388,
+        "unrestricted": 1737199,
+        "total_net_position": 52314594
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "capital_assets.non_depreciable",
+        "fund": "Governmental Activities",
+        "reason": "Land and Construction in progress combined; construction in progress classification varies by standard",
+        "extracted": 6339012,
+        "alternative": 698779,
+        "page": 10,
+        "text_snippet": "Land 698,779\nConstruction in progress 5,640,233",
+        "severity": "medium"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "Governmental Activities",
+        "reason": "Sum of all restricted categories: inventory + equipment + public safety + public works + health + culture + sanitation + other government + capital projects + debt service",
+        "extracted": 28436388,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Restricted for: Inventory 334,682 Equipment purchases 744,819... Debt service 166,333",
+        "severity": "low"
+      },
+      {
+        "field": "net_position.total_net_position",
+        "fund": "Governmental Activities",
+        "reason": "Statement shows $52,314,593 but sum of components (21,141,007 + 28,436,388 + 1,737,199) = 52,314,594 (off by $1)",
+        "extracted": 52314594,
+        "alternative": 52314593,
+        "page": 10,
+        "text_snippet": "TOTAL NET POSITION $ 52,314,593",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Beauregard",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 688379,
+          "increases": 10400,
+          "decreases": null,
+          "ending": 698779
+        },
+        "construction_in_progress": {
+          "beginning": 2175229,
+          "increases": 6501660,
+          "decreases": -3036656,
+          "ending": 5640233
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 2863608,
+          "increases": 6512060,
+          "decreases": -3036656,
+          "ending": 6339012
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 17820827,
+          "increases": 9759,
+          "decreases": null,
+          "ending": 20867242
+        },
+        "machinery_and_equipment": null,
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": 42862850,
+          "increases": null,
+          "decreases": null,
+          "ending": 42862850
+        },
+        "vehicles": null,
+        "furniture_and_fixtures": {
+          "beginning": 12511676,
+          "increases": 441044,
+          "decreases": null,
+          "ending": 12952720
+        },
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 73195353,
+          "increases": 450803,
+          "decreases": null,
+          "ending": 76682812
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -8634982,
+          "increases": -563822,
+          "decreases": null,
+          "ending": -9198804
+        },
+        "machinery_and_equipment": null,
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": -27471416,
+          "increases": -1115249,
+          "decreases": null,
+          "ending": -28586665
+        },
+        "vehicles": null,
+        "furniture_and_fixtures": {
+          "beginning": -8415337,
+          "increases": -840011,
+          "decreases": null,
+          "ending": -9255348
+        },
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -44521735,
+          "increases": -2519082,
+          "decreases": null,
+          "ending": -47040817
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 28673618,
+        "increases": -2068279,
+        "decreases": null,
+        "ending": 29641995
+      },
+      "total_capital_assets_net": {
+        "beginning": 31537226,
+        "increases": 4443781,
+        "decreases": null,
+        "ending": 35981007
+      }
+    },
+    "cross_sectional": {
+      "land": 698779,
+      "construction_in_progress": 5640233,
+      "other_non_depreciable": null,
+      "buildings_net": 11668438,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": 3697372,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 14276185,
+      "total_governmental_net": 35981007
+    },
+    "_uncertainties": [
+      {
+        "field": "transfers",
+        "fund": "Governmental Activities",
+        "reason": "Transfers column shows CIP decreases matching Buildings increases (3,036,656), but the PDF header labels this as 'Transfers' column. The balance sheet mechanics suggest this is a reclassification from CIP to Buildings, but presented as negative in Deletions column for CIP and positive in Additions for Buildings. Extracted as shown in Deletions/Decreases for CIP (-3036656) and as part of Additions for Buildings, though the header structure is ambiguous.",
+        "extracted": -3036656,
+        "alternative": null,
+        "page": 34,
+        "text_snippet": "Construction in progress 2,175,229 6,501,660 (3,036,656) 5,640,233 ... Buildings and improvements 17,820,827 9,759 3,036,656 20,867,242",
+        "severity": "medium"
+      }
+    ]
+  }
+}

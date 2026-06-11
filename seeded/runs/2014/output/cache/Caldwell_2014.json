@@ -1,0 +1,786 @@
+{
+  "cbs": {
+    "parish": "Caldwell",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Road Maintenance",
+      "Recreation",
+      "Solid Waste",
+      "Blacktop Road",
+      "Bayou Dechene Reservoir",
+      "Other Governmental",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 1128303,
+        "Road Maintenance": 392947,
+        "Recreation": 695339,
+        "Solid Waste": 2048365,
+        "Blacktop Road": 1975178,
+        "Bayou Dechene Reservoir": 115740,
+        "Other Governmental": 1504656,
+        "Total Governmental Funds": 7860568
+      },
+      "investments": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 292218,
+        "Road Maintenance": 520897,
+        "Recreation": 309967,
+        "Solid Waste": 103678,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": 594637,
+        "Total Governmental Funds": 1821397
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 2700,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": 36402,
+        "Total Governmental Funds": 64754
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 1423221,
+        "Road Maintenance": 939496,
+        "Recreation": 1005306,
+        "Solid Waste": 2152043,
+        "Blacktop Road": 1975178,
+        "Bayou Dechene Reservoir": 115740,
+        "Other Governmental": 2135695,
+        "Total Governmental Funds": 9746719
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 80438,
+        "Road Maintenance": 20492,
+        "Recreation": 19501,
+        "Solid Waste": 44917,
+        "Blacktop Road": 3162,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": 37335,
+        "Total Governmental Funds": 205845
+      },
+      "retainage_payable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": 15497,
+        "Road Maintenance": 13849,
+        "Recreation": 1787,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": 7111,
+        "Total Governmental Funds": 38244
+      },
+      "deposits_payable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 62054,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": 2700,
+        "Total Governmental Funds": 64754
+      },
+      "other_liabilities": {
+        "General": 57698,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": 57698
+      },
+      "total_liabilities": {
+        "General": 215687,
+        "Road Maintenance": 37041,
+        "Recreation": 21288,
+        "Solid Waste": 44917,
+        "Blacktop Road": 3162,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": 44446,
+        "Total Governmental Funds": 366541
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Road Maintenance": 902455,
+            "Recreation": 984018,
+            "Solid Waste": 2107126,
+            "Blacktop Road": 1972016,
+            "Bayou Dechene Reservoir": 115740,
+            "Other Governmental": 2091249,
+            "Total Governmental Funds": 8172644
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General": 1207534,
+        "Road Maintenance": null,
+        "Recreation": null,
+        "Solid Waste": null,
+        "Blacktop Road": null,
+        "Bayou Dechene Reservoir": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": 1207534
+      },
+      "total_fund_balances": {
+        "General": 1207534,
+        "Road Maintenance": 902455,
+        "Recreation": 984018,
+        "Solid Waste": 2107126,
+        "Blacktop Road": 1972016,
+        "Bayou Dechene Reservoir": 115740,
+        "Other Governmental": 2091249,
+        "Total Governmental Funds": 9380178
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 1423221,
+      "Road Maintenance": 939496,
+      "Recreation": 1005306,
+      "Solid Waste": 2152043,
+      "Blacktop Road": 1975178,
+      "Bayou Dechene Reservoir": 115740,
+      "Other Governmental": 2135695,
+      "Total Governmental Funds": 9746719
+    },
+    "cross_sectional": {
+      "cash": 1128303,
+      "investments": null,
+      "receivables": 292218,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 2700,
+      "prepaid_items": null,
+      "total_assets": 1423221,
+      "deferred_outflows": null,
+      "accounts_payable": 80438,
+      "deferred_revenues": null,
+      "government_transfers": 62054,
+      "other_liabilities": 73195,
+      "total_liabilities": 215687,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 1207534,
+      "total_fund_balances": 1207534,
+      "total_liabilities_and_fund_balances": 1423221
+    },
+    "_uncertainties": [
+      {
+        "field": "cash_and_deposits",
+        "fund": "Bayou Dechene Reservoir",
+        "reason": "Column header shows '$40' which appears to be cash value, but column alignment suggests this may be a separate fund labeled with value 40",
+        "extracted": 115740,
+        "alternative": 40,
+        "page": 17,
+        "text_snippet": "BAYOU DECHENE RESERVOIR ... $115,740 $ 40 $1,504,656",
+        "severity": "high"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Road Maintenance",
+        "reason": "Due from other funds row shows value 25,652 under what may be Road Maintenance or between columns, exact column alignment uncertain",
+        "extracted": 520897,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Receivables 292,218 520,897 309,967 ... Due from other funds 2,700 25,652 36,402",
+        "severity": "medium"
+      },
+      {
+        "field": "funds",
+        "fund": null,
+        "reason": "The '$40' appears where a fund name should be. It may be a fund with value $40 for all items, or a misprint. Treating it as a separate fund column.",
+        "extracted": "Other Governmental",
+        "alternative": "Fund named '$40'",
+        "page": 17,
+        "text_snippet": "BAYOU DECHENE RESERVOIR $ 40 $1,504,656",
+        "severity": "high"
+      },
+      {
+        "field": "due_from_other_funds",
+        "fund": "Road Maintenance",
+        "reason": "Value 25,652 appears between columns; unclear if it belongs to Road Maintenance or is subtotal",
+        "extracted": null,
+        "alternative": 25652,
+        "page": 17,
+        "text_snippet": "Due from other funds 2,700 25,652 36,402 64,754",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Caldwell",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 974157,
+        "charges_for_services": 161203,
+        "operating_grants": 168079,
+        "capital_grants": null,
+        "net_expense_revenue": -644875
+      },
+      "public_safety": {
+        "expenses": 534651,
+        "charges_for_services": 106913,
+        "operating_grants": 171957,
+        "capital_grants": 67128,
+        "net_expense_revenue": -188653
+      },
+      "public_works": {
+        "expenses": 2017407,
+        "charges_for_services": 103039,
+        "operating_grants": 204609,
+        "capital_grants": 203397,
+        "net_expense_revenue": -1506362
+      },
+      "economic_development": {
+        "expenses": 232966,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -232966
+      },
+      "health_and_welfare": {
+        "expenses": 147216,
+        "charges_for_services": null,
+        "operating_grants": 70834,
+        "capital_grants": null,
+        "net_expense_revenue": -76382
+      },
+      "culture_and_recreation": {
+        "expenses": 218065,
+        "charges_for_services": 14422,
+        "operating_grants": 15367,
+        "capital_grants": 3423044,
+        "net_expense_revenue": 3234768
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [
+        {
+          "label": "Transportation",
+          "expenses": 5820,
+          "charges_for_services": 4114,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -1706
+        }
+      ],
+      "total": {
+        "expenses": 4130282,
+        "charges_for_services": 389691,
+        "operating_grants": 630846,
+        "capital_grants": 3693569,
+        "net_expense_revenue": 583824
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 1737092,
+      "sales_taxes": 1952537,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 9870,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 28075,
+      "miscellaneous": 5885,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": 3733459
+    },
+    "change_in_net_position": 4317283,
+    "net_position_beginning": 19052485,
+    "net_position_ending": 23369768,
+    "cross_sectional": {
+      "property_ad_valorem": 1737092,
+      "sales_use_taxes": 1952537,
+      "severance_taxes": null,
+      "other_tax_revenue": 9870,
+      "total_tax_revenue": 1699499,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 33960,
+      "total_other_revenue": 33960,
+      "total_program_revenue": 4714106,
+      "total_revenues": 6447565,
+      "general_government": -644875,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -644875,
+      "public_safety": -188653,
+      "public_works": -1506362,
+      "economic_development": -232966,
+      "health_and_welfare": -76382,
+      "culture_and_recreation": 3234768,
+      "interest_debt_service": null,
+      "all_other_expenditures": -1706,
+      "total_expenditures": 4130282
+    },
+    "_uncertainties": []
+  },
+  "sona": {
+    "parish": "Caldwell",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 7860568,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 1821397,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 14109112
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 23791077,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 421309,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 14109112,
+        "restricted": 6856564,
+        "unrestricted": 2404092,
+        "total_net_position": 23369768
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Statement of Net Position shows combined 'Accounts, salaries, and other payables' of 244,089 but does not separately detail accounts payable vs salaries vs other",
+        "extracted": null,
+        "alternative": 244089,
+        "page": 15,
+        "text_snippet": "Accounts, salaries, and other payables $ 244,089",
+        "severity": "medium"
+      },
+      {
+        "field": "compensated_absences_current",
+        "fund": "governmental_activities",
+        "reason": "Statement shows 'Compensated absences payable 119,522' but does not split between current and noncurrent portions",
+        "extracted": null,
+        "alternative": 119522,
+        "page": 15,
+        "text_snippet": "Compensated absences payable 119,522",
+        "severity": "medium"
+      },
+      {
+        "field": "compensated_absences_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Statement shows 'Compensated absences payable 119,522' but does not split between current and noncurrent portions",
+        "extracted": null,
+        "alternative": 119522,
+        "page": 15,
+        "text_snippet": "Compensated absences payable 119,522",
+        "severity": "medium"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Statement shows 'Receivables 1,821,397' without breakdown by type (taxes, other, etc.)",
+        "extracted": 1821397,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Receivables 1,821,397",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Caldwell",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 420095,
+          "increases": null,
+          "decreases": null,
+          "ending": 420095
+        },
+        "construction_in_progress": {
+          "beginning": 7932354,
+          "increases": 3419059,
+          "decreases": -17920,
+          "ending": 10535878
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 8352449,
+          "increases": 3419059,
+          "decreases": -17920,
+          "ending": 10955973
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 2977743,
+          "increases": 6162,
+          "decreases": null,
+          "ending": 2983905
+        },
+        "machinery_and_equipment": {
+          "beginning": 1460214,
+          "increases": 37668,
+          "decreases": null,
+          "ending": 1497882
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 716214,
+          "increases": null,
+          "decreases": null,
+          "ending": 716214
+        },
+        "infrastructure": {
+          "beginning": 48540855,
+          "increases": null,
+          "decreases": null,
+          "ending": 48540855
+        },
+        "vehicles": {
+          "beginning": 1187227,
+          "increases": null,
+          "decreases": null,
+          "ending": 1187227
+        },
+        "furniture_and_fixtures": {
+          "beginning": 577716,
+          "increases": 104432,
+          "decreases": -1100,
+          "ending": 681048
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [
+          {
+            "label": "Public works equipment",
+            "beginning": 285706,
+            "increases": null,
+            "decreases": null,
+            "ending": 285706
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 55745675,
+          "increases": 148262,
+          "decreases": -1100,
+          "ending": 55892837
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -2601609,
+          "increases": -17717,
+          "decreases": null,
+          "ending": -2619326
+        },
+        "machinery_and_equipment": {
+          "beginning": -1169753,
+          "increases": -53802,
+          "decreases": null,
+          "ending": -1223555
+        },
+        "improvements_other_than_buildings": {
+          "beginning": -186334,
+          "increases": -30959,
+          "decreases": null,
+          "ending": -217293
+        },
+        "infrastructure": {
+          "beginning": -46793325,
+          "increases": -150047,
+          "decreases": null,
+          "ending": -46943372
+        },
+        "vehicles": {
+          "beginning": -1073866,
+          "increases": -41067,
+          "decreases": null,
+          "ending": -1114933
+        },
+        "furniture_and_fixtures": {
+          "beginning": -448561,
+          "increases": -44567,
+          "decreases": 1100,
+          "ending": -492028
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [
+          {
+            "label": "Public works equipment",
+            "beginning": -105510,
+            "increases": -23681,
+            "decreases": null,
+            "ending": -129191
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": -52378958,
+          "increases": -361840,
+          "decreases": 1100,
+          "ending": -52739698
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 3366717,
+        "increases": -213578,
+        "decreases": null,
+        "ending": 3153139
+      },
+      "total_capital_assets_net": {
+        "beginning": 11719166,
+        "increases": 3205481,
+        "decreases": -17920,
+        "ending": 14109112
+      }
+    },
+    "cross_sectional": {
+      "land": 420095,
+      "construction_in_progress": 10535878,
+      "other_non_depreciable": null,
+      "buildings_net": 364579,
+      "improvements_net": 498921,
+      "machinery_net": 274327,
+      "other_depreciable_net": 156515,
+      "books_net": null,
+      "furniture_net": 189020,
+      "vehicles_net": 72294,
+      "bridges_net": 887,
+      "leased_property_net": null,
+      "infrastructure_net": 1597483,
+      "total_governmental_net": 14109112
+    },
+    "_uncertainties": [
+      {
+        "field": "governmental_activities.not_depreciated.construction_in_progress.beginning",
+        "fund": null,
+        "reason": "Adjustments column of -797615 not clearly applied - may affect beginning balance calculation",
+        "extracted": 7932354,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Construction in progress 7,932,354 (797,615) 3,419,059 (17,920) 10,535,878",
+        "severity": "medium"
+      },
+      {
+        "field": "governmental_activities.total_capital_assets_net.beginning",
+        "fund": null,
+        "reason": "Adjustments column of -797615 appears in total but unclear if incorporated in beginning balance or separate",
+        "extracted": 11719166,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Total capital assets, net $ 11,719,166 $ (797,615) $ 3,205,481 $ (17,920) $ 14,109,112",
+        "severity": "medium"
+      }
+    ]
+  }
+}

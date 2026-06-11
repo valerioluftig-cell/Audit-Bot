@@ -1,0 +1,874 @@
+{
+  "cbs": {
+    "parish": "Avoyelles Reissue",
+    "year": 2015,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Road & Bridge",
+      "Solid Waste",
+      "Drainage",
+      "Health Unit",
+      "Library",
+      "LCDBG",
+      "Section 8",
+      "Hurricane Gustav",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 855612,
+        "Road & Bridge": 1028184,
+        "Solid Waste": 4191293,
+        "Drainage": 621908,
+        "Health Unit": 2058472,
+        "Library": 1272452,
+        "LCDBG": 213029,
+        "Section 8": 319,
+        "Hurricane Gustav": 280938,
+        "Total Governmental Funds": 10522207
+      },
+      "investments": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 18000,
+        "Road & Bridge": 6998,
+        "Solid Waste": 8791,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 33789
+      },
+      "due_from_other_governments": {
+        "General": 406664,
+        "Road & Bridge": 131384,
+        "Solid Waste": 284617,
+        "Drainage": 410957,
+        "Health Unit": 469734,
+        "Library": 727864,
+        "LCDBG": null,
+        "Section 8": 140655,
+        "Hurricane Gustav": 4054,
+        "Total Governmental Funds": 2575929
+      },
+      "due_from_other_funds": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": 3376,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 3376
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": 15525,
+        "Road & Bridge": 20690,
+        "Solid Waste": 17285,
+        "Drainage": 8719,
+        "Health Unit": 19924,
+        "Library": 60,
+        "LCDBG": null,
+        "Section 8": 3668,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 85871
+      },
+      "other_assets": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 1295801,
+        "Road & Bridge": 1180258,
+        "Solid Waste": 4498869,
+        "Drainage": 1050150,
+        "Health Unit": 2536925,
+        "Library": 2020240,
+        "LCDBG": 220087,
+        "Section 8": 140974,
+        "Hurricane Gustav": 300827,
+        "Total Governmental Funds": 13244131
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 124365,
+        "Road & Bridge": 110779,
+        "Solid Waste": 188005,
+        "Drainage": 23002,
+        "Health Unit": 22806,
+        "Library": 56159,
+        "LCDBG": 2798,
+        "Section 8": 140655,
+        "Hurricane Gustav": 20568,
+        "Total Governmental Funds": 689137
+      },
+      "retainage_payable": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": 36260,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 36260
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Road & Bridge": 1546,
+        "Solid Waste": 1830,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 3376
+      },
+      "other_liabilities": {
+        "General": 59537,
+        "Road & Bridge": 6467,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 66004
+      },
+      "total_liabilities": {
+        "General": 185448,
+        "Road & Bridge": 117246,
+        "Solid Waste": 188005,
+        "Drainage": 23002,
+        "Health Unit": 22806,
+        "Library": 56159,
+        "LCDBG": 39058,
+        "Section 8": 140655,
+        "Hurricane Gustav": 22398,
+        "Total Governmental Funds": 794777
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General": 43264,
+            "Road & Bridge": 70453,
+            "Solid Waste": 80648,
+            "Drainage": 124787,
+            "Health Unit": null,
+            "Library": null,
+            "LCDBG": null,
+            "Section 8": null,
+            "Hurricane Gustav": null,
+            "Total Governmental Funds": 319152
+          }
+        }
+      ],
+      "total": {
+        "General": 43264,
+        "Road & Bridge": 70453,
+        "Solid Waste": 80648,
+        "Drainage": 124787,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": null,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 319152
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid items and inventory",
+          "values": {
+            "General": 15525,
+            "Road & Bridge": 20690,
+            "Solid Waste": 22959,
+            "Drainage": 17285,
+            "Health Unit": 8719,
+            "Library": 19924,
+            "LCDBG": 60,
+            "Section 8": 3668,
+            "Hurricane Gustav": null,
+            "Total Governmental Funds": 108830
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Public safety",
+          "values": {
+            "General": 7063,
+            "Road & Bridge": null,
+            "Solid Waste": null,
+            "Drainage": null,
+            "Health Unit": null,
+            "Library": null,
+            "LCDBG": null,
+            "Section 8": null,
+            "Hurricane Gustav": null,
+            "Total Governmental Funds": 7063
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General": null,
+            "Road & Bridge": 1042322,
+            "Solid Waste": 4287905,
+            "Drainage": 939410,
+            "Health Unit": null,
+            "Library": null,
+            "LCDBG": null,
+            "Section 8": 319,
+            "Hurricane Gustav": 74541,
+            "Total Governmental Funds": 6344497
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General": null,
+            "Road & Bridge": null,
+            "Solid Waste": null,
+            "Drainage": null,
+            "Health Unit": 2424752,
+            "Library": 180969,
+            "LCDBG": null,
+            "Section 8": null,
+            "Hurricane Gustav": null,
+            "Total Governmental Funds": 2605721
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General": null,
+            "Road & Bridge": null,
+            "Solid Waste": null,
+            "Drainage": null,
+            "Health Unit": null,
+            "Library": 1819370,
+            "LCDBG": null,
+            "Section 8": null,
+            "Hurricane Gustav": null,
+            "Total Governmental Funds": 1819370
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General": null,
+            "Road & Bridge": null,
+            "Solid Waste": null,
+            "Drainage": null,
+            "Health Unit": null,
+            "Library": 204739,
+            "LCDBG": null,
+            "Section 8": null,
+            "Hurricane Gustav": null,
+            "Total Governmental Funds": 204739
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General": 1051564,
+        "Road & Bridge": null,
+        "Solid Waste": null,
+        "Drainage": null,
+        "Health Unit": null,
+        "Library": null,
+        "LCDBG": null,
+        "Section 8": -11582,
+        "Hurricane Gustav": null,
+        "Total Governmental Funds": 1039982
+      },
+      "total_fund_balances": {
+        "General": 1067089,
+        "Road & Bridge": 1063012,
+        "Solid Waste": 4310864,
+        "Drainage": 956695,
+        "Health Unit": 2433471,
+        "Library": 1839294,
+        "LCDBG": 181029,
+        "Section 8": 319,
+        "Hurricane Gustav": 278429,
+        "Total Governmental Funds": 12130202
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 1295801,
+      "Road & Bridge": 1180258,
+      "Solid Waste": 4498869,
+      "Drainage": 1050150,
+      "Health Unit": 2536925,
+      "Library": 2020240,
+      "LCDBG": 220087,
+      "Section 8": 140974,
+      "Hurricane Gustav": 300827,
+      "Total Governmental Funds": 13244131
+    },
+    "cross_sectional": {
+      "cash": 855612,
+      "investments": null,
+      "receivables": 424664,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": 15525,
+      "total_assets": 1295801,
+      "deferred_outflows": null,
+      "accounts_payable": 124365,
+      "deferred_revenues": 36260,
+      "government_transfers": null,
+      "other_liabilities": 59537,
+      "total_liabilities": 185448,
+      "deferred_inflows": 43264,
+      "reserved": 22588,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 1051564,
+      "total_fund_balances": 1067089,
+      "total_liabilities_and_fund_balances": 1295801
+    },
+    "_uncertainties": [
+      {
+        "field": "prepaid_items total",
+        "fund": "Total Governmental Funds",
+        "reason": "PDF shows 108.830 but individual fund values sum to 85871 (missing 22959 from Solid Waste nonspendable which appears to overlap)",
+        "extracted": 85871,
+        "alternative": 108830,
+        "page": 14,
+        "text_snippet": "Prepaid items 15.525 20,690 17.285 8.719 19.924 60 3.668 108.830",
+        "severity": "medium"
+      },
+      {
+        "field": "unassigned fund balance",
+        "fund": "Section 8",
+        "reason": "PDF shows dash/bullet point which could represent null or zero; listed as negative in total",
+        "extracted": -11582,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Unassigned (deficit) 1.051.564 - - - - - \u2022 (11.582)",
+        "severity": "medium"
+      },
+      {
+        "field": "due_from_other_governments",
+        "fund": "LCDBG",
+        "reason": "PDF shows dash which typically means null, but fund totals require verification",
+        "extracted": null,
+        "alternative": 0,
+        "page": 14,
+        "text_snippet": "Due from other governmental units ... - 140,655 4,054 2,575.929",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Avoyelles Reissue",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1573236,
+        "charges_for_services": 302702,
+        "operating_grants": 0,
+        "capital_grants": 0,
+        "net_expense_revenue": -1270534
+      },
+      "public_safety": {
+        "expenses": 754787,
+        "charges_for_services": 303513,
+        "operating_grants": 88097,
+        "capital_grants": 15039,
+        "net_expense_revenue": -348138
+      },
+      "public_works": {
+        "expenses": 4895727,
+        "charges_for_services": 1618,
+        "operating_grants": 477046,
+        "capital_grants": 1164165,
+        "net_expense_revenue": -3252898
+      },
+      "economic_development": {
+        "expenses": 307643,
+        "charges_for_services": 5027,
+        "operating_grants": 25000,
+        "capital_grants": 0,
+        "net_expense_revenue": -277616
+      },
+      "health_and_welfare": {
+        "expenses": 888257,
+        "charges_for_services": 0,
+        "operating_grants": 621889,
+        "capital_grants": 0,
+        "net_expense_revenue": -266368
+      },
+      "culture_and_recreation": {
+        "expenses": 693462,
+        "charges_for_services": 9993,
+        "operating_grants": 0,
+        "capital_grants": 0,
+        "net_expense_revenue": -683469
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 9113112,
+        "charges_for_services": 622853,
+        "operating_grants": 1212032,
+        "capital_grants": 1179204,
+        "net_expense_revenue": -6099023
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 2145870,
+      "sales_taxes": 4594999,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": 30882,
+      "state_revenue_sharing": 188608,
+      "state_shared_revenue": 294104,
+      "non_employer_pension_contribution": 21088,
+      "investment_income": 26942,
+      "miscellaneous": 106307,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Other state grants",
+          "amount": 539418
+        },
+        {
+          "label": "Special item - Gain on disposal of assets",
+          "amount": 8728
+        }
+      ],
+      "total_general_revenues": 7956946
+    },
+    "change_in_net_position": 1857923,
+    "net_position_beginning": 16652082,
+    "net_position_ending": 18510005,
+    "cross_sectional": {
+      "property_ad_valorem": 2145870,
+      "sales_use_taxes": 4625881,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 6771751,
+      "state_revenue_sharing": 188608,
+      "state_intergovernmental": 833522,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 163037,
+      "total_other_revenue": 1185167,
+      "total_program_revenue": 3014089,
+      "total_revenues": 10971007,
+      "general_government": -1270534,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1270534,
+      "public_safety": -348138,
+      "public_works": -3252898,
+      "economic_development": -277616,
+      "health_and_welfare": -266368,
+      "culture_and_recreation": -683469,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 9113112
+    },
+    "_uncertainties": [
+      {
+        "field": "health_and_welfare.net_expense_revenue",
+        "fund": null,
+        "reason": "PDF shows (266.368) with period instead of comma - likely OCR error",
+        "extracted": -266368,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Health and welfare 888,257 - 621,889 - (266.368)",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Avoyelles Reissue",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 10522207,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 33789,
+        "due_from_other_governments": 2575929,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 108830,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 1775946,
+        "depreciable_net": 4318512,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 6094458
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 19335213,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred outflows of resources related to pensions",
+            "amount": 192033
+          }
+        ],
+        "total": 192033
+      },
+      "current_liabilities": {
+        "accounts_payable": 689137,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 36260,
+        "accrued_interest": null,
+        "other_current_liabilities": 66004
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 30149,
+        "bonds_payable_noncurrent": 64772,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": 79068,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 965390,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Deferred inflows of resources related to pensions",
+            "amount": 51851
+          }
+        ],
+        "total": 51851
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 6094458,
+        "restricted": null,
+        "unrestricted": 12415547,
+        "total_net_position": 18510005
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": []
+  },
+  "ca": {
+    "parish": "Avoyelles Reissue",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": 42306,
+          "increases": null,
+          "decreases": null,
+          "ending": 42306
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 42306
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": -31884,
+          "increases": null,
+          "decreases": null,
+          "ending": -31884
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": -31884
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": 10422
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": 10422
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": 10422,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 10422
+    },
+    "_uncertainties": [
+      {
+        "field": "capital_assets_schedule_completeness",
+        "fund": null,
+        "reason": "PDF text provided contains only Balance Sheet and Income Statement sections. No comprehensive Capital Assets schedule with beginning/increases/decreases/ending columns for all asset categories is visible.",
+        "extracted": "partial data from balance sheet lines 164-160",
+        "alternative": "Full Capital Assets schedule may exist on other pages not provided",
+        "page": 65,
+        "text_snippet": "164 Furniture, equipment & machinery - administration 42,306 - - 42,306\n166 Accumulated depreciation (31,884) - - (31,884)\n160 Total capital assets, net of accumulated depreciation 10,422",
+        "severity": "high"
+      }
+    ]
+  }
+}

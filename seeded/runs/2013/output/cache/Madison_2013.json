@@ -1,0 +1,839 @@
+{
+  "cbs": {
+    "parish": "Madison",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Library",
+      "Garbage Maintenance",
+      "Health Unit",
+      "Public Wbrks",
+      "Courthouse and Jail",
+      "Other Governmental",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 261440,
+        "Library": 596418,
+        "Garbage Maintenance": 891535,
+        "Health Unit": 967005,
+        "Public Wbrks": 116974,
+        "Courthouse and Jail": 2459729,
+        "Other Governmental": 767032,
+        "Total Governmental Funds": 6060133
+      },
+      "investments": {
+        "General": null,
+        "Library": 263635,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": 2035614,
+        "Other Governmental": 673193,
+        "Total Governmental Funds": 2972442
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 462351,
+        "Library": 495127,
+        "Garbage Maintenance": 466589,
+        "Health Unit": 243533,
+        "Public Wbrks": 1595525,
+        "Courthouse and Jail": 1279219,
+        "Other Governmental": 334508,
+        "Total Governmental Funds": 4876862
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 247391,
+        "Library": 250,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": 292115,
+        "Courthouse and Jail": null,
+        "Other Governmental": 855,
+        "Total Governmental Funds": 540611
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 971182,
+        "Library": 1355430,
+        "Garbage Maintenance": 1650239,
+        "Health Unit": 1210538,
+        "Public Wbrks": 1712499,
+        "Courthouse and Jail": 5775417,
+        "Other Governmental": 1774733,
+        "Total Governmental Funds": 14450038
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 126005,
+        "Library": 6605,
+        "Garbage Maintenance": 6049,
+        "Health Unit": 85,
+        "Public Wbrks": 10792,
+        "Courthouse and Jail": 38659,
+        "Other Governmental": 75339,
+        "Total Governmental Funds": 263534
+      },
+      "retainage_payable": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": 292115,
+        "Courthouse and Jail": null,
+        "Other Governmental": 248496,
+        "Total Governmental Funds": 540611
+      },
+      "other_liabilities": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General": 126005,
+        "Library": 6605,
+        "Garbage Maintenance": 6049,
+        "Health Unit": 85,
+        "Public Wbrks": 302907,
+        "Courthouse and Jail": 38659,
+        "Other Governmental": 323835,
+        "Total Governmental Funds": 804145
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Library": 1348825,
+            "Garbage Maintenance": 1644190,
+            "Health Unit": 1210453,
+            "Public Wbrks": 1409592,
+            "Courthouse and Jail": 5736758,
+            "Other Governmental": 1450898,
+            "Total Governmental Funds": 12800716
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General": 845177,
+        "Library": null,
+        "Garbage Maintenance": null,
+        "Health Unit": null,
+        "Public Wbrks": null,
+        "Courthouse and Jail": null,
+        "Other Governmental": null,
+        "Total Governmental Funds": 845177
+      },
+      "total_fund_balances": {
+        "General": 845177,
+        "Library": 1348825,
+        "Garbage Maintenance": 1644190,
+        "Health Unit": 1210453,
+        "Public Wbrks": 1409592,
+        "Courthouse and Jail": 5736758,
+        "Other Governmental": 1450898,
+        "Total Governmental Funds": 13645893
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 971182,
+      "Library": 1355430,
+      "Garbage Maintenance": 1650239,
+      "Health Unit": 1210538,
+      "Public Wbrks": 1712499,
+      "Courthouse and Jail": 5775417,
+      "Other Governmental": 1774733,
+      "Total Governmental Funds": 14450038
+    },
+    "cross_sectional": {
+      "cash": 261440,
+      "investments": null,
+      "receivables": 462351,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 247391,
+      "prepaid_items": null,
+      "total_assets": 971182,
+      "deferred_outflows": null,
+      "accounts_payable": 126005,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": 126005,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 845177,
+      "total_fund_balances": 845177,
+      "total_liabilities_and_fund_balances": 971182
+    },
+    "_uncertainties": [
+      {
+        "field": "assets.other_receivables",
+        "fund": "all",
+        "reason": "Line item labeled 'Receivables' without breakdown - unclear if this includes taxes, special assessments, or other categories",
+        "extracted": 462351,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Receivables 462.351 495,127 466,589 243,533 1,595,525 1,279,219 334,508 4,876,862",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities.accounts_payable",
+        "fund": "all",
+        "reason": "Line item labeled 'Accounts, salaries and other payables' may include accrued liabilities not separately shown",
+        "extracted": 126005,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Accounts, salaries and other payables 126,005 6,605 6,049 85 10,792 38,659 75,339 263,534",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Madison",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1523539,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": 1173857,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1071205
+      },
+      "public_works": {
+        "expenses": 3435814,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2432351
+      },
+      "economic_development": {
+        "expenses": 53345,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 332568,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -108326
+      },
+      "culture_and_recreation": {
+        "expenses": 514423,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -481268
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 2759,
+        "net_expense_revenue": -2759
+      },
+      "other_activities": [
+        {
+          "label": "Transportation",
+          "expenses": 52623,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        },
+        {
+          "label": "Miscellaneous",
+          "expenses": 2692,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        }
+      ],
+      "total": {
+        "expenses": 7091620,
+        "charges_for_services": 1000741,
+        "operating_grants": 76509,
+        "capital_grants": 644778,
+        "net_expense_revenue": -5369592
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5252773,
+      "sales_taxes": null,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 95978,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Other general revenues",
+          "amount": 945953
+        }
+      ],
+      "total_general_revenues": 6294704
+    },
+    "change_in_net_position": 925112,
+    "net_position_beginning": null,
+    "net_position_ending": null,
+    "cross_sectional": {
+      "property_ad_valorem": 5252773,
+      "sales_use_taxes": null,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 5252773,
+      "state_revenue_sharing": 95978,
+      "state_intergovernmental": 644778,
+      "federal_intergovernmental": 76509,
+      "local_transfer": null,
+      "all_other_revenue": 945953,
+      "total_other_revenue": 1763218,
+      "total_program_revenue": 1722028,
+      "total_revenues": 8016732,
+      "general_government": -1523539,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1523539,
+      "public_safety": -1071205,
+      "public_works": -2432351,
+      "economic_development": -53345,
+      "health_and_welfare": -108326,
+      "culture_and_recreation": -481268,
+      "interest_debt_service": -2759,
+      "all_other_expenditures": -55315,
+      "total_expenditures": 7091620
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government expenses calculated by summing Legislative (130553) + Judicial (885420) + Elections (36954) + Finance and administrative (424204) + Other general government (46408). Not explicitly stated as total in PDF.",
+        "extracted": 1523539,
+        "alternative": null,
+        "page": 7,
+        "text_snippet": "Legislative 161,075 130,553\nJudicial 918,022 885,420\nElections 31,967 36,954\nFinance and administrative 407,349 424,204\nOther general government 33,661 46,408",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Net expense revenue for general government not provided in Table 3. Table 3 only shows Judicial and Finance/Administrative separately, not a total general government net cost.",
+        "extracted": null,
+        "alternative": -969013,
+        "page": 8,
+        "text_snippet": "Judicial $ 918,022 $ 885,420 $ (480,094) $ (552,071)\nFinance and Administrative 407,349 424,204 (402,130) (416,942)",
+        "severity": "medium"
+      },
+      {
+        "field": "other_activities",
+        "fund": "governmental_activities",
+        "reason": "Transportation and Miscellaneous shown separately in Table 2 but combined as 'All Others' in Table 3. Net cost for 'All Others' is -307429 but unclear how to allocate between Transportation (52623) and Miscellaneous (2692) and Economic Development (53345).",
+        "extracted": null,
+        "alternative": -307429,
+        "page": 8,
+        "text_snippet": "Transportation 173,759 52,623\nMiscellaneous 26,670 2,692\n...\nAll Others 491,880 325,334 (307,955) (307,429)",
+        "severity": "high"
+      },
+      {
+        "field": "general_revenues.total_general_revenues",
+        "fund": null,
+        "reason": "Calculated as sum of property taxes (5252773) + state revenue sharing (95978) + other general revenues (945953) = 6294704, but this should equal change in net position (925112) plus net expense revenue (5369592).",
+        "extracted": 6294704,
+        "alternative": null,
+        "page": 7,
+        "text_snippet": "Ad valorem taxes 5,258,030 5,252,773\nState revenue sharing 96,933 95,978\nOther general revenues 983,891 945,953",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Madison",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 6060133,
+        "investments": 2972442,
+        "taxes_receivable": null,
+        "other_receivables": 5117727,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 8087139
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 22237441,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 263534,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 836313,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 8004701,
+        "restricted": 13269967,
+        "unrestricted": 126460,
+        "total_net_position": 21401128
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "Governmental Activities",
+        "reason": "Line item reads 'Accounts, salaries and other payables' - may include accrued salaries and other items beyond just accounts payable",
+        "extracted": 263534,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accounts, salaries and other payables 263,534",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities.other_long_term",
+        "fund": "Governmental Activities",
+        "reason": "Long-term liabilities shown as 'Due within one year' (36,567) and 'Due in more than one year' (536,212) without specific breakdown by type",
+        "extracted": null,
+        "alternative": 572779,
+        "page": 15,
+        "text_snippet": "Due within one year 36,567\nDue in more than one year 536,212",
+        "severity": "high"
+      },
+      {
+        "field": "current_assets.other_receivables",
+        "fund": "Governmental Activities",
+        "reason": "Receivables (net) shown as single line item without breakdown - could include taxes receivable, other receivables, or due from other governments",
+        "extracted": 5117727,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Receivables (net) 5,117,727",
+        "severity": "medium"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "Governmental Activities",
+        "reason": "Calculated sum of all restricted categories (Library, Garbage, Health, Drainage, Courthouse, Other special revenue Hinds)",
+        "extracted": 13269967,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Restricted for: Library 1,374,366...Other special revenue Hinds 1,713,590",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Madison",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 188750,
+          "increases": null,
+          "decreases": null,
+          "ending": 188750
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 188750,
+          "increases": null,
+          "decreases": null,
+          "ending": 188750
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 5989425,
+          "increases": null,
+          "decreases": null,
+          "ending": 6005279
+        },
+        "machinery_and_equipment": {
+          "beginning": 3385565,
+          "increases": null,
+          "decreases": null,
+          "ending": 3478202
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": 486150,
+          "increases": null,
+          "decreases": null,
+          "ending": 517099
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [
+          {
+            "label": "Quebec Road",
+            "beginning": 3771405,
+            "increases": null,
+            "decreases": null,
+            "ending": 3771405
+          },
+          {
+            "label": "Health Unit",
+            "beginning": 1509539,
+            "increases": null,
+            "decreases": null,
+            "ending": 1688635
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 15142084,
+          "increases": null,
+          "decreases": null,
+          "ending": 15460620
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -7153467,
+          "increases": -408764,
+          "decreases": null,
+          "ending": -7562231
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 7988617,
+        "increases": null,
+        "decreases": null,
+        "ending": 7898389
+      },
+      "total_capital_assets_net": {
+        "beginning": 8177367,
+        "increases": null,
+        "decreases": null,
+        "ending": 8087139
+      }
+    },
+    "cross_sectional": {
+      "land": 188750,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 8087139
+    },
+    "_uncertainties": [
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Equipment and furniture combined with vehicles in source, unclear if separate vehicle category exists",
+        "extracted": 3478202,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Equipment and furniture (including vehicles) 3,385,565 3,478,202",
+        "severity": "medium"
+      },
+      {
+        "field": "other_depreciable.Quebec Road",
+        "fund": "governmental_activities",
+        "reason": "Quebec Road could be infrastructure or improvements_other_than_buildings rather than other_depreciable",
+        "extracted": 3771405,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Quebec Road 3,771,405 3,771,405",
+        "severity": "medium"
+      },
+      {
+        "field": "other_depreciable.Health Unit",
+        "fund": "governmental_activities",
+        "reason": "Health Unit could be buildings_and_improvements rather than other_depreciable category",
+        "extracted": 1688635,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Health Unit 1,509,539 1,688,635",
+        "severity": "medium"
+      },
+      {
+        "field": "accumulated_depreciation.increases",
+        "fund": "governmental_activities",
+        "reason": "Calculated increase from beginning to ending balance, not explicitly stated in source",
+        "extracted": -408764,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Accumulated depreciation (7,153,467) (7,562,231)",
+        "severity": "low"
+      }
+    ]
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "cbs": {
+    "parish": "Iberia",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Library",
+      "Public Sales Tax",
+      "Public Buildings Maintenance",
+      "Mosquito Control/Drainage Maintenance",
+      "Parish Wide Drainage Royalty Program",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 629648,
+        "Library": 5373117,
+        "Public Sales Tax": 6180261,
+        "Public Buildings Maintenance": 3164180,
+        "Mosquito Control/Drainage Maintenance": 3526522,
+        "Parish Wide Drainage Royalty Program": 7144695,
+        "Other Governmental Funds": 14251776,
+        "Total Governmental Funds": 40270199
+      },
+      "investments": {
+        "General": null,
+        "Library": 72229,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 72229
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 1192642,
+        "Library": 2020613,
+        "Public Sales Tax": 56,
+        "Public Buildings Maintenance": 2089725,
+        "Mosquito Control/Drainage Maintenance": 1372834,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": 1200314,
+        "Total Governmental Funds": 7876184
+      },
+      "due_from_other_governments": {
+        "General": 274552,
+        "Library": 79148,
+        "Public Sales Tax": 293658,
+        "Public Buildings Maintenance": 54890,
+        "Mosquito Control/Drainage Maintenance": 39613,
+        "Parish Wide Drainage Royalty Program": 1223167,
+        "Other Governmental Funds": 847083,
+        "Total Governmental Funds": 3108438
+      },
+      "due_from_other_funds": {
+        "General": 156387,
+        "Library": 1360,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": 324469,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": 274,
+        "Other Governmental Funds": 50705,
+        "Total Governmental Funds": 533195
+      },
+      "due_from_component_units": {
+        "General": 1740688,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": 72957,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1813645
+      },
+      "inventory": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 3993917,
+        "Library": 7546467,
+        "Public Sales Tax": 6473975,
+        "Public Buildings Maintenance": 5633264,
+        "Mosquito Control/Drainage Maintenance": 4938969,
+        "Parish Wide Drainage Royalty Program": 8441093,
+        "Other Governmental Funds": 16349878,
+        "Total Governmental Funds": 53673890
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 178909,
+        "Library": 12188,
+        "Public Sales Tax": 218188,
+        "Public Buildings Maintenance": 13608,
+        "Mosquito Control/Drainage Maintenance": 34543,
+        "Parish Wide Drainage Royalty Program": 121471,
+        "Other Governmental Funds": 392068,
+        "Total Governmental Funds": 970975
+      },
+      "retainage_payable": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": 164651,
+        "Other Governmental Funds": 41042,
+        "Total Governmental Funds": 205693
+      },
+      "accrued_liabilities": {
+        "General": 89527,
+        "Library": 30929,
+        "Public Sales Tax": 2402,
+        "Public Buildings Maintenance": 5214,
+        "Mosquito Control/Drainage Maintenance": 23816,
+        "Parish Wide Drainage Royalty Program": 9341,
+        "Other Governmental Funds": 60701,
+        "Total Governmental Funds": 221930
+      },
+      "deposits_payable": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 396297,
+        "Library": 26075,
+        "Public Sales Tax": 54409,
+        "Public Buildings Maintenance": 24310,
+        "Mosquito Control/Drainage Maintenance": 123579,
+        "Parish Wide Drainage Royalty Program": 50696,
+        "Other Governmental Funds": 323592,
+        "Total Governmental Funds": 998958
+      },
+      "other_liabilities": {
+        "General": 52733,
+        "Library": 95004,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": 98547,
+        "Mosquito Control/Drainage Maintenance": 64551,
+        "Parish Wide Drainage Royalty Program": 213186,
+        "Other Governmental Funds": 214558,
+        "Total Governmental Funds": 1027500
+      },
+      "total_liabilities": {
+        "General": 717466,
+        "Library": 164196,
+        "Public Sales Tax": 274999,
+        "Public Buildings Maintenance": 141679,
+        "Mosquito Control/Drainage Maintenance": 246489,
+        "Parish Wide Drainage Royalty Program": 559345,
+        "Other Governmental Funds": 1180507,
+        "Total Governmental Funds": 3581008
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General": null,
+            "Library": null,
+            "Public Sales Tax": null,
+            "Public Buildings Maintenance": null,
+            "Mosquito Control/Drainage Maintenance": null,
+            "Parish Wide Drainage Royalty Program": null,
+            "Other Governmental Funds": 68863,
+            "Total Governmental Funds": 68863
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Library": 7382271,
+            "Public Sales Tax": 6198976,
+            "Public Buildings Maintenance": 5491585,
+            "Mosquito Control/Drainage Maintenance": 4692480,
+            "Parish Wide Drainage Royalty Program": null,
+            "Other Governmental Funds": 4650708,
+            "Total Governmental Funds": 28416020
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General": 515153,
+            "Library": null,
+            "Public Sales Tax": null,
+            "Public Buildings Maintenance": null,
+            "Mosquito Control/Drainage Maintenance": null,
+            "Parish Wide Drainage Royalty Program": null,
+            "Other Governmental Funds": 5128563,
+            "Total Governmental Funds": 5643716
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General": 1948661,
+            "Library": null,
+            "Public Sales Tax": null,
+            "Public Buildings Maintenance": null,
+            "Mosquito Control/Drainage Maintenance": null,
+            "Parish Wide Drainage Royalty Program": 7881748,
+            "Other Governmental Funds": 5321237,
+            "Total Governmental Funds": 15151646
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 812637,
+        "Library": null,
+        "Public Sales Tax": null,
+        "Public Buildings Maintenance": null,
+        "Mosquito Control/Drainage Maintenance": null,
+        "Parish Wide Drainage Royalty Program": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 812637
+      },
+      "total_fund_balances": {
+        "General": 3276451,
+        "Library": 7382271,
+        "Public Sales Tax": 6198976,
+        "Public Buildings Maintenance": 5491585,
+        "Mosquito Control/Drainage Maintenance": 4692480,
+        "Parish Wide Drainage Royalty Program": 7881748,
+        "Other Governmental Funds": 15169371,
+        "Total Governmental Funds": 50092882
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 3993917,
+      "Library": 7546467,
+      "Public Sales Tax": 6473975,
+      "Public Buildings Maintenance": 5633264,
+      "Mosquito Control/Drainage Maintenance": 4938969,
+      "Parish Wide Drainage Royalty Program": 8441093,
+      "Other Governmental Funds": 16349878,
+      "Total Governmental Funds": 53673890
+    },
+    "cross_sectional": {
+      "cash": 629648,
+      "investments": null,
+      "receivables": 1467194,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 156387,
+      "prepaid_items": null,
+      "total_assets": 3993917,
+      "deferred_outflows": null,
+      "accounts_payable": 178909,
+      "deferred_revenues": null,
+      "government_transfers": 396297,
+      "other_liabilities": 142260,
+      "total_liabilities": 717466,
+      "deferred_inflows": null,
+      "reserved": 515153,
+      "unreserved_designated": 1948661,
+      "unreserved_undesignated": 812637,
+      "total_fund_balances": 3276451,
+      "total_liabilities_and_fund_balances": 3993917
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General",
+        "reason": "Combined multiple line items: due to other governmental agencies (52,712), due to component units (21), and possibly contracts payable",
+        "extracted": 52733,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Due to other governmental agencies 52,712... Due to component units 21",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Parish Wide Drainage Royalty Program",
+        "reason": "Combined contracts payable (213,186) with other liability categories per mapping requirements",
+        "extracted": 213186,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Contracts payable - - - - - 213,186 148,546 361,732",
+        "severity": "low"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Combined multiple line items: due to other governmental agencies (51,140), due to component units (36,873), contracts payable (148,546), advances from grantors (126,545), less retainage separately captured",
+        "extracted": 214558,
+        "alternative": 362604,
+        "page": 24,
+        "text_snippet": "Due to other governmental agencies...51,140; Due to component units...36,873; Contracts payable...148,546; Advances from grantors...126,545",
+        "severity": "high"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Calculated total of other_liabilities may not match sum due to categorization decisions on contracts payable, due to component units, due to other govts, and advances",
+        "extracted": 1027500,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Multiple liability line items aggregated",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Iberia",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 5786600,
+        "charges_for_services": 897956,
+        "operating_grants": 98114,
+        "capital_grants": null,
+        "net_expense_revenue": -4790530
+      },
+      "public_safety": {
+        "expenses": 4622943,
+        "charges_for_services": 549799,
+        "operating_grants": 180534,
+        "capital_grants": 42717,
+        "net_expense_revenue": -3849893
+      },
+      "public_works": {
+        "expenses": 12090667,
+        "charges_for_services": 6876,
+        "operating_grants": 1621734,
+        "capital_grants": 4599488,
+        "net_expense_revenue": -5862569
+      },
+      "economic_development": {
+        "expenses": 425794,
+        "charges_for_services": null,
+        "operating_grants": 43819,
+        "capital_grants": null,
+        "net_expense_revenue": -381975
+      },
+      "health_and_welfare": {
+        "expenses": 6611112,
+        "charges_for_services": 137935,
+        "operating_grants": 6264139,
+        "capital_grants": null,
+        "net_expense_revenue": -209038
+      },
+      "culture_and_recreation": {
+        "expenses": 2835116,
+        "charges_for_services": 21875,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2813241
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 359539,
+        "net_expense_revenue": -359539
+      },
+      "other_activities": [
+        {
+          "label": "Urban redevelopment and housing",
+          "expenses": 852741,
+          "charges_for_services": null,
+          "operating_grants": 692019,
+          "capital_grants": null,
+          "net_expense_revenue": -160722
+        },
+        {
+          "label": "Unallocated depreciation",
+          "expenses": 3343755,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -3343755
+        }
+      ],
+      "total": {
+        "expenses": 36928267,
+        "charges_for_services": 1592566,
+        "operating_grants": 8922234,
+        "capital_grants": 4642205,
+        "net_expense_revenue": -21771262
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 10403521,
+      "sales_taxes": 7111581,
+      "severance_taxes": 1136974,
+      "fire_insurance_premiums": 139315,
+      "franchise_fees": null,
+      "other_taxes": 274084,
+      "occupational_licenses": 934101,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 443269,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 320883,
+      "miscellaneous": 223601,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": 20848014
+    },
+    "change_in_net_position": -923248,
+    "net_position_beginning": 133531832,
+    "net_position_ending": 132608584,
+    "cross_sectional": {
+      "property_ad_valorem": 10403521,
+      "sales_use_taxes": 7111581,
+      "severance_taxes": 1136974,
+      "other_tax_revenue": 1347500,
+      "total_tax_revenue": 19999576,
+      "state_revenue_sharing": 443269,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 544484,
+      "total_other_revenue": 987753,
+      "total_program_revenue": 15157005,
+      "total_revenues": 36144334,
+      "general_government": -4790530,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -4790530,
+      "public_safety": -3849893,
+      "public_works": -5862569,
+      "economic_development": -381975,
+      "health_and_welfare": -209038,
+      "culture_and_recreation": -2813241,
+      "interest_debt_service": -359539,
+      "all_other_expenditures": -3504477,
+      "total_expenditures": 36928267
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Hotel/motel taxes of 274,084 may be a separate tax category or part of other taxes",
+        "extracted": 274084,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Hotel/motel taxes 274,084",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental and federal_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants of 8,922,234 and capital grants of 4,642,205 are not broken down by state vs federal source",
+        "extracted": null,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Operating Grants and Contributions: 8,922,234; Capital Grants and Contributions: 4,642,205",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Iberia",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 41860020,
+        "investments": 72229,
+        "taxes_receivable": null,
+        "other_receivables": 8148320,
+        "due_from_other_governments": 3826329,
+        "due_from_component_units": 1813645,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 7506786,
+        "depreciable_net": 86713962,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 94220748
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 149941291,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 970975,
+        "retainage_payable": 567425,
+        "accrued_liabilities": 221930,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 38674,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 17332707,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 83346072,
+        "restricted": 28523557,
+        "unrestricted": 20738955,
+        "total_net_position": 132608584
+      }
+    },
+    "component_units": {
+      "total_assets": 146401563,
+      "total_liabilities": 59919048,
+      "total_net_position": 86567644
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "Governmental Activities",
+        "reason": "Multiple liability items not clearly categorized as current vs long-term: 'Due to other governmental agencies' (361,954), 'Due to component units' (699,043), 'Advances from grantors and others' (126,545)",
+        "extracted": null,
+        "alternative": 1187542,
+        "page": 20,
+        "text_snippet": "Due to other governmental agencies 361,954; Due to component units 699,043; Advances from grantors and others 126,545",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "Governmental Activities",
+        "reason": "Long-term liabilities aggregated as 'Due within one year' (1,680,344) and 'Due in more than one year' (8,169,937) plus 'Other post employment benefits payable' (4,495,880) without detailed breakout",
+        "extracted": null,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Other post employment benefits payable 4,495,880; Due within one year 1,680,344; Due in more than one year 8,169,937",
+        "severity": "high"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "Governmental Activities",
+        "reason": "Combined multiple restricted categories: Nonexpendable (68,863), Capital projects (397,649), Debt service (651,511), Tax dedications (27,356,660), Other (48,874)",
+        "extracted": 28523557,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Restricted for: Nonexpendable 68,863; Capital projects 397,649; Debt service 651,511; Tax dedications 27,356,660; Other 48,874",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Iberia",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 2466687,
+          "increases": null,
+          "decreases": null,
+          "ending": 2466687
+        },
+        "construction_in_progress": {
+          "beginning": 3089315,
+          "increases": 2211603,
+          "decreases": 260819,
+          "ending": 5040099
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 5556002,
+          "increases": 2211603,
+          "decreases": 260819,
+          "ending": 7506786
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 31908823,
+          "increases": null,
+          "decreases": null,
+          "ending": 31908823
+        },
+        "machinery_and_equipment": {
+          "beginning": 10092962,
+          "increases": 691288,
+          "decreases": 108622,
+          "ending": 10675628
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 10470,
+          "increases": null,
+          "decreases": null,
+          "ending": 10470
+        },
+        "infrastructure": {
+          "beginning": 122899489,
+          "increases": null,
+          "decreases": null,
+          "ending": 122899489
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 164911744,
+          "increases": 691288,
+          "decreases": 108622,
+          "ending": 165494410
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 17209476,
+          "increases": 722890,
+          "decreases": null,
+          "ending": 17932366
+        },
+        "machinery_and_equipment": {
+          "beginning": 6575721,
+          "increases": 707711,
+          "decreases": 108622,
+          "ending": 7174810
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 7374,
+          "increases": 524,
+          "decreases": null,
+          "ending": 7898
+        },
+        "infrastructure": {
+          "beginning": 50638189,
+          "increases": 3027185,
+          "decreases": null,
+          "ending": 53665374
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": 74430760,
+          "increases": 4458310,
+          "decreases": 108622,
+          "ending": 78780448
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 90480984,
+        "increases": -3767022,
+        "decreases": 0,
+        "ending": 86713962
+      },
+      "total_capital_assets_net": {
+        "beginning": 96036986,
+        "increases": -1555419,
+        "decreases": 260819,
+        "ending": 94220748
+      }
+    },
+    "cross_sectional": {
+      "land": 2466687,
+      "construction_in_progress": 5040099,
+      "other_non_depreciable": 0,
+      "buildings_net": 13976457,
+      "improvements_net": 2572,
+      "machinery_net": 3500818,
+      "other_depreciable_net": 0,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 69234115,
+      "total_governmental_net": 94220748
+    },
+    "_uncertainties": [
+      {
+        "field": "improvements_other_than_buildings",
+        "fund": "governmental_activities",
+        "reason": "Listed as 'Land improvements' in source - mapping to improvements_other_than_buildings based on context",
+        "extracted": 10470,
+        "alternative": null,
+        "page": 54,
+        "text_snippet": "Land improvements 10,470 - - 10,470",
+        "severity": "low"
+      },
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Listed as 'Furniture and equipment' - mapping to machinery_and_equipment as closest match",
+        "extracted": 10675628,
+        "alternative": null,
+        "page": 54,
+        "text_snippet": "Furniture and equipment 10,092,962 691,288 108,622 10,675,628",
+        "severity": "low"
+      }
+    ]
+  }
+}

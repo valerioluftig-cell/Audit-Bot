@@ -1,0 +1,573 @@
+{
+  "cbs": {
+    "parish": "Rapides",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road and Bridge Fund",
+      "Fire Protection District No. 2 Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 2441648,
+        "Road and Bridge Fund": 960666,
+        "Fire Protection District No. 2 Fund": 4413988,
+        "Other Governmental Funds": 43269164,
+        "Total Governmental Funds": 51085465
+      },
+      "investments": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 2711674,
+        "Road and Bridge Fund": 394695,
+        "Fire Protection District No. 2 Fund": 4726644,
+        "Other Governmental Funds": 14999707,
+        "Total Governmental Funds": 22832720
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 126363,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": 2376,
+        "Total Governmental Funds": 128739
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": 516,
+        "Total Governmental Funds": 516
+      },
+      "total_assets": {
+        "General Fund": 5279685,
+        "Road and Bridge Fund": 1355361,
+        "Fire Protection District No. 2 Fund": 9140632,
+        "Other Governmental Funds": 58271763,
+        "Total Governmental Funds": 74047441
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 110137,
+        "Road and Bridge Fund": 18817,
+        "Fire Protection District No. 2 Fund": 151581,
+        "Other Governmental Funds": 635730,
+        "Total Governmental Funds": 916265
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 8250,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": 120489,
+        "Total Governmental Funds": 128740
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 118388,
+        "Road and Bridge Fund": 18817,
+        "Fire Protection District No. 2 Fund": 151581,
+        "Other Governmental Funds": 1388431,
+        "Total Governmental Funds": 1677216
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Deferred revenues",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 632212,
+            "Total Governmental Funds": 632212
+          }
+        }
+      ],
+      "total": {
+        "General Fund": null,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": 632212,
+        "Total Governmental Funds": 632212
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Judicial",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 178151,
+            "Total Governmental Funds": 178151
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 179091,
+            "Total Governmental Funds": 179091
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": 219601,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": 8989051,
+            "Other Governmental Funds": 11853235,
+            "Total Governmental Funds": 21061886
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": 1336544,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 15790189,
+            "Total Governmental Funds": 17126733
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 4102147,
+            "Total Governmental Funds": 4102147
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 21484034,
+            "Total Governmental Funds": 21484034
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 3296487,
+            "Total Governmental Funds": 3296487
+          }
+        },
+        {
+          "label": "Employee benefits",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Fund": null,
+            "Fire Protection District No. 2 Fund": null,
+            "Other Governmental Funds": 1266984,
+            "Total Governmental Funds": 1266984
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 3674712,
+        "Road and Bridge Fund": null,
+        "Fire Protection District No. 2 Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 3674712
+      },
+      "total_fund_balances": {
+        "General Fund": 5161297,
+        "Road and Bridge Fund": 1336544,
+        "Fire Protection District No. 2 Fund": 8989051,
+        "Other Governmental Funds": 56883333,
+        "Total Governmental Funds": 72370225
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 5279685,
+      "Road and Bridge Fund": 1355361,
+      "Fire Protection District No. 2 Fund": 9140632,
+      "Other Governmental Funds": 58271763,
+      "Total Governmental Funds": 74047441
+    },
+    "cross_sectional": {
+      "cash": 2441648,
+      "investments": null,
+      "receivables": 2711674,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 126363,
+      "prepaid_items": null,
+      "total_assets": 5279685,
+      "deferred_outflows": null,
+      "accounts_payable": 110137,
+      "deferred_revenues": null,
+      "government_transfers": 8250,
+      "other_liabilities": null,
+      "total_liabilities": 118388,
+      "deferred_inflows": null,
+      "reserved": 219601,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 3674712,
+      "total_fund_balances": 5161297,
+      "total_liabilities_and_fund_balances": 5279685
+    },
+    "_uncertainties": [
+      {
+        "field": "deferred_inflows.items",
+        "fund": "General Fund",
+        "reason": "Statement shows 'Deferred revenues' listed under liabilities section (page 19) not as a separate deferred inflows section; classification unclear if this represents deferred inflows of resources under GASB 63/65",
+        "extracted": null,
+        "alternative": 632212,
+        "page": 19,
+        "text_snippet": "Liabilities: Accounts payable $110,137... Deferred revenues 632,212... Total liabilities 118,388",
+        "severity": "medium"
+      },
+      {
+        "field": "fund_balances.restricted",
+        "fund": null,
+        "reason": "Statement shows 'Reserved for:' label which is pre-GASB 54 terminology; modern classification should be nonspendable/restricted/committed/assigned/unassigned. Mapped as restricted.",
+        "extracted": "restricted",
+        "alternative": "nonspendable",
+        "page": 19,
+        "text_snippet": "Fund Balances Reserved for: Judicial 178,151... Public safety 219,601...",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Rapides",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 12649694,
+        "charges_for_services": 1400390,
+        "operating_grants": 150230,
+        "capital_grants": null,
+        "net_expense_revenue": -11099074
+      },
+      "public_safety": {
+        "expenses": 9485514,
+        "charges_for_services": 2058577,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -7426938
+      },
+      "public_works": {
+        "expenses": 12998476,
+        "charges_for_services": 4075535,
+        "operating_grants": null,
+        "capital_grants": 1009261,
+        "net_expense_revenue": -7913681
+      },
+      "economic_development": {
+        "expenses": 7773687,
+        "charges_for_services": null,
+        "operating_grants": 5671184,
+        "capital_grants": null,
+        "net_expense_revenue": -2102503
+      },
+      "health_and_welfare": {
+        "expenses": 1516640,
+        "charges_for_services": 733769,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -782872
+      },
+      "culture_and_recreation": {
+        "expenses": 339518,
+        "charges_for_services": 132205,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -207313
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 882463,
+        "net_expense_revenue": -882463
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 45645992,
+        "charges_for_services": 3591171,
+        "operating_grants": 4959533,
+        "capital_grants": 6680445,
+        "net_expense_revenue": -30414843
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 20981914,
+      "sales_taxes": 4977291,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 594810,
+      "occupational_licenses": 1156994,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 665032,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 125652,
+      "miscellaneous": 2655733,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Federal grant programs - unrestricted",
+          "amount": 173076
+        },
+        {
+          "label": "Local grants",
+          "amount": 258045
+        }
+      ],
+      "total_general_revenues": 31588547
+    },
+    "change_in_net_position": 1173704,
+    "net_position_beginning": 69234646,
+    "net_position_ending": 70408350,
+    "cross_sectional": {
+      "property_ad_valorem": 20981914,
+      "sales_use_taxes": 4977291,
+      "severance_taxes": null,
+      "other_tax_revenue": 1751804,
+      "total_tax_revenue": 27711009,
+      "state_revenue_sharing": 665032,
+      "state_intergovernmental": 0,
+      "federal_intergovernmental": 173076,
+      "local_transfer": null,
+      "all_other_revenue": 3039430,
+      "total_other_revenue": 3877538,
+      "total_program_revenue": 15231149,
+      "total_revenues": 46819696,
+      "general_government": -11099074,
+      "legislative": -436191,
+      "judicial": -3854868,
+      "elections": -280446,
+      "finance_and_administration": -4882839,
+      "other_general_government": -1644730,
+      "total_general_government": -11099074,
+      "public_safety": -7426938,
+      "public_works": -7913681,
+      "economic_development": -2102503,
+      "health_and_welfare": -782872,
+      "culture_and_recreation": -207313,
+      "interest_debt_service": -882463,
+      "all_other_expenditures": 0,
+      "total_expenditures": 45645992
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "General government is disaggregated into 5 line items; charges_for_services must be allocated from Legislative (blank), Judicial (728190), Elections (blank), Finance (blank), Other (672200)",
+        "extracted": 1400390,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Legislative $436,191 ($436,191); Judicial 4,733,288 $728,190 $150,230 (3,854,868); Other 2,316,930 672,200 (1,644,730)",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues.state_grant_programs",
+        "fund": "governmental_activities",
+        "reason": "State grant programs - unrestricted (665,032) is categorized as state_revenue_sharing, but could also be general state grants",
+        "extracted": 665032,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "State grant programs - unrestricted 665,032",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Rapides",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 54110944
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 881344,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": 23230000,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 573722,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": 1165070,
+        "other_long_term": 30222682
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": 70408350
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined certificates of indebtedness and OPEB liabilities into single field as no separate field exists for OPEB",
+        "extracted": 30222682,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Certificates of indebtedness payable 2,837,000\nOther postemployment benefits 27,385,682",
+        "severity": "medium"
+      },
+      {
+        "field": "accrued_interest",
+        "fund": "governmental_activities",
+        "reason": "Listed as 'Interest payable - current' which may be current liability but classification unclear",
+        "extracted": 881344,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Interest payable - current 881,344",
+        "severity": "low"
+      },
+      {
+        "field": "lease_liability_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Capital leases payable amount not split between current and noncurrent portions",
+        "extracted": 1165070,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Capital leases payable 1,165,070",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": null
+}

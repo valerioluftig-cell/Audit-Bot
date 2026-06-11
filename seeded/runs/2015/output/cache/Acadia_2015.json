@@ -1,0 +1,420 @@
+{
+  "cbs": null,
+  "soa": {
+    "parish": "Acadia",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 3132521,
+        "charges_for_services": 55276,
+        "operating_grants": 0,
+        "capital_grants": 0,
+        "net_expense_revenue": -3077245
+      },
+      "public_safety": {
+        "expenses": 1976226,
+        "charges_for_services": 21209,
+        "operating_grants": 573468,
+        "capital_grants": 104375,
+        "net_expense_revenue": -1277174
+      },
+      "public_works": {
+        "expenses": 6070688,
+        "charges_for_services": 0,
+        "operating_grants": 603886,
+        "capital_grants": 545345,
+        "net_expense_revenue": -4921457
+      },
+      "economic_development": {
+        "expenses": 600438,
+        "charges_for_services": 0,
+        "operating_grants": 0,
+        "capital_grants": 216900,
+        "net_expense_revenue": -383538
+      },
+      "health_and_welfare": {
+        "expenses": 7586988,
+        "charges_for_services": 6530,
+        "operating_grants": 168650,
+        "capital_grants": 0,
+        "net_expense_revenue": -7411808
+      },
+      "culture_and_recreation": {
+        "expenses": 319246,
+        "charges_for_services": 84547,
+        "operating_grants": 0,
+        "capital_grants": 6865,
+        "net_expense_revenue": -227834
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 344866,
+        "net_expense_revenue": -344866
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 20030973,
+        "charges_for_services": 167562,
+        "operating_grants": 1346004,
+        "capital_grants": 873485,
+        "net_expense_revenue": -17643922
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4962579,
+      "sales_taxes": 11810174,
+      "severance_taxes": 1023031,
+      "fire_insurance_premiums": 287226,
+      "franchise_fees": null,
+      "other_taxes": 403993,
+      "occupational_licenses": 393454,
+      "gaming_revenues": 218637,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 64534,
+      "miscellaneous": 478511,
+      "transfers": -425030,
+      "other_items": [
+        {
+          "label": "Grants and contributions not restricted to specific programs",
+          "amount": 299841
+        },
+        {
+          "label": "Loss on disposal of capital assets",
+          "amount": -242070
+        }
+      ],
+      "total_general_revenues": 19274880
+    },
+    "change_in_net_position": 1630958,
+    "net_position_beginning": 55768730,
+    "net_position_ending": 57399688,
+    "cross_sectional": {
+      "property_ad_valorem": 4962579,
+      "sales_use_taxes": 12028811,
+      "severance_taxes": 1023031,
+      "other_tax_revenue": 1084673,
+      "total_tax_revenue": 19099094,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 1346004,
+      "federal_intergovernmental": null,
+      "local_transfer": -425030,
+      "all_other_revenue": 300975,
+      "total_other_revenue": 1221949,
+      "total_program_revenue": 2387051,
+      "total_revenues": 22708094,
+      "general_government": -3077245,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -3077245,
+      "public_safety": -1277174,
+      "public_works": -4921457,
+      "economic_development": -383538,
+      "health_and_welfare": -7411808,
+      "culture_and_recreation": -227834,
+      "interest_debt_service": -344866,
+      "all_other_expenditures": 0,
+      "total_expenditures": 20030973
+    },
+    "_uncertainties": [
+      {
+        "field": "transfers",
+        "fund": "General Revenues",
+        "reason": "Document shows '(425,030)' in parentheses for 'Transfers (to) from other funds' with a corresponding '425,030' for component units. Treated the primary government transfer as -425030 per standard accounting convention.",
+        "extracted": -425030,
+        "alternative": 425030,
+        "page": 17,
+        "text_snippet": "Transfers (to) from other funds (425,030) 425,030",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Acadia",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 9195544,
+        "investments": 7939036,
+        "taxes_receivable": 6542496,
+        "other_receivables": 10094,
+        "due_from_other_governments": 550460,
+        "due_from_component_units": 20177,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 16996
+      },
+      "capital_assets": {
+        "non_depreciable": 1704568,
+        "depreciable_net": 50254249,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 51958817
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 76233620,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred loss on refunding",
+            "amount": 9122
+          },
+          {
+            "label": "Pension related",
+            "amount": 656278
+          }
+        ],
+        "total": 665400
+      },
+      "current_liabilities": {
+        "accounts_payable": 1295353,
+        "retainage_payable": null,
+        "accrued_liabilities": 650540,
+        "deposits_payable": null,
+        "unearned_revenue": 62997,
+        "accrued_interest": 57734,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 1587435,
+        "bonds_payable_noncurrent": 9865913,
+        "compensated_absences_current": 176145,
+        "compensated_absences_noncurrent": 158899,
+        "net_pension_liability": 411100,
+        "landfill_closure": 5054233,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 19320349,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Pension related",
+            "amount": 178983
+          }
+        ],
+        "total": 178983
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 40505469,
+        "restricted": 17402203,
+        "unrestricted": -507984,
+        "total_net_position": 57399688
+      }
+    },
+    "component_units": {
+      "total_assets": 79400,
+      "total_liabilities": 52342,
+      "total_net_position": 113078
+    },
+    "_uncertainties": [
+      {
+        "field": "restricted",
+        "fund": "Governmental Activities",
+        "reason": "Multiple restricted categories presented separately in net position; combined debt service (1669655) + capital projects (11456448) + other purposes (4276100)",
+        "extracted": 17402203,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Restricted for: Debt service 1,669,655 Capital projects 11,456,448 Other Purposes 4,276,100",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Acadia",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 1329008,
+          "increases": null,
+          "decreases": null,
+          "ending": 1329008
+        },
+        "construction_in_progress": {
+          "beginning": 616503,
+          "increases": 1825499,
+          "decreases": -2066442,
+          "ending": 375560
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 1945511,
+          "increases": 1825499,
+          "decreases": -2066442,
+          "ending": 1704568
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 23688240,
+          "increases": 54286,
+          "decreases": -5973,
+          "ending": 23736553
+        },
+        "machinery_and_equipment": {
+          "beginning": 12080397,
+          "increases": 1258934,
+          "decreases": -1963756,
+          "ending": 11375575
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 773911
+        },
+        "infrastructure": {
+          "beginning": 48425719,
+          "increases": 2244538,
+          "decreases": -94604,
+          "ending": 50575653
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 84968267,
+          "increases": 3557758,
+          "decreases": -2064333,
+          "ending": 86461692
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -7150978,
+          "increases": -448517,
+          "decreases": 5437,
+          "ending": -7594058
+        },
+        "machinery_and_equipment": {
+          "beginning": -7128864,
+          "increases": -746121,
+          "decreases": 1530246,
+          "ending": -6344739
+        },
+        "improvements_other_than_buildings": {
+          "beginning": -414655,
+          "increases": -9777,
+          "decreases": null,
+          "ending": -424432
+        },
+        "infrastructure": {
+          "beginning": -19905142,
+          "increases": -2021531,
+          "decreases": 82459,
+          "ending": -21844214
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -34599639,
+          "increases": -3225946,
+          "decreases": 1618141,
+          "ending": -36207444
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 50368628,
+        "increases": 331812,
+        "decreases": -446191,
+        "ending": 50254249
+      },
+      "total_capital_assets_net": {
+        "beginning": 52314139,
+        "increases": 2157310,
+        "decreases": null,
+        "ending": 51958817
+      }
+    },
+    "cross_sectional": {
+      "land": 1329008,
+      "construction_in_progress": 375560,
+      "other_non_depreciable": null,
+      "buildings_net": 16142495,
+      "improvements_net": 349479,
+      "machinery_net": 5030836,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 28731439,
+      "total_governmental_net": 51958817
+    },
+    "_uncertainties": [
+      {
+        "field": "total_accumulated_depreciation.increases",
+        "fund": "Governmental Activities",
+        "reason": "PDF shows '13.225.9461' which appears to be a formatting error. Text indicates depreciation expense was $3,225,946, but the accumulated depreciation line shows a different figure with ambiguous formatting (periods as thousands separators with closing paren).",
+        "extracted": -3225946,
+        "alternative": null,
+        "page": 39,
+        "text_snippet": "Total accumulated depreciation (34.599.639'> 13.225.9461 1.618.141 (36.207.4441",
+        "severity": "high"
+      },
+      {
+        "field": "total_capital_assets_net.decreases",
+        "fund": "Governmental Activities",
+        "reason": "The ending balance line shows only two numbers with $ signs but the structure suggests there should be an increases and decreases component. The line reads 'Governmental activities capital assets, net $ 52.314.139 $ 2.157.310 $ 51.958.817' which maps to beginning, increases(?), ending. The decreases column appears empty.",
+        "extracted": null,
+        "alternative": null,
+        "page": 39,
+        "text_snippet": "Governmental activities capital assets, net $ 52.314.139 $ 2.157.310 $ 51.958.817",
+        "severity": "medium"
+      }
+    ]
+  }
+}

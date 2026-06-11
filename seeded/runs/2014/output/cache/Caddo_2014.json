@@ -1,0 +1,1151 @@
+{
+  "cbs": {
+    "parish": "Caddo",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Shreve Memorial Library",
+      "Detention Facilities Fund",
+      "Solid Waste Disposal Fund",
+      "Public Works Fund",
+      "Head Start Fund",
+      "Biomedical Fund",
+      "Capital Outlay Fund",
+      "Criminal Justice Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 4050798,
+        "Shreve Memorial Library": 4652337,
+        "Detention Facilities Fund": 74242,
+        "Solid Waste Disposal Fund": 1836315,
+        "Public Works Fund": 1161308,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 1278346,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 2423536,
+        "Total Governmental Funds": 15476882
+      },
+      "investments": {
+        "General Fund": 42798639,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": 790823,
+        "Solid Waste Disposal Fund": 19398481,
+        "Public Works Fund": 12267698,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 13509976,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 25597710,
+        "Total Governmental Funds": 114363327
+      },
+      "taxes_receivable": {
+        "General Fund": 6259610,
+        "Shreve Memorial Library": 14004529,
+        "Detention Facilities Fund": 7984497,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": 6242739,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 2647217,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 4861016,
+        "Total Governmental Funds": 55798175
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": 210777,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 210777
+      },
+      "other_receivables": {
+        "General Fund": 64493,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": 208,
+        "Public Works Fund": 10948,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 215445,
+        "Total Governmental Funds": 291094
+      },
+      "due_from_other_governments": {
+        "General Fund": 158300,
+        "Shreve Memorial Library": 259508,
+        "Detention Facilities Fund": 181778,
+        "Solid Waste Disposal Fund": 554903,
+        "Public Works Fund": 1615801,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 49200,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 596025,
+        "Total Governmental Funds": 3504844
+      },
+      "due_from_other_funds": {
+        "General Fund": 1191129,
+        "Shreve Memorial Library": 223421,
+        "Detention Facilities Fund": 110701,
+        "Solid Waste Disposal Fund": 530502,
+        "Public Works Fund": 432651,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 455926,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 1284047,
+        "Total Governmental Funds": 4228377
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": 97808,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 97808
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Shreve Memorial Library": 116149,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 116149
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 54656233,
+        "Shreve Memorial Library": 19255944,
+        "Detention Facilities Fund": 9144691,
+        "Solid Waste Disposal Fund": 22391561,
+        "Public Works Fund": 22066983,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 2696417,
+        "Criminal Justice Fund": 15286303,
+        "Other Governmental Funds": 43995052,
+        "Total Governmental Funds": 194443529
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 117176,
+        "Shreve Memorial Library": 223421,
+        "Detention Facilities Fund": 167064,
+        "Solid Waste Disposal Fund": 282200,
+        "Public Works Fund": 556181,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 230614,
+        "Criminal Justice Fund": 632951,
+        "Other Governmental Funds": 626010,
+        "Total Governmental Funds": 2835617
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 353334,
+        "Total Governmental Funds": 353334
+      },
+      "accrued_liabilities": {
+        "General Fund": 154394,
+        "Shreve Memorial Library": 155575,
+        "Detention Facilities Fund": 29305,
+        "Solid Waste Disposal Fund": 54604,
+        "Public Works Fund": 153622,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": 371076,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 918576
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": 35478,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 35478
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 1539057,
+        "Criminal Justice Fund": 2813006,
+        "Other Governmental Funds": 223421,
+        "Total Governmental Funds": 4575484
+      },
+      "other_liabilities": {
+        "General Fund": 535725,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": 3202,
+        "Public Works Fund": 12845,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": 78154,
+        "Other Governmental Funds": 9176,
+        "Total Governmental Funds": 639102
+      },
+      "total_liabilities": {
+        "General Fund": 321817,
+        "Shreve Memorial Library": 378996,
+        "Detention Facilities Fund": 717325,
+        "Solid Waste Disposal Fund": 340006,
+        "Public Works Fund": 722648,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 1769671,
+        "Criminal Justice Fund": 986285,
+        "Other Governmental Funds": 1229683,
+        "Total Governmental Funds": 9357591
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue - property taxes",
+          "values": {
+            "General Fund": 66472,
+            "Shreve Memorial Library": 123269,
+            "Detention Facilities Fund": 76073,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": 52029,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": 15517,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 21548,
+            "Total Governmental Funds": 474245
+          }
+        },
+        {
+          "label": "Unavailable revenue - special assessments",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": 106570,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 106570
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 66472,
+        "Shreve Memorial Library": 123269,
+        "Detention Facilities Fund": 76073,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": 158599,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 15517,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": 21548,
+        "Total Governmental Funds": 580815
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid expenses",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": 116149,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 116149
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Criminal justice",
+          "values": {
+            "General Fund": 8121127,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": 1999865,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 3624174,
+            "Total Governmental Funds": 13745166
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 4552822,
+            "Total Governmental Funds": 4552822
+          }
+        },
+        {
+          "label": "Highways, streets and drainage",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": 19345933,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 19345933
+          }
+        },
+        {
+          "label": "Building facilities",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 7739454,
+            "Total Governmental Funds": 7739454
+          }
+        },
+        {
+          "label": "Sanitation",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": 21744403,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 21744403
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": 18637530,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 3065257,
+            "Total Governmental Funds": 21702787
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 509783,
+            "Total Governmental Funds": 509783
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 2961531,
+            "Total Governmental Funds": 2961531
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": 14300018,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 8820578,
+            "Total Governmental Funds": 23120596
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Contingencies",
+          "values": {
+            "General Fund": 37337820,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 37337820
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 987522,
+            "Total Governmental Funds": 987522
+          }
+        },
+        {
+          "label": "Subsequent year's expenditures",
+          "values": {
+            "General Fund": 465823,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": 230166,
+            "Solid Waste Disposal Fund": 307152,
+            "Public Works Fund": 1839803,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": 401446,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 1563606,
+            "Total Governmental Funds": 4845768
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Special services",
+          "values": {
+            "General Fund": null,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": 9331088,
+            "Total Governmental Funds": 9331088
+          }
+        },
+        {
+          "label": "Future claims",
+          "values": {
+            "General Fund": 600000,
+            "Shreve Memorial Library": null,
+            "Detention Facilities Fund": null,
+            "Solid Waste Disposal Fund": null,
+            "Public Works Fund": null,
+            "Head Start Fund": null,
+            "Biomedical Fund": null,
+            "Capital Outlay Fund": null,
+            "Criminal Justice Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 600000
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 15864301,
+        "Shreve Memorial Library": null,
+        "Detention Facilities Fund": null,
+        "Solid Waste Disposal Fund": null,
+        "Public Works Fund": null,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": null,
+        "Criminal Justice Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 15864301
+      },
+      "total_fund_balances": {
+        "General Fund": 54267944,
+        "Shreve Memorial Library": 18753679,
+        "Detention Facilities Fund": 8351293,
+        "Solid Waste Disposal Fund": 22051555,
+        "Public Works Fund": 21185736,
+        "Head Start Fund": null,
+        "Biomedical Fund": null,
+        "Capital Outlay Fund": 911229,
+        "Criminal Justice Fund": 14300018,
+        "Other Governmental Funds": 42646032,
+        "Total Governmental Funds": 184505123
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 54656233,
+      "Shreve Memorial Library": 19255944,
+      "Detention Facilities Fund": 9144691,
+      "Solid Waste Disposal Fund": 22391561,
+      "Public Works Fund": 22066983,
+      "Head Start Fund": null,
+      "Biomedical Fund": null,
+      "Capital Outlay Fund": 2696417,
+      "Criminal Justice Fund": 15286303,
+      "Other Governmental Funds": 43995052,
+      "Total Governmental Funds": 194443529
+    },
+    "cross_sectional": {
+      "cash": 4050798,
+      "investments": 42798639,
+      "receivables": 6482403,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 1191129,
+      "prepaid_items": null,
+      "total_assets": 54656233,
+      "deferred_outflows": null,
+      "accounts_payable": 117176,
+      "deferred_revenues": 35478,
+      "government_transfers": null,
+      "other_liabilities": 169163,
+      "total_liabilities": 321817,
+      "deferred_inflows": 66472,
+      "reserved": 8121127,
+      "unreserved_designated": 38403643,
+      "unreserved_undesignated": 15864301,
+      "total_fund_balances": 54267944,
+      "total_liabilities_and_fund_balances": 54656233
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Combined 'Due to component units' and 'Due to other governments' into other_liabilities category as there is no separate field for these items",
+        "extracted": 535725,
+        "alternative": null,
+        "page": 35,
+        "text_snippet": "Due to component units 520,956 / Due to other governments 14,769",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total other_liabilities includes 'Due to component units' (520956) and 'Due to other governments' (118146) which don't fit standard categories",
+        "extracted": 639102,
+        "alternative": 118146,
+        "page": 36,
+        "text_snippet": "Due to component units - / Due to other governments 118,146",
+        "severity": "medium"
+      },
+      {
+        "field": "assets.other_receivables",
+        "fund": "General Fund",
+        "reason": "Accrued interest (133,264) included in balance sheet but not added to other_receivables - treating separately per receivables line items",
+        "extracted": 64493,
+        "alternative": 197757,
+        "page": 35,
+        "text_snippet": "Other 64,493 / Accrued interest 133,264",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Caddo",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 9616443,
+        "charges_for_services": 3172380,
+        "operating_grants": 281149,
+        "capital_grants": 200560,
+        "net_expense_revenue": -5962354
+      },
+      "public_safety": {
+        "expenses": 22965185,
+        "charges_for_services": 30283,
+        "operating_grants": 1330598,
+        "capital_grants": null,
+        "net_expense_revenue": -21604304
+      },
+      "public_works": {
+        "expenses": 23738530,
+        "charges_for_services": 481901,
+        "operating_grants": 2323462,
+        "capital_grants": null,
+        "net_expense_revenue": -20933167
+      },
+      "economic_development": {
+        "expenses": 4221537,
+        "charges_for_services": null,
+        "operating_grants": 73851,
+        "capital_grants": null,
+        "net_expense_revenue": -4147686
+      },
+      "health_and_welfare": {
+        "expenses": 15373363,
+        "charges_for_services": 168282,
+        "operating_grants": 11286901,
+        "capital_grants": 319671,
+        "net_expense_revenue": -3598509
+      },
+      "culture_and_recreation": {
+        "expenses": 15957204,
+        "charges_for_services": 113615,
+        "operating_grants": 425193,
+        "capital_grants": null,
+        "net_expense_revenue": -15418396
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 2126069,
+        "net_expense_revenue": -2126069
+      },
+      "other_activities": [
+        {
+          "label": "Building facilities",
+          "expenses": 6178313,
+          "charges_for_services": null,
+          "operating_grants": 114638,
+          "capital_grants": null,
+          "net_expense_revenue": -6063675
+        },
+        {
+          "label": "Sanitation",
+          "expenses": 2620248,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -2620248
+        }
+      ],
+      "total": {
+        "expenses": 102796892,
+        "charges_for_services": 3966461,
+        "operating_grants": 15835792,
+        "capital_grants": 520231,
+        "net_expense_revenue": -82474408
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 59560849,
+      "sales_taxes": 13851983,
+      "severance_taxes": null,
+      "fire_insurance_premiums": 212799,
+      "franchise_fees": 220613,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": 1791430,
+      "state_revenue_sharing": 503031,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 930818,
+      "miscellaneous": 936432,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Grants and contributions not restricted to specific programs",
+          "amount": 1273355
+        },
+        {
+          "label": "Oil and gas leases",
+          "amount": 853285
+        }
+      ],
+      "total_general_revenues": 79418765
+    },
+    "change_in_net_position": -3055643,
+    "net_position_beginning": 353774749,
+    "net_position_ending": 350719106,
+    "cross_sectional": {
+      "property_ad_valorem": 59560849,
+      "sales_use_taxes": 15643413,
+      "severance_taxes": null,
+      "other_tax_revenue": 433412,
+      "total_tax_revenue": 75637674,
+      "state_revenue_sharing": 503031,
+      "state_intergovernmental": 281149,
+      "federal_intergovernmental": 15554643,
+      "local_transfer": null,
+      "all_other_revenue": 2990067,
+      "total_other_revenue": 19328890,
+      "total_program_revenue": 20322484,
+      "total_revenues": 115289048,
+      "general_government": -5962354,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -5962354,
+      "public_safety": -21604304,
+      "public_works": -20933167,
+      "economic_development": -4147686,
+      "health_and_welfare": -3598509,
+      "culture_and_recreation": -15418396,
+      "interest_debt_service": -2126069,
+      "all_other_expenditures": -8683923,
+      "total_expenditures": 102796892
+    },
+    "_uncertainties": [
+      {
+        "field": "public_safety",
+        "fund": "governmental_activities",
+        "reason": "Listed as 'Criminal justice' in PDF but mapped to public_safety category",
+        "extracted": -21604304,
+        "alternative": null,
+        "page": 34,
+        "text_snippet": "Criminal justice 22,965,185 30,283 1,330,598 - (21,604,304)",
+        "severity": "low"
+      },
+      {
+        "field": "public_works",
+        "fund": "governmental_activities",
+        "reason": "Listed as 'Highways, streets, and drainage' in PDF but mapped to public_works category",
+        "extracted": -20933167,
+        "alternative": null,
+        "page": 34,
+        "text_snippet": "Highways, streets, and drainage 23,738,530 481,901 2,323,462 - (20,933,167)",
+        "severity": "low"
+      },
+      {
+        "field": "state_intergovernmental",
+        "fund": "cross_sectional",
+        "reason": "Mapped from operating_grants for general government only; other state grants may exist in other program revenues",
+        "extracted": 281149,
+        "alternative": null,
+        "page": 34,
+        "text_snippet": "General government $ 9,616,443 $ 3,172,380 $ 281,149",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Caddo",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 15950171,
+        "investments": 119354639,
+        "taxes_receivable": null,
+        "other_receivables": 56915285,
+        "due_from_other_governments": 3504844,
+        "due_from_component_units": null,
+        "inventory": 97808,
+        "prepaid_items": null,
+        "other_current_assets": 116149
+      },
+      "capital_assets": {
+        "non_depreciable": 20514314,
+        "depreciable_net": 183428797,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 203943111
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 399882007,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred loss on refunding bonds, net",
+            "amount": 146667
+          }
+        ],
+        "total": 146667
+      },
+      "current_liabilities": {
+        "accounts_payable": 2890397,
+        "retainage_payable": 353334,
+        "accrued_liabilities": 918576,
+        "deposits_payable": null,
+        "unearned_revenue": 35478,
+        "accrued_interest": 489926,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 49309568,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 172306406,
+        "restricted": 111589102,
+        "unrestricted": 66822598,
+        "total_net_position": 350719106
+      }
+    },
+    "component_units": {
+      "total_assets": 89096306,
+      "total_liabilities": 36677155,
+      "total_net_position": 50782506
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Multiple unusual current liability items not fitting standard categories: accrued insurance claims payable (641,458), due to component units (520,956), and due to other governmental agencies (118,146)",
+        "extracted": null,
+        "alternative": 1280560,
+        "page": 33,
+        "text_snippet": "Accrued Insurance claims payable 641,458; Due to component units 520,956; Due to other governmental agencies 118,146",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities only shown as aggregated 'Due within one year' (3,114,529) and 'Due in more than one year' (40,226,768) without breakdown by type",
+        "extracted": null,
+        "alternative": null,
+        "page": 33,
+        "text_snippet": "Noncurrent liabilities: Due within one year 3,114,529; Due In more than one year 40,226,768",
+        "severity": "high"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "governmental_activities",
+        "reason": "Multiple restricted categories summed manually: criminal justice, health and welfare, highways, building facilities, sanitation, culture and recreation, economic development, and debt service",
+        "extracted": 111589102,
+        "alternative": null,
+        "page": 33,
+        "text_snippet": "Restricted for: Criminal justice 14,884,859; Health and welfare 4,844,635; Highways 31,807,558; Building 9,088,900; Sanitation 22,312,030; Culture 24,743,537; Economic 926,745; Debt service 2,981,838",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Caddo",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 14578409,
+          "increases": null,
+          "decreases": null,
+          "ending": 14578409
+        },
+        "construction_in_progress": {
+          "beginning": 13982884,
+          "increases": 4339309,
+          "decreases": -12386288,
+          "ending": 5935905
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 28561293,
+          "increases": 4339309,
+          "decreases": -12386288,
+          "ending": 20514314
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 89865209,
+          "increases": 11141211,
+          "decreases": null,
+          "ending": 101006420
+        },
+        "machinery_and_equipment": {
+          "beginning": 38304592,
+          "increases": 3248899,
+          "decreases": -931135,
+          "ending": 40622356
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 386642046,
+          "increases": 3287628,
+          "decreases": -97737,
+          "ending": 389831937
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 514811847,
+          "increases": 17677738,
+          "decreases": -1028872,
+          "ending": 531460713
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -36975522,
+          "increases": -2452746,
+          "decreases": null,
+          "ending": -39428268
+        },
+        "machinery_and_equipment": {
+          "beginning": -26452998,
+          "increases": -2802700,
+          "decreases": 921382,
+          "ending": -28334316
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": -269675695,
+          "increases": -10691375,
+          "decreases": 97738,
+          "ending": -280269332
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -333104215,
+          "increases": -15946821,
+          "decreases": 1019120,
+          "ending": -348031916
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 181707632,
+        "increases": 1730917,
+        "decreases": -9752,
+        "ending": 183428797
+      },
+      "total_capital_assets_net": {
+        "beginning": 210268925,
+        "increases": 6070226,
+        "decreases": -12396040,
+        "ending": 203943111
+      }
+    },
+    "cross_sectional": {
+      "land": 14578409,
+      "construction_in_progress": 5935905,
+      "other_non_depreciable": null,
+      "buildings_net": 61578152,
+      "improvements_net": null,
+      "machinery_net": 12288040,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 109562605,
+      "total_governmental_net": 203943111
+    },
+    "_uncertainties": [
+      {
+        "field": "land",
+        "fund": "governmental_activities",
+        "reason": "Label shows 'Land and land improvements' but only single beginning/ending amount shown with no separate line items or changes",
+        "extracted": 14578409,
+        "alternative": null,
+        "page": 68,
+        "text_snippet": "Land and land improvements ; 14,578,409 $ 14,578,409",
+        "severity": "low"
+      },
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Category labeled 'Equipment and vehicles' combines two asset types typically shown separately",
+        "extracted": 40622356,
+        "alternative": null,
+        "page": 68,
+        "text_snippet": "Equipment and vehicles 38,304,592 3,248,899 931,135 40,622,356",
+        "severity": "low"
+      },
+      {
+        "field": "buildings_and_improvements",
+        "fund": "governmental_activities",
+        "reason": "Category labeled 'Buildings and structures' may differ from standard 'Buildings and improvements' terminology",
+        "extracted": 101006420,
+        "alternative": null,
+        "page": 68,
+        "text_snippet": "Buildings and structures 89,865,209 11,141,211 101,006,420",
+        "severity": "low"
+      }
+    ]
+  }
+}

@@ -1,0 +1,948 @@
+{
+  "cbs": {
+    "parish": "Allen",
+    "year": 2015,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Solid Waste Fund",
+      "Road District #2 MTC Fund",
+      "Road District #3 MTC Fund",
+      "Library Capital Projects Fund",
+      "North Drainage Capital Projects Fund",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 132295,
+        "Solid Waste Fund": 477668,
+        "Road District #2 MTC Fund": 469617,
+        "Road District #3 MTC Fund": 864081,
+        "Library Capital Projects Fund": 493056,
+        "North Drainage Capital Projects Fund": 1632845,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 4069562
+      },
+      "investments": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 234323,
+        "Solid Waste Fund": 596200,
+        "Road District #2 MTC Fund": 630435,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 1372153,
+        "Total Governmental Funds": 2833111
+      },
+      "due_from_other_governments": {
+        "General Fund": 280033,
+        "Solid Waste Fund": 135294,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 268581,
+        "Total Governmental Funds": 762395
+      },
+      "due_from_other_funds": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 45179,
+        "Total Governmental Funds": 45179
+      },
+      "prepaid_items": {
+        "General Fund": 4443,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 2989,
+        "Total Governmental Funds": 7432
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 651094,
+        "Solid Waste Fund": 612962,
+        "Road District #2 MTC Fund": 1065817,
+        "Road District #3 MTC Fund": 1494516,
+        "Library Capital Projects Fund": 493056,
+        "North Drainage Capital Projects Fund": 268581,
+        "Nonmajor Governmental Funds": 3131653,
+        "Total Governmental Funds": 7717679
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 43891,
+        "Solid Waste Fund": 132980,
+        "Road District #2 MTC Fund": 48187,
+        "Road District #3 MTC Fund": 58319,
+        "Library Capital Projects Fund": 102505,
+        "North Drainage Capital Projects Fund": 268581,
+        "Nonmajor Governmental Funds": 170096,
+        "Total Governmental Funds": 824559
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 48703,
+        "Total Governmental Funds": 48703
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": null,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 43891,
+        "Solid Waste Fund": 132980,
+        "Road District #2 MTC Fund": 48187,
+        "Road District #3 MTC Fund": 58319,
+        "Library Capital Projects Fund": 102505,
+        "North Drainage Capital Projects Fund": 268581,
+        "Nonmajor Governmental Funds": 218799,
+        "Total Governmental Funds": 873262
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General Fund": 29082,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": 50116,
+            "Road District #3 MTC Fund": 59851,
+            "Library Capital Projects Fund": 206210,
+            "North Drainage Capital Projects Fund": 345259,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 690518
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 29082,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": 50116,
+        "Road District #3 MTC Fund": 59851,
+        "Library Capital Projects Fund": 206210,
+        "North Drainage Capital Projects Fund": 345259,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 690518
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaids",
+          "values": {
+            "General Fund": 4443,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": 2989,
+            "Total Governmental Funds": 7432
+          }
+        },
+        {
+          "label": "Inventory",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": 45179,
+            "Total Governmental Funds": 45179
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Judicial",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": 967514,
+            "Road District #3 MTC Fund": 1376346,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": 611041,
+            "Total Governmental Funds": 2954901
+          }
+        },
+        {
+          "label": "Sanitation",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": 479982,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 479982
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": 634469,
+            "Total Governmental Funds": 634469
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": 1157545,
+            "Total Governmental Funds": 1157545
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        },
+        {
+          "label": "Negative unassigned",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Road District #2 MTC Fund": null,
+            "Road District #3 MTC Fund": null,
+            "Library Capital Projects Fund": null,
+            "North Drainage Capital Projects Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 573678,
+        "Solid Waste Fund": null,
+        "Road District #2 MTC Fund": null,
+        "Road District #3 MTC Fund": null,
+        "Library Capital Projects Fund": 390551,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 201698,
+        "Total Governmental Funds": 1165927
+      },
+      "total_fund_balances": {
+        "General Fund": 578121,
+        "Solid Waste Fund": 479982,
+        "Road District #2 MTC Fund": 967514,
+        "Road District #3 MTC Fund": 1376346,
+        "Library Capital Projects Fund": 390551,
+        "North Drainage Capital Projects Fund": null,
+        "Nonmajor Governmental Funds": 2706644,
+        "Total Governmental Funds": 6499158
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 651094,
+      "Solid Waste Fund": 612962,
+      "Road District #2 MTC Fund": 1065817,
+      "Road District #3 MTC Fund": 1494516,
+      "Library Capital Projects Fund": 493056,
+      "North Drainage Capital Projects Fund": 268581,
+      "Nonmajor Governmental Funds": 3131653,
+      "Total Governmental Funds": 7717679
+    },
+    "cross_sectional": {
+      "cash": 132295,
+      "investments": null,
+      "receivables": 794651,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": 4443,
+      "total_assets": 651094,
+      "deferred_outflows": null,
+      "accounts_payable": 43891,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": 43891,
+      "deferred_inflows": 29082,
+      "reserved": 4443,
+      "unreserved_designated": 0,
+      "unreserved_undesignated": 573678,
+      "total_fund_balances": 578121,
+      "total_liabilities_and_fund_balances": 651094
+    },
+    "_uncertainties": [
+      {
+        "field": "due_from_other_governments_nonmajor",
+        "fund": "Nonmajor Governmental Funds",
+        "reason": "The nonmajor funds row shows 78487 in one column position but column context across pages is unclear. Reconciling to total of 762395 leaves 268581 unaccounted in stated position.",
+        "extracted": 268581,
+        "alternative": 78487,
+        "page": 9,
+        "text_snippet": "- 268,581 78,487 762,395",
+        "severity": "medium"
+      },
+      {
+        "field": "library_capital_projects_deferred_inflows",
+        "fund": "Library Capital Projects Fund",
+        "reason": "The PDF shows 206,210 in deferred inflows for Library fund but total deferred inflows row shows different values. Cross-page alignment creates uncertainty.",
+        "extracted": 206210,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "206,210 345,259",
+        "severity": "low"
+      },
+      {
+        "field": "north_drainage_fund_balance_total",
+        "fund": "North Drainage Capital Projects Fund",
+        "reason": "The North Drainage Capital Projects Fund shows no unassigned balance and no total fund balance line item value explicitly stated for that column in the balance sheet.",
+        "extracted": null,
+        "alternative": 0,
+        "page": 8,
+        "text_snippet": "Total Fund Balances 578,121 479,982 967,514 1,376,346",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Allen",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1728493,
+        "charges_for_services": 70173,
+        "operating_grants": 209988,
+        "capital_grants": null,
+        "net_expense_revenue": -1448332
+      },
+      "public_safety": {
+        "expenses": 864800,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -864800
+      },
+      "public_works": {
+        "expenses": 5196585,
+        "charges_for_services": 60000,
+        "operating_grants": 74398,
+        "capital_grants": null,
+        "net_expense_revenue": -5062187
+      },
+      "economic_development": {
+        "expenses": 241667,
+        "charges_for_services": 55459,
+        "operating_grants": 6298,
+        "capital_grants": 733477,
+        "net_expense_revenue": 553567
+      },
+      "health_and_welfare": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 20339,
+        "net_expense_revenue": -20339
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 1829398,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -1829398
+        },
+        {
+          "label": "Other governments",
+          "expenses": 1310441,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -1310441
+        }
+      ],
+      "total": {
+        "expenses": 11191723,
+        "charges_for_services": 125632,
+        "operating_grants": 276286,
+        "capital_grants": 807875,
+        "net_expense_revenue": -9981930
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 2990180,
+      "sales_taxes": 1813496,
+      "severance_taxes": 805923,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 198685,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 167393,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 11417,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Gain on disposal of assets",
+          "amount": 23028
+        },
+        {
+          "label": "All other revenues",
+          "amount": 1410317
+        }
+      ],
+      "total_general_revenues": 7420439
+    },
+    "change_in_net_position": -2561491,
+    "net_position_beginning": 30208359,
+    "net_position_ending": 27824499,
+    "cross_sectional": {
+      "property_ad_valorem": 2990180,
+      "sales_use_taxes": 1813496,
+      "severance_taxes": 805923,
+      "other_tax_revenue": 198685,
+      "total_tax_revenue": 5808284,
+      "state_revenue_sharing": 167393,
+      "state_intergovernmental": 276286,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1444762,
+      "total_other_revenue": 1888441,
+      "total_program_revenue": 1209793,
+      "total_revenues": 8906518,
+      "general_government": -1448332,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1448332,
+      "public_safety": -864800,
+      "public_works": -5062187,
+      "economic_development": 553567,
+      "health_and_welfare": null,
+      "culture_and_recreation": null,
+      "interest_debt_service": -20339,
+      "all_other_expenditures": -3139839,
+      "total_expenditures": 11191723
+    },
+    "_uncertainties": [
+      {
+        "field": "total_net_expense_revenue",
+        "fund": "Total governmental activities",
+        "reason": "PDF text shows '(9,98I!930)' with apparent OCR error - contains 'I!' characters instead of clear digits",
+        "extracted": -9981930,
+        "alternative": -9981930,
+        "page": 7,
+        "text_snippet": "Total governmental activities 11,191,723 $ 125,632 $ 276,286 $ 807,875 $ (9,98I!930)",
+        "severity": "medium"
+      },
+      {
+        "field": "prior_period_adjustment_gasb_68",
+        "fund": null,
+        "reason": "Prior period adjustment for GASB 68 implementation noted but not clearly integrated into beginning balance change calculation",
+        "extracted": 177631,
+        "alternative": null,
+        "page": 7,
+        "text_snippet": "PRIOR PERIOD ADJUSTMENT - IMPLEMENTATION OF GASB 68 177,631",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Allen",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 4069562,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 2833111,
+        "due_from_other_governments": 762395,
+        "due_from_component_units": null,
+        "inventory": 45179,
+        "prepaid_items": 7432,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 23777069
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 31494748,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Related to Pensions",
+            "amount": 276783
+          }
+        ],
+        "total": 276783
+      },
+      "current_liabilities": {
+        "accounts_payable": 824559,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 48703,
+        "accrued_interest": 5628,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 254000,
+        "bonds_payable_noncurrent": 1394000,
+        "compensated_absences_current": 29759,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": 54246,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1311282
+      },
+      "total_liabilities": 3922177,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Related to Pensions",
+            "amount": 24855
+          }
+        ],
+        "total": 24855
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 22129069,
+        "restricted": 5715950,
+        "unrestricted": -20920,
+        "total_net_position": 27824499
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "long_term_liabilities.other_long_term",
+        "fund": "Governmental Activities",
+        "reason": "OPEB obligations labeled as 'due in more than one year' - categorized as other long-term per its presentation",
+        "extracted": 1311282,
+        "alternative": null,
+        "page": 6,
+        "text_snippet": "OPEB obligations - due in more than one year 1,311,282",
+        "severity": "low"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "Governmental Activities",
+        "reason": "Sum of multiple restricted categories: Inventory (45,179) + Judicial (611,041) + Other general government (634,469) + Public works (3,501,405) + Sanitation (479,982) + Capital projects (390,551) + Debt service (53,723) = 5,715,950",
+        "extracted": 5715950,
+        "alternative": null,
+        "page": 6,
+        "text_snippet": "Restricted for: Inventory 45,179 Judicial 611,041 Other general government 634,469 Public works 3,501,405",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Allen",
+    "year": 2015,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 572300,
+          "increases": null,
+          "decreases": null,
+          "ending": 572300
+        },
+        "construction_in_progress": {
+          "beginning": 98703,
+          "increases": 733474,
+          "decreases": null,
+          "ending": 832177
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 671003,
+          "increases": 733474,
+          "decreases": null,
+          "ending": 1404477
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 4595339,
+          "increases": null,
+          "decreases": null,
+          "ending": 4595339
+        },
+        "machinery_and_equipment": {
+          "beginning": 3482205,
+          "increases": 229473,
+          "decreases": 37240,
+          "ending": 3674438
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 5855585,
+          "increases": null,
+          "decreases": null,
+          "ending": 5855585
+        },
+        "infrastructure": {
+          "beginning": 28219912,
+          "increases": null,
+          "decreases": null,
+          "ending": 28219912
+        },
+        "vehicles": {
+          "beginning": 824249,
+          "increases": null,
+          "decreases": null,
+          "ending": 824249
+        },
+        "furniture_and_fixtures": {
+          "beginning": 431836,
+          "increases": null,
+          "decreases": null,
+          "ending": 431836
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 43409126,
+          "increases": 229473,
+          "decreases": 37240,
+          "ending": 43601359
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 1889518,
+          "increases": 102571,
+          "decreases": null,
+          "ending": 1992089
+        },
+        "machinery_and_equipment": {
+          "beginning": 2382902,
+          "increases": 203919,
+          "decreases": 22014,
+          "ending": 2564807
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 2376805,
+          "increases": 171245,
+          "decreases": null,
+          "ending": 2548050
+        },
+        "infrastructure": {
+          "beginning": 12446165,
+          "increases": 584415,
+          "decreases": null,
+          "ending": 13030580
+        },
+        "vehicles": {
+          "beginning": 667485,
+          "increases": 48766,
+          "decreases": null,
+          "ending": 716251
+        },
+        "furniture_and_fixtures": {
+          "beginning": 343425,
+          "increases": 33565,
+          "decreases": null,
+          "ending": 376990
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": 20106300,
+          "increases": 1144481,
+          "decreases": 22014,
+          "ending": 21228767
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 23302826,
+        "increases": -915008,
+        "decreases": null,
+        "ending": 22372592
+      },
+      "total_capital_assets_net": {
+        "beginning": 23973829,
+        "increases": -181534,
+        "decreases": null,
+        "ending": 23777069
+      }
+    },
+    "cross_sectional": {
+      "land": 572300,
+      "construction_in_progress": 832177,
+      "other_non_depreciable": null,
+      "buildings_net": 2603250,
+      "improvements_net": 3307535,
+      "machinery_net": 1109631,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": 54846,
+      "vehicles_net": 107998,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 15189332,
+      "total_governmental_net": 23777069
+    },
+    "_uncertainties": [
+      {
+        "field": "total_capital_assets_net.beginning",
+        "fund": "Governmental activities",
+        "reason": "Not explicitly stated; calculated as sum of not_depreciated.beginning + depreciable_net.beginning",
+        "extracted": 23973829,
+        "alternative": null,
+        "page": 27,
+        "text_snippet": "Total capital assets being depreciated, net 'E 23,302,826 JE (915,008) $ - 35 22,372,592",
+        "severity": "low"
+      },
+      {
+        "field": "total_capital_assets_net.increases",
+        "fund": "Governmental activities",
+        "reason": "Not explicitly stated; calculated as sum of not_depreciated.increases + depreciable_net.increases",
+        "extracted": -181534,
+        "alternative": null,
+        "page": 27,
+        "text_snippet": "Total capital assets being depreciated, net 'E 23,302,826 JE (915,008) $ - 35 22,372,592",
+        "severity": "low"
+      }
+    ]
+  }
+}

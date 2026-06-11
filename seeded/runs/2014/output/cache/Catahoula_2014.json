@@ -1,0 +1,423 @@
+{
+  "cbs": null,
+  "soa": {
+    "parish": "Catahoula",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 722386,
+        "charges_for_services": 113558,
+        "operating_grants": 25405,
+        "capital_grants": null,
+        "net_expense_revenue": -583423
+      },
+      "public_safety": {
+        "expenses": 405469,
+        "charges_for_services": null,
+        "operating_grants": 349662,
+        "capital_grants": null,
+        "net_expense_revenue": -55807
+      },
+      "public_works": {
+        "expenses": 1875439,
+        "charges_for_services": 937,
+        "operating_grants": 181846,
+        "capital_grants": 65800,
+        "net_expense_revenue": -1627856
+      },
+      "economic_development": {
+        "expenses": 2792,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2792
+      },
+      "health_and_welfare": {
+        "expenses": 240465,
+        "charges_for_services": null,
+        "operating_grants": 291827,
+        "capital_grants": null,
+        "net_expense_revenue": 51362
+      },
+      "culture_and_recreation": {
+        "expenses": 352181,
+        "charges_for_services": 5648,
+        "operating_grants": 44756,
+        "capital_grants": null,
+        "net_expense_revenue": -301777
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 4485,
+        "net_expense_revenue": -4485
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 3603217,
+        "charges_for_services": 120143,
+        "operating_grants": 893496,
+        "capital_grants": 65800,
+        "net_expense_revenue": -2524778
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 864032,
+      "sales_taxes": 1753095,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 5214,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 337458,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 6434,
+      "miscellaneous": 21987,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Gain (loss) on sale of capital assets",
+          "amount": -18786
+        }
+      ],
+      "total_general_revenues": 2969434
+    },
+    "change_in_net_position": 444656,
+    "net_position_beginning": 8526187,
+    "net_position_ending": 8970843,
+    "cross_sectional": {
+      "property_ad_valorem": 864032,
+      "sales_use_taxes": 1753095,
+      "severance_taxes": null,
+      "other_tax_revenue": 5214,
+      "total_tax_revenue": 2622341,
+      "state_revenue_sharing": 337458,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 10635,
+      "total_other_revenue": 348093,
+      "total_program_revenue": 1079439,
+      "total_revenues": 4049873,
+      "general_government": -583423,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -583423,
+      "public_safety": -55807,
+      "public_works": -1627856,
+      "economic_development": -2792,
+      "health_and_welfare": 51362,
+      "culture_and_recreation": -301777,
+      "interest_debt_service": -4485,
+      "all_other_expenditures": null,
+      "total_expenditures": 3603217
+    },
+    "_uncertainties": [
+      {
+        "field": "general_revenues.state_revenue_sharing",
+        "fund": null,
+        "reason": "Label states 'Grants and contributions not restricted to specific programs' which could include federal/state/local sources; assumed state revenue sharing based on typical parish audit structure",
+        "extracted": 337458,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Grants and contributions not restrictedto specific programs 337,458",
+        "severity": "medium"
+      },
+      {
+        "field": "governmental_activities.public_works.capital_grants",
+        "fund": null,
+        "reason": "Capital grants column shows ',800' which appears to be part of larger number; interpreted as 65,800 based on alignment with operating grants 181,846",
+        "extracted": 65800,
+        "alternative": 800,
+        "page": 17,
+        "text_snippet": "Public -vrorks 1,875,439 937 181,846 ,800 (1,627,856)",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Catahoula",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 2290596,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 1116337,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 79581
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 5731049
+      },
+      "other_noncurrent_assets": 320809,
+      "total_assets": 9538372,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 144719,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 104000,
+        "bonds_payable_noncurrent": 272000,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 32033,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 552752,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Grant revenues pending",
+            "amount": 14777
+          }
+        ],
+        "total": 14777
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 5750215,
+        "restricted": null,
+        "unrestricted": 3220628,
+        "total_net_position": 8970843
+      }
+    },
+    "component_units": {
+      "total_assets": 207847,
+      "total_liabilities": 526,
+      "total_net_position": 207321
+    },
+    "_uncertainties": [
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Combining restricted cash for debt service and capital project as noncurrent assets; not explicitly listed separately",
+        "extracted": 320809,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Cash restricted for debt service 26,910 / Cash restricted for capital project 293,899",
+        "severity": "medium"
+      },
+      {
+        "field": "compensated_absences_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Total compensated absences shown as 32033; no split between current and noncurrent provided",
+        "extracted": 32033,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Compensated absences 32,033",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Catahoula",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 112200,
+          "increases": null,
+          "decreases": null,
+          "ending": 112200
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": 33780,
+          "decreases": null,
+          "ending": 33780
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 112200,
+          "increases": 33780,
+          "decreases": null,
+          "ending": 145980
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 2983414,
+          "increases": 13430,
+          "decreases": null,
+          "ending": 2996844
+        },
+        "machinery_and_equipment": {
+          "beginning": 1471586,
+          "increases": 9221,
+          "decreases": -64679,
+          "ending": 1416128
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 1558229,
+          "increases": null,
+          "decreases": -14710,
+          "ending": 1543519
+        },
+        "infrastructure": {
+          "beginning": 11389474,
+          "increases": 125058,
+          "decreases": null,
+          "ending": 11514532
+        },
+        "vehicles": {
+          "beginning": 550399,
+          "increases": null,
+          "decreases": -975,
+          "ending": 549424
+        },
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": {
+          "beginning": 690885,
+          "increases": 35230,
+          "decreases": -15247,
+          "ending": 710868
+        },
+        "leased_property": null,
+        "other_depreciable": [
+          {
+            "label": "Heavy equipment",
+            "beginning": 926073,
+            "increases": 65407,
+            "decreases": null,
+            "ending": 991480
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 19570060,
+          "increases": 248346,
+          "decreases": -95611,
+          "ending": 19722795
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 2553563,
+          "increases": 18176,
+          "decreases": null,
+          "ending": 2571739
+        },
+        "machinery_and_equipment": {
+          "beginning": 1140968,
+          "increases": 71408,
+          "decreases": -47394,
+          "ending": 1164822
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 214205,
+          "increases": 61531,
+          "decreases": -12749,
+          "ending": 262987
+        },
+        "infrastructure": {
+          "beginning": 8368120,
+          "increases": 113919,
+          "decreases": null,
+          "ending": 8482039
+        },
+        "vehicles": {
+          "beginning": 300201,
+          "increases": 48644,
+          "decreases": -975,
+          "ending": 347870
+        },
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": {
+          "beginning": 612308,
+          "increases": 29741,
+          "decreases": -15247,
+          "ending": 626802
+        },
+        "leased_property": null,
+        "other": [
+          {
+            "label": "Heavy equipment",
+            "beginning": 630079,
+            "increases": 51388,
+            "decreases": null,
+            "ending": 681467
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": 13819444,
+          "increases": 394727,
+          "decreases": -76445,
+          "ending": 14137726
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 5750616,
+        "increases": -146381,
+        "decreases": -19166,
+        "ending": 5585069
+      },
+      "total_capital_assets_net": {
+        "beginning": 5862816,
+        "increases": -112601,
+        "decreases": -19166,
+        "ending": 5731049
+      }
+    },
+    "cross_sectional": {
+      "land": 112200,
+      "construction_in_progress": 33780,
+      "other_non_depreciable": null,
+      "buildings_net": 425105,
+      "improvements_net": 1280532,
+      "machinery_net": 251306,
+      "other_depreciable_net": 310013,
+      "books_net": 84066,
+      "furniture_net": null,
+      "vehicles_net": 201554,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 3032493,
+      "total_governmental_net": 5731049
+    },
+    "_uncertainties": [
+      {
+        "field": "accumulated_depreciation.machinery_and_equipment.beginning",
+        "fund": "governmental_activities",
+        "reason": "Adjustments column shows (80) for Equipment which may affect beginning balance calculation",
+        "extracted": 1140968,
+        "alternative": 1140888,
+        "page": 37,
+        "text_snippet": "Equipment 1,140,968 (80) 71,408 (47,474) 1,164,822",
+        "severity": "low"
+      },
+      {
+        "field": "accumulated_depreciation.vehicles.increases",
+        "fund": "governmental_activities",
+        "reason": "Adjustments column shows 80 for Vehicles which appears to offset Equipment adjustment",
+        "extracted": 48644,
+        "alternative": 48564,
+        "page": 37,
+        "text_snippet": "Vehicles 300,201 80 48,564 (975) 347,870",
+        "severity": "medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,759 @@
+{
+  "cbs": {
+    "parish": "East Carroll",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Road Maintenance and Construction",
+      "Garbage District No. 1",
+      "Library",
+      "Drainage Maintenance",
+      "Health Unit",
+      "Nonmajor Governmental",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 228072,
+        "Road Maintenance and Construction": 775488,
+        "Garbage District No. 1": 45691,
+        "Library": 162492,
+        "Drainage Maintenance": 195861,
+        "Health Unit": 430539,
+        "Nonmajor Governmental": 437063,
+        "Total Governmental Funds": 2275206
+      },
+      "investments": {
+        "General": null,
+        "Road Maintenance and Construction": 191576,
+        "Garbage District No. 1": 209365,
+        "Library": 211588,
+        "Drainage Maintenance": 61674,
+        "Health Unit": 28773,
+        "Nonmajor Governmental": 70691,
+        "Total Governmental Funds": 773667
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 649311,
+        "Road Maintenance and Construction": 431856,
+        "Garbage District No. 1": 320248,
+        "Library": 272180,
+        "Drainage Maintenance": 448705,
+        "Health Unit": 156950,
+        "Nonmajor Governmental": 272263,
+        "Total Governmental Funds": 2551513
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 6218,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": 3670,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 9888
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 883601,
+        "Road Maintenance and Construction": 1402590,
+        "Garbage District No. 1": 575304,
+        "Library": 646260,
+        "Drainage Maintenance": 706240,
+        "Health Unit": 616262,
+        "Nonmajor Governmental": 780017,
+        "Total Governmental Funds": 5610274
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 172155,
+        "Road Maintenance and Construction": 6614,
+        "Garbage District No. 1": 9807,
+        "Library": 3076,
+        "Drainage Maintenance": 3149,
+        "Health Unit": 35,
+        "Nonmajor Governmental": 12821,
+        "Total Governmental Funds": 207657
+      },
+      "retainage_payable": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 1837,
+        "Road Maintenance and Construction": 4790,
+        "Garbage District No. 1": null,
+        "Library": 3261,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 9888
+      },
+      "other_liabilities": {
+        "General": null,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General": 172155,
+        "Road Maintenance and Construction": 8451,
+        "Garbage District No. 1": 14597,
+        "Library": 6337,
+        "Drainage Maintenance": 3149,
+        "Health Unit": 35,
+        "Nonmajor Governmental": 12821,
+        "Total Governmental Funds": 217545
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue - property taxes",
+          "values": {
+            "General": 23541,
+            "Road Maintenance and Construction": 21246,
+            "Garbage District No. 1": 23101,
+            "Library": 21194,
+            "Drainage Maintenance": 21246,
+            "Health Unit": 12221,
+            "Nonmajor Governmental": 17696,
+            "Total Governmental Funds": 140245
+          }
+        }
+      ],
+      "total": {
+        "General": 23541,
+        "Road Maintenance and Construction": 21246,
+        "Garbage District No. 1": 23101,
+        "Library": 21194,
+        "Drainage Maintenance": 21246,
+        "Health Unit": 12221,
+        "Nonmajor Governmental": 17696,
+        "Total Governmental Funds": 140245
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Road Maintenance and Construction": 1372893,
+            "Garbage District No. 1": 537606,
+            "Library": 618729,
+            "Drainage Maintenance": 681845,
+            "Health Unit": 604006,
+            "Nonmajor Governmental": 749500,
+            "Total Governmental Funds": 4564579
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General": 687905,
+        "Road Maintenance and Construction": null,
+        "Garbage District No. 1": null,
+        "Library": null,
+        "Drainage Maintenance": null,
+        "Health Unit": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 687905
+      },
+      "total_fund_balances": {
+        "General": 687905,
+        "Road Maintenance and Construction": 1372893,
+        "Garbage District No. 1": 537606,
+        "Library": 618729,
+        "Drainage Maintenance": 681845,
+        "Health Unit": 604006,
+        "Nonmajor Governmental": 749500,
+        "Total Governmental Funds": 5252484
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 883601,
+      "Road Maintenance and Construction": 1402590,
+      "Garbage District No. 1": 575304,
+      "Library": 646260,
+      "Drainage Maintenance": 706240,
+      "Health Unit": 616262,
+      "Nonmajor Governmental": 780017,
+      "Total Governmental Funds": 5610274
+    },
+    "cross_sectional": {
+      "cash": 228072,
+      "investments": null,
+      "receivables": 649311,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 6218,
+      "prepaid_items": null,
+      "total_assets": 883601,
+      "deferred_outflows": null,
+      "accounts_payable": 172155,
+      "deferred_revenues": null,
+      "government_transfers": 1837,
+      "other_liabilities": null,
+      "total_liabilities": 172155,
+      "deferred_inflows": 23541,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 687905,
+      "total_fund_balances": 687905,
+      "total_liabilities_and_fund_balances": 883601
+    },
+    "_uncertainties": []
+  },
+  "soa": {
+    "parish": "East Carroll",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2017593,
+        "charges_for_services": 442209,
+        "operating_grants": 295406,
+        "capital_grants": null,
+        "net_expense_revenue": -1279978
+      },
+      "public_safety": {
+        "expenses": 452380,
+        "charges_for_services": null,
+        "operating_grants": 113082,
+        "capital_grants": 450626,
+        "net_expense_revenue": 111328
+      },
+      "public_works": {
+        "expenses": 1558407,
+        "charges_for_services": 101241,
+        "operating_grants": 264287,
+        "capital_grants": null,
+        "net_expense_revenue": -1192879
+      },
+      "economic_development": {
+        "expenses": 6860,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -6860
+      },
+      "health_and_welfare": {
+        "expenses": 136634,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -136634
+      },
+      "culture_and_recreation": {
+        "expenses": 349005,
+        "charges_for_services": 11585,
+        "operating_grants": 23045,
+        "capital_grants": null,
+        "net_expense_revenue": -314375
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 19777,
+        "net_expense_revenue": -19777
+      },
+      "other_activities": [
+        {
+          "label": "Transportation",
+          "expenses": 31501,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -31501
+        }
+      ],
+      "total": {
+        "expenses": 4572157,
+        "charges_for_services": 555035,
+        "operating_grants": 695820,
+        "capital_grants": 450626,
+        "net_expense_revenue": -2870676
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 2302676,
+      "sales_taxes": 657398,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 34249,
+      "occupational_licenses": 148989,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 47309,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 4176,
+      "miscellaneous": 127335,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Grants and contributions not restricted to specific programs",
+          "amount": 60182
+        }
+      ],
+      "total_general_revenues": 3382314
+    },
+    "change_in_net_position": 511638,
+    "net_position_beginning": 10622325,
+    "net_position_ending": 11133963,
+    "cross_sectional": {
+      "property_ad_valorem": 2302676,
+      "sales_use_taxes": 657398,
+      "severance_taxes": null,
+      "other_tax_revenue": 183238,
+      "total_tax_revenue": 3143312,
+      "state_revenue_sharing": 47309,
+      "state_intergovernmental": 695820,
+      "federal_intergovernmental": 450626,
+      "local_transfer": null,
+      "all_other_revenue": 191693,
+      "total_other_revenue": 1385448,
+      "total_program_revenue": 1701481,
+      "total_revenues": 6230241,
+      "general_government": -1279978,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1279978,
+      "public_safety": 111328,
+      "public_works": -1192879,
+      "economic_development": -6860,
+      "health_and_welfare": -136634,
+      "culture_and_recreation": -314375,
+      "interest_debt_service": -19777,
+      "all_other_expenditures": -31501,
+      "total_expenditures": 4572157
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government",
+        "fund": "governmental_activities",
+        "reason": "General government broken down into Legislative, Judicial, Elections, Finance and administrative, and Other general government categories. Aggregated all five categories together.",
+        "extracted": 2017593,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Legislative $ 39,938\nJudicial 613,097\nElections 52,551\nFinance and administrative 219,715\nOther general government 1,092,292",
+        "severity": "low"
+      },
+      {
+        "field": "property_taxes",
+        "fund": "general_revenues",
+        "reason": "Property taxes split between general purposes (2,230,477) and debt services (72,199). Combined both amounts.",
+        "extracted": 2302676,
+        "alternative": 2230477,
+        "page": 23,
+        "text_snippet": "Property taxes, levied for general purposes 2,230,477\nProperty taxes, levied for debt services 72,199",
+        "severity": "low"
+      },
+      {
+        "field": "other_tax_revenue",
+        "fund": "cross_sectional",
+        "reason": "Calculated as sum of other_taxes (34,249) and occupational_licenses (148,989) as these are the only other tax categories shown",
+        "extracted": 183238,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Other taxes 34,249\nLicenses and permits 148,989",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "East Carroll",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 2275206,
+        "investments": 773667,
+        "taxes_receivable": null,
+        "other_receivables": 2551513,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 2573398,
+        "depreciable_net": 3785585,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 6358983
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 11959369,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 207657,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 5987,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 825406,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 5755524,
+        "restricted": 4565579,
+        "unrestricted": 813860,
+        "total_net_position": 11133963
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables line shows 2,551,513 but no breakdown provided for taxes_receivable vs other_receivables or due_from_other_governments",
+        "extracted": 2551513,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Receivables 2,551,513",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities - current and noncurrent portions",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities show due within one year 154,753 and due in more than one year 457,009 but no breakdown by type (bonds, compensated absences, etc.)",
+        "extracted": null,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Due within one year 154,753  Due in more than one year 457,009",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Manually summed multiple restricted line items (Debt service + Road Maintenance + Garbage + Library + Drainage + Rural Fire + LSU/SU Extension + Health Unit + Criminal Court)",
+        "extracted": 4565579,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Restricted for: Debt service 95,165 Road Maintenance 1,372,893 Garbage 537,606 Library 618,729 Drainage 681,845 Rural Fire Protection 425,053",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "East Carroll",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_fields",
+        "fund": "governmental_activities",
+        "reason": "PDF contains Housing Authority financial statements, not a Capital Assets schedule showing governmental activities with beginning/increases/decreases/ending balances",
+        "extracted": null,
+        "alternative": null,
+        "page": 76,
+        "text_snippet": "Entity Wide Balance Sheet Summary... 164 Furniture, Equipment & Machinery - Administration 815,496; 166 Accumulated Depreciation -815.496",
+        "severity": "high"
+      }
+    ]
+  }
+}

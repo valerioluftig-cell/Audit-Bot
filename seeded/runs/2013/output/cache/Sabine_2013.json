@@ -1,0 +1,687 @@
+{
+  "cbs": {
+    "parish": "Sabine",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Criminal Transportation Fund",
+      "Sales Tax Fund",
+      "Court Fund",
+      "Road District Fund No. 17",
+      "Road District Fund No. 18",
+      "Health Unit Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 4747738,
+        "Criminal Transportation Fund": 228906,
+        "Sales Tax Fund": 898967,
+        "Court Fund": 113025,
+        "Road District Fund No. 17": 107349,
+        "Road District Fund No. 18": 1775411,
+        "Health Unit Fund": 1489340,
+        "Other Governmental Funds": 9360736,
+        "Total Governmental Funds": 8931765
+      },
+      "investments": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 1095928,
+        "Criminal Transportation Fund": 60487,
+        "Sales Tax Fund": 6137,
+        "Court Fund": 19901,
+        "Road District Fund No. 17": 335451,
+        "Road District Fund No. 18": 320456,
+        "Health Unit Fund": 174464,
+        "Other Governmental Funds": 1876497,
+        "Total Governmental Funds": 3916001
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 53535,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 59226
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 5897200,
+        "Criminal Transportation Fund": 289393,
+        "Sales Tax Fund": 905104,
+        "Court Fund": 19901,
+        "Road District Fund No. 17": 448476,
+        "Road District Fund No. 18": 427806,
+        "Health Unit Fund": 1949875,
+        "Other Governmental Funds": 3365836,
+        "Total Governmental Funds": 12906992
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 80076,
+        "Criminal Transportation Fund": 30269,
+        "Sales Tax Fund": 39091,
+        "Court Fund": 9522,
+        "Road District Fund No. 17": 47840,
+        "Road District Fund No. 18": 117544,
+        "Health Unit Fund": 6263,
+        "Other Governmental Funds": 146446,
+        "Total Governmental Funds": 752592
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Criminal Transportation Fund": 5698,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": 47837,
+        "Total Governmental Funds": 59226
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 80076,
+        "Criminal Transportation Fund": 30269,
+        "Sales Tax Fund": 39091,
+        "Court Fund": 15220,
+        "Road District Fund No. 17": 47840,
+        "Road District Fund No. 18": 117544,
+        "Health Unit Fund": 6263,
+        "Other Governmental Funds": 194283,
+        "Total Governmental Funds": 811818
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted for maintenance and operation",
+          "values": {
+            "General Fund": null,
+            "Criminal Transportation Fund": 259125,
+            "Sales Tax Fund": 866013,
+            "Court Fund": 4681,
+            "Road District Fund No. 17": 400636,
+            "Road District Fund No. 18": 310262,
+            "Health Unit Fund": 1943612,
+            "Other Governmental Funds": 3218401,
+            "Total Governmental Funds": 7464070
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 5817124,
+        "Criminal Transportation Fund": null,
+        "Sales Tax Fund": null,
+        "Court Fund": null,
+        "Road District Fund No. 17": null,
+        "Road District Fund No. 18": null,
+        "Health Unit Fund": null,
+        "Other Governmental Funds": -46847,
+        "Total Governmental Funds": 4631104
+      },
+      "total_fund_balances": {
+        "General Fund": 5817124,
+        "Criminal Transportation Fund": 259125,
+        "Sales Tax Fund": 866013,
+        "Court Fund": 4681,
+        "Road District Fund No. 17": 400636,
+        "Road District Fund No. 18": 310262,
+        "Health Unit Fund": 1943612,
+        "Other Governmental Funds": 3171553,
+        "Total Governmental Funds": 12095174
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 5897200,
+      "Criminal Transportation Fund": 289393,
+      "Sales Tax Fund": 905104,
+      "Court Fund": 19901,
+      "Road District Fund No. 17": 448476,
+      "Road District Fund No. 18": 427806,
+      "Health Unit Fund": 1949875,
+      "Other Governmental Funds": 3365836,
+      "Total Governmental Funds": 12906992
+    },
+    "cross_sectional": {
+      "cash": 4747738,
+      "investments": null,
+      "receivables": 1095928,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 53535,
+      "prepaid_items": null,
+      "total_assets": 5897200,
+      "deferred_outflows": null,
+      "accounts_payable": 80076,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": 80076,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 5817124,
+      "total_fund_balances": 5817124,
+      "total_liabilities_and_fund_balances": 5897200
+    },
+    "_uncertainties": [
+      {
+        "field": "cash_and_deposits",
+        "fund": "Total Governmental Funds",
+        "reason": "2014 column total shows 8,931,765 but preceding column shows 9,360,736; appears to be printing issue where 2014 is in 2013 position",
+        "extracted": 8931765,
+        "alternative": 9360736,
+        "page": 19,
+        "text_snippet": "31,775,411 31,489,340 39,360, 736 38,931,765",
+        "severity": "high"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Court Fund",
+        "reason": "Total shown as 319,901 but appears Court Fund receivables should be 19,901 based on formatting; leading 3 may be formatting artifact",
+        "extracted": 19901,
+        "alternative": 319901,
+        "page": 19,
+        "text_snippet": "6,137 319,901 335,451",
+        "severity": "high"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Other Governmental Funds",
+        "reason": "Shows 1,876,497 but total column shows 3,889,321 for 2014 which doesn't align with individual fund amounts",
+        "extracted": 1876497,
+        "alternative": 3889321,
+        "page": 19,
+        "text_snippet": "174,464 1,876,497 3,889,321 3,916,001",
+        "severity": "high"
+      },
+      {
+        "field": "total_assets",
+        "fund": "Court Fund",
+        "reason": "Listed as 319,901 but may be 19,901 based on receivables being only asset",
+        "extracted": 19901,
+        "alternative": 319901,
+        "page": 19,
+        "text_snippet": "3905,104 319,901 3448,476",
+        "severity": "high"
+      },
+      {
+        "field": "total_assets",
+        "fund": "Total Governmental Funds",
+        "reason": "Shows 313,303,592 for 2014 but 312,906,992 for 2013; columns appear reversed",
+        "extracted": 12906992,
+        "alternative": 13303592,
+        "page": 19,
+        "text_snippet": "33,365,836 313,303,592 312,906,992",
+        "severity": "high"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "Total Governmental Funds",
+        "reason": "Shows 3477,050 for what appears to be 2014 but may be misaligned with 3752,592",
+        "extracted": 752592,
+        "alternative": 477050,
+        "page": 19,
+        "text_snippet": "3146,446 3477,050 3752,592",
+        "severity": "high"
+      },
+      {
+        "field": "total_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Shows 530,585 and 811,818; based on pattern, 811,818 appears to be 2013 comparative",
+        "extracted": 811818,
+        "alternative": 530585,
+        "page": 19,
+        "text_snippet": "194,283 530,585 811,818",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted",
+        "fund": "Total Governmental Funds",
+        "reason": "Shows 7,002,730 for 2014 and 7,464,070 for 2013; based on column alignment issues throughout",
+        "extracted": 7464070,
+        "alternative": 7002730,
+        "page": 19,
+        "text_snippet": "3,218,401 7,002, 730 7,464,070",
+        "severity": "high"
+      },
+      {
+        "field": "unassigned",
+        "fund": "Total Governmental Funds",
+        "reason": "Shows 5,770,277 for 2014 and 4,631,104 for 2013; may be reversed",
+        "extracted": 4631104,
+        "alternative": 5770277,
+        "page": 19,
+        "text_snippet": "(46,847) 5,770,277 4, 631,104",
+        "severity": "high"
+      },
+      {
+        "field": "total_fund_balances",
+        "fund": "Total Governmental Funds",
+        "reason": "Shows 12,773,007 for 2014 and 12,095,174 for 2013; pattern suggests possible reversal",
+        "extracted": 12095174,
+        "alternative": 12773007,
+        "page": 19,
+        "text_snippet": "3,171,553 12,773,007 12,095,174",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Sabine",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1780454,
+        "charges_for_services": 275518,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1504936
+      },
+      "public_safety": {
+        "expenses": 477323,
+        "charges_for_services": 57170,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -420153
+      },
+      "public_works": {
+        "expenses": 6068819,
+        "charges_for_services": 158574,
+        "operating_grants": 346508,
+        "capital_grants": 1045841,
+        "net_expense_revenue": -4517896
+      },
+      "economic_development": {
+        "expenses": 25441,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -25441
+      },
+      "health_and_welfare": {
+        "expenses": 193377,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -193377
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 6775,
+        "net_expense_revenue": -6775
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 8552189,
+        "charges_for_services": 434092,
+        "operating_grants": 403679,
+        "capital_grants": 1045841,
+        "net_expense_revenue": -6668578
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 3293654,
+      "sales_taxes": 3397394,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 1601887,
+      "non_employer_pension_contribution": null,
+      "investment_income": 119321,
+      "miscellaneous": 201183,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": 8613438
+    },
+    "change_in_net_position": 1944861,
+    "net_position_beginning": 23395424,
+    "net_position_ending": 25340285,
+    "cross_sectional": {
+      "property_ad_valorem": 3293654,
+      "sales_use_taxes": 3397394,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 6691048,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 1601887,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 320504,
+      "total_other_revenue": 1922391,
+      "total_program_revenue": 1883612,
+      "total_revenues": 10497051,
+      "general_government": -1504936,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1504936,
+      "public_safety": -420153,
+      "public_works": -4517896,
+      "economic_development": -25441,
+      "health_and_welfare": -193377,
+      "culture_and_recreation": null,
+      "interest_debt_service": -6775,
+      "all_other_expenditures": null,
+      "total_expenditures": 8552189
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government is broken into 5 subcategories (Legislative, Judicial, Elections, Finance and administrative, Other). Had to sum these subcategories to get total general government expenses.",
+        "extracted": 1780454,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Legislative $156,568, Judicial 484,801, Elections 23,649, Finance and administrative 397,032, Other 718,404",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "Only Judicial subcategory shows charges for services of $275,518. Other general government subcategories show no charges.",
+        "extracted": 275518,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Judicial 484,801 $275,518",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Had to sum net expense revenue across 5 general government subcategories: -156,568 + -209,282 + -23,649 + -397,032 + -718,404",
+        "extracted": -1504936,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Legislative ($156,568), Judicial (209,282), Elections (23,649), Finance and administrative (397,032), Other (718,404)",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Mapped 'State grant programs' to state_intergovernmental. Unclear if operating_grants and capital_grants from program revenues should also be included.",
+        "extracted": 1601887,
+        "alternative": 2049395,
+        "page": 18,
+        "text_snippet": "State grant programs 1,601,887; Operating grants 403,679; Capital grants 1,045,841",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Sabine",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 9360736,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 3889321,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 2921369,
+        "depreciable_net": 10879175,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 13800544
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 27127601,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 477050,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 6775,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1303495
+      },
+      "total_liabilities": 1787321,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 13520414,
+        "restricted": null,
+        "unrestricted": 11819867,
+        "total_net_position": 25340285
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables line may include tax receivables, other receivables, and due from governments combined - breakdown not specified",
+        "extracted": 3889321,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Receivables 3,889,321 3,916,001",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Line item is 'Accounts, salaries, and other payables' - may include accrued liabilities not separated",
+        "extracted": 477050,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Accounts, salaries, and other payables $477,050 $752,592",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities not itemized - combined due within one year (351,017) and due in more than one year (952,478)",
+        "extracted": 1303495,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Due within one year 351,017 372,094 Due in more than one year 952,478 910,569",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": null
+}

@@ -1,0 +1,736 @@
+{
+  "cbs": {
+    "parish": "East Feliciana",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Roads & Bridges",
+      "Solid Waste",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 810939,
+        "Roads & Bridges": 1278350,
+        "Solid Waste": 2485602,
+        "Other Governmental Funds": 427717,
+        "Total Governmental Funds": 5002609
+      },
+      "investments": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": 396124,
+        "Roads & Bridges": null,
+        "Solid Waste": 284115,
+        "Other Governmental Funds": 432247,
+        "Total Governmental Funds": 1112488
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": 12336,
+        "Total Governmental Funds": 12336
+      },
+      "due_from_other_governments": {
+        "General": 19747,
+        "Roads & Bridges": 44917,
+        "Solid Waste": null,
+        "Other Governmental Funds": 27307,
+        "Total Governmental Funds": 91971
+      },
+      "due_from_other_funds": {
+        "General": 268988,
+        "Roads & Bridges": 287054,
+        "Solid Waste": 1275000,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1831042
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 1495799,
+        "Roads & Bridges": 1610321,
+        "Solid Waste": 4044718,
+        "Other Governmental Funds": 899608,
+        "Total Governmental Funds": 8050448
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 69255,
+        "Roads & Bridges": 581663,
+        "Solid Waste": 84757,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 735676
+      },
+      "retainage_payable": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 14435,
+        "Roads & Bridges": 1275000,
+        "Solid Waste": 21947,
+        "Other Governmental Funds": 152885,
+        "Total Governmental Funds": 1464267
+      },
+      "other_liabilities": {
+        "General": null,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": 2729,
+        "Total Governmental Funds": 2729
+      },
+      "total_liabilities": {
+        "General": 83690,
+        "Roads & Bridges": 1856663,
+        "Solid Waste": 106704,
+        "Other Governmental Funds": 155614,
+        "Total Governmental Funds": 2202672
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General": 47055,
+            "Roads & Bridges": null,
+            "Solid Waste": null,
+            "Other Governmental Funds": 26280,
+            "Total Governmental Funds": 73335
+          }
+        }
+      ],
+      "total": {
+        "General": 47055,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": 26280,
+        "Total Governmental Funds": 73335
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Health unit oper/maintenance",
+          "values": {
+            "General": null,
+            "Roads & Bridges": null,
+            "Solid Waste": null,
+            "Other Governmental Funds": 845785,
+            "Total Governmental Funds": 845785
+          }
+        },
+        {
+          "label": "Homeland security",
+          "values": {
+            "General": 45514,
+            "Roads & Bridges": null,
+            "Solid Waste": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 45514
+          }
+        },
+        {
+          "label": "Solid waste management",
+          "values": {
+            "General": null,
+            "Roads & Bridges": null,
+            "Solid Waste": 3938013,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 3938013
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Road improvements",
+          "values": {
+            "General": null,
+            "Roads & Bridges": -246341,
+            "Solid Waste": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": -246341
+          }
+        },
+        {
+          "label": "Coroner/court operations",
+          "values": {
+            "General": null,
+            "Roads & Bridges": null,
+            "Solid Waste": null,
+            "Other Governmental Funds": -128071,
+            "Total Governmental Funds": -128071
+          }
+        },
+        {
+          "label": "Claims and judgements",
+          "values": {
+            "General": 45500,
+            "Roads & Bridges": null,
+            "Solid Waste": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 45500
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General": 1274040,
+        "Roads & Bridges": null,
+        "Solid Waste": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1274040
+      },
+      "total_fund_balances": {
+        "General": 1365054,
+        "Roads & Bridges": -246341,
+        "Solid Waste": 3938013,
+        "Other Governmental Funds": 717714,
+        "Total Governmental Funds": 5774440
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 1495799,
+      "Roads & Bridges": 1610321,
+      "Solid Waste": 4044718,
+      "Other Governmental Funds": 899608,
+      "Total Governmental Funds": 8050448
+    },
+    "cross_sectional": {
+      "cash": 810939,
+      "investments": null,
+      "receivables": 415871,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 268988,
+      "prepaid_items": null,
+      "total_assets": 1495799,
+      "deferred_outflows": null,
+      "accounts_payable": 69255,
+      "deferred_revenues": null,
+      "government_transfers": 14435,
+      "other_liabilities": null,
+      "total_liabilities": 83690,
+      "deferred_inflows": 47055,
+      "reserved": 45514,
+      "unreserved_designated": 45500,
+      "unreserved_undesignated": 1274040,
+      "total_fund_balances": 1365054,
+      "total_liabilities_and_fund_balances": 1495799
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Listed as 'Due to other govt agencies' which could be categorized differently",
+        "extracted": 2729,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Due to other govt agencies - - - 2,729.05 2,729.05",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "East Feliciana",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 950109,
+        "charges_for_services": 9207,
+        "operating_grants": 6729,
+        "capital_grants": null,
+        "net_expense_revenue": -934173
+      },
+      "public_safety": {
+        "expenses": 1169097,
+        "charges_for_services": 146701,
+        "operating_grants": 137752,
+        "capital_grants": 259735,
+        "net_expense_revenue": -624910
+      },
+      "public_works": {
+        "expenses": 2638111,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": 2136459,
+        "net_expense_revenue": -501652
+      },
+      "economic_development": {
+        "expenses": 9588,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -9588
+      },
+      "health_and_welfare": {
+        "expenses": 329817,
+        "charges_for_services": 132152,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -197665
+      },
+      "culture_and_recreation": {
+        "expenses": 4587,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -4587
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 5101310,
+        "charges_for_services": 155908,
+        "operating_grants": 276633,
+        "capital_grants": 2396194,
+        "net_expense_revenue": -2272575
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 836005,
+      "sales_taxes": 4076160,
+      "severance_taxes": 420876,
+      "fire_insurance_premiums": 85615,
+      "franchise_fees": 10174,
+      "other_taxes": null,
+      "occupational_licenses": 300354,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 406136,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": null
+    },
+    "change_in_net_position": null,
+    "net_position_beginning": null,
+    "net_position_ending": null,
+    "cross_sectional": {
+      "property_ad_valorem": 836005,
+      "sales_use_taxes": 4076160,
+      "severance_taxes": 420876,
+      "other_tax_revenue": 396143,
+      "total_tax_revenue": 5729184,
+      "state_revenue_sharing": 406136,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": null,
+      "total_other_revenue": 406136,
+      "total_program_revenue": 2828735,
+      "total_revenues": 8964055,
+      "general_government": -934173,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -934173,
+      "public_safety": -624910,
+      "public_works": -501652,
+      "economic_development": -9588,
+      "health_and_welfare": -197665,
+      "culture_and_recreation": -4587,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 5101310
+    },
+    "_uncertainties": [
+      {
+        "field": "general_revenues.state_revenue_sharing",
+        "fund": null,
+        "reason": "Label 'Intergovernmental revenues' is ambiguous - could be state revenue sharing or other state/federal grants",
+        "extracted": 406136,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "General Revenues and Transfers\nIntergovernmental revenues 406,135.50",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.fire_insurance_premiums",
+        "fund": null,
+        "reason": "Label 'Insurance rebates' interpreted as fire insurance premiums but could be other insurance-related revenue",
+        "extracted": 85615,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Insurance rebates 85,614.52",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues.total_general_revenues",
+        "fund": null,
+        "reason": "PDF page cuts off before showing total general revenues and change in net position",
+        "extracted": null,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Continued\n13",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "East Feliciana",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 5002610,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 1124825,
+        "due_from_other_governments": 91972,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 12861749
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 20912198,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 735676,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 13428,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 2216101,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 12861749,
+        "restricted": 4857564,
+        "unrestricted": 976784,
+        "total_net_position": 18696097
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "due_from_other_funds",
+        "fund": "governmental_activities",
+        "reason": "Due from other funds (1,831,042.50) and Due to other funds (1,464,267.57) are interfund balances that typically eliminate at government-wide level but are shown here",
+        "extracted": null,
+        "alternative": 1831043,
+        "page": 16,
+        "text_snippet": "Due from other fimds 1,831,042.50 ... Due to other funds 1,464,267.57",
+        "severity": "medium"
+      },
+      {
+        "field": "compensated_absences_current",
+        "fund": "governmental_activities",
+        "reason": "Compensated absences of 13,428 shown but not split between current and noncurrent portions; allocated entirely to noncurrent",
+        "extracted": null,
+        "alternative": 13428,
+        "page": 16,
+        "text_snippet": "Compensated absences 13,428.00",
+        "severity": "low"
+      },
+      {
+        "field": "due_to_other_governmental_agencies",
+        "fund": "governmental_activities",
+        "reason": "Due to other governmental agencies (2,729.05) listed in liabilities but no standard field exists for this item",
+        "extracted": null,
+        "alternative": 2729,
+        "page": 16,
+        "text_snippet": "Due to other governmental agencies 2,729.05",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "East Feliciana",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 259230,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 259230
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 259230,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 259230
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 9627258,
+          "increases": 316312,
+          "decreases": 0,
+          "ending": 9943571
+        },
+        "machinery_and_equipment": {
+          "beginning": 4182495,
+          "increases": 372417,
+          "decreases": 0,
+          "ending": 4554912
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 1342103,
+          "increases": 4562091,
+          "decreases": 0,
+          "ending": 5904194
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 15151856,
+          "increases": 5250820,
+          "decreases": 0,
+          "ending": 20402677
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -4361370,
+          "increases": -207415,
+          "decreases": 0,
+          "ending": -4568785
+        },
+        "machinery_and_equipment": {
+          "beginning": -2351340,
+          "increases": -195024,
+          "decreases": 0,
+          "ending": -2546364
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": -385299,
+          "increases": -299708,
+          "decreases": 0,
+          "ending": -685008
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -7098009,
+          "increases": -702148,
+          "decreases": 0,
+          "ending": -7800158
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 8053846,
+        "increases": 4548672,
+        "decreases": 0,
+        "ending": 12602519
+      },
+      "total_capital_assets_net": {
+        "beginning": 8313076,
+        "increases": 4548672,
+        "decreases": 0,
+        "ending": 12861749
+      }
+    },
+    "cross_sectional": {
+      "land": 259230,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": 5374785,
+      "improvements_net": null,
+      "machinery_net": 2008547,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": 5219185,
+      "leased_property_net": null,
+      "infrastructure_net": 5219185,
+      "total_governmental_net": 12861749
+    },
+    "_uncertainties": [
+      {
+        "field": "infrastructure",
+        "fund": "governmental_activities",
+        "reason": "PDF labels this as 'Streets/Bridges' but the accumulated depreciation section shows 'Net Furniture and Fixtures' which appears to be a labeling error",
+        "extracted": 5904194,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "Streets/Bridges 1,342,103.17 4,562,091.62 .00 5,904,194.79\nLess: accumulated depreciation 385.299.95 299.708.90 .00 685.008.85\nNet Furniture and Fixtures",
+        "severity": "high"
+      },
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "PDF shows 'Equipment/Vehicles' as combined category - mapped to machinery_and_equipment, vehicles field left null",
+        "extracted": 4554912,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "EquipmentA/^e hicles 4,182,495.28 372,417.55 .00 4,554,912.83",
+        "severity": "medium"
+      }
+    ]
+  }
+}

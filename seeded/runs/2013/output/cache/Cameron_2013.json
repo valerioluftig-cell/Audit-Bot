@@ -1,0 +1,900 @@
+{
+  "cbs": {
+    "parish": "Cameron",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Road & Bridge Maintenance",
+      "Community Recovery",
+      "Non-major",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 11614255,
+        "Road & Bridge Maintenance": 30849,
+        "Community Recovery": 100,
+        "Non-major": 16822104,
+        "Total Governmental Funds": 28467308
+      },
+      "investments": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 7957122,
+        "Road & Bridge Maintenance": 1862489,
+        "Community Recovery": 1691825,
+        "Non-major": 5103359,
+        "Total Governmental Funds": 16614795
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 2631117,
+        "Road & Bridge Maintenance": 402547,
+        "Community Recovery": null,
+        "Non-major": 2742552,
+        "Total Governmental Funds": 5776216
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": 1793767,
+        "Road & Bridge Maintenance": 28999,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": 1822766
+      },
+      "prepaid_items": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": 66729,
+        "Road & Bridge Maintenance": 46475,
+        "Community Recovery": null,
+        "Non-major": 33506,
+        "Total Governmental Funds": 146710
+      },
+      "total_assets": {
+        "General": 24062990,
+        "Road & Bridge Maintenance": 2371359,
+        "Community Recovery": 1691925,
+        "Non-major": 24701521,
+        "Total Governmental Funds": 52827795
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 397951,
+        "Road & Bridge Maintenance": 50177,
+        "Community Recovery": 2367492,
+        "Non-major": 1053795,
+        "Total Governmental Funds": 3869415
+      },
+      "retainage_payable": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": 7413,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": 9818,
+        "Non-major": null,
+        "Total Governmental Funds": 17231
+      },
+      "due_to_other_funds": {
+        "General": 3145100,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": 380933,
+        "Non-major": 2250183,
+        "Total Governmental Funds": 5776216
+      },
+      "other_liabilities": {
+        "General": 2623074,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": 2623074
+      },
+      "total_liabilities": {
+        "General": 6173538,
+        "Road & Bridge Maintenance": 50177,
+        "Community Recovery": 2758243,
+        "Non-major": 3303978,
+        "Total Governmental Funds": 12285936
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Inventories",
+          "values": {
+            "General": 1793767,
+            "Road & Bridge Maintenance": 28999,
+            "Community Recovery": null,
+            "Non-major": null,
+            "Total Governmental Funds": 1822766
+          }
+        },
+        {
+          "label": "Prepaid expenses",
+          "values": {
+            "General": 66729,
+            "Road & Bridge Maintenance": 46475,
+            "Community Recovery": null,
+            "Non-major": 33506,
+            "Total Governmental Funds": 146710
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Judicial",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 58817,
+            "Total Governmental Funds": 58817
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 999067,
+            "Total Governmental Funds": 999067
+          }
+        },
+        {
+          "label": "Tourism development",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 39983,
+            "Total Governmental Funds": 39983
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Infrastructure maintenance",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": 2224889,
+            "Community Recovery": null,
+            "Non-major": null,
+            "Total Governmental Funds": 2224889
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 5560799,
+            "Total Governmental Funds": 5560799
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 5114106,
+            "Total Governmental Funds": 5114106
+          }
+        },
+        {
+          "label": "Judicial",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 3509737,
+            "Total Governmental Funds": 3509737
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 5585323,
+            "Total Governmental Funds": 5585323
+          }
+        },
+        {
+          "label": "Law enforcement building construction",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 208078,
+            "Total Governmental Funds": 208078
+          }
+        },
+        {
+          "label": "Library construction",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 42777,
+            "Total Governmental Funds": 42777
+          }
+        },
+        {
+          "label": "Administrative building construction",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 171986,
+            "Total Governmental Funds": 171986
+          }
+        },
+        {
+          "label": "Other capital projects",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": 20819,
+            "Community Recovery": null,
+            "Non-major": -119317,
+            "Total Governmental Funds": -98498
+          }
+        },
+        {
+          "label": "Other purposes",
+          "values": {
+            "General": 130576,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": null,
+            "Total Governmental Funds": 130576
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Judicial",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 7483,
+            "Total Governmental Funds": 7483
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 11002,
+            "Total Governmental Funds": 11002
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 129246,
+            "Total Governmental Funds": 129246
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": null,
+            "Non-major": 44950,
+            "Total Governmental Funds": 44950
+          }
+        },
+        {
+          "label": "Other capital projects",
+          "values": {
+            "General": null,
+            "Road & Bridge Maintenance": null,
+            "Community Recovery": -1066318,
+            "Non-major": null,
+            "Total Governmental Funds": -1066318
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 15898380,
+        "Road & Bridge Maintenance": null,
+        "Community Recovery": null,
+        "Non-major": null,
+        "Total Governmental Funds": 15898380
+      },
+      "total_fund_balances": {
+        "General": 17889452,
+        "Road & Bridge Maintenance": 2321182,
+        "Community Recovery": -1066318,
+        "Non-major": 21397543,
+        "Total Governmental Funds": 40541859
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 24062990,
+      "Road & Bridge Maintenance": 2371359,
+      "Community Recovery": 1691925,
+      "Non-major": 24701521,
+      "Total Governmental Funds": 52827795
+    },
+    "cross_sectional": {
+      "cash": 11614255,
+      "investments": null,
+      "receivables": 7957122,
+      "inventory": 1793767,
+      "other_assets": 66729,
+      "transfers_in": 2631117,
+      "prepaid_items": null,
+      "total_assets": 24062990,
+      "deferred_outflows": null,
+      "accounts_payable": 397951,
+      "deferred_revenues": 7413,
+      "government_transfers": 3145100,
+      "other_liabilities": 2623074,
+      "total_liabilities": 6173538,
+      "deferred_inflows": null,
+      "reserved": 1860496,
+      "unreserved_designated": 130576,
+      "unreserved_undesignated": 15898380,
+      "total_fund_balances": 17889452,
+      "total_liabilities_and_fund_balances": 24062990
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "General",
+        "reason": "Line labeled 'Other' could be prepaid items or other assets; listed separately from inventory in asset section",
+        "extracted": 66729,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Other 66,729 46,475 . 33,506 146,710",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General",
+        "reason": "Line labeled 'Due to other agencies' classified as other liability; could be a distinct category",
+        "extracted": 2623074,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Due to other agencies 2,623,074 . - . 2,623,074",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "General",
+        "reason": "Receivables line is labeled 'Receivables, net' without breakdown by type; may include multiple receivable categories",
+        "extracted": 7957122,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Receivables, net 7,957,122 1,862,489 1,691,825 5,103,359 16,614,795",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Cameron",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 5827586,
+        "charges_for_services": null,
+        "operating_grants": 2930,
+        "capital_grants": null,
+        "net_expense_revenue": -5824656
+      },
+      "public_safety": {
+        "expenses": 2803731,
+        "charges_for_services": 2645,
+        "operating_grants": 2550478,
+        "capital_grants": null,
+        "net_expense_revenue": -250608
+      },
+      "public_works": {
+        "expenses": 6533293,
+        "charges_for_services": 4943,
+        "operating_grants": null,
+        "capital_grants": 2455307,
+        "net_expense_revenue": -4073043
+      },
+      "economic_development": {
+        "expenses": 1848271,
+        "charges_for_services": 12474217,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": 10625946
+      },
+      "health_and_welfare": {
+        "expenses": 512083,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -512083
+      },
+      "culture_and_recreation": {
+        "expenses": 1924589,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1924589
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 105744,
+        "net_expense_revenue": -105744
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 19555297,
+        "charges_for_services": 12484735,
+        "operating_grants": 2553408,
+        "capital_grants": 2455307,
+        "net_expense_revenue": -2064777
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 7216305,
+      "sales_taxes": null,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 994588,
+      "occupational_licenses": 383734,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 5217490,
+      "non_employer_pension_contribution": null,
+      "investment_income": 32491,
+      "miscellaneous": 134116,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Fines, forfeitures, and court costs",
+          "amount": 144837
+        },
+        {
+          "label": "Intergovernmental - Local",
+          "amount": 40173
+        },
+        {
+          "label": "Gain/(Loss) on disposal of capital assets",
+          "amount": 521126
+        }
+      ],
+      "total_general_revenues": 14684860
+    },
+    "change_in_net_position": 12620083,
+    "net_position_beginning": 146194005,
+    "net_position_ending": 158814088,
+    "cross_sectional": {
+      "property_ad_valorem": 7216305,
+      "sales_use_taxes": null,
+      "severance_taxes": null,
+      "other_tax_revenue": 1378322,
+      "total_tax_revenue": 8594627,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 2553408,
+      "federal_intergovernmental": 2455307,
+      "local_transfer": 40173,
+      "all_other_revenue": 687633,
+      "total_other_revenue": 8953811,
+      "total_program_revenue": 17493450,
+      "total_revenues": 35041888,
+      "general_government": 5827586,
+      "legislative": 232074,
+      "judicial": 1318873,
+      "elections": 6843,
+      "finance_and_administration": 1601427,
+      "other_general_government": 2668369,
+      "total_general_government": 5827586,
+      "public_safety": 2803731,
+      "public_works": 6533293,
+      "economic_development": 1848271,
+      "health_and_welfare": 512083,
+      "culture_and_recreation": 1924589,
+      "interest_debt_service": 105744,
+      "all_other_expenditures": null,
+      "total_expenditures": 19555297
+    },
+    "_uncertainties": [
+      {
+        "field": "governmental_activities.public_safety.operating_grants",
+        "fund": "Governmental Activities",
+        "reason": "Operating grants value appears in the program revenues section but unclear if it represents charges_for_services or operating_grants based on column headers",
+        "extracted": 2550478,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Public safety (2,803,731) 2,645 2,550,478 (250,608)",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.other_taxes",
+        "fund": null,
+        "reason": "Combined value 'Other taxes for general purposes' may include multiple tax categories but not specified",
+        "extracted": 994588,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Other taxes for general purposes 994,588",
+        "severity": "low"
+      },
+      {
+        "field": "governmental_activities.general_government.expenses",
+        "fund": "Governmental Activities",
+        "reason": "Sum of subcategories (Legislative, Judicial, Elections, Finance and administrative, Other general government) totals 5,827,586, calculated from detailed line items",
+        "extracted": 5827586,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Legislative $ (232,074)... Other general government (2,668,369)",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Cameron",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 28467308,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 16614795,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": 1822766,
+        "prepaid_items": 146710,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 123967765
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 171019344,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 3869415,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 17231,
+        "accrued_interest": 72342,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 12205256,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 118625621,
+        "restricted": 3067343,
+        "unrestricted": 37121124,
+        "total_net_position": 158814088
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Accounts, salaries, and other payables' may include items beyond accounts payable",
+        "extracted": 3869415,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Accounts, salaries, and other payables 3,869,415",
+        "severity": "low"
+      },
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Due to other agencies (2,623,074) not classified - could be other current liability",
+        "extracted": null,
+        "alternative": 2623074,
+        "page": 20,
+        "text_snippet": "Due to other agencies 2,623,074",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities not itemized by type - only shown as due within/after one year",
+        "extracted": null,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Long-term liabilities: Due within one year 1,420,448 Due after one year 4,202,746",
+        "severity": "medium"
+      },
+      {
+        "field": "net_position.restricted",
+        "fund": "governmental_activities",
+        "reason": "Multiple restricted components aggregated (Judicial 58817 + Debt service 999067 + Tourism 39983 + Inventories 1822766 + Prepaid 146710)",
+        "extracted": 3067343,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "Net position - restricted for: Judicial 58,817 Debt service 999,067 Tourism development 39,983 Inventories 1,822,766 Prepaid expenses 146,710",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Cameron",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_data",
+        "fund": "governmental_activities",
+        "reason": "The provided PDF text contains only the capital assets policy note and cash policy, but does not include the actual Capital Assets schedule with beginning/ending balances and changes",
+        "extracted": null,
+        "alternative": null,
+        "page": 36,
+        "text_snippet": "NOTE A - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - CONTINUED 6. CAPITAL ASSETS Capital assets are capitalized at historical cost...",
+        "severity": "high"
+      }
+    ]
+  }
+}

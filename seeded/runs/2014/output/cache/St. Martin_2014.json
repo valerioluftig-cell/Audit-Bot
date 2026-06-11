@@ -1,0 +1,982 @@
+{
+  "cbs": {
+    "parish": "St. Martin",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "District #1 Sales Tax Revenue Fund",
+      "District #2 Sales Tax Revenue Fund",
+      "Public Works Fund",
+      "Parishwide Bond Sinking Fund",
+      "Road Construction Fund",
+      "Capital Outlay Fund",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 5891187,
+        "District #1 Sales Tax Revenue Fund": 8921581,
+        "District #2 Sales Tax Revenue Fund": 9392833,
+        "Public Works Fund": 135625,
+        "Parishwide Bond Sinking Fund": 953504,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": 1130870,
+        "Total Governmental Funds": 26425600
+      },
+      "investments": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 932007,
+        "District #1 Sales Tax Revenue Fund": 434625,
+        "District #2 Sales Tax Revenue Fund": 211894,
+        "Public Works Fund": 4558475,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 1432020,
+        "Capital Outlay Fund": 240000,
+        "Nonmajor Governmental Funds": 4656787,
+        "Total Governmental Funds": 12465808
+      },
+      "due_from_other_governments": {
+        "General Fund": 138381,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 138381
+      },
+      "due_from_other_funds": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": 5295415,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 3845857,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 17888281
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 6961575,
+        "District #1 Sales Tax Revenue Fund": 9356206,
+        "District #2 Sales Tax Revenue Fund": 9604727,
+        "Public Works Fund": 9853890,
+        "Parishwide Bond Sinking Fund": 953504,
+        "Road Construction Fund": 5277877,
+        "Capital Outlay Fund": 240000,
+        "Nonmajor Governmental Funds": 14630291,
+        "Total Governmental Funds": 56918070
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 215747,
+        "District #1 Sales Tax Revenue Fund": 197049,
+        "District #2 Sales Tax Revenue Fund": 8969,
+        "Public Works Fund": 127806,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 74281,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": 510711,
+        "Total Governmental Funds": 1134563
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 23935,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": 1811,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 33221,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": 33940,
+        "Total Governmental Funds": 92907
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 24101,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 24101
+      },
+      "due_to_other_funds": {
+        "General Fund": 2912257,
+        "District #1 Sales Tax Revenue Fund": 1081243,
+        "District #2 Sales Tax Revenue Fund": 4641840,
+        "Public Works Fund": 3733175,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 2569001,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": 2717850,
+        "Total Governmental Funds": 17655366
+      },
+      "other_liabilities": {
+        "General Fund": 174640,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 174640
+      },
+      "total_liabilities": {
+        "General Fund": 3326579,
+        "District #1 Sales Tax Revenue Fund": 1278292,
+        "District #2 Sales Tax Revenue Fund": 4650809,
+        "Public Works Fund": 3862792,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": 2700604,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": 3262501,
+        "Total Governmental Funds": 19081577
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": null,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Sales tax dedications",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": 8077914,
+            "District #2 Sales Tax Revenue Fund": 4928006,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 13005920
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 112407,
+            "Total Governmental Funds": 112407
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": 9692863,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 619192,
+            "Total Governmental Funds": 10312055
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 3404919,
+            "Total Governmental Funds": null
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 337909,
+            "Total Governmental Funds": 337909
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 1576497,
+            "Total Governmental Funds": 1576497
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 781564,
+            "Total Governmental Funds": 781564
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": 5413502,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 141721,
+            "Total Governmental Funds": 5555223
+          }
+        },
+        {
+          "label": "Capital outlay",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 471828,
+            "Total Governmental Funds": 471828
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 488420,
+            "Total Governmental Funds": 488420
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 190298,
+            "Total Governmental Funds": 190298
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 43500,
+            "Total Governmental Funds": 43500
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 1437829,
+            "Total Governmental Funds": 1437829
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "District #1 Sales Tax Revenue Fund": null,
+            "District #2 Sales Tax Revenue Fund": null,
+            "Public Works Fund": null,
+            "Parishwide Bond Sinking Fund": null,
+            "Road Construction Fund": null,
+            "Capital Outlay Fund": null,
+            "Nonmajor Governmental Funds": 19794,
+            "Total Governmental Funds": 19794
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 3634996,
+        "District #1 Sales Tax Revenue Fund": null,
+        "District #2 Sales Tax Revenue Fund": null,
+        "Public Works Fund": -2779671,
+        "Parishwide Bond Sinking Fund": null,
+        "Road Construction Fund": null,
+        "Capital Outlay Fund": -2403282,
+        "Nonmajor Governmental Funds": 1550583,
+        "Total Governmental Funds": 2626
+      },
+      "total_fund_balances": {
+        "General Fund": 3634996,
+        "District #1 Sales Tax Revenue Fund": 8077914,
+        "District #2 Sales Tax Revenue Fund": 4928006,
+        "Public Works Fund": 9692863,
+        "Parishwide Bond Sinking Fund": 5413502,
+        "Road Construction Fund": -2779671,
+        "Capital Outlay Fund": -2403282,
+        "Nonmajor Governmental Funds": 11176461,
+        "Total Governmental Funds": 37740789
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 6961575,
+      "District #1 Sales Tax Revenue Fund": 9356206,
+      "District #2 Sales Tax Revenue Fund": 9604727,
+      "Public Works Fund": 9853890,
+      "Parishwide Bond Sinking Fund": 953504,
+      "Road Construction Fund": 5277877,
+      "Capital Outlay Fund": 240000,
+      "Nonmajor Governmental Funds": 14534666,
+      "Total Governmental Funds": 56918070
+    },
+    "cross_sectional": {
+      "cash": 5891187,
+      "investments": null,
+      "receivables": 1070388,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": 6961575,
+      "deferred_outflows": null,
+      "accounts_payable": 215747,
+      "deferred_revenues": null,
+      "government_transfers": 2912257,
+      "other_liabilities": 198575,
+      "total_liabilities": 3326579,
+      "deferred_inflows": null,
+      "reserved": 0,
+      "unreserved_designated": 0,
+      "unreserved_undesignated": 3634996,
+      "total_fund_balances": 3634996,
+      "total_liabilities_and_fund_balances": 6961575
+    },
+    "_uncertainties": [
+      {
+        "field": "assets.total_assets",
+        "fund": "District #1 Sales Tax Revenue Fund",
+        "reason": "Total assets value not explicitly shown for this fund in the PDF",
+        "extracted": 9356206,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "TOTAL ASSETS 6,961,575 9,604,727 5,413.502 953,504 240,000 56,9_m070",
+        "severity": "medium"
+      },
+      {
+        "field": "assets.total_assets",
+        "fund": "Public Works Fund",
+        "reason": "Total assets value not explicitly shown for this fund in the PDF; appears cut off or missing",
+        "extracted": 9853890,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "TOTAL ASSETS 6,961,575 9,604,727 5,413.502 953,504 240,000 56,9_m070",
+        "severity": "medium"
+      },
+      {
+        "field": "assets.total_assets",
+        "fund": "Road Construction Fund",
+        "reason": "Total assets value not explicitly shown for this fund, calculated from due_from_other_funds and receivables",
+        "extracted": 5277877,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "TOTAL ASSETS 6,961,575 9,604,727 5,413.502 953,504 240,000 56,9_m070",
+        "severity": "medium"
+      },
+      {
+        "field": "assets.total_assets",
+        "fund": "Nonmajor Governmental Funds",
+        "reason": "Total assets value not explicitly shown for this fund in the PDF",
+        "extracted": 14630291,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "TOTAL ASSETS 6,961,575 9,604,727 5,413.502 953,504 240,000 56,9_m070",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities.total_liabilities",
+        "fund": "District #2 Sales Tax Revenue Fund",
+        "reason": "Total liabilities value not clearly shown for this fund, derived from individual liability items",
+        "extracted": 4650809,
+        "alternative": 4676721,
+        "page": 14,
+        "text_snippet": "Total Liabilities 3,326,579 1.278.292 4,676.721 161.027 3,733,175 19.177.281",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.total_liabilities",
+        "fund": "Public Works Fund",
+        "reason": "Total liabilities value not clearly shown, derived from visible items",
+        "extracted": 3862792,
+        "alternative": 161027,
+        "page": 14,
+        "text_snippet": "Total Liabilities 3,326,579 1.278.292 4,676.721 161.027 3,733,175 19.177.281",
+        "severity": "high"
+      },
+      {
+        "field": "liabilities.total_liabilities",
+        "fund": "Road Construction Fund",
+        "reason": "Total liabilities value partially shown but context unclear",
+        "extracted": 2700604,
+        "alternative": 3733175,
+        "page": 14,
+        "text_snippet": "Total Liabilities 3,326,579 1.278.292 4,676.721 161.027 3,733,175 19.177.281",
+        "severity": "high"
+      },
+      {
+        "field": "liabilities.total_liabilities",
+        "fund": "Nonmajor Governmental Funds",
+        "reason": "Total liabilities value not explicitly shown for this fund",
+        "extracted": 3262501,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Total Liabilities 3,326,579 1.278.292 4,676.721 161.027 3,733,175 19.177.281",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities.total_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total liabilities appears partially cut off in PDF",
+        "extracted": 19081577,
+        "alternative": 19177281,
+        "page": 14,
+        "text_snippet": "Total Liabilities 3,326,579 1.278.292 4,676.721 161.027 3,733,175 19.177.281",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.accrued_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total shown as 98,907 but sum appears to be 92,907",
+        "extracted": 92907,
+        "alternative": 98907,
+        "page": 14,
+        "text_snippet": "Accrued liabilities 23,935 1,811 33,221 33,940 98,907",
+        "severity": "medium"
+      },
+      {
+        "field": "fund_balances.restricted.Public safety",
+        "fund": "Total Governmental Funds",
+        "reason": "Public safety restricted amount shown only in Nonmajor column (3,404,919) but total column is blank",
+        "extracted": null,
+        "alternative": 3404919,
+        "page": 14,
+        "text_snippet": "Public safety 3.404.919",
+        "severity": "medium"
+      },
+      {
+        "field": "total_liabilities_and_fund_balances",
+        "fund": "General Fund",
+        "reason": "Listed under Fund Balance section instead of as separate total line",
+        "extracted": 6961575,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "TOTAL LIABILITIES, DEFERRED INFLOW 9,356.206 9,604.727 9,853,890 953,504 240.000 14.534.666 56,918,070",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Martin",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 6971606,
+        "charges_for_services": 934212,
+        "operating_grants": 372098,
+        "capital_grants": null,
+        "net_expense_revenue": -5665296
+      },
+      "public_safety": {
+        "expenses": 2459583,
+        "charges_for_services": 720,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2458863
+      },
+      "public_works": {
+        "expenses": 6625410,
+        "charges_for_services": 15762,
+        "operating_grants": 315204,
+        "capital_grants": 2418139,
+        "net_expense_revenue": -3876305
+      },
+      "economic_development": {
+        "expenses": 640233,
+        "charges_for_services": 90149,
+        "operating_grants": 194841,
+        "capital_grants": null,
+        "net_expense_revenue": -355243
+      },
+      "health_and_welfare": {
+        "expenses": 3623636,
+        "charges_for_services": 19615,
+        "operating_grants": 208149,
+        "capital_grants": null,
+        "net_expense_revenue": -3395872
+      },
+      "culture_and_recreation": {
+        "expenses": 724904,
+        "charges_for_services": 136046,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -588858
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 1248023,
+        "net_expense_revenue": -1248023
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 22293395,
+        "charges_for_services": 1196504,
+        "operating_grants": 1090292,
+        "capital_grants": 2418139,
+        "net_expense_revenue": -17588460
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 11335185,
+      "sales_taxes": 5606003,
+      "severance_taxes": 988973,
+      "fire_insurance_premiums": 211247,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": 1191069,
+      "gaming_revenues": 1429001,
+      "state_revenue_sharing": 405888,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 108627,
+      "miscellaneous": 542742,
+      "transfers": -368974,
+      "other_items": [
+        {
+          "label": "Transportation funds",
+          "amount": 561895
+        },
+        {
+          "label": "Gain on sale of asset",
+          "amount": 216654
+        }
+      ],
+      "total_general_revenues": 22228310
+    },
+    "change_in_net_position": 4639850,
+    "net_position_beginning": 72829452,
+    "net_position_ending": 77469302,
+    "cross_sectional": {
+      "property_ad_valorem": 11335185,
+      "sales_use_taxes": 7035004,
+      "severance_taxes": 988973,
+      "other_tax_revenue": 1402316,
+      "total_tax_revenue": 20761478,
+      "state_revenue_sharing": 405888,
+      "state_intergovernmental": 1090292,
+      "federal_intergovernmental": 2418139,
+      "local_transfer": -368974,
+      "all_other_revenue": 1429921,
+      "total_other_revenue": 4975266,
+      "total_program_revenue": 4704935,
+      "total_revenues": 30441679,
+      "general_government": 5665296,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": 5665296,
+      "public_safety": 2458863,
+      "public_works": 3876305,
+      "economic_development": 355243,
+      "health_and_welfare": 3395872,
+      "culture_and_recreation": 588858,
+      "interest_debt_service": 1248023,
+      "all_other_expenditures": 0,
+      "total_expenditures": 22293395
+    },
+    "_uncertainties": [
+      {
+        "field": "other_tax_revenue",
+        "fund": null,
+        "reason": "Transportation funds categorization unclear - could be intergovernmental or tax revenue",
+        "extracted": 1402316,
+        "alternative": 1964211,
+        "page": 12,
+        "text_snippet": "Transportation funds 561,895",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": null,
+  "ca": {
+    "parish": "St. Martin",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": 59161
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": -59161
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": -59161
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": 0
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": 0
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": 0,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 0
+    },
+    "_uncertainties": [
+      {
+        "field": "governmental_activities",
+        "fund": null,
+        "reason": "This appears to be a Housing Choice Vouchers program (HUD) balance sheet, not a typical governmental activities capital assets schedule with beginning/increases/decreases columns",
+        "extracted": "partial data only",
+        "alternative": "may not be the correct capital assets schedule",
+        "page": 82,
+        "text_snippet": "Entity Wide Balance Sheet Summary...164 Furniture, Equipment & Machinery - Administration $59,161...166 Accumulated Depreciation -$59,161",
+        "severity": "high"
+      }
+    ]
+  }
+}

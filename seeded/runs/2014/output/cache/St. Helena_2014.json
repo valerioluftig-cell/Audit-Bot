@@ -1,0 +1,720 @@
+{
+  "cbs": {
+    "parish": "St. Helena",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road Building & Maintenance Fund",
+      "Solid Waste Fund",
+      "LRAC DBG Fund",
+      "LGAP Grants Fund",
+      "Other Nonmajor Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 87584,
+        "Road Building & Maintenance Fund": 1173217,
+        "Solid Waste Fund": 1156472,
+        "LRAC DBG Fund": 3621,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": 2159131,
+        "Total Governmental Funds": 5280025
+      },
+      "investments": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": 153423,
+        "Total Governmental Funds": 153423
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 385187,
+        "Road Building & Maintenance Fund": 581482,
+        "Solid Waste Fund": 53091,
+        "LRAC DBG Fund": 148478,
+        "LGAP Grants Fund": 100000,
+        "Other Nonmajor Funds": 1548882,
+        "Total Governmental Funds": 2817120
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 150516,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": 4626,
+        "Total Governmental Funds": 155142
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": 7797,
+        "Other Nonmajor Funds": 424053,
+        "Total Governmental Funds": 431850
+      },
+      "total_assets": {
+        "General Fund": 623287,
+        "Road Building & Maintenance Fund": 1754699,
+        "Solid Waste Fund": 1109563,
+        "LRAC DBG Fund": 152099,
+        "LGAP Grants Fund": 107797,
+        "Other Nonmajor Funds": 4290115,
+        "Total Governmental Funds": 8837560
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 68427,
+        "Road Building & Maintenance Fund": 381161,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": 224629,
+        "LGAP Grants Fund": 155550,
+        "Other Nonmajor Funds": 85124,
+        "Total Governmental Funds": 914891
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 3864,
+        "Road Building & Maintenance Fund": 16444,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": 41921,
+        "Total Governmental Funds": 62229
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": 14706,
+        "LGAP Grants Fund": 16888,
+        "Other Nonmajor Funds": 123548,
+        "Total Governmental Funds": 155142
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 72291,
+        "Road Building & Maintenance Fund": 397605,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": 239335,
+        "LGAP Grants Fund": 172438,
+        "Other Nonmajor Funds": 250593,
+        "Total Governmental Funds": 1132262
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": null,
+        "LGAP Grants Fund": null,
+        "Other Nonmajor Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": null,
+            "Road Building & Maintenance Fund": 1357094,
+            "Solid Waste Fund": 1109563,
+            "LRAC DBG Fund": null,
+            "LGAP Grants Fund": null,
+            "Other Nonmajor Funds": 4076019,
+            "Total Governmental Funds": 7342676
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 550996,
+        "Road Building & Maintenance Fund": null,
+        "Solid Waste Fund": null,
+        "LRAC DBG Fund": -87236,
+        "LGAP Grants Fund": -64641,
+        "Other Nonmajor Funds": -36497,
+        "Total Governmental Funds": 362622
+      },
+      "total_fund_balances": {
+        "General Fund": 550996,
+        "Road Building & Maintenance Fund": 1357094,
+        "Solid Waste Fund": 1109563,
+        "LRAC DBG Fund": -87236,
+        "LGAP Grants Fund": -64641,
+        "Other Nonmajor Funds": 4039522,
+        "Total Governmental Funds": 7705298
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 623287,
+      "Road Building & Maintenance Fund": 1754699,
+      "Solid Waste Fund": 1109563,
+      "LRAC DBG Fund": 152099,
+      "LGAP Grants Fund": 107797,
+      "Other Nonmajor Funds": 4290115,
+      "Total Governmental Funds": 8837560
+    },
+    "cross_sectional": {
+      "cash": 87584,
+      "investments": null,
+      "receivables": 385187,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 150516,
+      "prepaid_items": null,
+      "total_assets": 623287,
+      "deferred_outflows": null,
+      "accounts_payable": 68427,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 3864,
+      "total_liabilities": 72291,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 550996,
+      "total_fund_balances": 550996,
+      "total_liabilities_and_fund_balances": 623287
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "LGAP Grants Fund and Other Nonmajor Funds",
+        "reason": "Restricted Cash line item classification - could be part of cash_and_deposits or a separate other_assets category",
+        "extracted": 431850,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Restricted Cash - - - - 7,797 424,053 431,850",
+        "severity": "medium"
+      },
+      {
+        "field": "cash_and_deposits",
+        "fund": "LGAP Grants Fund",
+        "reason": "LGAP Grants Fund shows blank/dash for Cash and Equivalents but has Restricted Cash of 7,797",
+        "extracted": null,
+        "alternative": 7797,
+        "page": 24,
+        "text_snippet": "Cash aid Equivalents $ 87,584 :S 1,173,217 s1 l,f1 56,472 $ 3,621 ; e 2,159,131",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Helena",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1832157,
+        "charges_for_services": 254480,
+        "operating_grants": 14000,
+        "capital_grants": 54122,
+        "net_expense_revenue": -1509555
+      },
+      "public_safety": {
+        "expenses": 1065049,
+        "charges_for_services": 113225,
+        "operating_grants": 5449,
+        "capital_grants": 190171,
+        "net_expense_revenue": -756204
+      },
+      "public_works": {
+        "expenses": 2729174,
+        "charges_for_services": 8975,
+        "operating_grants": 177542,
+        "capital_grants": 1317622,
+        "net_expense_revenue": -1225035
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 274763,
+        "charges_for_services": 4943,
+        "operating_grants": 135055,
+        "capital_grants": 202475,
+        "net_expense_revenue": 67710
+      },
+      "culture_and_recreation": {
+        "expenses": 32456,
+        "charges_for_services": null,
+        "operating_grants": 287463,
+        "capital_grants": null,
+        "net_expense_revenue": 255007
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 72581,
+        "net_expense_revenue": -72581
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 6088098,
+        "charges_for_services": 381623,
+        "operating_grants": 332046,
+        "capital_grants": 2051853,
+        "net_expense_revenue": -3322576
+      }
+    },
+    "general_revenues": {
+      "property_taxes": null,
+      "sales_taxes": 2150736,
+      "severance_taxes": 25453,
+      "fire_insurance_premiums": 29134,
+      "franchise_fees": null,
+      "other_taxes": 8553,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 44305,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": -203357,
+      "other_items": [
+        {
+          "label": "Gain (Loss) on Sale",
+          "amount": 36354
+        }
+      ],
+      "total_general_revenues": 5621341
+    },
+    "change_in_net_position": 2298765,
+    "net_position_beginning": 19272906,
+    "net_position_ending": 21571671,
+    "cross_sectional": {
+      "property_ad_valorem": null,
+      "sales_use_taxes": 2150736,
+      "severance_taxes": 25453,
+      "other_tax_revenue": 37687,
+      "total_tax_revenue": 2213876,
+      "state_revenue_sharing": 44305,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -203357,
+      "all_other_revenue": 36354,
+      "total_other_revenue": -122698,
+      "total_program_revenue": 2765522,
+      "total_revenues": 4856700,
+      "general_government": -1509555,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1509555,
+      "public_safety": -756204,
+      "public_works": -1225035,
+      "economic_development": null,
+      "health_and_welfare": 67710,
+      "culture_and_recreation": 255007,
+      "interest_debt_service": -72581,
+      "all_other_expenditures": null,
+      "total_expenditures": 6088098
+    },
+    "_uncertainties": [
+      {
+        "field": "culture_and_recreation.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "Recreation row shows no charges for services value in that column, but has operating grants",
+        "extracted": null,
+        "alternative": 0,
+        "page": 22,
+        "text_snippet": "Recreation 32,456 287,463 255,007",
+        "severity": "low"
+      },
+      {
+        "field": "net_position_beginning",
+        "fund": "governmental_activities",
+        "reason": "Prior Period adjustment of (123,837) appears between two beginning net position figures: 19,396,743 and 19,272,906",
+        "extracted": 19272906,
+        "alternative": 19396743,
+        "page": 22,
+        "text_snippet": "Net Position- 19,396,743 ... Prior Period (123,837) Net Position- 19,272,906",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.other_items",
+        "fund": "governmental_activities",
+        "reason": "Missing specific revenue line item labels and amounts from general revenues section - only total visible",
+        "extracted": 36354,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Gam (Loss) on Sale on 36,354",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. Helena",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 4446922,
+        "investments": 986526,
+        "taxes_receivable": null,
+        "other_receivables": 2817120,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 99350,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 235036,
+        "depreciable_net": 17632429,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 17867465
+      },
+      "other_noncurrent_assets": 431850,
+      "total_assets": 26649233,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 914891,
+        "retainage_payable": null,
+        "accrued_liabilities": 62229,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 31378,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 428726,
+        "bonds_payable_noncurrent": 1865000,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 308432,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": 134903,
+        "lease_liability_noncurrent": 261857,
+        "other_long_term": 1070146
+      },
+      "total_liabilities": 5077562,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 15145601,
+        "restricted": 7154301,
+        "unrestricted": -728231,
+        "total_net_position": 21571671
+      }
+    },
+    "component_units": {
+      "total_assets": 21181262,
+      "total_liabilities": 9470932,
+      "total_net_position": 11710330
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables Net line does not specify breakdown by type (taxes, accounts, etc.)",
+        "extracted": 2817120,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Receivabfes,Net: 2,817,120",
+        "severity": "medium"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Unfunded Net Other Post Employment Benefit Obligations classified as other_long_term",
+        "extracted": 1070146,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Unfunded Net Other Post Enpbyment Benefit Obligations 1,070,146",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined multiple restricted categories: Debt Service 41273 + Capital Projects 261754 + Other Purposes 6851274",
+        "extracted": 7154301,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Restrcted for: Debt Service 41,273 Capital Projects 261,754 Other Purposes 6,851,274",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "St. Helena",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 227865,
+          "increases": 7171,
+          "decreases": null,
+          "ending": 235036
+        },
+        "construction_in_progress": {
+          "beginning": 1476353,
+          "increases": 1328450,
+          "decreases": -700436,
+          "ending": 2104367
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 1704218,
+          "increases": 1335621,
+          "decreases": -700436,
+          "ending": 2339403
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 4411952,
+          "increases": 1395319,
+          "decreases": null,
+          "ending": 5807271
+        },
+        "machinery_and_equipment": {
+          "beginning": 6225882,
+          "increases": 410669,
+          "decreases": -52894,
+          "ending": 6583657
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 6851788,
+          "increases": 3685987,
+          "decreases": null,
+          "ending": 10537775
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 17489622,
+          "increases": 5491975,
+          "decreases": -52894,
+          "ending": 22928703
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -1917855,
+          "increases": -119046,
+          "decreases": null,
+          "ending": -2036901
+        },
+        "machinery_and_equipment": {
+          "beginning": -3667007,
+          "increases": -497192,
+          "decreases": 43073,
+          "ending": -4121126
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": -1069772,
+          "increases": -172842,
+          "decreases": null,
+          "ending": -1242614
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -6654634,
+          "increases": -789080,
+          "decreases": 43073,
+          "ending": -7400641
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 10834988,
+        "increases": 4702895,
+        "decreases": -9821,
+        "ending": 15528062
+      },
+      "total_capital_assets_net": {
+        "beginning": 12539206,
+        "increases": 6038516,
+        "decreases": -710257,
+        "ending": 17867465
+      }
+    },
+    "cross_sectional": {
+      "land": 235036,
+      "construction_in_progress": 2104367,
+      "other_non_depreciable": 0,
+      "buildings_net": 3770370,
+      "improvements_net": null,
+      "machinery_net": 2462531,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 9295161,
+      "total_governmental_net": 17867465
+    },
+    "_uncertainties": []
+  }
+}

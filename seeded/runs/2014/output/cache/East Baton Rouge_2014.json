@@ -1,0 +1,541 @@
+{
+  "cbs": {
+    "parish": "East Baton Rouge",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [],
+    "assets": {
+      "cash_and_deposits": {},
+      "investments": {},
+      "taxes_receivable": {},
+      "special_assessments_receivable": {},
+      "other_receivables": {},
+      "due_from_other_governments": {},
+      "due_from_other_funds": {},
+      "due_from_component_units": {},
+      "inventory": {},
+      "prepaid_items": {},
+      "other_assets": {},
+      "total_assets": {}
+    },
+    "liabilities": {
+      "accounts_payable": {},
+      "retainage_payable": {},
+      "accrued_liabilities": {},
+      "deposits_payable": {},
+      "unearned_revenue": {},
+      "due_to_other_funds": {},
+      "other_liabilities": {},
+      "total_liabilities": {}
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {}
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {},
+      "total_fund_balances": {}
+    },
+    "total_liabilities_and_fund_balances": {},
+    "cross_sectional": {
+      "cash": null,
+      "investments": null,
+      "receivables": null,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": null,
+      "deferred_outflows": null,
+      "accounts_payable": null,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": null,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": null,
+      "total_fund_balances": null,
+      "total_liabilities_and_fund_balances": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_data",
+        "fund": null,
+        "reason": "The provided PDF text does not contain the Combined Balance Sheet of Governmental Funds - only the government-wide Statement of Net Position (Exhibit A-1) is shown, which is not the requested governmental funds balance sheet",
+        "extracted": null,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "STATEMENT OF NET POSITION EXHIBIT A - 1",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "East Baton Rouge",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 99148612,
+        "charges_for_services": 22795703,
+        "operating_grants": 320097,
+        "capital_grants": null,
+        "net_expense_revenue": -76032812
+      },
+      "public_safety": {
+        "expenses": 233011923,
+        "charges_for_services": 27006901,
+        "operating_grants": 10769916,
+        "capital_grants": 321868,
+        "net_expense_revenue": -194913238
+      },
+      "public_works": {
+        "expenses": 66920723,
+        "charges_for_services": 216379,
+        "operating_grants": 571666,
+        "capital_grants": 23610909,
+        "net_expense_revenue": -42521769
+      },
+      "economic_development": {
+        "expenses": 46084260,
+        "charges_for_services": 3520513,
+        "operating_grants": 31193540,
+        "capital_grants": 470640,
+        "net_expense_revenue": -10899567
+      },
+      "health_and_welfare": {
+        "expenses": 9796865,
+        "charges_for_services": 800646,
+        "operating_grants": 299188,
+        "capital_grants": null,
+        "net_expense_revenue": -8697031
+      },
+      "culture_and_recreation": {
+        "expenses": 43762277,
+        "charges_for_services": 298515,
+        "operating_grants": 1106189,
+        "capital_grants": null,
+        "net_expense_revenue": -42357573
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 13413000,
+        "net_expense_revenue": -13413000
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 5790,
+          "charges_for_services": 51270,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": 45480
+        }
+      ],
+      "total": {
+        "expenses": 512143450,
+        "charges_for_services": 54689927,
+        "operating_grants": 44260596,
+        "capital_grants": 24403417,
+        "net_expense_revenue": -388789510
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 98252896,
+      "sales_taxes": 223779923,
+      "severance_taxes": null,
+      "fire_insurance_premiums": 3734350,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": 10664408,
+      "gaming_revenues": 9218503,
+      "state_revenue_sharing": 5551706,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 413278,
+      "miscellaneous": 1483091,
+      "transfers": 886331,
+      "other_items": [
+        {
+          "label": "Gross receipts business",
+          "amount": 24761520
+        },
+        {
+          "label": "Occupancy",
+          "amount": 2211310
+        },
+        {
+          "label": "Interest and penalties - delinquent taxes",
+          "amount": 17480
+        },
+        {
+          "label": "Grants and contributions not restricted to specific programs",
+          "amount": null
+        },
+        {
+          "label": "Gain on sale of capital assets",
+          "amount": 813639
+        }
+      ],
+      "total_general_revenues": 381788435
+    },
+    "change_in_net_position": -7001075,
+    "net_position_beginning": 614633296,
+    "net_position_ending": 607632221,
+    "cross_sectional": {
+      "property_ad_valorem": 98252896,
+      "sales_use_taxes": 233779923,
+      "severance_taxes": null,
+      "other_tax_revenue": 41394071,
+      "total_tax_revenue": 373426890,
+      "state_revenue_sharing": 5551706,
+      "state_intergovernmental": 44260596,
+      "federal_intergovernmental": 24403417,
+      "local_transfer": 886331,
+      "all_other_revenue": 2710008,
+      "total_other_revenue": 77811758,
+      "total_program_revenue": 123353940,
+      "total_revenues": 574592588,
+      "general_government": -76032812,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -76032812,
+      "public_safety": -194913238,
+      "public_works": -42521769,
+      "economic_development": -10899567,
+      "health_and_welfare": -8697031,
+      "culture_and_recreation": -42357573,
+      "interest_debt_service": -13413000,
+      "all_other_expenditures": 45480,
+      "total_expenditures": 512143450
+    },
+    "_uncertainties": [
+      {
+        "field": "general_revenues.gaming_revenues",
+        "fund": null,
+        "reason": "Gaming admissions tax was assigned to gaming_revenues field; could potentially be classified under other_taxes",
+        "extracted": 9218503,
+        "alternative": null,
+        "page": 40,
+        "text_snippet": "Gaming admissions 9,218,503",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.sales_use_taxes",
+        "fund": null,
+        "reason": "Assigned total sales_taxes (223,779,923) without adding gaming (9,218,503). Unclear if gaming should be included in sales_use_taxes calculation",
+        "extracted": 233779923,
+        "alternative": 223779923,
+        "page": 40,
+        "text_snippet": "Sales 223,779,923; Gaming admissions 9,218,503",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "East Baton Rouge",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 192939199,
+        "investments": 188791227,
+        "taxes_receivable": null,
+        "other_receivables": 53255487,
+        "due_from_other_governments": 84764697,
+        "due_from_component_units": null,
+        "inventory": 833178,
+        "prepaid_items": 681554,
+        "other_current_assets": 3614676
+      },
+      "capital_assets": {
+        "non_depreciable": 208882220,
+        "depreciable_net": 669766158,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 878648378
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 1403528396,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred amount on refunding",
+            "amount": 5548137
+          },
+          {
+            "label": "Deferred outflows on derivative instruments",
+            "amount": 15294792
+          },
+          {
+            "label": "Deferred outflow for pension",
+            "amount": null
+          }
+        ],
+        "total": 20842929
+      },
+      "current_liabilities": {
+        "accounts_payable": 43709310,
+        "retainage_payable": null,
+        "accrued_liabilities": 16640784,
+        "deposits_payable": 18143567,
+        "unearned_revenue": 1063162,
+        "accrued_interest": null,
+        "other_current_liabilities": 7697870
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 816387812,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Resources received before time requirements",
+            "amount": 351292
+          }
+        ],
+        "total": 351292
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 650424770,
+        "restricted": 195912751,
+        "unrestricted": -238705300,
+        "total_net_position": 607632221
+      }
+    },
+    "component_units": {
+      "total_assets": 169261127,
+      "total_liabilities": 126988385,
+      "total_net_position": 42512735
+    },
+    "_uncertainties": [
+      {
+        "field": "other_current_assets",
+        "fund": "governmental_activities",
+        "reason": "Loans receivable classified as current asset, not explicitly labeled as other current assets",
+        "extracted": 3614676,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Loans receivable 3,614,676",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Calculated sum of multiple restricted categories: Capital projects, Debt service, External legal constraints",
+        "extracted": 195912751,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Restricted for (Note 14): Capital projects 81,679,016, Debt service 8,949,390, External legal constraints 105,284,345",
+        "severity": "low"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Statement shows aggregated amounts Due within one year (30,338,476) and Due in more than one year (698,794,643) without detail breakdown by type",
+        "extracted": null,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Non-current liabilities (Note 10): Due within one year 30,338,476, Due in more than one year 698,794,643",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "East Baton Rouge",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_fields",
+        "fund": null,
+        "reason": "Page 93 contains only notes on restatements and new accounting standards, not the Capital Assets schedule",
+        "extracted": null,
+        "alternative": null,
+        "page": 93,
+        "text_snippet": "NOTE 1 - Summary of Significant Accounting Policies (Continued) f. Restatement of Prior Year Net Position - Component Units",
+        "severity": "high"
+      }
+    ]
+  }
+}

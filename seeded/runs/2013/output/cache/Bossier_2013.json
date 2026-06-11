@@ -1,0 +1,886 @@
+{
+  "cbs": {
+    "parish": "Bossier",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Highway",
+      "Library",
+      "Capital Improvements",
+      "LCDA Sewer Construction",
+      "Public Corrections",
+      "LCDA Public Improvements",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 4175695,
+        "Highway": 5369423,
+        "Library": 8807171,
+        "Capital Improvements": 8191172,
+        "LCDA Sewer Construction": 66569,
+        "Public Corrections": 2403514,
+        "LCDA Public Improvements": 1542077,
+        "Other Governmental Funds": 9948521,
+        "Total Governmental Funds": 40504142
+      },
+      "investments": {
+        "General": 170335,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 170335
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 2966234,
+        "Highway": 4354103,
+        "Library": 7367030,
+        "Capital Improvements": 1053726,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": 2971772,
+        "LCDA Public Improvements": 3324947,
+        "Other Governmental Funds": 1036700,
+        "Total Governmental Funds": 23074512
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 69371,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": 6373,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 75744
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": 11347677,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 8243332
+      },
+      "total_assets": {
+        "General": 7381635,
+        "Highway": 9723526,
+        "Library": 16196076,
+        "Capital Improvements": 9244898,
+        "LCDA Sewer Construction": 11347677,
+        "Public Corrections": 5375286,
+        "LCDA Public Improvements": 4867024,
+        "Other Governmental Funds": 12811170,
+        "Total Governmental Funds": 76947292
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 353048,
+        "Highway": 526769,
+        "Library": 384043,
+        "Capital Improvements": 56514,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": 248149,
+        "LCDA Public Improvements": 3324947,
+        "Other Governmental Funds": 223062,
+        "Total Governmental Funds": 5116532
+      },
+      "retainage_payable": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 55782,
+        "Highway": null,
+        "Library": 11300,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": 8662,
+        "Total Governmental Funds": 75744
+      },
+      "other_liabilities": {
+        "General": null,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General": 353048,
+        "Highway": 582551,
+        "Library": 384043,
+        "Capital Improvements": 67814,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": 248149,
+        "LCDA Public Improvements": 3324947,
+        "Other Governmental Funds": 231724,
+        "Total Governmental Funds": 5192276
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue - Property Taxes",
+          "values": {
+            "General": 1948025,
+            "Highway": 1966068,
+            "Library": 7404640,
+            "Capital Improvements": null,
+            "LCDA Sewer Construction": null,
+            "Public Corrections": 2934461,
+            "LCDA Public Improvements": null,
+            "Other Governmental Funds": 811884,
+            "Total Governmental Funds": 15065078
+          }
+        },
+        {
+          "label": "Other",
+          "values": {
+            "General": 73369,
+            "Highway": 450013,
+            "Library": 5117,
+            "Capital Improvements": 16695,
+            "LCDA Sewer Construction": null,
+            "Public Corrections": 4747,
+            "LCDA Public Improvements": 113041,
+            "Other Governmental Funds": 6963,
+            "Total Governmental Funds": 669945
+          }
+        }
+      ],
+      "total": {
+        "General": 2021394,
+        "Highway": 2416081,
+        "Library": 7409757,
+        "Capital Improvements": 16695,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": 2939208,
+        "LCDA Public Improvements": 113041,
+        "Other Governmental Funds": 818847,
+        "Total Governmental Funds": 15735023
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Advance to Waterworks/Sewer District",
+          "values": {
+            "General": null,
+            "Highway": null,
+            "Library": null,
+            "Capital Improvements": null,
+            "LCDA Sewer Construction": 8243332,
+            "Public Corrections": null,
+            "LCDA Public Improvements": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 8243332
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Highway": null,
+            "Library": 8009313,
+            "Capital Improvements": 9022454,
+            "LCDA Sewer Construction": null,
+            "Public Corrections": 3104345,
+            "LCDA Public Improvements": 748940,
+            "Other Governmental Funds": 6720965,
+            "Total Governmental Funds": 27606017
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General": 3087683,
+            "Highway": 6724894,
+            "Library": 392963,
+            "Capital Improvements": 137935,
+            "LCDA Sewer Construction": null,
+            "Public Corrections": 1438989,
+            "LCDA Public Improvements": 1429036,
+            "Other Governmental Funds": 5039634,
+            "Total Governmental Funds": 18251134
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 1919510,
+        "Highway": null,
+        "Library": null,
+        "Capital Improvements": null,
+        "LCDA Sewer Construction": null,
+        "Public Corrections": null,
+        "LCDA Public Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1919510
+      },
+      "total_fund_balances": {
+        "General": 5007193,
+        "Highway": 6724894,
+        "Library": 8402276,
+        "Capital Improvements": 9160389,
+        "LCDA Sewer Construction": 11347677,
+        "Public Corrections": 2187929,
+        "LCDA Public Improvements": 1429036,
+        "Other Governmental Funds": 11760599,
+        "Total Governmental Funds": 56019993
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 7381635,
+      "Highway": 9723526,
+      "Library": 16196076,
+      "Capital Improvements": 9244898,
+      "LCDA Sewer Construction": 11347677,
+      "Public Corrections": 5375286,
+      "LCDA Public Improvements": 4867024,
+      "Other Governmental Funds": 12811170,
+      "Total Governmental Funds": 76947292
+    },
+    "cross_sectional": {
+      "cash": 4175695,
+      "investments": 170335,
+      "receivables": 2966234,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 69371,
+      "prepaid_items": null,
+      "total_assets": 7381635,
+      "deferred_outflows": null,
+      "accounts_payable": 353048,
+      "deferred_revenues": null,
+      "government_transfers": 55782,
+      "other_liabilities": null,
+      "total_liabilities": 353048,
+      "deferred_inflows": 2021394,
+      "reserved": null,
+      "unreserved_designated": 3087683,
+      "unreserved_undesignated": 1919510,
+      "total_fund_balances": 5007193,
+      "total_liabilities_and_fund_balances": 7381635
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "LCDA Sewer Construction",
+        "reason": "Advance to Waterworks/Sewer District appears as asset line item in LCDA Sewer Construction column but is classified as nonspendable fund balance; Total Governmental Funds shows 8,243,332 which matches the advance amount",
+        "extracted": 11347677,
+        "alternative": 8243332,
+        "page": 17,
+        "text_snippet": "Advance to Waterworks/Sewer District 8,243,332 8,243,332",
+        "severity": "high"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Total Governmental Funds",
+        "reason": "Receivables line may include taxes receivable and other receivables combined; no separate breakdown provided for different receivable types",
+        "extracted": 23074512,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Receivables 2,966,234 4,354,103 7,367,030 1,053,726 2,971,772 3,324,947 1,036,700 23,074,512",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted_cash",
+        "fund": "All funds",
+        "reason": "Restricted cash appears in only three funds (General 21,875, Capital Improvements 3,037,776, Public Corrections 1,819,576) totaling 4,879,227 but is not included in cash_and_deposits or other_assets breakdown",
+        "extracted": null,
+        "alternative": 4879227,
+        "page": 17,
+        "text_snippet": "Restricted cash 21,875 3,037,776 1,819,576 4,879,227",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Bossier",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 8987851,
+        "charges_for_services": 1381577,
+        "operating_grants": 609,
+        "capital_grants": null,
+        "net_expense_revenue": -7605665
+      },
+      "public_safety": {
+        "expenses": 5879127,
+        "charges_for_services": 343141,
+        "operating_grants": 44090,
+        "capital_grants": null,
+        "net_expense_revenue": -5491896
+      },
+      "public_works": {
+        "expenses": 16737152,
+        "charges_for_services": 367165,
+        "operating_grants": 168188,
+        "capital_grants": 19662577,
+        "net_expense_revenue": 3460778
+      },
+      "economic_development": {
+        "expenses": 1887534,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1887534
+      },
+      "health_and_welfare": {
+        "expenses": 4799126,
+        "charges_for_services": 3894996,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -904130
+      },
+      "culture_and_recreation": {
+        "expenses": 5061207,
+        "charges_for_services": 73887,
+        "operating_grants": 22892,
+        "capital_grants": null,
+        "net_expense_revenue": -4964428
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 2064894,
+        "net_expense_revenue": -2064894
+      },
+      "other_activities": [
+        {
+          "label": "Public utilities",
+          "expenses": 61824,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -61824
+        }
+      ],
+      "total": {
+        "expenses": 45478715,
+        "charges_for_services": 2165770,
+        "operating_grants": 4130775,
+        "capital_grants": 19662577,
+        "net_expense_revenue": -19519593
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 14361439,
+      "sales_taxes": 17506962,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 514614,
+      "other_taxes": 1099386,
+      "occupational_licenses": null,
+      "gaming_revenues": 4265533,
+      "state_revenue_sharing": 547857,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 65382,
+      "miscellaneous": 2822201,
+      "transfers": -8676072,
+      "other_items": [
+        {
+          "label": "Gain of sale of property",
+          "amount": 184504
+        }
+      ],
+      "total_general_revenues": 32691806
+    },
+    "change_in_net_position": 13172213,
+    "net_position_beginning": 267079437,
+    "net_position_ending": 280251650,
+    "cross_sectional": {
+      "property_ad_valorem": 14361439,
+      "sales_use_taxes": 21772495,
+      "severance_taxes": null,
+      "other_tax_revenue": 1614000,
+      "total_tax_revenue": 37747934,
+      "state_revenue_sharing": 547857,
+      "state_intergovernmental": 4130775,
+      "federal_intergovernmental": null,
+      "local_transfer": -8676072,
+      "all_other_revenue": 3072087,
+      "total_other_revenue": -925353,
+      "total_program_revenue": 25959122,
+      "total_revenues": 62781703,
+      "general_government": -7605665,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -7605665,
+      "public_safety": -5491896,
+      "public_works": 3460778,
+      "economic_development": -1887534,
+      "health_and_welfare": -904130,
+      "culture_and_recreation": -4964428,
+      "interest_debt_service": -2064894,
+      "all_other_expenditures": -61824,
+      "total_expenditures": 45478715
+    },
+    "_uncertainties": [
+      {
+        "field": "state_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants total may include both state and federal sources; unclear breakdown",
+        "extracted": 4130775,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Operating Grants and Contributions ... 4,130,775",
+        "severity": "medium"
+      },
+      {
+        "field": "federal_intergovernmental",
+        "fund": null,
+        "reason": "Cannot separate federal from state operating grants without additional detail",
+        "extracted": null,
+        "alternative": 4130775,
+        "page": 16,
+        "text_snippet": "Operating Grants and Contributions ... 4,130,775",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Bossier",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 40504142,
+        "investments": 170335,
+        "taxes_receivable": null,
+        "other_receivables": 23074512,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 922606,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 19244357,
+        "depreciable_net": 265881743,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 285126100
+      },
+      "other_noncurrent_assets": 4879227,
+      "total_assets": 362920254,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": 5670884,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 61932642
+      },
+      "total_liabilities": 67603526,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Unavailable revenue - property taxes",
+            "amount": 15065078
+          }
+        ],
+        "total": 15065078
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 234828358,
+        "restricted": 24349790,
+        "unrestricted": 21073502,
+        "total_net_position": 280251650
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "Governmental Activities",
+        "reason": "Restricted cash is classified as current asset in some jurisdictions but appears separate from main cash line",
+        "extracted": 4879227,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Restricted cash 4,879,227",
+        "severity": "medium"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Governmental Activities",
+        "reason": "Receivables line item not broken down into taxes vs other categories",
+        "extracted": 23074512,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Receivables 23,074,512",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "Governmental Activities",
+        "reason": "Long-term liabilities not itemized by type; combined due within one year and due in more than one year",
+        "extracted": 61932642,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Due within one year 4,998,865 ... Due in more than one year 56,933,777",
+        "severity": "high"
+      },
+      {
+        "field": "restricted",
+        "fund": "Governmental Activities",
+        "reason": "Multiple restricted categories summed manually",
+        "extracted": 24349790,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Restricted for: Capital projects 10,572,534...Health and welfare 2,174,851",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Bossier",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 12207084,
+          "increases": 805670,
+          "decreases": -40496,
+          "ending": 12972258
+        },
+        "construction_in_progress": {
+          "beginning": 6042279,
+          "increases": 3270200,
+          "decreases": -3040380,
+          "ending": 6272099
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 18249363,
+          "increases": 4075870,
+          "decreases": -3040380,
+          "ending": 19244357
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 108060059,
+          "increases": 212479,
+          "decreases": null,
+          "ending": 108272538
+        },
+        "machinery_and_equipment": {
+          "beginning": 10575576,
+          "increases": 357500,
+          "decreases": -14236,
+          "ending": 10918840
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 220251390,
+          "increases": 11195718,
+          "decreases": null,
+          "ending": 231447108
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": 4631676,
+          "increases": 559810,
+          "decreases": null,
+          "ending": 5191486
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 343518701,
+          "increases": 12325507,
+          "decreases": -14236,
+          "ending": 355829972
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -24025483,
+          "increases": -2644445,
+          "decreases": null,
+          "ending": -26669928
+        },
+        "machinery_and_equipment": {
+          "beginning": -6208523,
+          "increases": -692827,
+          "decreases": 9965,
+          "ending": -6891385
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": -46703687,
+          "increases": -5702147,
+          "decreases": null,
+          "ending": -52405834
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": -3526904,
+          "increases": -454178,
+          "decreases": null,
+          "ending": -3981082
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -80464597,
+          "increases": -9493597,
+          "decreases": 9965,
+          "ending": -89948229
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 263054104,
+        "increases": -208470,
+        "decreases": -4271,
+        "ending": 265881743
+      },
+      "total_capital_assets_net": {
+        "beginning": 281303467,
+        "increases": 3867400,
+        "decreases": -44767,
+        "ending": 285126100
+      }
+    },
+    "cross_sectional": {
+      "land": 12972258,
+      "construction_in_progress": 6272099,
+      "other_non_depreciable": null,
+      "buildings_net": 81602610,
+      "improvements_net": null,
+      "machinery_net": 4027455,
+      "other_depreciable_net": null,
+      "books_net": 1210404,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 179041274,
+      "total_governmental_net": 285126100
+    },
+    "_uncertainties": [
+      {
+        "field": "depreciable.buildings_and_improvements.increases",
+        "fund": "Governmental Activities",
+        "reason": "PDF shows 'Transfers' of 67,621 and 'Additions' of 144,858. Unclear if both should be summed as increases or if transfers are separate category",
+        "extracted": 212479,
+        "alternative": 144858,
+        "page": 38,
+        "text_snippet": "Buildings and improvements 108,060,059 67,621 144,858 108,272,538",
+        "severity": "medium"
+      },
+      {
+        "field": "depreciable.infrastructure.increases",
+        "fund": "Governmental Activities",
+        "reason": "PDF shows 'Transfers' of 2,972,759 and 'Additions' of 8,222,959. Unclear if both should be summed as increases or if transfers are separate category",
+        "extracted": 11195718,
+        "alternative": 8222959,
+        "page": 38,
+        "text_snippet": "Infrastructure 220,251,390 2,972,759 8,222,959 231,447,108",
+        "severity": "medium"
+      },
+      {
+        "field": "not_depreciated.construction_in_progress.decreases",
+        "fund": "Governmental Activities",
+        "reason": "Transfers column shows (3,040,380) which may be reclassification rather than decrease/disposal",
+        "extracted": -3040380,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Construction in progress 6,042,279 (3,040,380) 3,270,200 6,272,099",
+        "severity": "low"
+      }
+    ]
+  }
+}

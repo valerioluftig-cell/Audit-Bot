@@ -1,0 +1,917 @@
+{
+  "cbs": {
+    "parish": "Jefferson",
+    "year": 2014,
+    "in_thousands": true,
+    "funds": [
+      "General Fund",
+      "Federal and State Grants",
+      "East Bank Consolidated Fire District",
+      "Library",
+      "Drainage and Pump Station Capital",
+      "Road & Street Capital Improvements",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 693000,
+        "Federal and State Grants": 42000,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": 4242000,
+        "Total Governmental Funds": 4985000
+      },
+      "investments": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": 25284000,
+        "Road & Street Capital Improvements": 18432000,
+        "Other Governmental Funds": 9878000,
+        "Total Governmental Funds": 53594000
+      },
+      "taxes_receivable": {
+        "General Fund": 4151000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": 38488000,
+        "Library": 21074000,
+        "Drainage and Pump Station Capital": 15929000,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": 116720000,
+        "Total Governmental Funds": 196362000
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 941000,
+        "Federal and State Grants": 24000,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": 4397000,
+        "Total Governmental Funds": 5382000
+      },
+      "due_from_other_governments": {
+        "General Fund": 15745000,
+        "Federal and State Grants": 17026000,
+        "East Bank Consolidated Fire District": 40000,
+        "Library": 31000,
+        "Drainage and Pump Station Capital": 4164000,
+        "Road & Street Capital Improvements": 1576000,
+        "Other Governmental Funds": 24316000,
+        "Total Governmental Funds": 62900000
+      },
+      "due_from_other_funds": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": 2049000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 2049000
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": 1096000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1096000
+      },
+      "total_assets": {
+        "General Fund": 36027000,
+        "Federal and State Grants": 19276000,
+        "East Bank Consolidated Fire District": 51928000,
+        "Library": 81429000,
+        "Drainage and Pump Station Capital": 155430000,
+        "Road & Street Capital Improvements": 98354000,
+        "Other Governmental Funds": 380869000,
+        "Total Governmental Funds": 793313000
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 2290000,
+        "Federal and State Grants": 2344000,
+        "East Bank Consolidated Fire District": 70000,
+        "Library": 336000,
+        "Drainage and Pump Station Capital": 4671000,
+        "Road & Street Capital Improvements": 6642000,
+        "Other Governmental Funds": 10325000,
+        "Total Governmental Funds": 27178000
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 6019000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 6019000
+      },
+      "deposits_payable": {
+        "General Fund": 56000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 56000
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 12090000,
+        "Federal and State Grants": 309000,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 12399000
+      },
+      "other_liabilities": {
+        "General Fund": 1455000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": 2000,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": 1340000,
+        "Total Governmental Funds": 2397000
+      },
+      "total_liabilities": {
+        "General Fund": 8366000,
+        "Federal and State Grants": 14888000,
+        "East Bank Consolidated Fire District": 70000,
+        "Library": 336000,
+        "Drainage and Pump Station Capital": 4673000,
+        "Road & Street Capital Improvements": 6642000,
+        "Other Governmental Funds": 13074000,
+        "Total Governmental Funds": 48049000
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue - property taxes",
+          "values": {
+            "General Fund": 4157000,
+            "Federal and State Grants": null,
+            "East Bank Consolidated Fire District": 38549000,
+            "Library": 21103000,
+            "Drainage and Pump Station Capital": 15951000,
+            "Road & Street Capital Improvements": null,
+            "Other Governmental Funds": 118924000,
+            "Total Governmental Funds": 198684000
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 4157000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": 38549000,
+        "Library": 21103000,
+        "Drainage and Pump Station Capital": 15951000,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": 118924000,
+        "Total Governmental Funds": 198684000
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General Fund": 2049000,
+            "Federal and State Grants": null,
+            "East Bank Consolidated Fire District": null,
+            "Library": null,
+            "Drainage and Pump Station Capital": null,
+            "Road & Street Capital Improvements": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 2049000
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": 1862000,
+            "Federal and State Grants": 4390000,
+            "East Bank Consolidated Fire District": 13307000,
+            "Library": 29990000,
+            "Drainage and Pump Station Capital": 134806000,
+            "Road & Street Capital Improvements": 91712000,
+            "Other Governmental Funds": 163391000,
+            "Total Governmental Funds": 429458000
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": 5016000,
+            "Federal and State Grants": null,
+            "East Bank Consolidated Fire District": null,
+            "Library": null,
+            "Drainage and Pump Station Capital": null,
+            "Road & Street Capital Improvements": null,
+            "Other Governmental Funds": 93431000,
+            "Total Governmental Funds": 98447000
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General Fund": null,
+            "Federal and State Grants": null,
+            "East Bank Consolidated Fire District": null,
+            "Library": null,
+            "Drainage and Pump Station Capital": null,
+            "Road & Street Capital Improvements": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 16626000,
+        "Federal and State Grants": null,
+        "East Bank Consolidated Fire District": null,
+        "Library": null,
+        "Drainage and Pump Station Capital": null,
+        "Road & Street Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 16626000
+      },
+      "total_fund_balances": {
+        "General Fund": null,
+        "Federal and State Grants": 4390000,
+        "East Bank Consolidated Fire District": 13307000,
+        "Library": null,
+        "Drainage and Pump Station Capital": 134806000,
+        "Road & Street Capital Improvements": 91712000,
+        "Other Governmental Funds": 248871000,
+        "Total Governmental Funds": 546580000
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 36027000,
+      "Federal and State Grants": 19276000,
+      "East Bank Consolidated Fire District": 51928000,
+      "Library": 81429000,
+      "Drainage and Pump Station Capital": 155430000,
+      "Road & Street Capital Improvements": 98354000,
+      "Other Governmental Funds": 380869000,
+      "Total Governmental Funds": 793313000
+    },
+    "cross_sectional": {
+      "cash": 693000,
+      "investments": null,
+      "receivables": 20837000,
+      "inventory": 2049000,
+      "other_assets": 1096000,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": 36027000,
+      "deferred_outflows": null,
+      "accounts_payable": 2290000,
+      "deferred_revenues": null,
+      "government_transfers": 12090000,
+      "other_liabilities": 7530000,
+      "total_liabilities": 8366000,
+      "deferred_inflows": 4157000,
+      "reserved": 3911000,
+      "unreserved_designated": 5016000,
+      "unreserved_undesignated": 16626000,
+      "total_fund_balances": null,
+      "total_liabilities_and_fund_balances": 36027000
+    },
+    "_uncertainties": [
+      {
+        "field": "investments",
+        "fund": "Total Governmental Funds",
+        "reason": "PDF shows 53,694 but sum of individual fund columns (25284+18432+9878) equals 53,594",
+        "extracted": 53594000,
+        "alternative": 53694000,
+        "page": 43,
+        "text_snippet": "Investments . - . - 25,284 18,432 9.878 53,694",
+        "severity": "high"
+      },
+      {
+        "field": "assets - share of pooled assets",
+        "fund": null,
+        "reason": "Share of pooled assets line item present but not mapped to standard assets structure - appears to be cash equivalents or investments",
+        "extracted": null,
+        "alternative": 486937000,
+        "page": 43,
+        "text_snippet": "Share of imled assets 14,086 2,226 13,398 30,324 109,350 78,289 219,264 486,937",
+        "severity": "high"
+      },
+      {
+        "field": "assets - interest receivable",
+        "fund": null,
+        "reason": "Interest receivable line item present but not mapped to standard structure - included in other_receivables calculation",
+        "extracted": null,
+        "alternative": 28000,
+        "page": 43,
+        "text_snippet": "literest 10 15 3 28",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities - other_liabilities",
+        "fund": "General Fund",
+        "reason": "Intergovernmental payable shown as separate line but no clear mapping - classified as other_liabilities",
+        "extracted": 1455000,
+        "alternative": null,
+        "page": 43,
+        "text_snippet": "Intergovernmental payable 1 454",
+        "severity": "medium"
+      },
+      {
+        "field": "fund_balances - total_fund_balances",
+        "fund": "General Fund",
+        "reason": "General Fund total fund balance not explicitly shown in table, appears blank",
+        "extracted": null,
+        "alternative": null,
+        "page": 43,
+        "text_snippet": "TOTAL FUND BALANCES 4.390 13.307 134.806 91.712 248.871 646.S80",
+        "severity": "high"
+      },
+      {
+        "field": "fund_balances - total_fund_balances",
+        "fund": "Library",
+        "reason": "Library total fund balance not explicitly shown in table, appears blank",
+        "extracted": null,
+        "alternative": null,
+        "page": 43,
+        "text_snippet": "TOTAL FUND BALANCES 4.390 13.307 134.806 91.712 248.871 646.S80",
+        "severity": "high"
+      },
+      {
+        "field": "fund_balances - total_fund_balances",
+        "fund": "Total Governmental Funds",
+        "reason": "OCR issue - shows 646.S80 which appears to be 546,580 based on context",
+        "extracted": 546580000,
+        "alternative": 646580000,
+        "page": 43,
+        "text_snippet": "TOTAL FUND BALANCES 4.390 13.307 134.806 91.712 248.871 646.S80",
+        "severity": "high"
+      },
+      {
+        "field": "liabilities - other_liabilities",
+        "fund": "General Fund",
+        "reason": "OCR shows '1 454' for intergovernmental payable - interpreted as 1,455 based on spacing",
+        "extracted": 1455000,
+        "alternative": 1454000,
+        "page": 43,
+        "text_snippet": "Intergovernmental payable 1 454",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Jefferson",
+    "year": 2014,
+    "in_thousands": true,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 70717000,
+        "charges_for_services": 15168000,
+        "operating_grants": 689000,
+        "capital_grants": 216000,
+        "net_expense_revenue": -54644000
+      },
+      "public_safety": {
+        "expenses": 100987000,
+        "charges_for_services": 16261000,
+        "operating_grants": 9876000,
+        "capital_grants": 332000,
+        "net_expense_revenue": -74518000
+      },
+      "public_works": {
+        "expenses": 133188000,
+        "charges_for_services": 20297000,
+        "operating_grants": 1332000,
+        "capital_grants": 46526000,
+        "net_expense_revenue": -65033000
+      },
+      "economic_development": {
+        "expenses": 60000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": 60000,
+        "net_expense_revenue": -60000
+      },
+      "health_and_welfare": {
+        "expenses": 47945000,
+        "charges_for_services": 4266000,
+        "operating_grants": 29205000,
+        "capital_grants": 3201000,
+        "net_expense_revenue": -11273000
+      },
+      "culture_and_recreation": {
+        "expenses": 48043000,
+        "charges_for_services": 9033000,
+        "operating_grants": 2089000,
+        "capital_grants": 5404000,
+        "net_expense_revenue": -31517000
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 19721000,
+        "net_expense_revenue": -19721000
+      },
+      "other_activities": [
+        {
+          "label": "Transit",
+          "expenses": 17961000,
+          "charges_for_services": 3589000,
+          "operating_grants": 499000,
+          "capital_grants": 2675000,
+          "net_expense_revenue": -11198000
+        },
+        {
+          "label": "Urban redevelopment and housing",
+          "expenses": 9380000,
+          "charges_for_services": null,
+          "operating_grants": 4401000,
+          "capital_grants": null,
+          "net_expense_revenue": -4979000
+        }
+      ],
+      "total": {
+        "expenses": 447942000,
+        "charges_for_services": 68614000,
+        "operating_grants": 48151000,
+        "capital_grants": 58354000,
+        "net_expense_revenue": -272823000
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 191583000,
+      "sales_taxes": 148018000,
+      "severance_taxes": 986000,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 5515000,
+      "other_taxes": 4274000,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 4784000,
+      "miscellaneous": 29676000,
+      "transfers": -1541000,
+      "other_items": [
+        {
+          "label": "Alcoholic beverage",
+          "amount": 424000
+        },
+        {
+          "label": "Chain store",
+          "amount": 199000
+        },
+        {
+          "label": "Hotel/Motel",
+          "amount": 3651000
+        },
+        {
+          "label": "Auto Rental",
+          "amount": null
+        }
+      ],
+      "total_general_revenues": 383295000
+    },
+    "change_in_net_position": 110472000,
+    "net_position_beginning": 1274410000,
+    "net_position_ending": 1364862000,
+    "cross_sectional": {
+      "property_ad_valorem": 191583000,
+      "sales_use_taxes": 148018000,
+      "severance_taxes": 986000,
+      "other_tax_revenue": 9938000,
+      "total_tax_revenue": 350525000,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -1541000,
+      "all_other_revenue": 34460000,
+      "total_other_revenue": 32919000,
+      "total_program_revenue": 175119000,
+      "total_revenues": 558563000,
+      "general_government": -54644000,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -54644000,
+      "public_safety": -74518000,
+      "public_works": -65033000,
+      "economic_development": -60000,
+      "health_and_welfare": -11273000,
+      "culture_and_recreation": -31517000,
+      "interest_debt_service": -19721000,
+      "all_other_expenditures": -16177000,
+      "total_expenditures": 447942000
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Combined multiple small tax categories (Alcoholic beverage $424 + Chain store $199 + Hotel/Motel $3651) for other_taxes calculation",
+        "extracted": 4274000,
+        "alternative": null,
+        "page": 42,
+        "text_snippet": "Alcoholic beverage 424, Chain store 199, HotelAtotel 3,651",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues.other_items.Auto Rental",
+        "fund": null,
+        "reason": "Auto Rental line appears in tax list but no amount shown, unclear if missing data or included elsewhere",
+        "extracted": null,
+        "alternative": null,
+        "page": 42,
+        "text_snippet": "Auto Rental - (no amount shown after Hotel/Motel 3,651)",
+        "severity": "medium"
+      },
+      {
+        "field": "economic_development.net_expense_revenue",
+        "fund": null,
+        "reason": "Economic development shows expenses of 60 and capital grants of 60, net appears to be -60 but text shows only dashes",
+        "extracted": -60000,
+        "alternative": null,
+        "page": 42,
+        "text_snippet": "Economic development 60 60 60 - - -",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Jefferson",
+    "year": 2014,
+    "in_thousands": true,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 4986000,
+        "investments": 73761000,
+        "taxes_receivable": 196362000,
+        "other_receivables": 68327000,
+        "due_from_other_governments": 62965000,
+        "due_from_component_units": null,
+        "inventory": 3423000,
+        "prepaid_items": null,
+        "other_current_assets": 503630000
+      },
+      "capital_assets": {
+        "non_depreciable": 233702000,
+        "depreciable_net": 992761000,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 1226463000
+      },
+      "other_noncurrent_assets": 8427000,
+      "total_assets": 2085430000,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred charges on bond issuance costs",
+            "amount": 8143000
+          }
+        ],
+        "total": 8143000
+      },
+      "current_liabilities": {
+        "accounts_payable": 27719000,
+        "retainage_payable": 507000,
+        "accrued_liabilities": 7402000,
+        "deposits_payable": 56000,
+        "unearned_revenue": 209712000,
+        "accrued_interest": 1357000,
+        "other_current_liabilities": 37421000
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 433561000
+      },
+      "total_liabilities": 708691000,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 877954000,
+        "restricted": 398991000,
+        "unrestricted": 107409000,
+        "total_net_position": 1384682000
+      }
+    },
+    "component_units": {
+      "total_assets": 922781000,
+      "total_liabilities": 470720000,
+      "total_net_position": 452061000
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Combined interest receivable (51), accounts receivable (5362), and intergovernmental (62965) minus intergovernmental separately recorded; also share of pooled assets may be cash equivalent",
+        "extracted": 68327000,
+        "alternative": 5413000,
+        "page": 40,
+        "text_snippet": "Interest 51, Accounts 5,362, Intergovernmental 62,965",
+        "severity": "medium"
+      },
+      {
+        "field": "other_current_assets",
+        "fund": "governmental_activities",
+        "reason": "Share of pooled assets (503,630) classified as current but unclear if this is cash equivalent or separate investment category",
+        "extracted": 503630000,
+        "alternative": null,
+        "page": 40,
+        "text_snippet": "Share of pooled assets .503,630",
+        "severity": "high"
+      },
+      {
+        "field": "unearned_revenue",
+        "fund": "governmental_activities",
+        "reason": "Combined regular unearned revenue (198,684) and unearned revenue payable from restricted assets (11,028)",
+        "extracted": 209712000,
+        "alternative": 198684000,
+        "page": 41,
+        "text_snippet": "Unearned revenue 198,684 ... Unearned revenue 11,028",
+        "severity": "medium"
+      },
+      {
+        "field": "accrued_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Combined accrued salaries payable (1,383) and other payables and accruals (6,019)",
+        "extracted": 7402000,
+        "alternative": 6019000,
+        "page": 41,
+        "text_snippet": "Accrued salaries payable 1,383, Other payables and accruals 6,019",
+        "severity": "low"
+      },
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Combined current portion of long term debt (31,521), claims and judgments (5,994), and intergovernmental payable (2,397) minus separately classified amounts",
+        "extracted": 37421000,
+        "alternative": null,
+        "page": 41,
+        "text_snippet": "Claims and judgments payable 5,994, Intergovernmental payable 2,397, Current portion of long term debt 31.521",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Summed all restricted categories from net position section including judges annuities, general govt, public safety, public works, transit, health, culture, econ dev, urban, construction, claims, pension",
+        "extracted": 398991000,
+        "alternative": null,
+        "page": 41,
+        "text_snippet": "Restricted for Judges annuities 1,861, General Government 1.470, Public Safety 40,348... Construction 226,518... Claims and Judgments payable 4,898, Pension benefits 528",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Jefferson",
+    "year": 2014,
+    "in_thousands": true,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 64274000,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 68997000
+        },
+        "construction_in_progress": {
+          "beginning": 178907000,
+          "increases": 113751000,
+          "decreases": 0,
+          "ending": 166705000
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 243181000,
+          "increases": 113751000,
+          "decreases": 0,
+          "ending": 233702000
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 380988000,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 385110000
+        },
+        "machinery_and_equipment": {
+          "beginning": 249880000,
+          "increases": 2196000,
+          "decreases": -988000,
+          "ending": 257852000
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 187562000,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 191660000
+        },
+        "infrastructure": {
+          "beginning": 2995478000,
+          "increases": 0,
+          "decreases": 0,
+          "ending": 3090289000
+        },
+        "vehicles": {
+          "beginning": 58592000,
+          "increases": 2839000,
+          "decreases": -2659000,
+          "ending": 59485000
+        },
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 3872480000,
+          "increases": 5035000,
+          "decreases": -3647000,
+          "ending": 3984396000
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 169192000,
+          "increases": 11214000,
+          "decreases": 0,
+          "ending": 180406000
+        },
+        "machinery_and_equipment": {
+          "beginning": 204750000,
+          "increases": 3811000,
+          "decreases": -903000,
+          "ending": 207697000
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 76590000,
+          "increases": 7734000,
+          "decreases": 0,
+          "ending": 84324000
+        },
+        "infrastructure": {
+          "beginning": 2446874000,
+          "increases": 24250000,
+          "decreases": 0,
+          "ending": 2471124000
+        },
+        "vehicles": {
+          "beginning": 44253000,
+          "increases": 5674000,
+          "decreases": -2444000,
+          "ending": 48084000
+        },
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": 2941659000,
+          "increases": 52683000,
+          "decreases": -3347000,
+          "ending": 2991635000
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 930821000,
+        "increases": -47548000,
+        "decreases": -300000,
+        "ending": 992761000
+      },
+      "total_capital_assets_net": {
+        "beginning": 1174002000,
+        "increases": 66203000,
+        "decreases": -300000,
+        "ending": 1226463000
+      }
+    },
+    "cross_sectional": {
+      "land": 68997000,
+      "construction_in_progress": 166705000,
+      "other_non_depreciable": 0,
+      "buildings_net": 204704000,
+      "improvements_net": 107336000,
+      "machinery_net": 50155000,
+      "other_depreciable_net": 0,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": 11401000,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 619165000,
+      "total_governmental_net": 1226463000
+    },
+    "_uncertainties": [
+      {
+        "field": "total_accumulated_depreciation.ending",
+        "fund": "governmental_activities",
+        "reason": "The printed total shows '2.991' which appears to be a formatting/OCR error. Calculated sum of components (180406+84324+48084+207697+2471124) equals 2991635.",
+        "extracted": 2991635000,
+        "alternative": 2991000,
+        "page": 75,
+        "text_snippet": "Total accumulated depreciation 2,941,659 52,683 (3,347) 640 2.991",
+        "severity": "high"
+      },
+      {
+        "field": "vehicles.increases",
+        "fund": "governmental_activities",
+        "reason": "OCR reads '2;g39' which appears to be '2,839' based on context",
+        "extracted": 2839000,
+        "alternative": null,
+        "page": 75,
+        "text_snippet": "Vehicles 58i592 2;g39 (2,659) 613 59,485",
+        "severity": "low"
+      }
+    ]
+  }
+}

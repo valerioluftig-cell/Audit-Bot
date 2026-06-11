@@ -1,0 +1,440 @@
+{
+  "cbs": {
+    "parish": "Ascension",
+    "year": 2015,
+    "in_thousands": false,
+    "funds": [],
+    "assets": {
+      "cash_and_deposits": {},
+      "investments": {},
+      "taxes_receivable": {},
+      "special_assessments_receivable": {},
+      "other_receivables": {},
+      "due_from_other_governments": {},
+      "due_from_other_funds": {},
+      "due_from_component_units": {},
+      "inventory": {},
+      "prepaid_items": {},
+      "other_assets": {},
+      "total_assets": {}
+    },
+    "liabilities": {
+      "accounts_payable": {},
+      "retainage_payable": {},
+      "accrued_liabilities": {},
+      "deposits_payable": {},
+      "unearned_revenue": {},
+      "due_to_other_funds": {},
+      "other_liabilities": {},
+      "total_liabilities": {}
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {}
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {},
+      "total_fund_balances": {}
+    },
+    "total_liabilities_and_fund_balances": {},
+    "cross_sectional": {
+      "cash": null,
+      "investments": null,
+      "receivables": null,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": null,
+      "deferred_outflows": null,
+      "accounts_payable": null,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": null,
+      "total_liabilities": null,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": null,
+      "total_fund_balances": null,
+      "total_liabilities_and_fund_balances": null
+    },
+    "_uncertainties": [
+      {
+        "field": "combined_balance_sheet_data",
+        "fund": null,
+        "reason": "PDF text provided contains only introductory and narrative sections from pages 13-16. No Combined Balance Sheet of Governmental Funds table with fund columns and line items is present in the extracted text.",
+        "extracted": null,
+        "alternative": null,
+        "page": "13-16",
+        "text_snippet": "Page 13-16 contain organization structure, accounting policies, budget information, and economic condition narrative. No balance sheet statement table found.",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Ascension",
+    "year": 2015,
+    "in_thousands": true,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 15813000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": 10131000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_works": {
+        "expenses": 15649000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 5821000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": 8261000,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 2867000,
+        "net_expense_revenue": null
+      },
+      "other_activities": [
+        {
+          "label": "Transportation and development",
+          "expenses": 10442000,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        }
+      ],
+      "total": {
+        "expenses": 68984000,
+        "charges_for_services": 5424000,
+        "operating_grants": 6215000,
+        "capital_grants": 6879000,
+        "net_expense_revenue": -50466000
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 29704000,
+      "sales_taxes": 53652000,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": 1892000,
+      "transfers": -4800000,
+      "other_items": [],
+      "total_general_revenues": 80548000
+    },
+    "change_in_net_position": 29982000,
+    "net_position_beginning": 313306000,
+    "net_position_ending": 343288000,
+    "cross_sectional": {
+      "property_ad_valorem": 29704000,
+      "sales_use_taxes": 53652000,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 83356000,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 6215000,
+      "federal_intergovernmental": null,
+      "local_transfer": -4800000,
+      "all_other_revenue": 1892000,
+      "total_other_revenue": 3307000,
+      "total_program_revenue": 18518000,
+      "total_revenues": 105181000,
+      "general_government": -15813000,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -15813000,
+      "public_safety": -10131000,
+      "public_works": -15649000,
+      "economic_development": null,
+      "health_and_welfare": -5821000,
+      "culture_and_recreation": -8261000,
+      "interest_debt_service": -2867000,
+      "all_other_expenditures": -10442000,
+      "total_expenditures": 68984000
+    },
+    "_uncertainties": [
+      {
+        "field": "general_revenues.other_taxes",
+        "fund": null,
+        "reason": "PDF shows 'Other' revenue category in general revenues but does not break down specific tax types (fire insurance, franchise fees, occupational licenses)",
+        "extracted": null,
+        "alternative": 1892000,
+        "page": 32,
+        "text_snippet": "General revenues: Ad valorem 29,704 Sales taxes 53,652 Odier 1,892",
+        "severity": "medium"
+      },
+      {
+        "field": "governmental_activities.total.net_expense_revenue",
+        "fund": null,
+        "reason": "Statement provides total revenues and expenses but does not explicitly calculate net expense revenue for governmental activities. Calculated as -(68984-5424-6215-6879)=-50466",
+        "extracted": -50466000,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Total revenues 103,766 Total expenses 68,984",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Ascension",
+    "year": 2015,
+    "in_thousands": true,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 227315000
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 436475000,
+      "deferred_outflows": {
+        "items": [],
+        "total": 10342000
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 102664000,
+      "deferred_inflows": {
+        "items": [],
+        "total": 865000
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 129059000,
+        "restricted": 132696000,
+        "unrestricted": 81533000,
+        "total_net_position": 343288000
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": []
+  },
+  "ca": {
+    "parish": "Ascension",
+    "year": 2015,
+    "in_thousands": true,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 17327000,
+          "increases": null,
+          "decreases": null,
+          "ending": 17327000
+        },
+        "construction_in_progress": {
+          "beginning": 15500000,
+          "increases": 23678000,
+          "decreases": -10389000,
+          "ending": 28789000
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 32827000,
+          "increases": 23678000,
+          "decreases": -10389000,
+          "ending": 46116000
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 103230000,
+          "increases": 10128000,
+          "decreases": null,
+          "ending": 113358000
+        },
+        "machinery_and_equipment": {
+          "beginning": 13441000,
+          "increases": 2019000,
+          "decreases": -34000,
+          "ending": 15426000
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": 228723000,
+          "increases": 2695000,
+          "decreases": null,
+          "ending": 231418000
+        },
+        "vehicles": {
+          "beginning": 13844000,
+          "increases": 866000,
+          "decreases": -65000,
+          "ending": 14645000
+        },
+        "furniture_and_fixtures": {
+          "beginning": 1121000,
+          "increases": 405000,
+          "decreases": null,
+          "ending": 1526000
+        },
+        "books_and_periodicals": {
+          "beginning": 2478000,
+          "increases": 486000,
+          "decreases": -571000,
+          "ending": 2393000
+        },
+        "leased_property": null,
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 362837000,
+          "increases": 16599000,
+          "decreases": -670000,
+          "ending": 378766000
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -23538000,
+          "increases": -3382000,
+          "decreases": null,
+          "ending": -26920000
+        },
+        "machinery_and_equipment": {
+          "beginning": -9933000,
+          "increases": -1039000,
+          "decreases": 34000,
+          "ending": -10938000
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": -137255000,
+          "increases": -10648000,
+          "decreases": null,
+          "ending": -147903000
+        },
+        "vehicles": {
+          "beginning": -8853000,
+          "increases": -749000,
+          "decreases": 65000,
+          "ending": -9537000
+        },
+        "furniture_and_fixtures": {
+          "beginning": -724000,
+          "increases": -82000,
+          "decreases": null,
+          "ending": -806000
+        },
+        "books_and_periodicals": {
+          "beginning": -1555000,
+          "increases": -479000,
+          "decreases": 571000,
+          "ending": -1463000
+        },
+        "leased_property": null,
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -181858000,
+          "increases": -16379000,
+          "decreases": 670000,
+          "ending": -197567000
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 180979000,
+        "increases": 220000,
+        "decreases": null,
+        "ending": 181199000
+      },
+      "total_capital_assets_net": {
+        "beginning": 213806000,
+        "increases": 23898000,
+        "decreases": -10389000,
+        "ending": 227315000
+      }
+    },
+    "cross_sectional": {
+      "land": 17327000,
+      "construction_in_progress": 28789000,
+      "other_non_depreciable": null,
+      "buildings_net": 86438000,
+      "improvements_net": null,
+      "machinery_net": 4488000,
+      "other_depreciable_net": null,
+      "books_net": 930000,
+      "furniture_net": 720000,
+      "vehicles_net": 5108000,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 83515000,
+      "total_governmental_net": 227315000
+    },
+    "_uncertainties": []
+  }
+}

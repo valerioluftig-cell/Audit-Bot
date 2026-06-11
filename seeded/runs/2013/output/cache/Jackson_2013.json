@@ -1,0 +1,833 @@
+{
+  "cbs": {
+    "parish": "Jackson",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road",
+      "Solid Waste",
+      "Library",
+      "Asphalt Fund",
+      "Health Unit",
+      "Sales Tax",
+      "Nonmajor Governmental",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 2462652,
+        "Road": 1815855,
+        "Solid Waste": 1168736,
+        "Library": 1176592,
+        "Asphalt Fund": 1541497,
+        "Health Unit": 98626,
+        "Sales Tax": 311089,
+        "Nonmajor Governmental": 723873,
+        "Total Governmental Funds": 9298920
+      },
+      "investments": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 1278246,
+        "Road": 1249643,
+        "Solid Waste": 223486,
+        "Library": 857253,
+        "Asphalt Fund": 1040949,
+        "Health Unit": null,
+        "Sales Tax": 183698,
+        "Nonmajor Governmental": 147917,
+        "Total Governmental Funds": 4981192
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 50000,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 50000
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 3850,
+        "Road": 4746,
+        "Solid Waste": 9815,
+        "Library": 50710,
+        "Asphalt Fund": null,
+        "Health Unit": 4746,
+        "Sales Tax": null,
+        "Nonmajor Governmental": 1635,
+        "Total Governmental Funds": 75502
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 3794748,
+        "Road": 3070244,
+        "Solid Waste": 1402037,
+        "Library": 2084555,
+        "Asphalt Fund": 2587192,
+        "Health Unit": 283959,
+        "Sales Tax": 459006,
+        "Nonmajor Governmental": 723873,
+        "Total Governmental Funds": 14405614
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 71630,
+        "Road": 108144,
+        "Solid Waste": 33203,
+        "Library": 95691,
+        "Asphalt Fund": 296,
+        "Health Unit": 1612,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 310576
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": 4075,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": 26724,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 30799
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": 50000,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 50000
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 75705,
+        "Road": 134868,
+        "Solid Waste": 33203,
+        "Library": 95691,
+        "Asphalt Fund": 296,
+        "Health Unit": 51612,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 391375
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue-property taxes",
+          "values": {
+            "General Fund": null,
+            "Road": 99362,
+            "Solid Waste": null,
+            "Library": 106782,
+            "Asphalt Fund": null,
+            "Health Unit": 92806,
+            "Sales Tax": null,
+            "Nonmajor Governmental": 16378,
+            "Total Governmental Funds": null
+          }
+        }
+      ],
+      "total": {
+        "General Fund": null,
+        "Road": 99362,
+        "Solid Waste": null,
+        "Library": 106782,
+        "Asphalt Fund": null,
+        "Health Unit": 92806,
+        "Sales Tax": null,
+        "Nonmajor Governmental": 16378,
+        "Total Governmental Funds": 391756
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable - prepaid items",
+          "values": {
+            "General Fund": 3850,
+            "Road": 4746,
+            "Solid Waste": 9815,
+            "Library": 50710,
+            "Asphalt Fund": null,
+            "Health Unit": 4746,
+            "Sales Tax": null,
+            "Nonmajor Governmental": 1635,
+            "Total Governmental Funds": 75502
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": 42300,
+            "Road": 2823848,
+            "Solid Waste": 1359019,
+            "Library": 1861726,
+            "Asphalt Fund": 2489344,
+            "Health Unit": 214334,
+            "Sales Tax": 459006,
+            "Nonmajor Governmental": 610282,
+            "Total Governmental Funds": 9859859
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": 1015761,
+            "Road": null,
+            "Solid Waste": null,
+            "Library": null,
+            "Asphalt Fund": null,
+            "Health Unit": null,
+            "Sales Tax": null,
+            "Nonmajor Governmental": 113591,
+            "Total Governmental Funds": 1129352
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 2557770,
+        "Road": null,
+        "Solid Waste": null,
+        "Library": null,
+        "Asphalt Fund": null,
+        "Health Unit": null,
+        "Sales Tax": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 2557770
+      },
+      "total_fund_balances": {
+        "General Fund": 3619681,
+        "Road": 2828594,
+        "Solid Waste": 1368834,
+        "Library": 1912436,
+        "Asphalt Fund": 2494090,
+        "Health Unit": 215969,
+        "Sales Tax": 459006,
+        "Nonmajor Governmental": 723873,
+        "Total Governmental Funds": 13622483
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 3794748,
+      "Road": 3070244,
+      "Solid Waste": 1402037,
+      "Library": 2084555,
+      "Asphalt Fund": 2587192,
+      "Health Unit": 283959,
+      "Sales Tax": 459006,
+      "Nonmajor Governmental": 723873,
+      "Total Governmental Funds": 14405614
+    },
+    "cross_sectional": {
+      "cash": 2462652,
+      "investments": null,
+      "receivables": 1278246,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 50000,
+      "prepaid_items": 3850,
+      "total_assets": 3794748,
+      "deferred_outflows": null,
+      "accounts_payable": 71630,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 4075,
+      "total_liabilities": 75705,
+      "deferred_inflows": null,
+      "reserved": 46150,
+      "unreserved_designated": 1015761,
+      "unreserved_undesignated": 2557770,
+      "total_fund_balances": 3619681,
+      "total_liabilities_and_fund_balances": 3794748
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": null,
+        "reason": "Statement only shows 'Receivables' without categorization; assumed to be other_receivables but could include taxes, special assessments, or other types",
+        "extracted": 1278246,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Receivables 1,278,246 1,249,643 223,486 857,253",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": null,
+        "reason": "Line item labeled 'Accounts, salaries and other payables' combines multiple liability types; placed entirely in accounts_payable",
+        "extracted": 71630,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Accounts, salaries and other payables 71,630 108,144 33,203 95,691",
+        "severity": "low"
+      },
+      {
+        "field": "deferred_inflows.total",
+        "fund": "Total Governmental Funds",
+        "reason": "Total Deferred Inflows (391,756) does not equal sum of Unavailable revenue-property taxes shown (99,362+106,782+92,806+16,378=315,328); using stated total",
+        "extracted": 391756,
+        "alternative": 315328,
+        "page": 23,
+        "text_snippet": "Total Deferred Inflows of Resources 99,362 106,782 76,428 ... 391,756",
+        "severity": "high"
+      },
+      {
+        "field": "deferred_inflows.items",
+        "fund": "Library",
+        "reason": "Library shows 106,782 in detail but 76,428 appears in position; unclear if typo or different value; using 106,782 from detail line",
+        "extracted": 106782,
+        "alternative": 76428,
+        "page": 22,
+        "text_snippet": "Unavailable revenue-property taxes 99,362 106,782 76,428",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Jackson",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1209711,
+        "charges_for_services": 45951,
+        "operating_grants": 82205,
+        "capital_grants": null,
+        "net_expense_revenue": -1081555
+      },
+      "public_safety": {
+        "expenses": 700715,
+        "charges_for_services": 90688,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -610027
+      },
+      "public_works": {
+        "expenses": 4985065,
+        "charges_for_services": 143664,
+        "operating_grants": 331971,
+        "capital_grants": null,
+        "net_expense_revenue": -4509430
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 255022,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -255022
+      },
+      "culture_and_recreation": {
+        "expenses": 1312896,
+        "charges_for_services": 25708,
+        "operating_grants": 21875,
+        "capital_grants": null,
+        "net_expense_revenue": -1265313
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 8463409,
+        "charges_for_services": 215323,
+        "operating_grants": 526739,
+        "capital_grants": null,
+        "net_expense_revenue": -7721347
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4409812,
+      "sales_taxes": 2222337,
+      "severance_taxes": 807972,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 150370,
+      "occupational_licenses": 49490,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 80284,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 84964,
+      "miscellaneous": 140413,
+      "transfers": null,
+      "other_items": [],
+      "total_general_revenues": 7945642
+    },
+    "change_in_net_position": 224295,
+    "net_position_beginning": 29639318,
+    "net_position_ending": 29863613,
+    "cross_sectional": {
+      "property_ad_valorem": 4409812,
+      "sales_use_taxes": 2222337,
+      "severance_taxes": 807972,
+      "other_tax_revenue": 199860,
+      "total_tax_revenue": 5639981,
+      "state_revenue_sharing": 80284,
+      "state_intergovernmental": 526739,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 225377,
+      "total_other_revenue": 832400,
+      "total_program_revenue": 742062,
+      "total_revenues": 8414780,
+      "general_government": -1081555,
+      "legislative": -120698,
+      "judicial": -235059,
+      "elections": -24856,
+      "finance_and_administration": -266474,
+      "other_general_government": -434468,
+      "total_general_government": -1081555,
+      "public_safety": -610027,
+      "public_works": -4509430,
+      "economic_development": null,
+      "health_and_welfare": -255022,
+      "culture_and_recreation": -1265313,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 8463409
+    },
+    "_uncertainties": [
+      {
+        "field": "state_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants total ($526,739) may include both state and federal sources - unable to distinguish breakdown from Statement of Activities alone",
+        "extracted": 526739,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "OPERATING GRANTS AND CONTRIBUTIONS ... Total Governmental Activities $ 8,463,409 $ 215,323 526,739",
+        "severity": "medium"
+      },
+      {
+        "field": "other_tax_revenue",
+        "fund": null,
+        "reason": "Miscellaneous taxes and Licenses/permits combined - unclear if licenses are tax revenue or other revenue category",
+        "extracted": 199860,
+        "alternative": 150370,
+        "page": 19,
+        "text_snippet": "Miscellaneous taxes 150,370 / Licenses and permits 49,490",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Jackson",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 9298920,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 4981192,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 75502,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 459821,
+        "depreciable_net": 15991533,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 16451354
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 30806968,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 310576,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": 30799,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": 110115,
+        "compensated_absences_noncurrent": 491865,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 943355,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 16451354,
+        "restricted": 10223905,
+        "unrestricted": 3188354,
+        "total_net_position": 29863613
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "Governmental Activities",
+        "reason": "Line item 'Accounts, salaries and other payables' may include accrued salaries which could be separate accrued_liabilities",
+        "extracted": 310576,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Accounts, salaries and other payables $ 310,576",
+        "severity": "low"
+      },
+      {
+        "field": "long_term_liabilities.compensated_absences_current",
+        "fund": "Governmental Activities",
+        "reason": "Long-term liabilities not itemized by type; assumed to be compensated absences based on typical structure but could include other items",
+        "extracted": 110115,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Long-term liabilities Due within one year 110,115 Due in more than one year 491,865",
+        "severity": "medium"
+      },
+      {
+        "field": "current_assets.other_receivables",
+        "fund": "Governmental Activities",
+        "reason": "Receivables not broken down by type; may include taxes receivable and/or due from other governments",
+        "extracted": 4981192,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Receivables 4,981,192",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Jackson",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 427562,
+          "increases": 6350,
+          "decreases": null,
+          "ending": 433912
+        },
+        "construction_in_progress": {
+          "beginning": 689578,
+          "increases": 934357,
+          "decreases": 1598026,
+          "ending": 25909
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 1117140,
+          "increases": 940707,
+          "decreases": 1598026,
+          "ending": 459821
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 7482614,
+          "increases": 1598026,
+          "decreases": null,
+          "ending": 9080640
+        },
+        "machinery_and_equipment": {
+          "beginning": 4005476,
+          "increases": 204759,
+          "decreases": 343215,
+          "ending": 3867020
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 17722469,
+          "increases": 875163,
+          "decreases": null,
+          "ending": 18597632
+        },
+        "vehicles": {
+          "beginning": 2271290,
+          "increases": 376664,
+          "decreases": 37420,
+          "ending": 2610534
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 31481849,
+          "increases": 3054612,
+          "decreases": 380635,
+          "ending": 34155826
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 2529070,
+          "increases": 205726,
+          "decreases": null,
+          "ending": 2734796
+        },
+        "machinery_and_equipment": {
+          "beginning": 2005948,
+          "increases": 469734,
+          "decreases": 336920,
+          "ending": 2138762
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 10005086,
+          "increases": 1518891,
+          "decreases": null,
+          "ending": 11523977
+        },
+        "vehicles": {
+          "beginning": 1659257,
+          "increases": 144921,
+          "decreases": 37420,
+          "ending": 1766758
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": 16199361,
+          "increases": 2339272,
+          "decreases": 374340,
+          "ending": 18164293
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 15282488,
+        "increases": 715340,
+        "decreases": 6295,
+        "ending": 15991533
+      },
+      "total_capital_assets_net": {
+        "beginning": 16399628,
+        "increases": 1656047,
+        "decreases": 1604321,
+        "ending": 16451354
+      }
+    },
+    "cross_sectional": {
+      "land": 433912,
+      "construction_in_progress": 25909,
+      "other_non_depreciable": 0,
+      "buildings_net": 6345844,
+      "improvements_net": null,
+      "machinery_net": 1728258,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": 843776,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 7073655,
+      "total_governmental_net": 16451354
+    },
+    "_uncertainties": [
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Equipment/Machinery/Furniture' combines multiple asset types that are typically separated",
+        "extracted": 3867020,
+        "alternative": null,
+        "page": 43,
+        "text_snippet": "Equipment/Machinery/F urniture 4,005,476 204,759 343,215 3,867,020",
+        "severity": "medium"
+      }
+    ]
+  }
+}

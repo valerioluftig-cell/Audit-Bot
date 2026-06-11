@@ -1,0 +1,958 @@
+{
+  "cbs": {
+    "parish": "Terrebonne",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Public Safety Fund",
+      "Road and Bridge Grant Maintenance Fund",
+      "Drainage Maintenance Fund",
+      "Levee & Conservation District Fund",
+      "Capital Projects Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 6151643,
+        "Public Safety Fund": 4469121,
+        "Road and Bridge Grant Maintenance Fund": 13073789,
+        "Drainage Maintenance Fund": 6557089,
+        "Levee & Conservation District Fund": 1962244,
+        "Capital Projects Fund": 39251509,
+        "Other Governmental Funds": 7779430,
+        "Total Governmental Funds": 81581520
+      },
+      "investments": {
+        "General Fund": 1326383,
+        "Public Safety Fund": 2914,
+        "Road and Bridge Grant Maintenance Fund": 991963,
+        "Drainage Maintenance Fund": 1141951,
+        "Levee & Conservation District Fund": 7708046,
+        "Capital Projects Fund": 12115058,
+        "Other Governmental Funds": 21870799,
+        "Total Governmental Funds": 45157114
+      },
+      "taxes_receivable": {
+        "General Fund": 215334,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": 353207,
+        "Drainage Maintenance Fund": 567608,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": 1199365,
+        "Total Governmental Funds": 2335514
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 31772,
+        "Public Safety Fund": 131224,
+        "Road and Bridge Grant Maintenance Fund": 3159,
+        "Drainage Maintenance Fund": 13153,
+        "Levee & Conservation District Fund": 65,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": 29802,
+        "Total Governmental Funds": 209175
+      },
+      "due_from_other_governments": {
+        "General Fund": 6745876,
+        "Public Safety Fund": 5306057,
+        "Road and Bridge Grant Maintenance Fund": 9077635,
+        "Drainage Maintenance Fund": 7470163,
+        "Levee & Conservation District Fund": 1117361,
+        "Capital Projects Fund": 10119669,
+        "Other Governmental Funds": 13620833,
+        "Total Governmental Funds": 54718244
+      },
+      "due_from_other_funds": {
+        "General Fund": 26546844,
+        "Public Safety Fund": 37053,
+        "Road and Bridge Grant Maintenance Fund": 877721,
+        "Drainage Maintenance Fund": 151891,
+        "Levee & Conservation District Fund": 125142,
+        "Capital Projects Fund": 6562749,
+        "Other Governmental Funds": 2251183,
+        "Total Governmental Funds": 36728618
+      },
+      "due_from_component_units": {
+        "General Fund": 121923,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 121923
+      },
+      "inventory": {
+        "General Fund": 14520,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 14520
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": 3421,
+        "Public Safety Fund": 650,
+        "Road and Bridge Grant Maintenance Fund": 40,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 4111
+      },
+      "total_assets": {
+        "General Fund": 41180764,
+        "Public Safety Fund": 10197210,
+        "Road and Bridge Grant Maintenance Fund": 33899650,
+        "Drainage Maintenance Fund": 15901855,
+        "Levee & Conservation District Fund": 10912793,
+        "Capital Projects Fund": 68049050,
+        "Other Governmental Funds": 46811660,
+        "Total Governmental Funds": 231721524
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 690877,
+        "Public Safety Fund": 305452,
+        "Road and Bridge Grant Maintenance Fund": 620817,
+        "Drainage Maintenance Fund": 359677,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": 4793247,
+        "Other Governmental Funds": 278331,
+        "Total Governmental Funds": 7305826
+      },
+      "retainage_payable": {
+        "General Fund": 1446,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": 49695,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": 1067378,
+        "Other Governmental Funds": 5000,
+        "Total Governmental Funds": 1123519
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": 133229,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 133229
+      },
+      "unearned_revenue": {
+        "General Fund": 3163965,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": 4349823,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": 6689358,
+        "Other Governmental Funds": 13997026,
+        "Total Governmental Funds": 28200172
+      },
+      "due_to_other_funds": {
+        "General Fund": 19742994,
+        "Public Safety Fund": 809194,
+        "Road and Bridge Grant Maintenance Fund": 16058449,
+        "Drainage Maintenance Fund": 883277,
+        "Levee & Conservation District Fund": 24205,
+        "Capital Projects Fund": 4032240,
+        "Other Governmental Funds": 2076477,
+        "Total Governmental Funds": 44178836
+      },
+      "other_liabilities": {
+        "General Fund": 616648,
+        "Public Safety Fund": 218998,
+        "Road and Bridge Grant Maintenance Fund": 11993227,
+        "Drainage Maintenance Fund": 24679,
+        "Levee & Conservation District Fund": 6344,
+        "Capital Projects Fund": 177059,
+        "Other Governmental Funds": 13997026,
+        "Total Governmental Funds": 1731995
+      },
+      "total_liabilities": {
+        "General Fund": 24215930,
+        "Public Safety Fund": 5683467,
+        "Road and Bridge Grant Maintenance Fund": 28855418,
+        "Drainage Maintenance Fund": 7956991,
+        "Levee & Conservation District Fund": 24205,
+        "Capital Projects Fund": 9899209,
+        "Other Governmental Funds": 16533893,
+        "Total Governmental Funds": 93998180
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Inventory",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": null
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Dedicated emergency",
+          "values": {
+            "General Fund": 2500000,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 2500000
+          }
+        },
+        {
+          "label": "Broadmoor trees",
+          "values": {
+            "General Fund": 69340,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 69340
+          }
+        },
+        {
+          "label": "Grants",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": 3316805,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 3316805
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": 13174010,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 13174010
+          }
+        },
+        {
+          "label": "Drainage",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 2702056,
+            "Total Governmental Funds": 2702056
+          }
+        },
+        {
+          "label": "Levee and conservation",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": 10888588,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 10888588
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 15059355,
+            "Total Governmental Funds": 15059355
+          }
+        },
+        {
+          "label": "Other special purposes",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 14231746,
+            "Total Governmental Funds": 14231746
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 15990694,
+            "Total Governmental Funds": 15990694
+          }
+        },
+        {
+          "label": "Other special purposes",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 86742,
+            "Total Governmental Funds": 86742
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Subsequent year's expenditures",
+          "values": {
+            "General Fund": 3127024,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 3127024
+          }
+        },
+        {
+          "label": "Dedicated emergency",
+          "values": {
+            "General Fund": 97857,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 97857
+          }
+        },
+        {
+          "label": "Non-district recreation",
+          "values": {
+            "General Fund": 329076,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 329076
+          }
+        },
+        {
+          "label": "Parish prisoners",
+          "values": {
+            "General Fund": 248839,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 248839
+          }
+        },
+        {
+          "label": "Citymarshall",
+          "values": {
+            "General Fund": 129947,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 129947
+          }
+        },
+        {
+          "label": "Coastal restoration",
+          "values": {
+            "General Fund": 80398,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 80398
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": 4513743,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 4513743
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": 28985137,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 28985137
+          }
+        },
+        {
+          "label": "Grants",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": 1727427,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 1727427
+          }
+        },
+        {
+          "label": "Road and bridge",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 3939475,
+            "Total Governmental Funds": 3939475
+          }
+        },
+        {
+          "label": "Drainage",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": 7944864,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 5242808
+          }
+        },
+        {
+          "label": "Other special purposes",
+          "values": {
+            "General Fund": null,
+            "Public Safety Fund": null,
+            "Road and Bridge Grant Maintenance Fund": null,
+            "Drainage Maintenance Fund": null,
+            "Levee & Conservation District Fund": null,
+            "Capital Projects Fund": null,
+            "Other Governmental Funds": 899924,
+            "Total Governmental Funds": 899924
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 10382353,
+        "Public Safety Fund": null,
+        "Road and Bridge Grant Maintenance Fund": null,
+        "Drainage Maintenance Fund": null,
+        "Levee & Conservation District Fund": null,
+        "Capital Projects Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 10382353
+      },
+      "total_fund_balances": {
+        "General Fund": 16964834,
+        "Public Safety Fund": 4513743,
+        "Road and Bridge Grant Maintenance Fund": 5044232,
+        "Drainage Maintenance Fund": 7944864,
+        "Levee & Conservation District Fund": 10888588,
+        "Capital Projects Fund": 58149841,
+        "Other Governmental Funds": 30277767,
+        "Total Governmental Funds": 137723344
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 41180764,
+      "Public Safety Fund": 10197210,
+      "Road and Bridge Grant Maintenance Fund": 33899650,
+      "Drainage Maintenance Fund": 15901855,
+      "Levee & Conservation District Fund": 10912793,
+      "Capital Projects Fund": 68049050,
+      "Other Governmental Funds": 46811660,
+      "Total Governmental Funds": 231721524
+    },
+    "cross_sectional": {
+      "cash": 6151643,
+      "investments": 1326383,
+      "receivables": 7316305,
+      "inventory": 14520,
+      "other_assets": 3421,
+      "transfers_in": 26546844,
+      "prepaid_items": null,
+      "total_assets": 41180764,
+      "deferred_outflows": null,
+      "accounts_payable": 692323,
+      "deferred_revenues": 3163965,
+      "government_transfers": 19742994,
+      "other_liabilities": 616648,
+      "total_liabilities": 24215930,
+      "deferred_inflows": null,
+      "reserved": 2569340,
+      "unreserved_designated": 4013141,
+      "unreserved_undesignated": 10382353,
+      "total_fund_balances": 16964834,
+      "total_liabilities_and_fund_balances": 41180764
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "General Fund",
+        "reason": "Line item shows 'Other 323' and 'Economic loans 10,496,724' separately, unclear if 'Other' includes both or just 323",
+        "extracted": 31772,
+        "alternative": 10528496,
+        "page": 40,
+        "text_snippet": "Accounts 31.772 131,224 3,159\nOther 323\nEconomic loans 10,496,724",
+        "severity": "high"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Combined due_to_other_governmental_units (616,614) and due_to_component_units (34) as no separate category for these in liabilities schema",
+        "extracted": 616648,
+        "alternative": null,
+        "page": 40,
+        "text_snippet": "Due to other governmental units 616,614 218,998 668,625 19.642\nDue to component units 34",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Road and Bridge Grant Maintenance Fund",
+        "reason": "Included Grant advancements (11,324,603) under other_liabilities since it doesn't fit standard categories",
+        "extracted": 11993227,
+        "alternative": 668625,
+        "page": 40,
+        "text_snippet": "Grant advancements II,.324,603\nDue to other governmental units 616,614 218,998 668,625 19.642",
+        "severity": "high"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Allocated Grant advancements total to Other Governmental Funds, unclear if accurate or if should be distributed differently",
+        "extracted": 13997026,
+        "alternative": null,
+        "page": 41,
+        "text_snippet": "Grant advancements 11,324,603",
+        "severity": "high"
+      },
+      {
+        "field": "assigned.Drainage",
+        "fund": "Drainage Maintenance Fund",
+        "reason": "Total Governmental Funds shows 5,242,808 but Drainage Maintenance Fund shows 7,944,864; arithmetic inconsistency",
+        "extracted": 7944864,
+        "alternative": 5242808,
+        "page": 41,
+        "text_snippet": "Drainage\n5,242,8 5,242,808",
+        "severity": "high"
+      },
+      {
+        "field": "total_fund_balances",
+        "fund": "Total Governmental Funds",
+        "reason": "PDF shows '1.37.72.3,-344' which appears to be OCR error for 137,723,344",
+        "extracted": 137723344,
+        "alternative": null,
+        "page": 41,
+        "text_snippet": "Total fund balances 7,944,864 10,888,588 58.149,841 30.277.767 1.37.72.3,-344",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Terrebonne",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 22999821,
+        "charges_for_services": 9929607,
+        "operating_grants": 621619,
+        "capital_grants": 3275752,
+        "net_expense_revenue": -9172843
+      },
+      "public_safety": {
+        "expenses": 30201770,
+        "charges_for_services": 2326686,
+        "operating_grants": 3525652,
+        "capital_grants": 9100,
+        "net_expense_revenue": -24340332
+      },
+      "public_works": {
+        "expenses": 28131936,
+        "charges_for_services": 49731,
+        "operating_grants": 1450558,
+        "capital_grants": 18282499,
+        "net_expense_revenue": -8349148
+      },
+      "economic_development": {
+        "expenses": 16169215,
+        "charges_for_services": 15041481,
+        "operating_grants": null,
+        "capital_grants": 28184,
+        "net_expense_revenue": -1099550
+      },
+      "health_and_welfare": {
+        "expenses": 12236783,
+        "charges_for_services": 4890325,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -7346458
+      },
+      "culture_and_recreation": {
+        "expenses": 2385729,
+        "charges_for_services": 86742,
+        "operating_grants": 72694,
+        "capital_grants": 237831,
+        "net_expense_revenue": -1988462
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 4928181,
+        "net_expense_revenue": -4928181
+      },
+      "other_activities": [
+        {
+          "label": "Education",
+          "expenses": 101172,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -101172
+        },
+        {
+          "label": "Urban redevelopment and housing",
+          "expenses": 939034,
+          "charges_for_services": 675082,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -263952
+        },
+        {
+          "label": "Conservation and development",
+          "expenses": 296431,
+          "charges_for_services": 392181,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": 95750
+        }
+      ],
+      "total": {
+        "expenses": 118390072,
+        "charges_for_services": 12392766,
+        "operating_grants": 26277411,
+        "capital_grants": 22225547,
+        "net_expense_revenue": -57494348
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 26726303,
+      "sales_taxes": 44756815,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": 1756724,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 9745773,
+      "non_employer_pension_contribution": null,
+      "investment_income": 772038,
+      "miscellaneous": 532437,
+      "transfers": 2675391,
+      "other_items": [
+        {
+          "label": "Occupancy",
+          "amount": 339074
+        }
+      ],
+      "total_general_revenues": 86965481
+    },
+    "change_in_net_position": 29471133,
+    "net_position_beginning": 316367798,
+    "net_position_ending": 345838931,
+    "cross_sectional": {
+      "property_ad_valorem": 26726303,
+      "sales_use_taxes": 44756815,
+      "severance_taxes": null,
+      "other_tax_revenue": 2095798,
+      "total_tax_revenue": 73578916,
+      "state_revenue_sharing": 9745773,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": 2675391,
+      "all_other_revenue": 1304475,
+      "total_other_revenue": 13725639,
+      "total_program_revenue": 60895724,
+      "total_revenues": 148200279,
+      "general_government": -9172843,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -9172843,
+      "public_safety": -24340332,
+      "public_works": -8349148,
+      "economic_development": -1099550,
+      "health_and_welfare": -7346458,
+      "culture_and_recreation": -1988462,
+      "interest_debt_service": -4928181,
+      "all_other_expenditures": -269374,
+      "total_expenditures": 118390072
+    },
+    "_uncertainties": [
+      {
+        "field": "state_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants and capital grants are shown but not broken down by federal vs state at governmental level",
+        "extracted": null,
+        "alternative": null,
+        "page": 38,
+        "text_snippet": "Operating Grants and Contributions: 26,277,411; Capital Grants and Contributions: 22,225,547",
+        "severity": "medium"
+      },
+      {
+        "field": "other_activities.net_expense_revenue",
+        "fund": "all other activities combined",
+        "reason": "Calculated sum of Education, Urban redevelopment, and Conservation as -269374 but want to verify",
+        "extracted": -269374,
+        "alternative": null,
+        "page": 39,
+        "text_snippet": "Education (101,172), Urban redevelopment (263,952), Conservation 95,750",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Terrebonne",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 87216255,
+        "investments": 48447943,
+        "taxes_receivable": null,
+        "other_receivables": 13832027,
+        "due_from_other_governments": 54874043,
+        "due_from_component_units": 121923,
+        "inventory": 1886935,
+        "prepaid_items": null,
+        "other_current_assets": 1500885
+      },
+      "capital_assets": {
+        "non_depreciable": 63841872,
+        "depreciable_net": 257999620,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 321841492
+      },
+      "other_noncurrent_assets": 2093626,
+      "total_assets": 531056612,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred outflows of resources",
+            "amount": 87484
+          }
+        ],
+        "total": 87484
+      },
+      "current_liabilities": {
+        "accounts_payable": 18519832,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 28200172,
+        "accrued_interest": 1385524,
+        "other_current_liabilities": 1761268
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 126382933
+      },
+      "total_liabilities": 185305165,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Deferred inflows of resources",
+            "amount": null
+          }
+        ],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 260584619,
+        "restricted": 65335289,
+        "unrestricted": 20178033,
+        "total_net_position": 345838931
+      }
+    },
+    "component_units": {
+      "total_assets": 1136185896,
+      "total_liabilities": 284789987,
+      "total_net_position": 851782149
+    },
+    "_uncertainties": [
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Calculated by aggregating restricted assets (cash, investments, receivables, investment in joint venture) which may be classified differently",
+        "extracted": 2093626,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Restricted assets: Cash and cash equivalents 293,490; Investments 950,853; Receivables 1,551; Investment in joint venture 847,732",
+        "severity": "medium"
+      },
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Used due to other governments amount; classification between current and other items unclear",
+        "extracted": 1761268,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Due to other governments 1,761,268",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined due within one year and due in more than one year as breakdown not provided",
+        "extracted": 126382933,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Due within one year 6,514,089; Due in more than one year 119,868,844",
+        "severity": "medium"
+      },
+      {
+        "field": "deferred_inflows.total",
+        "fund": "governmental_activities",
+        "reason": "Deferred inflows of resources shown as 99,902 but appears only for component units based on column alignment",
+        "extracted": null,
+        "alternative": 99902,
+        "page": 37,
+        "text_snippet": "Deferred inflows of resources 99,902",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Terrebonne",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": null,
+    "cross_sectional": null,
+    "_uncertainties": [
+      {
+        "field": "all_fields",
+        "fund": "governmental_activities",
+        "reason": "Capital assets schedule with Beginning/Increases/Decreases/Ending columns not found in provided PDF text. The PDF contains only proprietary funds and fiduciary funds statements, not a capital assets schedule for governmental activities.",
+        "extracted": null,
+        "alternative": null,
+        "page": 62,
+        "text_snippet": "STATEMENT OF NET POSITION PROPRIETARY FUNDS... Net capital assets 47,566,591 81,647,151 11,330,275 12,090,651 152,634,668",
+        "severity": "high"
+      }
+    ]
+  }
+}

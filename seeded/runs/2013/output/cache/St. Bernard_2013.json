@@ -1,0 +1,982 @@
+{
+  "cbs": {
+    "parish": "St. Bernard",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "CDBG Disaster Fund",
+      "Disaster Recovery Fund",
+      "Consolidated Fire Protection District No. 1-2",
+      "Non-Major Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 6265640,
+        "CDBG Disaster Fund": 276311,
+        "Disaster Recovery Fund": 10022048,
+        "Consolidated Fire Protection District No. 1-2": 969513,
+        "Non-Major Governmental Funds": 16074547,
+        "Total Governmental Funds": 33608059
+      },
+      "investments": {
+        "General Fund": 4229000,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": 4229000
+      },
+      "taxes_receivable": {
+        "General Fund": 2850201,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": 8775527,
+        "Non-Major Governmental Funds": 4183553,
+        "Total Governmental Funds": 15809281
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 999140,
+        "CDBG Disaster Fund": 2349717,
+        "Disaster Recovery Fund": 13607598,
+        "Consolidated Fire Protection District No. 1-2": 385738,
+        "Non-Major Governmental Funds": 5797759,
+        "Total Governmental Funds": 23139952
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 4549014,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": 12450962,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": 3599138,
+        "Total Governmental Funds": 20599114
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 98722,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": 20296,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": 89552,
+        "Total Governmental Funds": 208570
+      },
+      "other_assets": {
+        "General Fund": null,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 19084457,
+        "CDBG Disaster Fund": 2626028,
+        "Disaster Recovery Fund": 36080608,
+        "Consolidated Fire Protection District No. 1-2": 10151074,
+        "Non-Major Governmental Funds": 29744549,
+        "Total Governmental Funds": 97686716
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 1548427,
+        "CDBG Disaster Fund": 994984,
+        "Disaster Recovery Fund": 12042292,
+        "Consolidated Fire Protection District No. 1-2": 459178,
+        "Non-Major Governmental Funds": 4249881,
+        "Total Governmental Funds": 19294762
+      },
+      "retainage_payable": {
+        "General Fund": 21091,
+        "CDBG Disaster Fund": 1564987,
+        "Disaster Recovery Fund": 3786329,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": 90869,
+        "Total Governmental Funds": 5463276
+      },
+      "accrued_liabilities": {
+        "General Fund": 573408,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": 519387,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": 450588,
+        "Total Governmental Funds": 1543383
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": 69188,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": null,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": 69188
+      },
+      "due_to_other_funds": {
+        "General Fund": 6171546,
+        "CDBG Disaster Fund": 213515,
+        "Disaster Recovery Fund": 12514280,
+        "Consolidated Fire Protection District No. 1-2": 615248,
+        "Non-Major Governmental Funds": 4335331,
+        "Total Governmental Funds": 23849920
+      },
+      "other_liabilities": {
+        "General Fund": 1984485,
+        "CDBG Disaster Fund": null,
+        "Disaster Recovery Fund": 4776447,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": null,
+        "Total Governmental Funds": 6760932
+      },
+      "total_liabilities": {
+        "General Fund": 10368145,
+        "CDBG Disaster Fund": 2773486,
+        "Disaster Recovery Fund": 28342901,
+        "Consolidated Fire Protection District No. 1-2": 6370260,
+        "Non-Major Governmental Funds": 9126669,
+        "Total Governmental Funds": 56981461
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenues",
+          "values": {
+            "General Fund": 4625602,
+            "CDBG Disaster Fund": 2330543,
+            "Disaster Recovery Fund": 9838302,
+            "Consolidated Fire Protection District No. 1-2": 194090,
+            "Non-Major Governmental Funds": 4062728,
+            "Total Governmental Funds": 21051265
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 4625602,
+        "CDBG Disaster Fund": 2330543,
+        "Disaster Recovery Fund": 9838302,
+        "Consolidated Fire Protection District No. 1-2": 194090,
+        "Non-Major Governmental Funds": 4062728,
+        "Total Governmental Funds": 21051265
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid items",
+          "values": {
+            "General Fund": 98722,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 89552,
+            "Total Governmental Funds": 188274
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Mortgage refunding",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 91185,
+            "Total Governmental Funds": 91185
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": 3497452,
+            "Non-Major Governmental Funds": null,
+            "Total Governmental Funds": 3497452
+          }
+        },
+        {
+          "label": "Federal programs",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 5370629,
+            "Total Governmental Funds": 5370629
+          }
+        },
+        {
+          "label": "Council on aging",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 344708,
+            "Total Governmental Funds": 344708
+          }
+        },
+        {
+          "label": "Road lighting",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 48163,
+            "Total Governmental Funds": 48163
+          }
+        },
+        {
+          "label": "Health",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 946612,
+            "Total Governmental Funds": 946612
+          }
+        },
+        {
+          "label": "Communication",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 514849,
+            "Total Governmental Funds": 514849
+          }
+        },
+        {
+          "label": "Garbage",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 263046,
+            "Total Governmental Funds": 263046
+          }
+        },
+        {
+          "label": "Court operations",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 41769,
+            "Total Governmental Funds": 41769
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 3586724,
+            "Total Governmental Funds": 3586724
+          }
+        },
+        {
+          "label": "Capital outlay",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 989788,
+            "Total Governmental Funds": 989788
+          }
+        },
+        {
+          "label": "BP oil spill",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 242786,
+            "Total Governmental Funds": 242786
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Capital outlay",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 956733,
+            "Total Governmental Funds": 956733
+          }
+        },
+        {
+          "label": "Contingency",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 587321,
+            "Total Governmental Funds": 587321
+          }
+        },
+        {
+          "label": "Capital outlay",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 887488,
+            "Total Governmental Funds": 887488
+          }
+        },
+        {
+          "label": "Recovery",
+          "values": {
+            "General Fund": null,
+            "CDBG Disaster Fund": null,
+            "Disaster Recovery Fund": null,
+            "Consolidated Fire Protection District No. 1-2": null,
+            "Non-Major Governmental Funds": 5778189,
+            "Total Governmental Funds": 5778189
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": null,
+        "CDBG Disaster Fund": -2478001,
+        "Disaster Recovery Fund": -2100595,
+        "Consolidated Fire Protection District No. 1-2": null,
+        "Non-Major Governmental Funds": -103130,
+        "Total Governmental Funds": -4681726
+      },
+      "total_fund_balances": {
+        "General Fund": 4090710,
+        "CDBG Disaster Fund": -2478001,
+        "Disaster Recovery Fund": -2100595,
+        "Consolidated Fire Protection District No. 1-2": 3586724,
+        "Non-Major Governmental Funds": 16555152,
+        "Total Governmental Funds": 19653990
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 19084457,
+      "CDBG Disaster Fund": 2626028,
+      "Disaster Recovery Fund": 36080608,
+      "Consolidated Fire Protection District No. 1-2": 10151074,
+      "Non-Major Governmental Funds": 29744549,
+      "Total Governmental Funds": 97686716
+    },
+    "cross_sectional": {
+      "cash": 6265640,
+      "investments": 4229000,
+      "receivables": 3849341,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 4549014,
+      "prepaid_items": 98722,
+      "total_assets": 19084457,
+      "deferred_outflows": null,
+      "accounts_payable": 1569518,
+      "deferred_revenues": 69188,
+      "government_transfers": 6171546,
+      "other_liabilities": 2557899,
+      "total_liabilities": 10368145,
+      "deferred_inflows": 4625602,
+      "reserved": 98722,
+      "unreserved_designated": null,
+      "unreserved_undesignated": null,
+      "total_fund_balances": 4090710,
+      "total_liabilities_and_fund_balances": 19084457
+    },
+    "_uncertainties": [
+      {
+        "field": "taxes_receivable",
+        "fund": "General Fund",
+        "reason": "Combined sales/use taxes and property taxes manually into single value; PDF shows separately as Sales and use taxes: 1,972,145 and Property taxes: 878,056",
+        "extracted": 2850201,
+        "alternative": null,
+        "page": 25,
+        "text_snippet": "Sales and use taxes 1,972,145; Property taxes 878,056",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "General Fund",
+        "reason": "Combined multiple receivable types: Cable franchise fees (92,741), Intergovernmental (868,332), Grass liens (74,702), Other (56,105) due to schema limitation",
+        "extracted": 999140,
+        "alternative": null,
+        "page": 25,
+        "text_snippet": "Cable franchise fees 92,741; Intergovemmental 868,332; Grass liens receivable 74,702; Other 56,105",
+        "severity": "medium"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Non-Major Governmental Funds",
+        "reason": "Combined Intergovernmental (5,254,041) and Other (543,718) receivables",
+        "extracted": 5797759,
+        "alternative": null,
+        "page": 25,
+        "text_snippet": "Intergovemmental...5,254,041; Other...543,718",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Listed as 'Short-term certificates of indebtedness' which may be different from typical other liabilities",
+        "extracted": 1984485,
+        "alternative": null,
+        "page": 25,
+        "text_snippet": "Short-term certificates of indebtedness 1,984,485",
+        "severity": "medium"
+      },
+      {
+        "field": "unassigned",
+        "fund": "General Fund",
+        "reason": "General Fund shows no unassigned balance explicitly; appears only in other funds with negative values",
+        "extracted": null,
+        "alternative": 0,
+        "page": 25,
+        "text_snippet": "Unassigned (2,478,001) (2,100,595) (103,130) (4,681,726)",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Bernard",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": 10242189,
+        "charges_for_services": 73169,
+        "operating_grants": 1744864,
+        "capital_grants": null,
+        "net_expense_revenue": -8424156
+      },
+      "public_works": {
+        "expenses": 15580221,
+        "charges_for_services": 92360,
+        "operating_grants": 544224,
+        "capital_grants": 391086,
+        "net_expense_revenue": -14552551
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 6832287,
+        "charges_for_services": null,
+        "operating_grants": 4556215,
+        "capital_grants": null,
+        "net_expense_revenue": -2275972
+      },
+      "culture_and_recreation": {
+        "expenses": 3787646,
+        "charges_for_services": 143705,
+        "operating_grants": 137022,
+        "capital_grants": 628687,
+        "net_expense_revenue": -2878232
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 1328696,
+        "net_expense_revenue": -1328696
+      },
+      "other_activities": [
+        {
+          "label": "Judicial",
+          "expenses": 796068,
+          "charges_for_services": 42220,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -753848
+        },
+        {
+          "label": "Other general government",
+          "expenses": 22942805,
+          "charges_for_services": 2680931,
+          "operating_grants": 3388211,
+          "capital_grants": 37841076,
+          "net_expense_revenue": 20967413
+        },
+        {
+          "label": "Sanitation",
+          "expenses": 4769494,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -4769494
+        }
+      ],
+      "total": {
+        "expenses": 66279406,
+        "charges_for_services": 3032385,
+        "operating_grants": 10370636,
+        "capital_grants": 38860849,
+        "net_expense_revenue": -14015536
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 13387595,
+      "sales_taxes": 16096696,
+      "severance_taxes": 985553,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 691825,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 92912,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 187198,
+      "miscellaneous": null,
+      "transfers": -219376,
+      "other_items": [
+        {
+          "label": "Fines and forfeitures",
+          "amount": 151781
+        },
+        {
+          "label": "Parish road royalty",
+          "amount": 935697
+        },
+        {
+          "label": "Other general revenues (expenses)",
+          "amount": 640021
+        },
+        {
+          "label": "Gain on sale of capital assets",
+          "amount": 83974
+        },
+        {
+          "label": "Gain on sale of investments held for sale",
+          "amount": 546240
+        },
+        {
+          "label": "Proceeds from insurance settlement",
+          "amount": 62466
+        },
+        {
+          "label": "Capital Contributions from governmental activities to business-type activities",
+          "amount": -13215123
+        }
+      ],
+      "total_general_revenues": 20427459
+    },
+    "change_in_net_position": 6411923,
+    "net_position_beginning": 378299895,
+    "net_position_ending": 384811818,
+    "cross_sectional": {
+      "property_ad_valorem": 13387595,
+      "sales_use_taxes": 16096696,
+      "severance_taxes": 985553,
+      "other_tax_revenue": 691825,
+      "total_tax_revenue": 31161669,
+      "state_revenue_sharing": 92912,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -219376,
+      "all_other_revenue": 2456398,
+      "total_other_revenue": 2329934,
+      "total_program_revenue": 52263870,
+      "total_revenues": 85755473,
+      "general_government": null,
+      "legislative": null,
+      "judicial": -753848,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": 20967413,
+      "total_general_government": 20213565,
+      "public_safety": -8424156,
+      "public_works": -14552551,
+      "economic_development": null,
+      "health_and_welfare": -2275972,
+      "culture_and_recreation": -2878232,
+      "interest_debt_service": -1328696,
+      "all_other_expenditures": -4769494,
+      "total_expenditures": 66279406
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government header shows no data, but Judicial and Other general government are listed separately underneath",
+        "extracted": null,
+        "alternative": 23738873,
+        "page": 24,
+        "text_snippet": "General government\n$ - $ $ - $\nJudicial $ 796,068 $ 42,220 $ (753,848)\nOther general government 22,942,805",
+        "severity": "high"
+      },
+      {
+        "field": "other_taxes",
+        "fund": "general_revenues",
+        "reason": "Combined E telephone (451,084) and Other (240,741) taxes since no separate fields exist for these categories",
+        "extracted": 691825,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "E telephone 451,084\nOther 240,741",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Cannot separate operating grants between state and federal sources from the data provided",
+        "extracted": null,
+        "alternative": 10370636,
+        "page": 24,
+        "text_snippet": "Operating Grants and Contributions... Total governmental activities... 10,370,636",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.all_other_revenue",
+        "fund": null,
+        "reason": "Calculated as sum of multiple line items but uncertain if all non-categorized items should be included",
+        "extracted": 2456398,
+        "alternative": null,
+        "page": 24,
+        "text_snippet": "Other general revenues (expenses) 640,021, Interest and investment earnings 187,198, Gain on sale of capital assets 83,974, Gain on sale ofinvestments",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. Bernard",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": null
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": null
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_fields",
+        "fund": "governmental_activities",
+        "reason": "The provided PDF text only contains proprietary fund statements (enterprise and internal service funds), not the government-wide Statement of Net Position for Governmental Activities",
+        "extracted": null,
+        "alternative": null,
+        "page": 29,
+        "text_snippet": "ST. BERNARD PARISH GOVERNMENT PROPRIETARY FUNDS STATEMENT OF NET POSITION December 31, 2014",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "St. Bernard",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 19245801,
+          "increases": 580238,
+          "decreases": null,
+          "ending": 19826039
+        },
+        "construction_in_progress": {
+          "beginning": 23876204,
+          "increases": 23806841,
+          "decreases": -30753268,
+          "ending": 16929777
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 43122005,
+          "increases": 24387079,
+          "decreases": -30753268,
+          "ending": 36755816
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 129702340,
+          "increases": 2424717,
+          "decreases": null,
+          "ending": 132127057
+        },
+        "machinery_and_equipment": {
+          "beginning": 17732336,
+          "increases": 1386783,
+          "decreases": null,
+          "ending": 19119119
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 20167,
+          "increases": 842787,
+          "decreases": null,
+          "ending": 862954
+        },
+        "infrastructure": {
+          "beginning": 246667208,
+          "increases": 14240017,
+          "decreases": null,
+          "ending": 260907225
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": 381929,
+          "increases": 58906,
+          "decreases": null,
+          "ending": 440835
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [
+          {
+            "label": "Bridges",
+            "beginning": 1363360,
+            "increases": null,
+            "decreases": null,
+            "ending": 1363360
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 395867340,
+          "increases": 18953210,
+          "decreases": null,
+          "ending": 414820550
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -52848854,
+          "increases": -13869602,
+          "decreases": null,
+          "ending": -66718456
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 343018486,
+        "increases": 5083608,
+        "decreases": null,
+        "ending": 348102094
+      },
+      "total_capital_assets_net": {
+        "beginning": 386140491,
+        "increases": 29470687,
+        "decreases": -30753268,
+        "ending": 384857910
+      }
+    },
+    "cross_sectional": {
+      "land": 19826039,
+      "construction_in_progress": 16929777,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 384857910
+    },
+    "_uncertainties": [
+      {
+        "field": "improvements_other_than_buildings",
+        "fund": "governmental_activities",
+        "reason": "Land improvements labeled separately from standard improvements_other_than_buildings category",
+        "extracted": 862954,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Land improvements 20,167 $ 842,787 - 862,954",
+        "severity": "low"
+      },
+      {
+        "field": "infrastructure",
+        "fund": "governmental_activities",
+        "reason": "Road system labeled separately from bridges; combined as infrastructure",
+        "extracted": 260907225,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Road system 246,667,208 14,240,017 - 260,907,225",
+        "severity": "low"
+      }
+    ]
+  }
+}

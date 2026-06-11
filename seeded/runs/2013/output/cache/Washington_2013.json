@@ -1,0 +1,818 @@
+{
+  "cbs": {
+    "parish": "Washington",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Criminal Justice Sales Tax Fund",
+      "Parish Transportation Fund",
+      "Sales Tax Split .67% Fund",
+      "HMGR Grant Fund",
+      "Debt Service RTF Revenue Bonds Fund",
+      "Library Fund",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 1849410,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": 861706,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": 123138,
+        "Nonmajor Governmental Funds": 497872,
+        "Total Governmental Funds": 3332126
+      },
+      "investments": {
+        "General Fund": 78524,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": 1185500,
+        "Library Fund": 303195,
+        "Nonmajor Governmental Funds": 1004428,
+        "Total Governmental Funds": 2571647
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 656806,
+        "Criminal Justice Sales Tax Fund": 181920,
+        "Parish Transportation Fund": 2449037,
+        "Sales Tax Split .67% Fund": 260295,
+        "HMGR Grant Fund": 243366,
+        "Debt Service RTF Revenue Bonds Fund": 696002,
+        "Library Fund": 718848,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 5206274
+      },
+      "due_from_other_governments": {
+        "General Fund": 27288,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": 17271,
+        "Library Fund": 1,
+        "Nonmajor Governmental Funds": 30478,
+        "Total Governmental Funds": 175037
+      },
+      "due_from_other_funds": {
+        "General Fund": 354662,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": 155192,
+        "HMGR Grant Fund": 614510,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": 1285470,
+        "Total Governmental Funds": 2409834
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": 47409,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": 804454,
+        "Total Governmental Funds": 851863
+      },
+      "total_assets": {
+        "General Fund": 2533504,
+        "Criminal Justice Sales Tax Fund": 181920,
+        "Parish Transportation Fund": 2882223,
+        "Sales Tax Split .67% Fund": 1219941,
+        "HMGR Grant Fund": 878977,
+        "Debt Service RTF Revenue Bonds Fund": 1428866,
+        "Library Fund": 1736845,
+        "Nonmajor Governmental Funds": 3684505,
+        "Total Governmental Funds": 14546781
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 296865,
+        "Criminal Justice Sales Tax Fund": 74380,
+        "Parish Transportation Fund": 68292,
+        "Sales Tax Split .67% Fund": 143000,
+        "HMGR Grant Fund": 17774,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": 11603,
+        "Nonmajor Governmental Funds": 197129,
+        "Total Governmental Funds": 809043
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 10118,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": 43956,
+        "Sales Tax Split .67% Fund": 27345,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": 2485,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 83904
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": 861203,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 861203
+      },
+      "due_to_other_funds": {
+        "General Fund": 1720700,
+        "Criminal Justice Sales Tax Fund": 102815,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": 123211,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": 463108,
+        "Total Governmental Funds": 2409834
+      },
+      "other_liabilities": {
+        "General Fund": 618377,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": 272389,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": 2094,
+        "Total Governmental Funds": 892860
+      },
+      "total_liabilities": {
+        "General Fund": 2027683,
+        "Criminal Justice Sales Tax Fund": 177195,
+        "Parish Transportation Fund": 112248,
+        "Sales Tax Split .67% Fund": 761377,
+        "HMGR Grant Fund": 878977,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": 123211,
+        "Nonmajor Governmental Funds": 937205,
+        "Total Governmental Funds": 5056844
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General Fund": null,
+            "Criminal Justice Sales Tax Fund": null,
+            "Parish Transportation Fund": null,
+            "Sales Tax Split .67% Fund": null,
+            "HMGR Grant Fund": null,
+            "Debt Service RTF Revenue Bonds Fund": null,
+            "Library Fund": null,
+            "Nonmajor Governmental Funds": 9268,
+            "Total Governmental Funds": 9268
+          }
+        }
+      ],
+      "total": {
+        "General Fund": null,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": 9268,
+        "Total Governmental Funds": 9268
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": null,
+            "Criminal Justice Sales Tax Fund": 4725,
+            "Parish Transportation Fund": 2769975,
+            "Sales Tax Split .67% Fund": 458564,
+            "HMGR Grant Fund": null,
+            "Debt Service RTF Revenue Bonds Fund": 1305655,
+            "Library Fund": 1697897,
+            "Nonmajor Governmental Funds": 2952564,
+            "Total Governmental Funds": 9189380
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 505821,
+        "Criminal Justice Sales Tax Fund": null,
+        "Parish Transportation Fund": null,
+        "Sales Tax Split .67% Fund": null,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": null,
+        "Library Fund": null,
+        "Nonmajor Governmental Funds": -214532,
+        "Total Governmental Funds": 291289
+      },
+      "total_fund_balances": {
+        "General Fund": 505821,
+        "Criminal Justice Sales Tax Fund": 4725,
+        "Parish Transportation Fund": 2769975,
+        "Sales Tax Split .67% Fund": 458564,
+        "HMGR Grant Fund": null,
+        "Debt Service RTF Revenue Bonds Fund": 1305655,
+        "Library Fund": 1697897,
+        "Nonmajor Governmental Funds": 2738032,
+        "Total Governmental Funds": 9480669
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 2533504,
+      "Criminal Justice Sales Tax Fund": 181920,
+      "Parish Transportation Fund": 2882223,
+      "Sales Tax Split .67% Fund": 1219941,
+      "HMGR Grant Fund": 878977,
+      "Debt Service RTF Revenue Bonds Fund": 1428866,
+      "Library Fund": 1736845,
+      "Nonmajor Governmental Funds": 3684505,
+      "Total Governmental Funds": 14546781
+    },
+    "cross_sectional": {
+      "cash": 1849410,
+      "investments": 78524,
+      "receivables": 684094,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 354662,
+      "prepaid_items": null,
+      "total_assets": 2533504,
+      "deferred_outflows": null,
+      "accounts_payable": 296865,
+      "deferred_revenues": null,
+      "government_transfers": 1720700,
+      "other_liabilities": 628495,
+      "total_liabilities": 2027683,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 505821,
+      "total_fund_balances": 505821,
+      "total_liabilities_and_fund_balances": 2533504
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "Total Governmental Funds",
+        "reason": "Total for other assets (FEMA Receivable + Net investment in joint venture) calculated as 851,863, but this line item may not be presented on balance sheet or may be categorized differently",
+        "extracted": 851863,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "FEMA Receivable 47,409 47,409\nNet investment in joint venture 804,454 804,454",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total includes compensated absences, Due to FEMA, and Due to other governmental units which sum to 976,764, but extracted total from PDF is 892,860. Discrepancy exists.",
+        "extracted": 892860,
+        "alternative": 976764,
+        "page": 21,
+        "text_snippet": "Compensated absences 10,118 43,956 27,345 2,485 83,904\nDue to FEMA 272,389 272,389\nDue to other governmental units 618,377 2,094 620,471",
+        "severity": "high"
+      },
+      {
+        "field": "deferred_inflows",
+        "fund": "Nonmajor Governmental Funds",
+        "reason": "Page 22 shows 'TOTAL DEFERRED INFLOWS OF RESOURCES 9,268 9,266' with apparent typo - shows 9,268 then 9,266",
+        "extracted": 9268,
+        "alternative": 9266,
+        "page": 22,
+        "text_snippet": "TOTAL DEFERRED INFLOWS OF RESOURCES 9,268 9,266",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Washington",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 3943059,
+        "charges_for_services": 741471,
+        "operating_grants": 536248,
+        "capital_grants": null,
+        "net_expense_revenue": -2665340
+      },
+      "public_safety": {
+        "expenses": 1167749,
+        "charges_for_services": null,
+        "operating_grants": 495895,
+        "capital_grants": null,
+        "net_expense_revenue": -671854
+      },
+      "public_works": {
+        "expenses": 4298021,
+        "charges_for_services": null,
+        "operating_grants": 595940,
+        "capital_grants": 444989,
+        "net_expense_revenue": -3257092
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 596346,
+        "charges_for_services": null,
+        "operating_grants": 251042,
+        "capital_grants": null,
+        "net_expense_revenue": -345304
+      },
+      "culture_and_recreation": {
+        "expenses": 972826,
+        "charges_for_services": 5700,
+        "operating_grants": 98211,
+        "capital_grants": null,
+        "net_expense_revenue": -868915
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 171735,
+        "net_expense_revenue": -171735
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 618377,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -618377
+        },
+        {
+          "label": "Hurricane relief and restoration",
+          "expenses": 315188,
+          "charges_for_services": null,
+          "operating_grants": 28165,
+          "capital_grants": null,
+          "net_expense_revenue": -287023
+        }
+      ],
+      "total": {
+        "expenses": 12083301,
+        "charges_for_services": 747171,
+        "operating_grants": 1509606,
+        "capital_grants": 940884,
+        "net_expense_revenue": -8885640
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4740357,
+      "sales_taxes": 6238502,
+      "severance_taxes": 175914,
+      "fire_insurance_premiums": 187270,
+      "franchise_fees": null,
+      "other_taxes": 16838,
+      "occupational_licenses": 530335,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 222646,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 9345,
+      "miscellaneous": 35130,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Loss on disposal",
+          "amount": -44325
+        }
+      ],
+      "total_general_revenues": 12112012
+    },
+    "change_in_net_position": 3226372,
+    "net_position_beginning": 41975631,
+    "net_position_ending": 45202003,
+    "cross_sectional": {
+      "property_ad_valorem": 4740357,
+      "sales_use_taxes": 6238502,
+      "severance_taxes": 175914,
+      "other_tax_revenue": 734443,
+      "total_tax_revenue": 11889216,
+      "state_revenue_sharing": 222646,
+      "state_intergovernmental": 1509606,
+      "federal_intergovernmental": 940884,
+      "local_transfer": null,
+      "all_other_revenue": -150,
+      "total_other_revenue": 2672986,
+      "total_program_revenue": 3197661,
+      "total_revenues": 14562202,
+      "general_government": -2665340,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -2665340,
+      "public_safety": -671854,
+      "public_works": -3257092,
+      "economic_development": null,
+      "health_and_welfare": -345304,
+      "culture_and_recreation": -868915,
+      "interest_debt_service": -171735,
+      "all_other_expenditures": -905400,
+      "total_expenditures": 12083301
+    },
+    "_uncertainties": [
+      {
+        "field": "severance_taxes",
+        "fund": null,
+        "reason": "Combined timber severance (163,935) and mineral severance (11,979) into single field",
+        "extracted": 175914,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Timber severance 163,935 - Mineral severance 1 1,979",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.all_other_revenue",
+        "fund": null,
+        "reason": "Investment income (9,345) + Loss on disposal (-44,325) + Miscellaneous (35,130) = -150, negative result unusual for this field",
+        "extracted": -150,
+        "alternative": 44475,
+        "page": 19,
+        "text_snippet": "Unrestricted interest 9,345 - Loss on disposal (44,325) - Miscellaneous 35,130",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Washington",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 3332126,
+        "investments": 2571647,
+        "taxes_receivable": null,
+        "other_receivables": 5357310,
+        "due_from_other_governments": 175037,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 47409
+      },
+      "capital_assets": {
+        "non_depreciable": 2993254,
+        "depreciable_net": 36107028,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 39100282
+      },
+      "other_noncurrent_assets": 2663722,
+      "total_assets": 53026482,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 809043,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 861203,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 4539830
+      },
+      "total_liabilities": 7824479,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 34644356,
+        "restricted": 9169919,
+        "unrestricted": 1388728,
+        "total_net_position": 45202003
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables line item does not specify type; may include taxes receivable or other components",
+        "extracted": 5357310,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Receivables 5,357,310",
+        "severity": "medium"
+      },
+      {
+        "field": "other_current_assets",
+        "fund": "governmental_activities",
+        "reason": "FEMA receivable classification as current vs other; Notes receivable, Equity in landfill, and Restricted assets may be noncurrent",
+        "extracted": 47409,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "FEMA receivable 47,409; Notes receivable 46,014; Equity in Choctaw Road Landfill 1,499,388; Restricted other assets 943,283",
+        "severity": "high"
+      },
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Combined Notes receivable, Equity in landfill, and Restricted assets as noncurrent but classification is uncertain",
+        "extracted": 2663722,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Notes receivable 46,014; Equity in Choctaw Road Landfill 1,499,388; Restricted other assets 943,283",
+        "severity": "high"
+      },
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Due to FEMA and Due to other governments classification unclear; OPEB liability may be split current/noncurrent",
+        "extracted": null,
+        "alternative": 1614403,
+        "page": 18,
+        "text_snippet": "Due to FEMA 272,389; Due to other governments 620,471; OPEB liability 721,543",
+        "severity": "high"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined all long-term liabilities without detail breakdown; includes portion due within one year and after one year plus OPEB and Due items",
+        "extracted": 4539830,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Portion due within one year 1,529,830; Portion due after one year 3,010,000",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Washington",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 2560211,
+          "increases": 1500,
+          "decreases": -26542,
+          "ending": 2535169
+        },
+        "construction_in_progress": {
+          "beginning": 217385,
+          "increases": 448951,
+          "decreases": -208251,
+          "ending": 458085
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 2777596,
+          "increases": 450451,
+          "decreases": -234793,
+          "ending": 2993254
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 10756300,
+          "increases": 25912,
+          "decreases": null,
+          "ending": 10782212
+        },
+        "machinery_and_equipment": {
+          "beginning": 6616011,
+          "increases": 136913,
+          "decreases": -48422,
+          "ending": 6704502
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": null,
+        "vehicles": null,
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": {
+          "beginning": 1391013,
+          "increases": null,
+          "decreases": null,
+          "ending": 1391013
+        },
+        "leased_property": null,
+        "other_depreciable": [
+          {
+            "label": "Asphalt roads",
+            "beginning": 20989059,
+            "increases": null,
+            "decreases": null,
+            "ending": 20989059
+          },
+          {
+            "label": "3-shot roads",
+            "beginning": 6374774,
+            "increases": 793346,
+            "decreases": -15704,
+            "ending": 7152416
+          },
+          {
+            "label": "Bridges and culverts",
+            "beginning": 21631465,
+            "increases": 1652780,
+            "decreases": -79251,
+            "ending": 23204994
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 67758622,
+          "increases": 2608951,
+          "decreases": -143377,
+          "ending": 70224196
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -4406658,
+          "increases": -262117,
+          "decreases": null,
+          "ending": -4668775
+        },
+        "machinery_and_equipment": {
+          "beginning": -5220775,
+          "increases": -472516,
+          "decreases": 40135,
+          "ending": -5653156
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": null,
+        "vehicles": null,
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": {
+          "beginning": -1389038,
+          "increases": -1821,
+          "decreases": null,
+          "ending": -1390859
+        },
+        "leased_property": null,
+        "other": [
+          {
+            "label": "Asphalt roads",
+            "beginning": -12453466,
+            "increases": -1399271,
+            "decreases": null,
+            "ending": -13852737
+          },
+          {
+            "label": "3-shot roads",
+            "beginning": -2382493,
+            "increases": -284642,
+            "decreases": 15704,
+            "ending": -2651431
+          },
+          {
+            "label": "Bridges and culverts",
+            "beginning": -5532863,
+            "increases": -424207,
+            "decreases": 56860,
+            "ending": -5900210
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": -31385293,
+          "increases": -2844574,
+          "decreases": 112699,
+          "ending": -34117168
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 36373329,
+        "increases": -235623,
+        "decreases": -30678,
+        "ending": 36107028
+      },
+      "total_capital_assets_net": {
+        "beginning": 39150925,
+        "increases": 214828,
+        "decreases": -265471,
+        "ending": 39100282
+      }
+    },
+    "cross_sectional": {
+      "land": 2535169,
+      "construction_in_progress": 458085,
+      "other_non_depreciable": null,
+      "buildings_net": 6113437,
+      "improvements_net": null,
+      "machinery_net": 1051346,
+      "other_depreciable_net": null,
+      "books_net": 154,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": 17304784,
+      "leased_property_net": null,
+      "infrastructure_net": 11637744,
+      "total_governmental_net": 39100282
+    },
+    "_uncertainties": []
+  }
+}

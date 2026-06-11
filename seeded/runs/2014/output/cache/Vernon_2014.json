@@ -1,0 +1,825 @@
+{
+  "cbs": {
+    "parish": "Vernon",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Parishwide Maintenance Fund",
+      "Sanitary Landfill Fund",
+      "Health Unit and Jail Maintenance Fund",
+      "Courthouse Maintenance Fund",
+      "Parishwide Overlay Fund",
+      "Criminal Court Fund",
+      "Library Maintenance Fund",
+      "Workforce Investment Act Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 4211242,
+        "Parishwide Maintenance Fund": 587625,
+        "Sanitary Landfill Fund": 1650080,
+        "Health Unit and Jail Maintenance Fund": 1412702,
+        "Courthouse Maintenance Fund": 709944,
+        "Parishwide Overlay Fund": 1568172,
+        "Criminal Court Fund": 43547,
+        "Library Maintenance Fund": 1229447,
+        "Workforce Investment Act Fund": 13395,
+        "Other Governmental Funds": 5946626,
+        "Total Governmental Funds": 17372780
+      },
+      "investments": {
+        "General Fund": 698017,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": 548134,
+        "Total Governmental Funds": 1246151
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 563762,
+        "Parishwide Maintenance Fund": 783049,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": 456897,
+        "Courthouse Maintenance Fund": 1497573,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": 29816,
+        "Library Maintenance Fund": 1116860,
+        "Workforce Investment Act Fund": 10948,
+        "Other Governmental Funds": 2489661,
+        "Total Governmental Funds": 6948566
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 779969,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": 136500,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 916469
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": 39589,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 39589
+      },
+      "total_assets": {
+        "General Fund": 5554973,
+        "Parishwide Maintenance Fund": 1370674,
+        "Sanitary Landfill Fund": 2348097,
+        "Health Unit and Jail Maintenance Fund": 1869599,
+        "Courthouse Maintenance Fund": 2755651,
+        "Parishwide Overlay Fund": 1568172,
+        "Criminal Court Fund": 73363,
+        "Library Maintenance Fund": 2346307,
+        "Workforce Investment Act Fund": 63932,
+        "Other Governmental Funds": 8572787,
+        "Total Governmental Funds": 26523555
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 265826,
+        "Parishwide Maintenance Fund": 110878,
+        "Sanitary Landfill Fund": 210075,
+        "Health Unit and Jail Maintenance Fund": 45698,
+        "Courthouse Maintenance Fund": 10556,
+        "Parishwide Overlay Fund": 58943,
+        "Criminal Court Fund": 5086,
+        "Library Maintenance Fund": 55952,
+        "Workforce Investment Act Fund": 27489,
+        "Other Governmental Funds": 147387,
+        "Total Governmental Funds": 937890
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 111738,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": 18019,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": 46829,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": 36443,
+        "Other Governmental Funds": 739883,
+        "Total Governmental Funds": 916469
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 377564,
+        "Parishwide Maintenance Fund": 110878,
+        "Sanitary Landfill Fund": 210075,
+        "Health Unit and Jail Maintenance Fund": 45698,
+        "Courthouse Maintenance Fund": 28575,
+        "Parishwide Overlay Fund": 58943,
+        "Criminal Court Fund": 51915,
+        "Library Maintenance Fund": 55952,
+        "Workforce Investment Act Fund": 63932,
+        "Other Governmental Funds": 895706,
+        "Total Governmental Funds": 1899238
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Deferred revenues",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": 8436,
+            "Other Governmental Funds": 36443,
+            "Total Governmental Funds": 44879
+          }
+        }
+      ],
+      "total": {
+        "General Fund": null,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Legislative",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 547417,
+            "Total Governmental Funds": 547417
+          }
+        },
+        {
+          "label": "Judicial",
+          "values": {
+            "General Fund": 2066,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": 21448,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 23514
+          }
+        },
+        {
+          "label": "Finance and administrative",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 113630,
+            "Total Governmental Funds": 113630
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": 2727076,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 3174542,
+            "Total Governmental Funds": 5901618
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 2033652,
+            "Total Governmental Funds": 2033652
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": 1259797,
+            "Sanitary Landfill Fund": 2138022,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": 1509228,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 166391,
+            "Total Governmental Funds": 5073438
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": 1823902,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 534651,
+            "Total Governmental Funds": 2358552
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": 2290355,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 8527,
+            "Total Governmental Funds": 2298882
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": null,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": 1098271,
+            "Total Governmental Funds": 1098271
+          }
+        },
+        {
+          "label": "Employee benefits",
+          "values": {
+            "General Fund": null,
+            "Parishwide Maintenance Fund": null,
+            "Sanitary Landfill Fund": null,
+            "Health Unit and Jail Maintenance Fund": null,
+            "Courthouse Maintenance Fund": 2427545,
+            "Parishwide Overlay Fund": null,
+            "Criminal Court Fund": null,
+            "Library Maintenance Fund": null,
+            "Workforce Investment Act Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 2427545
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [],
+      "unassigned": {
+        "General Fund": 2747798,
+        "Parishwide Maintenance Fund": null,
+        "Sanitary Landfill Fund": null,
+        "Health Unit and Jail Maintenance Fund": null,
+        "Courthouse Maintenance Fund": null,
+        "Parishwide Overlay Fund": null,
+        "Criminal Court Fund": null,
+        "Library Maintenance Fund": null,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 2747798
+      },
+      "total_fund_balances": {
+        "General Fund": 5177409,
+        "Parishwide Maintenance Fund": 1259797,
+        "Sanitary Landfill Fund": 2138022,
+        "Health Unit and Jail Maintenance Fund": 1823902,
+        "Courthouse Maintenance Fund": 2727076,
+        "Parishwide Overlay Fund": 1509228,
+        "Criminal Court Fund": 21448,
+        "Library Maintenance Fund": 2290355,
+        "Workforce Investment Act Fund": null,
+        "Other Governmental Funds": 7677081,
+        "Total Governmental Funds": 24624317
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 5554973,
+      "Parishwide Maintenance Fund": 1370674,
+      "Sanitary Landfill Fund": 2348097,
+      "Health Unit and Jail Maintenance Fund": 1869599,
+      "Courthouse Maintenance Fund": 2755651,
+      "Parishwide Overlay Fund": 1568172,
+      "Criminal Court Fund": 73363,
+      "Library Maintenance Fund": 2346307,
+      "Workforce Investment Act Fund": 63932,
+      "Other Governmental Funds": 8572787,
+      "Total Governmental Funds": 26523555
+    },
+    "cross_sectional": {
+      "cash": 4211242,
+      "investments": 698017,
+      "receivables": 563762,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 779969,
+      "prepaid_items": null,
+      "total_assets": 5554973,
+      "deferred_outflows": null,
+      "accounts_payable": 265826,
+      "deferred_revenues": null,
+      "government_transfers": 111738,
+      "other_liabilities": null,
+      "total_liabilities": 377564,
+      "deferred_inflows": null,
+      "reserved": 2066,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 2747798,
+      "total_fund_balances": 5177409,
+      "total_liabilities_and_fund_balances": 5554973
+    },
+    "_uncertainties": [
+      {
+        "field": "deferred_inflows",
+        "fund": "Workforce Investment Act Fund",
+        "reason": "Deferred revenues item appears under Interfund payables line in liabilities section, but later totals suggest it might be a deferred inflow. However, no separate deferred inflows section is explicitly shown on balance sheet.",
+        "extracted": 8436,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "1nterfund payab1es 739,883 916,469 50,148\nDeferred revenues 36,443 8,436 44,879 110,008",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities.due_to_other_funds",
+        "fund": "Workforce Investment Act Fund",
+        "reason": "The Workforce Investment Act Fund shows both interfund payables (36,443) and deferred revenues (8,436) under different line items. Unclear if deferred revenues should be included in due_to_other_funds or moved to deferred_inflows.",
+        "extracted": 36443,
+        "alternative": null,
+        "page": 20,
+        "text_snippet": "1nterfund payab1es 739,883 916,469 50,148\nDeferred revenues 36,443 8,436 44,879",
+        "severity": "medium"
+      },
+      {
+        "field": "fund_balances.total_fund_balances",
+        "fund": "Workforce Investment Act Fund",
+        "reason": "The balance sheet shows 'NONE' for Workforce Investment Act Fund total fund balances. This appears to be zero or explicitly no balance, not null.",
+        "extracted": null,
+        "alternative": 0,
+        "page": 20,
+        "text_snippet": "Total Fund Balances 2,290,355 NONE 7,677,081 24,624,317",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Vernon",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 8941719,
+        "charges_for_services": 986724,
+        "operating_grants": 77419,
+        "capital_grants": null,
+        "net_expense_revenue": -7877576
+      },
+      "public_safety": {
+        "expenses": 2473429,
+        "charges_for_services": 0,
+        "operating_grants": 222225,
+        "capital_grants": null,
+        "net_expense_revenue": -2251204
+      },
+      "public_works": {
+        "expenses": 9592270,
+        "charges_for_services": 14804,
+        "operating_grants": 796694,
+        "capital_grants": null,
+        "net_expense_revenue": -8780772
+      },
+      "economic_development": {
+        "expenses": 1037255,
+        "charges_for_services": 61030,
+        "operating_grants": null,
+        "capital_grants": 47960,
+        "net_expense_revenue": -928265
+      },
+      "health_and_welfare": {
+        "expenses": 926148,
+        "charges_for_services": 231680,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -694468
+      },
+      "culture_and_recreation": {
+        "expenses": 2002736,
+        "charges_for_services": 133210,
+        "operating_grants": 129460,
+        "capital_grants": null,
+        "net_expense_revenue": -1740065
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 392394,
+        "net_expense_revenue": -392394
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 25365951,
+        "charges_for_services": 1134739,
+        "operating_grants": 1518507,
+        "capital_grants": 47960,
+        "net_expense_revenue": -22664746
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5322717,
+      "sales_taxes": 8659295,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 2051064,
+      "non_employer_pension_contribution": null,
+      "investment_income": 116649,
+      "miscellaneous": 3330271,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Federal grant programs",
+          "amount": 1450058
+        }
+      ],
+      "total_general_revenues": 20930055
+    },
+    "change_in_net_position": -1734690,
+    "net_position_beginning": 54804424,
+    "net_position_ending": 53069734,
+    "cross_sectional": {
+      "property_ad_valorem": 5322717,
+      "sales_use_taxes": 8659295,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 13982012,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 2051064,
+      "federal_intergovernmental": 1450058,
+      "local_transfer": null,
+      "all_other_revenue": 3446920,
+      "total_other_revenue": 6948042,
+      "total_program_revenue": 2701206,
+      "total_revenues": 23631260,
+      "general_government": -7877576,
+      "legislative": -534105,
+      "judicial": -864564,
+      "elections": -51780,
+      "finance_and_administration": -3914911,
+      "other_general_government": -2512216,
+      "total_general_government": -7877576,
+      "public_safety": -2251204,
+      "public_works": -8780772,
+      "economic_development": -928265,
+      "health_and_welfare": -694468,
+      "culture_and_recreation": -1740065,
+      "interest_debt_service": -392394,
+      "all_other_expenditures": null,
+      "total_expenditures": 25365951
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "Governmental Activities",
+        "reason": "General government is broken into 5 subcategories (Legislative, Judicial, Elections, Finance and administrative, Other). Summed these to get total general government expenses.",
+        "extracted": 8941719,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Legislative $534,105; Judicial 1,647,975; Elections 51,780; Finance and administrative 4,195,643; Other 2,512,216",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues.property_taxes",
+        "fund": null,
+        "reason": "Combined two property tax lines: general purposes (4,699,300) and debt services (623,417)",
+        "extracted": 5322717,
+        "alternative": 4699300,
+        "page": 18,
+        "text_snippet": "Property taxes, levied for general purposes 4,699,300; Property taxes, levied for debt services 623,417",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Vernon",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 17372780,
+        "investments": 1246151,
+        "taxes_receivable": null,
+        "other_receivables": 6948566,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 39589
+      },
+      "capital_assets": {
+        "non_depreciable": 9411053,
+        "depreciable_net": 43604631,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 53015684
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 78622770,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 937890,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 44879,
+        "accrued_interest": 392394,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 25553036,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 43245853,
+        "restricted": 3133421,
+        "unrestricted": 6690459,
+        "total_net_position": 53069734
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables not broken down by type (taxes, other, intergovernmental); aggregated as single line item",
+        "extracted": 6948566,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Receivables 6,948,566",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Accounts, salaries, and other payables combined in one line item",
+        "extracted": 937890,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Accounts, salaries, and other payables $937,890",
+        "severity": "low"
+      },
+      {
+        "field": "long_term_liabilities.bonds_payable_current",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities only shown as aggregated current (899,766) and noncurrent (23,278,107); breakdown not provided",
+        "extracted": null,
+        "alternative": 899766,
+        "page": 17,
+        "text_snippet": "Due within one year 899,766 / Due in more than one year 23,278,107",
+        "severity": "high"
+      },
+      {
+        "field": "non_depreciable",
+        "fund": "governmental_activities",
+        "reason": "Calculated by adding Land (1,695,977) and Construction in progress (7,715,076)",
+        "extracted": 9411053,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Land 1,695,977 / Construction in progress 7,715,076",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": null
+}

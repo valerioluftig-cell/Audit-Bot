@@ -1,0 +1,771 @@
+{
+  "cbs": {
+    "parish": "Bienville",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Road Maintenance",
+      "Solid Waste",
+      "Debt Service Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 4705355,
+        "Road Maintenance": 7519393,
+        "Solid Waste": 3666093,
+        "Debt Service Fund": 1027431,
+        "Other Governmental Funds": 248630,
+        "Total Governmental Funds": 17166902
+      },
+      "investments": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 1810762,
+        "Road Maintenance": 1957619,
+        "Solid Waste": 367810,
+        "Debt Service Fund": 1131815,
+        "Other Governmental Funds": 6442,
+        "Total Governmental Funds": 5274448
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 6516117,
+        "Road Maintenance": 9477012,
+        "Solid Waste": 4033903,
+        "Debt Service Fund": 2159246,
+        "Other Governmental Funds": 255072,
+        "Total Governmental Funds": 22441350
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 93421,
+        "Road Maintenance": 21716,
+        "Solid Waste": 95478,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 210615
+      },
+      "retainage_payable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": 7411,
+        "Road Maintenance": 22841,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 30252
+      },
+      "deposits_payable": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": 70000,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 70000
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_liabilities": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General": 170832,
+        "Road Maintenance": 44557,
+        "Solid Waste": 95478,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 310867
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General": null,
+            "Road Maintenance": null,
+            "Solid Waste": null,
+            "Debt Service Fund": null,
+            "Other Governmental Funds": 16,
+            "Total Governmental Funds": 16
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General": null,
+            "Road Maintenance": null,
+            "Solid Waste": null,
+            "Debt Service Fund": null,
+            "Other Governmental Funds": 146447,
+            "Total Governmental Funds": 146447
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General": null,
+            "Road Maintenance": 9432455,
+            "Solid Waste": 3938425,
+            "Debt Service Fund": null,
+            "Other Governmental Funds": 14464,
+            "Total Governmental Funds": 13385344
+          }
+        },
+        {
+          "label": "Health & welfare",
+          "values": {
+            "General": null,
+            "Road Maintenance": null,
+            "Solid Waste": null,
+            "Debt Service Fund": null,
+            "Other Governmental Funds": 57744,
+            "Total Governmental Funds": 57744
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General": null,
+            "Road Maintenance": null,
+            "Solid Waste": null,
+            "Debt Service Fund": null,
+            "Other Governmental Funds": 34025,
+            "Total Governmental Funds": 34025
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General": null,
+            "Road Maintenance": null,
+            "Solid Waste": null,
+            "Debt Service Fund": 2159246,
+            "Other Governmental Funds": 2376,
+            "Total Governmental Funds": 2161622
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 6345285,
+        "Road Maintenance": null,
+        "Solid Waste": null,
+        "Debt Service Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 6345285
+      },
+      "total_fund_balances": {
+        "General": 6345285,
+        "Road Maintenance": 9432455,
+        "Solid Waste": 3938425,
+        "Debt Service Fund": 2159246,
+        "Other Governmental Funds": 255072,
+        "Total Governmental Funds": 22130483
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 6516117,
+      "Road Maintenance": 9477012,
+      "Solid Waste": 4033903,
+      "Debt Service Fund": 2159246,
+      "Other Governmental Funds": 255072,
+      "Total Governmental Funds": 22441350
+    },
+    "cross_sectional": {
+      "cash": 4705355,
+      "investments": null,
+      "receivables": 1810762,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": null,
+      "total_assets": 6516117,
+      "deferred_outflows": null,
+      "accounts_payable": 93421,
+      "deferred_revenues": 70000,
+      "government_transfers": null,
+      "other_liabilities": 7411,
+      "total_liabilities": 170832,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 6345285,
+      "total_fund_balances": 6345285,
+      "total_liabilities_and_fund_balances": 6516117
+    },
+    "_uncertainties": [
+      {
+        "field": "liabilities.accrued_liabilities",
+        "fund": "General",
+        "reason": "Line item labeled 'Salaries and related payable' categorized as accrued liabilities based on typical accounting treatment",
+        "extracted": 7411,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Salaries and related payable 7,411 22,841 30,252",
+        "severity": "low"
+      },
+      {
+        "field": "liabilities.unearned_revenue",
+        "fund": "General",
+        "reason": "Balance sheet uses term 'Deferred revenues' which is synonymous with unearned revenue in governmental accounting",
+        "extracted": 70000,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Deferred revenues 70.000 70,000",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Bienville",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2320292,
+        "charges_for_services": 30957,
+        "operating_grants": 84139,
+        "capital_grants": null,
+        "net_expense_revenue": -2205196
+      },
+      "public_safety": {
+        "expenses": 672115,
+        "charges_for_services": 94203,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -577912
+      },
+      "public_works": {
+        "expenses": 6139111,
+        "charges_for_services": 60383,
+        "operating_grants": null,
+        "capital_grants": 327795,
+        "net_expense_revenue": -5750933
+      },
+      "economic_development": {
+        "expenses": 64978,
+        "charges_for_services": 8567,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -56411
+      },
+      "health_and_welfare": {
+        "expenses": 541954,
+        "charges_for_services": 442763,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -99191
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 396683,
+        "net_expense_revenue": -396683
+      },
+      "other_activities": [
+        {
+          "label": "Conservation of natural resources",
+          "expenses": 30848,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -30848
+        }
+      ],
+      "total": {
+        "expenses": 10165981,
+        "charges_for_services": 30957,
+        "operating_grants": 690055,
+        "capital_grants": 327795,
+        "net_expense_revenue": -9117174
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4445022,
+      "sales_taxes": 2345499,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 32162,
+      "occupational_licenses": 82708,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 1512686,
+      "non_employer_pension_contribution": null,
+      "investment_income": 127199,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Special item - Gain (loss) on disposal of assets",
+          "amount": 23210
+        }
+      ],
+      "total_general_revenues": 8568486
+    },
+    "change_in_net_position": -548688,
+    "net_position_beginning": 32575214,
+    "net_position_ending": 32026526,
+    "cross_sectional": {
+      "property_ad_valorem": 4445022,
+      "sales_use_taxes": 2345499,
+      "severance_taxes": null,
+      "other_tax_revenue": 114870,
+      "total_tax_revenue": 6905391,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 690055,
+      "federal_intergovernmental": 327795,
+      "local_transfer": null,
+      "all_other_revenue": 1663095,
+      "total_other_revenue": 2680945,
+      "total_program_revenue": 1048807,
+      "total_revenues": 10635143,
+      "general_government": -2205196,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -2205196,
+      "public_safety": -577912,
+      "public_works": -5750933,
+      "economic_development": -56411,
+      "health_and_welfare": -99191,
+      "culture_and_recreation": null,
+      "interest_debt_service": -396683,
+      "all_other_expenditures": -30848,
+      "total_expenditures": 10165981
+    },
+    "_uncertainties": [
+      {
+        "field": "charges_for_services",
+        "fund": "governmental_activities total",
+        "reason": "Total charges for services shown as $30,957 which equals only general government charges; other functions (public safety $94,203, public works $60,383, health $442,763, econ dev $8,567) do not sum to this total",
+        "extracted": 30957,
+        "alternative": 636873,
+        "page": 15,
+        "text_snippet": "Total governmental activities $10,165,981 $30,957 $690,055 $327,795 (9,117,174)",
+        "severity": "high"
+      },
+      {
+        "field": "state_revenue_sharing",
+        "fund": "general_revenues",
+        "reason": "Cannot distinguish between state revenue sharing and other state grants from the line 'Grants and contributions not restricted to specific programs'",
+        "extracted": null,
+        "alternative": 1512686,
+        "page": 15,
+        "text_snippet": "Grants and contributions not restricted to specific programs 1,512,686",
+        "severity": "medium"
+      },
+      {
+        "field": "occupational_licenses",
+        "fund": "general_revenues",
+        "reason": "Licenses and permits may include other types of fees, not just occupational licenses",
+        "extracted": 82708,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Licenses and permits 82,708",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Bienville",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 17166902,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 5274448,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 22504607
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 44945957,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 210615,
+        "retainage_payable": null,
+        "accrued_liabilities": 30252,
+        "deposits_payable": null,
+        "unearned_revenue": 70000,
+        "accrued_interest": 136529,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": 10365000,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 80615,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 2026420
+      },
+      "total_liabilities": 12919431,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 12139607,
+        "restricted": null,
+        "unrestricted": 19886919,
+        "total_net_position": 32026526
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined premium on bonds (274,509) and other post-employment benefits (1,751,911) into single other_long_term category as no specific fields existed for these items",
+        "extracted": 2026420,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Premium on bonds 274,509\nOther post-employment benefits 1.751.911",
+        "severity": "low"
+      },
+      {
+        "field": "compensated_absences_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Compensated absences payable (80,615) not split between current and noncurrent portions in the statement",
+        "extracted": 80615,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Compensated absences payable 80,615",
+        "severity": "low"
+      },
+      {
+        "field": "unearned_revenue",
+        "fund": "governmental_activities",
+        "reason": "Deferred revenues typically represents unearned revenue but could also be a deferred inflow depending on GASB standards in effect",
+        "extracted": 70000,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Deferred revenues 70,000",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Bienville",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 22504607
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_fields",
+        "fund": "governmental_activities",
+        "reason": "No Capital Assets schedule found in provided PDF pages - only narrative mentions of capital assets totals",
+        "extracted": null,
+        "alternative": null,
+        "page": 8,
+        "text_snippet": "The police Jury's investment in capital assets for its governmental activities as of December 31, 2014, amounts to $22,504,607",
+        "severity": "high"
+      }
+    ]
+  }
+}

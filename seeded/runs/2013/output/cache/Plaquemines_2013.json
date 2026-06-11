@@ -1,0 +1,844 @@
+{
+  "cbs": {
+    "parish": "Plaquemines",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Fire Fighting",
+      "FEMA Management",
+      "Coastal Restorations",
+      "Series 2012A Series 2012B Courthouse",
+      "Capital Improvements",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 11106929,
+        "Fire Fighting": 9244202,
+        "FEMA Management": null,
+        "Coastal Restorations": 47428971,
+        "Series 2012A Series 2012B Courthouse": 24550837,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 21033964,
+        "Total Governmental Funds": 113364903
+      },
+      "investments": {
+        "General Fund": 876257,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": 93696,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 3746392,
+        "Total Governmental Funds": 4716345
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 14447460,
+        "Fire Fighting": 1286940,
+        "FEMA Management": 44844091,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 10698704,
+        "Total Governmental Funds": 71277195
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 37397371,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": 4000,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 201754,
+        "Total Governmental Funds": 37603125
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 1393406,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 247154,
+        "Total Governmental Funds": 1640560
+      },
+      "other_assets": {
+        "General Fund": 2073727,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 2073727
+      },
+      "total_assets": {
+        "General Fund": 67295150,
+        "Fire Fighting": 10624838,
+        "FEMA Management": 44844091,
+        "Coastal Restorations": 47428971,
+        "Series 2012A Series 2012B Courthouse": 24554837,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 35927968,
+        "Total Governmental Funds": 230675855
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 4512564,
+        "Fire Fighting": 636746,
+        "FEMA Management": 2400760,
+        "Coastal Restorations": 482853,
+        "Series 2012A Series 2012B Courthouse": 521820,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 2526569,
+        "Total Governmental Funds": 11081312
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 722865,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 369013,
+        "Total Governmental Funds": 1091878
+      },
+      "deposits_payable": {
+        "General Fund": 33275,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 33275
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 4944703,
+        "Total Governmental Funds": 4944703
+      },
+      "due_to_other_funds": {
+        "General Fund": 139869,
+        "Fire Fighting": null,
+        "FEMA Management": 33442900,
+        "Coastal Restorations": 290593,
+        "Series 2012A Series 2012B Courthouse": 85389,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 3644374,
+        "Total Governmental Funds": 37603125
+      },
+      "other_liabilities": {
+        "General Fund": 625708,
+        "Fire Fighting": 6267,
+        "FEMA Management": null,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 101025,
+        "Total Governmental Funds": 733000
+      },
+      "total_liabilities": {
+        "General Fund": 6034281,
+        "Fire Fighting": 643013,
+        "FEMA Management": 40788363,
+        "Coastal Restorations": 773446,
+        "Series 2012A Series 2012B Courthouse": 607209,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 6640981,
+        "Total Governmental Funds": 55487293
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Deferred revenues",
+          "values": {
+            "General Fund": 3981641,
+            "Fire Fighting": null,
+            "FEMA Management": 4133456,
+            "Coastal Restorations": null,
+            "Series 2012A Series 2012B Courthouse": null,
+            "Capital Improvements": null,
+            "Other Governmental Funds": 10403484,
+            "Total Governmental Funds": 18518581
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 3981641,
+        "Fire Fighting": null,
+        "FEMA Management": 4133456,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": null,
+        "Other Governmental Funds": 10403484,
+        "Total Governmental Funds": 18518581
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General Fund": 3344922,
+            "Fire Fighting": null,
+            "FEMA Management": null,
+            "Coastal Restorations": null,
+            "Series 2012A Series 2012B Courthouse": null,
+            "Capital Improvements": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 3344922
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General Fund": 2246495,
+            "Fire Fighting": 9237052,
+            "FEMA Management": 4055728,
+            "Coastal Restorations": 46655525,
+            "Series 2012A Series 2012B Courthouse": 23947628,
+            "Capital Improvements": null,
+            "Other Governmental Funds": 21039104,
+            "Total Governmental Funds": 107181532
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General Fund": null,
+            "Fire Fighting": null,
+            "FEMA Management": null,
+            "Coastal Restorations": null,
+            "Series 2012A Series 2012B Courthouse": null,
+            "Capital Improvements": null,
+            "Other Governmental Funds": 53699606,
+            "Total Governmental Funds": 53699606
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General Fund": 744773,
+            "Fire Fighting": null,
+            "FEMA Management": null,
+            "Coastal Restorations": null,
+            "Series 2012A Series 2012B Courthouse": null,
+            "Capital Improvements": null,
+            "Other Governmental Funds": 99658,
+            "Total Governmental Funds": 844431
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": null,
+        "Fire Fighting": null,
+        "FEMA Management": -2011795,
+        "Coastal Restorations": null,
+        "Series 2012A Series 2012B Courthouse": null,
+        "Capital Improvements": -4133456,
+        "Other Governmental Funds": -2255259,
+        "Total Governmental Funds": -8400510
+      },
+      "total_fund_balances": {
+        "General Fund": 57279228,
+        "Fire Fighting": 9981825,
+        "FEMA Management": 4055728,
+        "Coastal Restorations": 46655525,
+        "Series 2012A Series 2012B Courthouse": 23947628,
+        "Capital Improvements": -4133456,
+        "Other Governmental Funds": 18883503,
+        "Total Governmental Funds": 156669981
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 67295150,
+      "Fire Fighting": 10624838,
+      "FEMA Management": 44844091,
+      "Coastal Restorations": 47428971,
+      "Series 2012A Series 2012B Courthouse": 24554837,
+      "Capital Improvements": null,
+      "Other Governmental Funds": 35927968,
+      "Total Governmental Funds": 230675855
+    },
+    "cross_sectional": {
+      "cash": 11106929,
+      "investments": 876257,
+      "receivables": 14447460,
+      "inventory": null,
+      "other_assets": 2073727,
+      "transfers_in": 37397371,
+      "prepaid_items": 1393406,
+      "total_assets": 67295150,
+      "deferred_outflows": null,
+      "accounts_payable": 4512564,
+      "deferred_revenues": null,
+      "government_transfers": 139869,
+      "other_liabilities": 1381848,
+      "total_liabilities": 6034281,
+      "deferred_inflows": 3981641,
+      "reserved": 5591417,
+      "unreserved_designated": 744773,
+      "unreserved_undesignated": null,
+      "total_fund_balances": 57279228,
+      "total_liabilities_and_fund_balances": 67295150
+    },
+    "_uncertainties": [
+      {
+        "field": "fund_balances.unassigned",
+        "fund": "General Fund",
+        "reason": "The unassigned fund balance row shows values for FEMA Management, Capital Improvements, and Other Governmental Funds as deficits, but no value is shown for the General Fund. Unclear if General Fund unassigned is null or if the unassigned balance is incorporated elsewhere.",
+        "extracted": null,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Unasslgned (Deficit) (2,011,795) (4,133,456) (2,255,259) (8,400,510)",
+        "severity": "medium"
+      },
+      {
+        "field": "assets.other_assets",
+        "fund": "General Fund",
+        "reason": "Interfund loan listed separately under assets. Treating as 'other_assets' but could be a distinct category.",
+        "extracted": 2073727,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "interfund loan 2,073,727",
+        "severity": "low"
+      },
+      {
+        "field": "funds",
+        "fund": "Series 2012A Series 2012B Courthouse",
+        "reason": "Fund name appears to combine Series 2012A and Series 2012B labels with Courthouse. The column header layout may indicate two separate funds but presented as one column.",
+        "extracted": "Series 2012A Series 2012B Courthouse",
+        "alternative": "Two separate funds: Series 2012A and Series 2012B Courthouse",
+        "page": 21,
+        "text_snippet": "Series 2012A Other Total\nGeneral Fire FEMA Coastal Series 2012B Capital Governmental Governmental",
+        "severity": "medium"
+      },
+      {
+        "field": "fund_balances.nonspendable",
+        "fund": "General Fund",
+        "reason": "Nonspendable shows 3,344,922 for General Fund only. This should match prepaid items (1,393,406) plus interfund loan (2,073,727) but treating nonspendable detail as unavailable, using aggregated value.",
+        "extracted": 3344922,
+        "alternative": null,
+        "page": 21,
+        "text_snippet": "Nonspendable 3,344,922",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Plaquemines",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 20468180,
+        "charges_for_services": 1909584,
+        "operating_grants": 505777,
+        "capital_grants": null,
+        "net_expense_revenue": -18052819
+      },
+      "public_safety": {
+        "expenses": 11181163,
+        "charges_for_services": 253887,
+        "operating_grants": 270992,
+        "capital_grants": null,
+        "net_expense_revenue": -10656284
+      },
+      "public_works": {
+        "expenses": 13080792,
+        "charges_for_services": 880087,
+        "operating_grants": 7656753,
+        "capital_grants": 11577857,
+        "net_expense_revenue": 7033905
+      },
+      "economic_development": {
+        "expenses": 498501,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -498501
+      },
+      "health_and_welfare": {
+        "expenses": 29336153,
+        "charges_for_services": 527969,
+        "operating_grants": 303719,
+        "capital_grants": null,
+        "net_expense_revenue": -28504465
+      },
+      "culture_and_recreation": {
+        "expenses": 3725645,
+        "charges_for_services": 71156,
+        "operating_grants": 30469,
+        "capital_grants": null,
+        "net_expense_revenue": -3624020
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 3876133,
+        "net_expense_revenue": -3876133
+      },
+      "other_activities": [
+        {
+          "label": "Transportation",
+          "expenses": 5231474,
+          "charges_for_services": 116627,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -5114847
+        }
+      ],
+      "total": {
+        "expenses": 87398041,
+        "charges_for_services": 3759310,
+        "operating_grants": 8767710,
+        "capital_grants": 11577857,
+        "net_expense_revenue": -63293164
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 12366547,
+      "sales_taxes": 21542292,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": 761625,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 16396193,
+      "non_employer_pension_contribution": null,
+      "investment_income": 64801,
+      "miscellaneous": 156014,
+      "transfers": -1465333,
+      "other_items": [
+        {
+          "label": "Federal grants and contributions not restricted",
+          "amount": 47149
+        },
+        {
+          "label": "Parish oil royalties",
+          "amount": 20455135
+        },
+        {
+          "label": "Parish gas royalties",
+          "amount": 1321034
+        },
+        {
+          "label": "Mineral and surface leases",
+          "amount": 334331
+        },
+        {
+          "label": "Property leases",
+          "amount": 84667
+        },
+        {
+          "label": "Cablevision fee",
+          "amount": 146536
+        },
+        {
+          "label": "Proceeds from sale of assets",
+          "amount": 79930
+        },
+        {
+          "label": "Settlements",
+          "amount": 440988
+        },
+        {
+          "label": "Cancellation of debt",
+          "amount": 5910554
+        }
+      ],
+      "total_general_revenues": 78642463
+    },
+    "change_in_net_position": 15349299,
+    "net_position_beginning": 480508684,
+    "net_position_ending": 495857983,
+    "cross_sectional": {
+      "property_ad_valorem": 12366547,
+      "sales_use_taxes": 21542292,
+      "severance_taxes": null,
+      "other_tax_revenue": 761625,
+      "total_tax_revenue": 34670464,
+      "state_revenue_sharing": null,
+      "state_intergovernmental": 16396193,
+      "federal_intergovernmental": 47149,
+      "local_transfer": -1465333,
+      "all_other_revenue": 29408990,
+      "total_other_revenue": 44386999,
+      "total_program_revenue": 24104877,
+      "total_revenues": 103162340,
+      "general_government": -18052819,
+      "legislative": -1696264,
+      "judicial": -5251711,
+      "elections": -148680,
+      "finance_and_administration": -3604185,
+      "other_general_government": -4262491,
+      "total_general_government": -18052819,
+      "public_safety": -10656284,
+      "public_works": 7033905,
+      "economic_development": -498501,
+      "health_and_welfare": -28504465,
+      "culture_and_recreation": -3624020,
+      "interest_debt_service": -3876133,
+      "all_other_expenditures": -5114847,
+      "total_expenditures": 87398041
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government is broken into subcategories (Legislative, Judicial, Executive, Elections, Finance and administrative, Other) but no total line shown - had to sum subcategories",
+        "extracted": 20468180,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Legislative $1,696,264...Judicial 6,008,166...Executive 3,108,613...Elections 148,680...Finance and administrative 4,626,207...Other 4,880,250",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Plaquemines",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 113364903,
+        "investments": 4716345,
+        "taxes_receivable": null,
+        "other_receivables": 71277195,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 1640560,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 160855080,
+        "depreciable_net": 312070406,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 472925486
+      },
+      "other_noncurrent_assets": 2073727,
+      "total_assets": 665998216,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 11081312,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": 33275,
+        "unearned_revenue": 4944703,
+        "accrued_interest": 2340925,
+        "other_current_liabilities": 733000
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 3725000,
+        "bonds_payable_noncurrent": 117680000,
+        "compensated_absences_current": 1091878,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": 29467,
+        "lease_liability_noncurrent": 78073,
+        "other_long_term": 28402600
+      },
+      "total_liabilities": 170140233,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 351520486,
+        "restricted": 96356871,
+        "unrestricted": 47980626,
+        "total_net_position": 495857983
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables shown as net of allowances without breakdown by type (taxes vs other)",
+        "extracted": 71277195,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Receivables (net of allowances for uncoliectibles) 71,277,195",
+        "severity": "medium"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined multiple noncurrent items: litigation (3964423) + notes payable (2989446) + OPEB (21448731)",
+        "extracted": 28402600,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Litigation and other contingencies 3,964,423...Notes payable-long term 2,989,446...Other post-employment benefits payable 21,448,731",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Plaquemines",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_fields",
+        "fund": "governmental_activities",
+        "reason": "No Capital Assets schedule for Governmental Activities found in provided PDF pages",
+        "extracted": null,
+        "alternative": null,
+        "page": 89,
+        "text_snippet": "Pages 89-95 contain Enterprise Funds combining schedules, Fiduciary Funds, and Compensation schedules only. No Capital Assets schedule present.",
+        "severity": "high"
+      }
+    ]
+  }
+}

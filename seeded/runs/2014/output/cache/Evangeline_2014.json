@@ -1,0 +1,864 @@
+{
+  "cbs": {
+    "parish": "Evangeline",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Special Grant",
+      "Road District Maintenance",
+      "Library Maintenance",
+      "Public 2% Sales Tax Capital Projects",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 921218,
+        "Special Grant": 119682,
+        "Road District Maintenance": 2341619,
+        "Library Maintenance": 1489618,
+        "Public 2% Sales Tax Capital Projects": 3348325,
+        "Other Governmental Funds": 3294706,
+        "Total Governmental Funds": 11515168
+      },
+      "investments": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": 27880102,
+        "Other Governmental Funds": 224952,
+        "Total Governmental Funds": 28105054
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 9319,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": 3026,
+        "Total Governmental Funds": 12345
+      },
+      "due_from_other_governments": {
+        "General": 995149,
+        "Special Grant": 316911,
+        "Road District Maintenance": 2624065,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": 1276772,
+        "Other Governmental Funds": 1012725,
+        "Total Governmental Funds": 6225622
+      },
+      "due_from_other_funds": {
+        "General": 176496,
+        "Special Grant": null,
+        "Road District Maintenance": 6696,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 183192
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": 5000,
+        "Total Governmental Funds": 5000
+      },
+      "total_assets": {
+        "General": 2102182,
+        "Special Grant": 436593,
+        "Road District Maintenance": 4972380,
+        "Library Maintenance": 2766390,
+        "Public 2% Sales Tax Capital Projects": 31228427,
+        "Other Governmental Funds": 4540409,
+        "Total Governmental Funds": 46046381
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 299886,
+        "Special Grant": 191448,
+        "Road District Maintenance": 99104,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": 2116960,
+        "Other Governmental Funds": 102072,
+        "Total Governmental Funds": 2809470
+      },
+      "retainage_payable": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": 11062,
+        "Total Governmental Funds": 11062
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Special Grant": 69456,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 69456
+      },
+      "due_to_other_funds": {
+        "General": 6696,
+        "Special Grant": 123446,
+        "Road District Maintenance": 43111,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": 9939,
+        "Total Governmental Funds": 183192
+      },
+      "other_liabilities": {
+        "General": 308889,
+        "Special Grant": null,
+        "Road District Maintenance": 1884,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": 18017,
+        "Total Governmental Funds": 328790
+      },
+      "total_liabilities": {
+        "General": 615471,
+        "Special Grant": 384350,
+        "Road District Maintenance": 144099,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": 2116960,
+        "Other Governmental Funds": 390551,
+        "Total Governmental Funds": 3651431
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Debt service",
+          "values": {
+            "General": null,
+            "Special Grant": null,
+            "Road District Maintenance": null,
+            "Library Maintenance": null,
+            "Public 2% Sales Tax Capital Projects": null,
+            "Other Governmental Funds": 240647,
+            "Total Governmental Funds": 240647
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General": null,
+            "Special Grant": null,
+            "Road District Maintenance": null,
+            "Library Maintenance": null,
+            "Public 2% Sales Tax Capital Projects": 27880102,
+            "Other Governmental Funds": 28732,
+            "Total Governmental Funds": 27908834
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Judicial",
+          "values": {
+            "General": null,
+            "Special Grant": null,
+            "Road District Maintenance": null,
+            "Library Maintenance": null,
+            "Public 2% Sales Tax Capital Projects": 1231365,
+            "Other Governmental Funds": 2035491,
+            "Total Governmental Funds": 3266856
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General": null,
+            "Special Grant": 52243,
+            "Road District Maintenance": 4828281,
+            "Library Maintenance": 2766390,
+            "Public 2% Sales Tax Capital Projects": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 7646914
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General": null,
+            "Special Grant": null,
+            "Road District Maintenance": null,
+            "Library Maintenance": null,
+            "Public 2% Sales Tax Capital Projects": null,
+            "Other Governmental Funds": 1638365,
+            "Total Governmental Funds": 1638365
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General": null,
+            "Special Grant": null,
+            "Road District Maintenance": null,
+            "Library Maintenance": null,
+            "Public 2% Sales Tax Capital Projects": 184694,
+            "Other Governmental Funds": 2766396,
+            "Total Governmental Funds": 2951090
+          }
+        },
+        {
+          "label": "Drainage improvements",
+          "values": {
+            "General": null,
+            "Special Grant": null,
+            "Road District Maintenance": null,
+            "Library Maintenance": null,
+            "Public 2% Sales Tax Capital Projects": null,
+            "Other Governmental Funds": 42658,
+            "Total Governmental Funds": 42658
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 1486711,
+        "Special Grant": null,
+        "Road District Maintenance": null,
+        "Library Maintenance": null,
+        "Public 2% Sales Tax Capital Projects": null,
+        "Other Governmental Funds": -20729,
+        "Total Governmental Funds": 1465982
+      },
+      "total_fund_balances": {
+        "General": 1486711,
+        "Special Grant": 52243,
+        "Road District Maintenance": 4828281,
+        "Library Maintenance": 2766390,
+        "Public 2% Sales Tax Capital Projects": 29111467,
+        "Other Governmental Funds": 4149858,
+        "Total Governmental Funds": 42394950
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 2102182,
+      "Special Grant": 436593,
+      "Road District Maintenance": 4972380,
+      "Library Maintenance": 2766390,
+      "Public 2% Sales Tax Capital Projects": 31228427,
+      "Other Governmental Funds": 4540409,
+      "Total Governmental Funds": 46046381
+    },
+    "cross_sectional": {
+      "cash": 921218,
+      "investments": null,
+      "receivables": 1004468,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 176496,
+      "prepaid_items": null,
+      "total_assets": 2102182,
+      "deferred_outflows": null,
+      "accounts_payable": 299886,
+      "deferred_revenues": null,
+      "government_transfers": 6696,
+      "other_liabilities": 308889,
+      "total_liabilities": 615471,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 1486711,
+      "total_fund_balances": 1486711,
+      "total_liabilities_and_fund_balances": 2102182
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General",
+        "reason": "Combined performance bonds payable (307,818) and compensated absences payable (1,071) as both appear to be other liabilities not separately categorized",
+        "extracted": 308889,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Performance bonds payable 307,818 - - / Compensated absences payable 1,071 - 1,884",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total calculated from performance bonds (307,818) + compensated absences total (2,955 implied) + cash overdraft (7,145) + sewer deposits (11,062) but totals unclear",
+        "extracted": 328790,
+        "alternative": 315960,
+        "page": 14,
+        "text_snippet": "Cash overdraft 7,145 / Performance bonds payable 307,818 / Compensated absences payable 2,955 / Sewer deposits payable 11,062",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted",
+        "fund": "Total Governmental Funds",
+        "reason": "Public works restricted total shows 27,908,834 but individual amounts sum to 27,908,834 (27,880,102 + 28,732)",
+        "extracted": 27908834,
+        "alternative": 28732,
+        "page": 14,
+        "text_snippet": "Public works - - - 27,880,102 28,732 / Total shown unclear",
+        "severity": "low"
+      },
+      {
+        "field": "assigned",
+        "fund": "Other Governmental Funds",
+        "reason": "Culture and recreation value unclear - page shows 2,766,390 for Library Maintenance total but 184,694 for Public 2% column under culture",
+        "extracted": 2766396,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Culture and recreation - - - 2,766,390 184,694 2,951,084",
+        "severity": "high"
+      },
+      {
+        "field": "assigned",
+        "fund": "Total Governmental Funds",
+        "reason": "Judicial assigned total shows 8,147,380 but text shows 3,266,856 - misread possible",
+        "extracted": 3266856,
+        "alternative": 8147380,
+        "page": 14,
+        "text_snippet": "Judicial - - - 1,231,365 2,035,491 8,147,380",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Evangeline",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2303564,
+        "charges_for_services": 650407,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1653157
+      },
+      "public_safety": {
+        "expenses": 844114,
+        "charges_for_services": null,
+        "operating_grants": 93919,
+        "capital_grants": null,
+        "net_expense_revenue": -750195
+      },
+      "public_works": {
+        "expenses": 7176279,
+        "charges_for_services": 125770,
+        "operating_grants": 462208,
+        "capital_grants": 533621,
+        "net_expense_revenue": -6054680
+      },
+      "economic_development": {
+        "expenses": 213035,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -213035
+      },
+      "health_and_welfare": {
+        "expenses": 483095,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -483095
+      },
+      "culture_and_recreation": {
+        "expenses": 1293548,
+        "charges_for_services": 237288,
+        "operating_grants": 26748,
+        "capital_grants": null,
+        "net_expense_revenue": -1029512
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 1087451,
+        "net_expense_revenue": -1087451
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 13401086,
+        "charges_for_services": 1013465,
+        "operating_grants": 582875,
+        "capital_grants": 533621,
+        "net_expense_revenue": -11271125
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5857491,
+      "sales_taxes": 3282902,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 5024,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 233286,
+      "state_shared_revenue": 1180378,
+      "non_employer_pension_contribution": null,
+      "investment_income": 85138,
+      "miscellaneous": 589263,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Other state grants",
+          "amount": 201048
+        }
+      ],
+      "total_general_revenues": 11434530
+    },
+    "change_in_net_position": 163405,
+    "net_position_beginning": 35853785,
+    "net_position_ending": 36017190,
+    "cross_sectional": {
+      "property_ad_valorem": 5857491,
+      "sales_use_taxes": 3282902,
+      "severance_taxes": null,
+      "other_tax_revenue": 5024,
+      "total_tax_revenue": 9145417,
+      "state_revenue_sharing": 233286,
+      "state_intergovernmental": 462208,
+      "federal_intergovernmental": 120621,
+      "local_transfer": null,
+      "all_other_revenue": 875449,
+      "total_other_revenue": 2872942,
+      "total_program_revenue": 2129961,
+      "total_revenues": 14148320,
+      "general_government": 2303564,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": 2303564,
+      "public_safety": 844114,
+      "public_works": 7176279,
+      "economic_development": 213035,
+      "health_and_welfare": 483095,
+      "culture_and_recreation": 1293548,
+      "interest_debt_service": 1087451,
+      "all_other_expenditures": null,
+      "total_expenditures": 13401086
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Beer taxes listed under general revenues as 5,024, uncertain if this should be classified as other_taxes or if there are additional tax categories not shown",
+        "extracted": 5024,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Beer taxes 5,024",
+        "severity": "low"
+      },
+      {
+        "field": "state_shared_revenue",
+        "fund": null,
+        "reason": "Parish equalization shown as 1,180,378 - unclear if this is the same as state_shared_revenue or separate category",
+        "extracted": 1180378,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Parish equalization 1,180,378",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants total 582,875 but unclear how to split between state and federal. Allocated based on public works operating grants assuming state-funded",
+        "extracted": 462208,
+        "alternative": 582875,
+        "page": 10,
+        "text_snippet": "Operating Grants and Contributions 582,875",
+        "severity": "high"
+      },
+      {
+        "field": "cross_sectional.federal_intergovernmental",
+        "fund": null,
+        "reason": "Calculated as difference between total operating grants and assumed state grants (582,875 - 462,208), highly uncertain allocation",
+        "extracted": 120621,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Public safety ... 93,919 ... Health and welfare ... Culture and recreation ... 26,748",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Evangeline",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 11515168,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 12345,
+        "due_from_other_governments": 6225622,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 5000
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 25647365
+      },
+      "other_noncurrent_assets": 28125898,
+      "total_assets": 71510554,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 2809470,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 329789,
+        "accrued_interest": 114296,
+        "other_current_liabilities": 307818
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 234000,
+        "bonds_payable_noncurrent": 31605866,
+        "compensated_absences_current": 2955,
+        "compensated_absences_noncurrent": 68625,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": 2338,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 11062
+      },
+      "total_liabilities": 35493364,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 22677823,
+        "restricted": 126351,
+        "unrestricted": 13213016,
+        "total_net_position": 36017190
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Combined restricted cash and investments as noncurrent assets; unclear if these should be categorized differently",
+        "extracted": 28125898,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Restricted assets: Cash and interest-bearing deposits 20,844 Investments 28,105,054",
+        "severity": "medium"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables listed as 'Receivables, net' without breakdown by type; unclear what type of receivables",
+        "extracted": 12345,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Receivables, net 12,345",
+        "severity": "low"
+      },
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Performance bonds payable categorized as other current liabilities; could be separate category",
+        "extracted": 307818,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Performance bonds payable 307,818",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Sewer deposits payable noncurrent portion categorized as other long-term; unusual for governmental activities",
+        "extracted": 11062,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Portion due after one year - Sewer deposits payable 11,062",
+        "severity": "medium"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Only debt service restriction shown; may be other restricted categories not broken out",
+        "extracted": 126351,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Restricted for debt service 126,351",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Evangeline",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_fields",
+        "fund": null,
+        "reason": "No Capital Assets schedule found in provided PDF pages. Pages 70-71 only contain Section 8 Housing Program financial data schedules (balance sheet and income statement), not a Capital Assets schedule with beginning/ending balances and changes during the year.",
+        "extracted": null,
+        "alternative": null,
+        "page": 70,
+        "text_snippet": "EVANGELINE PARISH POLICE JURY Financial Data Schedule - Balance Sheet Section 8 Housing Program December 31. 2014",
+        "severity": "high"
+      }
+    ]
+  }
+}

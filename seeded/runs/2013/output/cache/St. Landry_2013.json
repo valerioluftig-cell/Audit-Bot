@@ -1,0 +1,1100 @@
+{
+  "cbs": {
+    "parish": "St. Landry",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road and Bridge Maintenance Fund",
+      "Health Unit Maintenance Fund",
+      "Airport Maintenance Fund",
+      "LCDBG Disaster Recovery Fund",
+      "Road District 1 Sales Tax Fund",
+      "Road District 1 Construction Fund",
+      "Road District 1 Sinking Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 610783,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": 62025,
+        "Airport Maintenance Fund": 39559,
+        "LCDBG Disaster Recovery Fund": 3345,
+        "Road District 1 Sales Tax Fund": 865071,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1580783
+      },
+      "investments": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": 56180653,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 56180653
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 2409716,
+        "Road and Bridge Maintenance Fund": 142480,
+        "Health Unit Maintenance Fund": 1300905,
+        "Airport Maintenance Fund": 378783,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": 732289,
+        "Road District 1 Construction Fund": 1441726,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 6405899
+      },
+      "due_from_other_governments": {
+        "General Fund": 140373,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 140373
+      },
+      "due_from_other_funds": {
+        "General Fund": 754920,
+        "Road and Bridge Maintenance Fund": 104,
+        "Health Unit Maintenance Fund": 110463,
+        "Airport Maintenance Fund": 4910,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": 1000000,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 96932,
+        "Total Governmental Funds": 1967329
+      },
+      "due_from_component_units": {
+        "General Fund": 4555,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 4555
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": 10350,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 3953549,
+        "Road and Bridge Maintenance Fund": 459894,
+        "Health Unit Maintenance Fund": 1411368,
+        "Airport Maintenance Fund": 46521,
+        "LCDBG Disaster Recovery Fund": 387038,
+        "Road District 1 Sales Tax Fund": 2653234,
+        "Road District 1 Construction Fund": 58720902,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 2403729,
+        "Total Governmental Funds": 70036239
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 308489,
+        "Road and Bridge Maintenance Fund": 243114,
+        "Health Unit Maintenance Fund": 84397,
+        "Airport Maintenance Fund": 55970,
+        "LCDBG Disaster Recovery Fund": 378789,
+        "Road District 1 Sales Tax Fund": 41411,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 333639,
+        "Total Governmental Funds": 4339697
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": 222805,
+        "Road and Bridge Maintenance Fund": 70735,
+        "Health Unit Maintenance Fund": 45478,
+        "Airport Maintenance Fund": 5550,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Other Governmental Funds": 15846,
+        "Total Governmental Funds": 360414
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 4387,
+        "Total Governmental Funds": 4387
+      },
+      "due_to_other_funds": {
+        "General Fund": 1102714,
+        "Road and Bridge Maintenance Fund": 211410,
+        "Health Unit Maintenance Fund": 343404,
+        "Airport Maintenance Fund": 67424,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 242377,
+        "Total Governmental Funds": 1967329
+      },
+      "other_liabilities": {
+        "General Fund": 101389,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 18794,
+        "Total Governmental Funds": 120011
+      },
+      "total_liabilities": {
+        "General Fund": 1735397,
+        "Road and Bridge Maintenance Fund": 525259,
+        "Health Unit Maintenance Fund": 473496,
+        "Airport Maintenance Fund": 133331,
+        "LCDBG Disaster Recovery Fund": 378789,
+        "Road District 1 Sales Tax Fund": 41411,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 610656,
+        "Total Governmental Funds": 6792227
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Road and Bridge Maintenance Fund": null,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": null,
+        "LCDBG Disaster Recovery Fund": null,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaids",
+          "values": {
+            "General Fund": 10350,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": 229168,
+            "Total Governmental Funds": 239518
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": 169372,
+            "Total Governmental Funds": 169372
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": 1181404,
+            "Total Governmental Funds": 1181404
+          }
+        },
+        {
+          "label": "Prisoner expense and jury witness",
+          "values": {
+            "General Fund": 245700,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 245700
+          }
+        },
+        {
+          "label": "Judicial expenses",
+          "values": {
+            "General Fund": 54672,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 54672
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": 383212,
+            "Total Governmental Funds": 383212
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": 24800,
+            "Total Governmental Funds": 24800
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": 937872,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 937872
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": 1144,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 1442
+          }
+        },
+        {
+          "label": "Parish road construction",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": 2611823,
+            "Road District 1 Construction Fund": 55597,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 58209669
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": 33987,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 33991
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "General contingencies",
+          "values": {
+            "General Fund": 295101,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 295101
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": 176458,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 176458
+          }
+        },
+        {
+          "label": "Judicial expenses",
+          "values": {
+            "General Fund": 121937,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 121937
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": 44601,
+            "Road and Bridge Maintenance Fund": null,
+            "Health Unit Maintenance Fund": null,
+            "Airport Maintenance Fund": null,
+            "LCDBG Disaster Recovery Fund": null,
+            "Road District 1 Sales Tax Fund": null,
+            "Road District 1 Construction Fund": null,
+            "Road District 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 44601
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 1268189,
+        "Road and Bridge Maintenance Fund": -65365,
+        "Health Unit Maintenance Fund": null,
+        "Airport Maintenance Fund": -86810,
+        "LCDBG Disaster Recovery Fund": 8249,
+        "Road District 1 Sales Tax Fund": null,
+        "Road District 1 Construction Fund": null,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1124263
+      },
+      "total_fund_balances": {
+        "General Fund": 2218152,
+        "Road and Bridge Maintenance Fund": -65365,
+        "Health Unit Maintenance Fund": 937872,
+        "Airport Maintenance Fund": -86810,
+        "LCDBG Disaster Recovery Fund": 8249,
+        "Road District 1 Sales Tax Fund": 2611823,
+        "Road District 1 Construction Fund": 55827014,
+        "Road District 1 Sinking Fund": null,
+        "Other Governmental Funds": 1793073,
+        "Total Governmental Funds": 63244012
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 3953549,
+      "Road and Bridge Maintenance Fund": 459894,
+      "Health Unit Maintenance Fund": 1411368,
+      "Airport Maintenance Fund": 46521,
+      "LCDBG Disaster Recovery Fund": 387038,
+      "Road District 1 Sales Tax Fund": 2653234,
+      "Road District 1 Construction Fund": 58720902,
+      "Road District 1 Sinking Fund": null,
+      "Other Governmental Funds": 2403729,
+      "Total Governmental Funds": 70036239
+    },
+    "cross_sectional": {
+      "cash": 610783,
+      "investments": null,
+      "receivables": 2550089,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 754920,
+      "prepaid_items": 10350,
+      "total_assets": 3953549,
+      "deferred_outflows": null,
+      "accounts_payable": 308489,
+      "deferred_revenues": null,
+      "government_transfers": 1102714,
+      "other_liabilities": 324194,
+      "total_liabilities": 1735397,
+      "deferred_inflows": null,
+      "reserved": 311866,
+      "unreserved_designated": 638097,
+      "unreserved_undesignated": 1268189,
+      "total_fund_balances": 2218152,
+      "total_liabilities_and_fund_balances": 3953549
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Combined bank overdraft, due to agency funds, and due to component units into other_liabilities",
+        "extracted": 101389,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Bank overdraft 217, Due to agency funds 95,000, Due to component units 6,389",
+        "severity": "medium"
+      },
+      {
+        "field": "prepaid_items",
+        "fund": "Total Governmental Funds",
+        "reason": "Prepaid items line total appears blank in total column but shown in individual fund columns",
+        "extracted": null,
+        "alternative": 239518,
+        "page": 13,
+        "text_snippet": "Prepaid items 10,350",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "Road District 1 Construction Fund",
+        "reason": "Parish road construction shows 55,597 in Construction Fund but total is 58,209,669 - possible inclusion of Sinking Fund amount",
+        "extracted": 55597,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Parish road consttuction - 2,611,823 55,597 58,209,669",
+        "severity": "medium"
+      },
+      {
+        "field": "cash_and_deposits",
+        "fund": "Total Governmental Funds",
+        "reason": "Cash line label shows both 'Cash and interest-bearing deposits' and 'Cash and cash equivalents, restricted' separately but values appear combined",
+        "extracted": 1580783,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Cash and interest-bearing deposits 610,783 $ 62,025 and Cash and cash equivalents, restricted (separate line)",
+        "severity": "low"
+      },
+      {
+        "field": "assets",
+        "fund": "General Fund",
+        "reason": "Due from agency funds shown separately from due from other funds - may need separate category",
+        "extracted": null,
+        "alternative": 278137,
+        "page": 13,
+        "text_snippet": "Due from agency funds 22,852 255.285",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Landry",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 6153716,
+        "charges_for_services": 1010857,
+        "operating_grants": 175493,
+        "capital_grants": null,
+        "net_expense_revenue": -4967366
+      },
+      "public_safety": {
+        "expenses": 2075565,
+        "charges_for_services": 468873,
+        "operating_grants": 293152,
+        "capital_grants": 82318,
+        "net_expense_revenue": -1231222
+      },
+      "public_works": {
+        "expenses": 7851650,
+        "charges_for_services": 81085,
+        "operating_grants": 4536064,
+        "capital_grants": null,
+        "net_expense_revenue": -3234501
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 1756986,
+        "charges_for_services": 8213,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1748773
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 1901826,
+        "net_expense_revenue": -1901826
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 19739743,
+        "charges_for_services": 1569028,
+        "operating_grants": 5004709,
+        "capital_grants": 82318,
+        "net_expense_revenue": -13083688
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4313933,
+      "sales_taxes": 6852818,
+      "severance_taxes": 849135,
+      "fire_insurance_premiums": 331639,
+      "franchise_fees": null,
+      "other_taxes": 298949,
+      "occupational_licenses": null,
+      "gaming_revenues": 2140763,
+      "state_revenue_sharing": 255036,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 132214,
+      "miscellaneous": 596794,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Royalties, commissions and fees",
+          "amount": 301399
+        },
+        {
+          "label": "Special item - sales tax allocation (solid waste)",
+          "amount": 140000
+        },
+        {
+          "label": "Special item - Gain on sale of equipment",
+          "amount": 29940
+        }
+      ],
+      "total_general_revenues": 16489467
+    },
+    "change_in_net_position": 3405779,
+    "net_position_beginning": 14276344,
+    "net_position_ending": 17682123,
+    "cross_sectional": {
+      "property_ad_valorem": 4313933,
+      "sales_use_taxes": 9308506,
+      "severance_taxes": 849135,
+      "other_tax_revenue": 630573,
+      "total_tax_revenue": 14788214,
+      "state_revenue_sharing": 255036,
+      "state_intergovernmental": 5004709,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1200347,
+      "total_other_revenue": 6460092,
+      "total_program_revenue": 6656055,
+      "total_revenues": 27904361,
+      "general_government": -4967366,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -4967366,
+      "public_safety": -1231222,
+      "public_works": -3234501,
+      "economic_development": null,
+      "health_and_welfare": -1748773,
+      "culture_and_recreation": null,
+      "interest_debt_service": -1901826,
+      "all_other_expenditures": null,
+      "total_expenditures": 19739743
+    },
+    "_uncertainties": [
+      {
+        "field": "other_taxes",
+        "fund": null,
+        "reason": "Combined Insurance premium tax (284,124) and Alcohol tax (14,825) as other_taxes",
+        "extracted": 298949,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Insurance premium tax 284,124, Alcohol tax 14,825",
+        "severity": "low"
+      },
+      {
+        "field": "gaming_revenues",
+        "fund": null,
+        "reason": "Combined Hotel/motel tax (197,956), 4% slot tax (1,624,974), and Video poker (515,789) as gaming_revenues",
+        "extracted": 2140763,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "HoteFmotel tax 197,956, 4% slot tax 1,624,974, Video poker 515,789",
+        "severity": "medium"
+      },
+      {
+        "field": "fire_insurance_premiums",
+        "fund": null,
+        "reason": "Used '2% fire insurance rebate' value as fire_insurance_premiums",
+        "extracted": 331639,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "2% fire insurance rebate 331,639",
+        "severity": "low"
+      },
+      {
+        "field": "state_intergovernmental",
+        "fund": "cross_sectional",
+        "reason": "Used total operating_grants as state_intergovernmental; may include federal grants not separately identified",
+        "extracted": 5004709,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Operating Grants and Contributions 5.004.709",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. Landry",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 1580783,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 6405899,
+        "due_from_other_governments": 140373,
+        "due_from_component_units": 4555,
+        "inventory": null,
+        "prepaid_items": 239518,
+        "other_current_assets": 285099
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 18081147
+      },
+      "other_noncurrent_assets": 59412683,
+      "total_assets": 86150057,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 4339697,
+        "retainage_payable": null,
+        "accrued_liabilities": 360414,
+        "deposits_payable": null,
+        "unearned_revenue": 4387,
+        "accrued_interest": 96612,
+        "other_current_liabilities": 366006
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 3074167,
+        "bonds_payable_noncurrent": 58619667,
+        "compensated_absences_current": 141666,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1600973
+      },
+      "total_liabilities": 68467934,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 9000399,
+        "restricted": 6136597,
+        "unrestricted": 2545127,
+        "total_net_position": 17682123
+      }
+    },
+    "component_units": {
+      "total_assets": 4773806,
+      "total_liabilities": 1368937,
+      "total_net_position": 3404869
+    },
+    "_uncertainties": [
+      {
+        "field": "other_noncurrent_assets",
+        "fund": "governmental_activities",
+        "reason": "Combined restricted cash and restricted investments under noncurrent assets; these might be considered separate capital/investment categories",
+        "extracted": 59412683,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Cash and cash equivalents - restricted 3,232,030\nInvestments - restricted 56,180,653",
+        "severity": "medium"
+      },
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Combined multiple line items: bank overdrafts (19,011), unamortized premium current (109,951), due to agency funds (95,000), and due to component units (6,389)",
+        "extracted": 366006,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Bank overdrafts 19,011, Unamortized premium 109,951, Due to agency funds 95,000, Due to component units 6,389",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined claims payable (171,605) and unamortized premium noncurrent (1,429,368) as other long-term liabilities",
+        "extracted": 1600973,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Claims payable 171,605, Unamortized premium 1,429,368",
+        "severity": "low"
+      },
+      {
+        "field": "other_current_assets",
+        "fund": "governmental_activities",
+        "reason": "Mapped 'Due from agency funds' to other_current_assets as no specific field exists for inter-fund receivables",
+        "extracted": 285099,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Due from agency funds 285,099",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined three restricted categories: debt service (33,991), roads (2,611,823), and other (3,490,783)",
+        "extracted": 6136597,
+        "alternative": null,
+        "page": 9,
+        "text_snippet": "Restricted for debt service 33,991, Restricted - roads 2,611,823, Restricted - other 3,490,783",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "St. Landry",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 499243,
+          "increases": null,
+          "decreases": null,
+          "ending": 499243
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": 9080748,
+          "decreases": null,
+          "ending": 9080748
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 499243,
+          "increases": 9080748,
+          "decreases": null,
+          "ending": 9579991
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 14525602,
+          "increases": null,
+          "decreases": null,
+          "ending": 14525602
+        },
+        "machinery_and_equipment": {
+          "beginning": 4468333,
+          "increases": 84577,
+          "decreases": -113665,
+          "ending": 4439245
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 6342054,
+          "increases": 277583,
+          "decreases": null,
+          "ending": 6619637
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": 432982,
+          "increases": 129740,
+          "decreases": -41955,
+          "ending": 520767
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 25768971,
+          "increases": 491900,
+          "decreases": -155620,
+          "ending": 26105251
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -10607972,
+          "increases": -252767,
+          "decreases": null,
+          "ending": -10860739
+        },
+        "machinery_and_equipment": {
+          "beginning": -3162472,
+          "increases": -376642,
+          "decreases": 113665,
+          "ending": -3425449
+        },
+        "improvements_other_than_buildings": {
+          "beginning": -2798068,
+          "increases": -286695,
+          "decreases": null,
+          "ending": -3084763
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": -193387,
+          "increases": -76444,
+          "decreases": 36687,
+          "ending": -233144
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -16761899,
+          "increases": -992548,
+          "decreases": 150352,
+          "ending": -17604095
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 9007072,
+        "increases": -500648,
+        "decreases": -5268,
+        "ending": 8501156
+      },
+      "total_capital_assets_net": {
+        "beginning": 9506315,
+        "increases": 8580100,
+        "decreases": -5268,
+        "ending": 18081147
+      }
+    },
+    "cross_sectional": {
+      "land": 499243,
+      "construction_in_progress": 9080748,
+      "other_non_depreciable": null,
+      "buildings_net": 3664863,
+      "improvements_net": 3534874,
+      "machinery_net": 1013796,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": 287623,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": 18081147
+    },
+    "_uncertainties": [
+      {
+        "field": "accumulated_depreciation.improvements_other_than_buildings.beginning",
+        "fund": "governmental_activities",
+        "reason": "OCR error in source text showing '12.798.068\u2022)' which appears to be misread; context suggests should be (2,798,068)",
+        "extracted": -2798068,
+        "alternative": -12798068,
+        "page": 37,
+        "text_snippet": "IImmpprroovveemmeennttss ootthheerr tthhaann bbuuiillddiinnggss 12.798.068\u2022) (286.695) - (3.084.763)",
+        "severity": "high"
+      },
+      {
+        "field": "total_capital_assets_net.beginning",
+        "fund": "governmental_activities",
+        "reason": "Source text garbled: '8 9 506 315 8 8 580 100 8' - interpreted as beginning 9,506,315 and increases 8,580,100",
+        "extracted": 9506315,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Governmental activities capital assets, net 8 9 506 315 8 8 580 100 8 (5 268) 818 081 147",
+        "severity": "medium"
+      }
+    ]
+  }
+}

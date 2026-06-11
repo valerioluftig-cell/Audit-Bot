@@ -1,0 +1,259 @@
+{
+  "cbs": null,
+  "soa": {
+    "parish": "Richland",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 1231354,
+        "charges_for_services": 197386,
+        "operating_grants": 15869,
+        "capital_grants": null,
+        "net_expense_revenue": -1018099
+      },
+      "public_safety": {
+        "expenses": 325322,
+        "charges_for_services": 18339,
+        "operating_grants": 226049,
+        "capital_grants": null,
+        "net_expense_revenue": -80934
+      },
+      "public_works": {
+        "expenses": 5911385,
+        "charges_for_services": 19018,
+        "operating_grants": 1598024,
+        "capital_grants": null,
+        "net_expense_revenue": -4294343
+      },
+      "economic_development": {
+        "expenses": 217738,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -217738
+      },
+      "health_and_welfare": {
+        "expenses": 289712,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -289712
+      },
+      "culture_and_recreation": {
+        "expenses": 818110,
+        "charges_for_services": 16624,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -801486
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 8793621,
+        "charges_for_services": 251367,
+        "operating_grants": 1839942,
+        "capital_grants": null,
+        "net_expense_revenue": -6702312
+      }
+    },
+    "general_revenues": {
+      "property_taxes": null,
+      "sales_taxes": null,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Taxes",
+          "amount": 6762999
+        },
+        {
+          "label": "Intergovernmental",
+          "amount": 261639
+        },
+        {
+          "label": "Unrestricted investment earnings and miscellaneous",
+          "amount": 52130
+        }
+      ],
+      "total_general_revenues": 7076768
+    },
+    "change_in_net_position": 374456,
+    "net_position_beginning": 10123791,
+    "net_position_ending": 10498247,
+    "cross_sectional": {
+      "property_ad_valorem": null,
+      "sales_use_taxes": null,
+      "severance_taxes": null,
+      "other_tax_revenue": null,
+      "total_tax_revenue": 6762999,
+      "state_revenue_sharing": 261639,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 52130,
+      "total_other_revenue": 313769,
+      "total_program_revenue": 2091309,
+      "total_revenues": 9168077,
+      "general_government": -1018099,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1018099,
+      "public_safety": -80934,
+      "public_works": -4294343,
+      "economic_development": -217738,
+      "health_and_welfare": -289712,
+      "culture_and_recreation": -801486,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 8793621
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.expenses",
+        "fund": "governmental_activities",
+        "reason": "General government is broken into 5 subcategories on the Statement of Activities; had to sum Legislative + Judicial + Elections + Finance/Administrative + Other to get total",
+        "extracted": 1231354,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Legislative $ 267,292... Judicial 110,034... Elections 73,570... Finance and administrative 336,031... Other 444,427",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "Had to sum charges for services across 5 general government subcategories (0+29230+0+152914+15242)",
+        "extracted": 197386,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Legislative $ - ... Judicial 29,230... Elections -... Finance and administrative 152,914... Other 15,242",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Had to sum net expense/revenue across 5 general government subcategories",
+        "extracted": -1018099,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Legislative (267,292)... Judicial (64,935)... Elections (73,570)... Finance (183,117)... Other (429,185)",
+        "severity": "low"
+      },
+      {
+        "field": "general_revenues",
+        "fund": null,
+        "reason": "Statement of Activities shows aggregated general revenues (Taxes, Intergovernmental, Investment/Misc) without detailed breakout by type (property, sales, severance, etc.)",
+        "extracted": null,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "General revenues: Taxes 6,762,999 Intergovernmental 261,639 Unrestricted investment earnings and miscellaneous 52,130",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Richland",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 2626068
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": 10498247
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "total_net_position",
+        "fund": "governmental_activities",
+        "reason": "Statement of Net Position not provided in PDF text. Only reconciliation page showing total net position available. Detailed asset and liability breakdown not present.",
+        "extracted": 10498247,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Total net position of governmental activities - government-wide statement of net position $ 10.498.247",
+        "severity": "high"
+      },
+      {
+        "field": "total_capital_assets_net",
+        "fund": "governmental_activities",
+        "reason": "Capital assets extracted from reconciliation rather than from actual Statement of Net Position. Breakdown into depreciable/non-depreciable not available.",
+        "extracted": 2626068,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Capital assets used in governmental activities are not financial resources and therefore are not reported in the funds. 2.626.068",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": null
+}

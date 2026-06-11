@@ -1,0 +1,971 @@
+{
+  "cbs": {
+    "parish": "Allen",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Solid Waste Fund",
+      "Hospital Retrofit Fund",
+      "Compact Fund",
+      "Parish Road Fund",
+      "Road District #2 MTC. Fund",
+      "Road District #3 MTC. Fund",
+      "Nonmajor Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 240932,
+        "Solid Waste Fund": 547105,
+        "Hospital Retrofit Fund": 187,
+        "Compact Fund": 294855,
+        "Parish Road Fund": 11995,
+        "Road District #2 MTC. Fund": 832228,
+        "Road District #3 MTC. Fund": 1631244,
+        "Nonmajor Governmental Funds": 1305121,
+        "Total Governmental Funds": 4863667
+      },
+      "investments": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 234039,
+        "Solid Waste Fund": 98228,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": 602271,
+        "Road District #3 MTC. Fund": 534089,
+        "Nonmajor Governmental Funds": 1330446,
+        "Total Governmental Funds": 2799073
+      },
+      "due_from_other_governments": {
+        "General Fund": 281570,
+        "Solid Waste Fund": 131093,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": 32096,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": 142310,
+        "Total Governmental Funds": 587069
+      },
+      "due_from_other_funds": {
+        "General Fund": 41502,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": 224,
+        "Road District #3 MTC. Fund": 626,
+        "Nonmajor Governmental Funds": 20107,
+        "Total Governmental Funds": 62459
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": 45179,
+        "Total Governmental Funds": 45179
+      },
+      "prepaid_items": {
+        "General Fund": 2989,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 2989
+      },
+      "other_assets": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General Fund": 798043,
+        "Solid Waste Fund": 678198,
+        "Hospital Retrofit Fund": 187,
+        "Compact Fund": 396072,
+        "Parish Road Fund": 44091,
+        "Road District #2 MTC. Fund": 1434723,
+        "Road District #3 MTC. Fund": 2165959,
+        "Nonmajor Governmental Funds": 2843163,
+        "Total Governmental Funds": 8360436
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 76705,
+        "Solid Waste Fund": 131565,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": 11830,
+        "Parish Road Fund": 52130,
+        "Road District #2 MTC. Fund": 35637,
+        "Road District #3 MTC. Fund": 34224,
+        "Nonmajor Governmental Funds": 284546,
+        "Total Governmental Funds": 626637
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": 48703,
+        "Total Governmental Funds": 48703
+      },
+      "due_to_other_funds": {
+        "General Fund": 4923,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": 3715,
+        "Parish Road Fund": 24829,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": 28992,
+        "Total Governmental Funds": 62459
+      },
+      "other_liabilities": {
+        "General Fund": null,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General Fund": 81628,
+        "Solid Waste Fund": 131565,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": 15545,
+        "Parish Road Fund": 76959,
+        "Road District #2 MTC. Fund": 35637,
+        "Road District #3 MTC. Fund": 34224,
+        "Nonmajor Governmental Funds": 362241,
+        "Total Governmental Funds": 737799
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue",
+          "values": {
+            "General Fund": 20863,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": 51888,
+            "Road District #3 MTC. Fund": 36961,
+            "Nonmajor Governmental Funds": 143440,
+            "Total Governmental Funds": 253152
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 20863,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": 51888,
+        "Road District #3 MTC. Fund": 36961,
+        "Nonmajor Governmental Funds": 143440,
+        "Total Governmental Funds": 253152
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable - prepaids",
+          "values": {
+            "General Fund": 2989,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 2989
+          }
+        },
+        {
+          "label": "Nonspendable - inventory",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 45179,
+            "Total Governmental Funds": 45179
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Judicial",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 707217,
+            "Total Governmental Funds": 707217
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": 377538,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 377538
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 874,
+            "Total Governmental Funds": 874
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": 32096,
+            "Road District #2 MTC. Fund": 1347198,
+            "Road District #3 MTC. Fund": 2094774,
+            "Nonmajor Governmental Funds": 1404273,
+            "Total Governmental Funds": 4878341
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 29735,
+            "Total Governmental Funds": 29735
+          }
+        },
+        {
+          "label": "Sanitation",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": 546633,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": null,
+            "Total Governmental Funds": 546633
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": 187,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 120650,
+            "Total Governmental Funds": 120837
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 256,
+            "Total Governmental Funds": 256
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 1142,
+            "Total Governmental Funds": 1142
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 20767,
+            "Total Governmental Funds": 20767
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": null,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": 8713,
+            "Total Governmental Funds": 8713
+          }
+        },
+        {
+          "label": "Negative unassigned",
+          "values": {
+            "General Fund": null,
+            "Solid Waste Fund": null,
+            "Hospital Retrofit Fund": null,
+            "Compact Fund": null,
+            "Parish Road Fund": -64964,
+            "Road District #2 MTC. Fund": null,
+            "Road District #3 MTC. Fund": null,
+            "Nonmajor Governmental Funds": -1324,
+            "Total Governmental Funds": -66288
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 695552,
+        "Solid Waste Fund": null,
+        "Hospital Retrofit Fund": null,
+        "Compact Fund": null,
+        "Parish Road Fund": null,
+        "Road District #2 MTC. Fund": null,
+        "Road District #3 MTC. Fund": null,
+        "Nonmajor Governmental Funds": null,
+        "Total Governmental Funds": 695552
+      },
+      "total_fund_balances": {
+        "General Fund": 695552,
+        "Solid Waste Fund": 546633,
+        "Hospital Retrofit Fund": 187,
+        "Compact Fund": 380527,
+        "Parish Road Fund": -32868,
+        "Road District #2 MTC. Fund": 1347198,
+        "Road District #3 MTC. Fund": 2094774,
+        "Nonmajor Governmental Funds": 2337482,
+        "Total Governmental Funds": 7369485
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 798043,
+      "Solid Waste Fund": 678198,
+      "Hospital Retrofit Fund": 187,
+      "Compact Fund": 396072,
+      "Parish Road Fund": 44091,
+      "Road District #2 MTC. Fund": 1434723,
+      "Road District #3 MTC. Fund": 2165959,
+      "Nonmajor Governmental Funds": 2843163,
+      "Total Governmental Funds": 8360436
+    },
+    "cross_sectional": {
+      "cash": 240932,
+      "investments": null,
+      "receivables": 515609,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 41502,
+      "prepaid_items": 2989,
+      "total_assets": 798043,
+      "deferred_outflows": null,
+      "accounts_payable": 76705,
+      "deferred_revenues": null,
+      "government_transfers": 4923,
+      "other_liabilities": null,
+      "total_liabilities": 81628,
+      "deferred_inflows": 20863,
+      "reserved": 2989,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 695552,
+      "total_fund_balances": 695552,
+      "total_liabilities_and_fund_balances": 798043
+    },
+    "_uncertainties": []
+  },
+  "soa": {
+    "parish": "Allen",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 2194302,
+        "charges_for_services": 230115,
+        "operating_grants": 16150,
+        "capital_grants": null,
+        "net_expense_revenue": -1948037
+      },
+      "public_safety": {
+        "expenses": 592121,
+        "charges_for_services": 513,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -591608
+      },
+      "public_works": {
+        "expenses": 6135280,
+        "charges_for_services": 374203,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -5761077
+      },
+      "economic_development": {
+        "expenses": 302516,
+        "charges_for_services": 73693,
+        "operating_grants": 66854,
+        "capital_grants": 128448,
+        "net_expense_revenue": -33521
+      },
+      "health_and_welfare": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 4853,
+        "net_expense_revenue": -4853
+      },
+      "other_activities": [
+        {
+          "label": "Other governments",
+          "expenses": 719358,
+          "charges_for_services": null,
+          "operating_grants": 755647,
+          "capital_grants": null,
+          "net_expense_revenue": 36289
+        }
+      ],
+      "total": {
+        "expenses": 9948430,
+        "charges_for_services": 303808,
+        "operating_grants": 1213367,
+        "capital_grants": 128448,
+        "net_expense_revenue": -8302807
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 3151619,
+      "sales_taxes": 1871684,
+      "severance_taxes": 1135569,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "other_taxes": 354,
+      "state_revenue_sharing": 175817,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 14301,
+      "miscellaneous": 1276190,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Gain on disposal of assets",
+          "amount": 1252
+        }
+      ],
+      "total_general_revenues": 7626786
+    },
+    "change_in_net_position": -676021,
+    "net_position_beginning": 30884380,
+    "net_position_ending": 30208359,
+    "cross_sectional": {
+      "property_ad_valorem": 3151619,
+      "sales_use_taxes": 1871684,
+      "severance_taxes": 1135569,
+      "other_tax_revenue": 354,
+      "total_tax_revenue": 6159226,
+      "state_revenue_sharing": 175817,
+      "state_intergovernmental": 1213367,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1291743,
+      "total_other_revenue": 2680927,
+      "total_program_revenue": 1645623,
+      "total_revenues": 10485776,
+      "general_government": -1948037,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -1948037,
+      "public_safety": -591608,
+      "public_works": -5761077,
+      "economic_development": -33521,
+      "health_and_welfare": null,
+      "culture_and_recreation": null,
+      "interest_debt_service": -4853,
+      "all_other_expenditures": 36289,
+      "total_expenditures": 9948430
+    },
+    "_uncertainties": [
+      {
+        "field": "all_other_revenue",
+        "fund": null,
+        "reason": "Document shows 'All other revenues' as a single line item without breakdown; unclear if this includes investment earnings separately or combined",
+        "extracted": 1276190,
+        "alternative": 1290491,
+        "page": 8,
+        "text_snippet": "All other revenues 1,276,190\nInvestment earnings 14,301",
+        "severity": "medium"
+      },
+      {
+        "field": "state_intergovernmental",
+        "fund": null,
+        "reason": "Operating grants total does not distinguish between state and federal sources; assuming all operating grants are state",
+        "extracted": 1213367,
+        "alternative": null,
+        "page": 8,
+        "text_snippet": "Operating Grants and Contributions Total governmental activities 9,948,430 $ 303,808 $ 1,213,367",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Allen",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 4863667,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 2799073,
+        "due_from_other_governments": 587069,
+        "due_from_component_units": null,
+        "inventory": 45179,
+        "prepaid_items": 2989,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 23973829
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 32271806,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 626637,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": 48703,
+        "accrued_interest": 1476,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 62000,
+        "bonds_payable_noncurrent": 148000,
+        "compensated_absences_current": 26940,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1149691
+      },
+      "total_liabilities": 2063447,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 23763829,
+        "restricted": 6706610,
+        "unrestricted": -262080,
+        "total_net_position": 30208359
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "OPEB obligations listed as single line item, categorized as other_long_term due to lack of specific OPEB field in schema",
+        "extracted": 1149691,
+        "alternative": null,
+        "page": 7,
+        "text_snippet": "OPEB obligations - due in more than one year 1,149,691",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Calculated sum of multiple restricted categories (45179+707217+377538+874+4878341+29735+546633+120837+256)",
+        "extracted": 6706610,
+        "alternative": null,
+        "page": 7,
+        "text_snippet": "Restricted for: Inventory 45,179, Judicial 707,217, Other general government 377,538, Public safety 874, Public works 4,878,341...",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Allen",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 572300,
+          "increases": null,
+          "decreases": null,
+          "ending": 572300
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": 98703,
+          "decreases": null,
+          "ending": 98703
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 572300,
+          "increases": 98703,
+          "decreases": null,
+          "ending": 671003
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 4547339,
+          "increases": 48000,
+          "decreases": null,
+          "ending": 4595339
+        },
+        "machinery_and_equipment": {
+          "beginning": 3254223,
+          "increases": 266982,
+          "decreases": 39000,
+          "ending": 3482205
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 5853055,
+          "increases": 2530,
+          "decreases": null,
+          "ending": 5855585
+        },
+        "infrastructure": {
+          "beginning": 28219912,
+          "increases": null,
+          "decreases": null,
+          "ending": 28219912
+        },
+        "vehicles": {
+          "beginning": 819449,
+          "increases": 4800,
+          "decreases": null,
+          "ending": 824249
+        },
+        "furniture_and_fixtures": {
+          "beginning": 390033,
+          "increases": 41803,
+          "decreases": null,
+          "ending": 431836
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 43084011,
+          "increases": 364115,
+          "decreases": 39000,
+          "ending": 43409126
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 1787109,
+          "increases": 102409,
+          "decreases": null,
+          "ending": 1889518
+        },
+        "machinery_and_equipment": {
+          "beginning": 2229894,
+          "increases": 192008,
+          "decreases": 39000,
+          "ending": 2382902
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 2181213,
+          "increases": 195592,
+          "decreases": null,
+          "ending": 2376805
+        },
+        "infrastructure": {
+          "beginning": 11861750,
+          "increases": 584415,
+          "decreases": null,
+          "ending": 12446165
+        },
+        "vehicles": {
+          "beginning": 618959,
+          "increases": 48526,
+          "decreases": null,
+          "ending": 667485
+        },
+        "furniture_and_fixtures": {
+          "beginning": 311630,
+          "increases": 31795,
+          "decreases": null,
+          "ending": 343425
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": 18990555,
+          "increases": 1154745,
+          "decreases": 39000,
+          "ending": 20106300
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 24093456,
+        "increases": -790630,
+        "decreases": null,
+        "ending": 23302826
+      },
+      "total_capital_assets_net": {
+        "beginning": 24665756,
+        "increases": -691927,
+        "decreases": null,
+        "ending": 23973829
+      }
+    },
+    "cross_sectional": {
+      "land": 572300,
+      "construction_in_progress": 98703,
+      "other_non_depreciable": null,
+      "buildings_net": 2705821,
+      "improvements_net": 3478780,
+      "machinery_net": 1099303,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": 88411,
+      "vehicles_net": 156764,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 15773747,
+      "total_governmental_net": 23973829
+    },
+    "_uncertainties": [
+      {
+        "field": "total_capital_assets_net.beginning",
+        "fund": "Governmental Activities",
+        "reason": "Total capital assets net beginning balance not explicitly shown in table, calculated as sum of not depreciated beginning + depreciable net beginning",
+        "extracted": 24665756,
+        "alternative": null,
+        "page": 29,
+        "text_snippet": "Total capital assets, not being depreciated $ 572,300 ... Total capital assets being depreciated, net $ 24,093,456",
+        "severity": "low"
+      },
+      {
+        "field": "total_capital_assets_net.increases",
+        "fund": "Governmental Activities",
+        "reason": "Total capital assets net increases not explicitly shown in table, calculated as sum of not depreciated increases + depreciable net increases",
+        "extracted": -691927,
+        "alternative": null,
+        "page": 29,
+        "text_snippet": "$ 98,703 ... $ (790,630)",
+        "severity": "low"
+      },
+      {
+        "field": "total_capital_assets_net.ending",
+        "fund": "Governmental Activities",
+        "reason": "Total capital assets net ending balance not explicitly shown in table, calculated as sum of not depreciated ending + depreciable net ending",
+        "extracted": 23973829,
+        "alternative": null,
+        "page": 29,
+        "text_snippet": "$ 671,003 ... $ 23,302,826",
+        "severity": "low"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "cbs": null,
+  "soa": {
+    "parish": "Lincoln",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 3283516,
+        "charges_for_services": 18768,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -3264748
+      },
+      "public_safety": {
+        "expenses": 325673,
+        "charges_for_services": 284167,
+        "operating_grants": 37236,
+        "capital_grants": 89594,
+        "net_expense_revenue": 85324
+      },
+      "public_works": {
+        "expenses": 8054433,
+        "charges_for_services": 404071,
+        "operating_grants": 518922,
+        "capital_grants": 231878,
+        "net_expense_revenue": -6899562
+      },
+      "economic_development": {
+        "expenses": 24798,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -24798
+      },
+      "health_and_welfare": {
+        "expenses": 563356,
+        "charges_for_services": null,
+        "operating_grants": 492854,
+        "capital_grants": null,
+        "net_expense_revenue": -70502
+      },
+      "culture_and_recreation": {
+        "expenses": 2884898,
+        "charges_for_services": 422227,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -2462671
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 127851,
+        "net_expense_revenue": -127851
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 15264525,
+        "charges_for_services": 1129233,
+        "operating_grants": 1049012,
+        "capital_grants": 321472,
+        "net_expense_revenue": -12764808
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 7067277,
+      "sales_taxes": 4507092,
+      "severance_taxes": 1175000,
+      "fire_insurance_premiums": 185230,
+      "franchise_fees": null,
+      "other_taxes": 277798,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 494886,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 124906,
+      "miscellaneous": null,
+      "transfers": -472051,
+      "other_items": [
+        {
+          "label": "Other Revenues",
+          "amount": 18223
+        },
+        {
+          "label": "Rents and Royalties",
+          "amount": 205034
+        },
+        {
+          "label": "Sale of Assets",
+          "amount": 181000
+        }
+      ],
+      "total_general_revenues": 13764395
+    },
+    "change_in_net_position": 999587,
+    "net_position_beginning": 55163137,
+    "net_position_ending": 56162724,
+    "cross_sectional": {
+      "property_ad_valorem": 7067277,
+      "sales_use_taxes": 4507092,
+      "severance_taxes": 1175000,
+      "other_tax_revenue": 463028,
+      "total_tax_revenue": 13212397,
+      "state_revenue_sharing": 494886,
+      "state_intergovernmental": 518922,
+      "federal_intergovernmental": 821926,
+      "local_transfer": -472051,
+      "all_other_revenue": 529163,
+      "total_other_revenue": 1892846,
+      "total_program_revenue": 2499717,
+      "total_revenues": 17604960,
+      "general_government": -3264748,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -3264748,
+      "public_safety": 85324,
+      "public_works": -6899562,
+      "economic_development": -24798,
+      "health_and_welfare": -70502,
+      "culture_and_recreation": -2462671,
+      "interest_debt_service": -127851,
+      "all_other_expenditures": 0,
+      "total_expenditures": 15264525
+    },
+    "_uncertainties": [
+      {
+        "field": "state_revenue_sharing",
+        "fund": null,
+        "reason": "The line item is labeled 'Intergovernmental Revenues' without clear specification if it includes only state revenue sharing or other intergovernmental items",
+        "extracted": 494886,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Intergovernmental Revenues 494,886",
+        "severity": "medium"
+      },
+      {
+        "field": "federal_intergovernmental",
+        "fund": "cross_sectional",
+        "reason": "Operating grants total includes state and possibly local grants; assumed capital grants of 321472 plus other federal 89594 plus Section 8 and other federal from expenditures statement",
+        "extracted": 821926,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Operating Capital Grants and Grants and Governmental Contributions Contributions Activities",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": null,
+  "ca": null
+}

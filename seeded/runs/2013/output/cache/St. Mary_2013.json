@@ -1,0 +1,980 @@
+{
+  "cbs": {
+    "parish": "St. Mary",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road Construction & Maintenance Fund",
+      "Sanitation Fund",
+      "Combined Capital Improvement Fund",
+      "CDBG Recovery Fund",
+      "Sewer Construction Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 543913,
+        "Road Construction & Maintenance Fund": 123,
+        "Sanitation Fund": 1,
+        "Combined Capital Improvement Fund": 235,
+        "CDBG Recovery Fund": 1,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 2913039,
+        "Total Governmental Funds": 3457312
+      },
+      "investments": {
+        "General Fund": 2711991,
+        "Road Construction & Maintenance Fund": 684950,
+        "Sanitation Fund": 3482462,
+        "Combined Capital Improvement Fund": 2588774,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 3606579,
+        "Total Governmental Funds": 13074756
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 525670,
+        "Road Construction & Maintenance Fund": 106793,
+        "Sanitation Fund": 17550,
+        "Combined Capital Improvement Fund": 52500,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 190041,
+        "Total Governmental Funds": 892554
+      },
+      "due_from_other_governments": {
+        "General Fund": 3432777,
+        "Road Construction & Maintenance Fund": 2601623,
+        "Sanitation Fund": 584062,
+        "Combined Capital Improvement Fund": 2612456,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 1983583,
+        "Total Governmental Funds": 11214501
+      },
+      "due_from_other_funds": {
+        "General Fund": 147639,
+        "Road Construction & Maintenance Fund": 82554,
+        "Sanitation Fund": 2182,
+        "Combined Capital Improvement Fund": 6576,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 238951
+      },
+      "due_from_component_units": {
+        "General Fund": 1591344,
+        "Road Construction & Maintenance Fund": 1523,
+        "Sanitation Fund": 236798,
+        "Combined Capital Improvement Fund": 136,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 669137,
+        "Total Governmental Funds": 2498938
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": 71914,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 71914
+      },
+      "total_assets": {
+        "General Fund": 6487343,
+        "Road Construction & Maintenance Fund": 6642917,
+        "Sanitation Fund": 1630494,
+        "Combined Capital Improvement Fund": 6147554,
+        "CDBG Recovery Fund": 235,
+        "Sewer Construction Fund": 3257912,
+        "Other Governmental Funds": 10389347,
+        "Total Governmental Funds": 34555802
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 609343,
+        "Road Construction & Maintenance Fund": 223201,
+        "Sanitation Fund": 214184,
+        "Combined Capital Improvement Fund": 427669,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1474397
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": 58067,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": 182978,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 241045
+      },
+      "accrued_liabilities": {
+        "General Fund": 285491,
+        "Road Construction & Maintenance Fund": 110932,
+        "Sanitation Fund": 3759,
+        "Combined Capital Improvement Fund": 139903,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 540085
+      },
+      "deposits_payable": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": 303170,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 303170
+      },
+      "other_liabilities": {
+        "General Fund": 100000,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 104452,
+        "Total Governmental Funds": 204452
+      },
+      "total_liabilities": {
+        "General Fund": 4723601,
+        "Road Construction & Maintenance Fund": 515200,
+        "Sanitation Fund": 217943,
+        "Combined Capital Improvement Fund": 4451632,
+        "CDBG Recovery Fund": 2676491,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": 1321738,
+        "Total Governmental Funds": 13906605
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General Fund": null,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "non-current receivables",
+          "values": {
+            "General Fund": 1550000,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": 958000,
+            "Other Governmental Funds": 611137,
+            "Total Governmental Funds": 3119137
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Use in specific geographic areas",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": 1845025,
+            "Total Governmental Funds": 1845025
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": 2585368,
+            "Total Governmental Funds": 2585368
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "General Government",
+          "values": {
+            "General Fund": 149465,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 149465
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": 56678,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 56678
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": 5169717,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": 150145,
+            "Total Governmental Funds": 5319862
+          }
+        },
+        {
+          "label": "Culture & recreation",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": 289307,
+            "Total Governmental Funds": 289307
+          }
+        },
+        {
+          "label": "Health & welfare",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": 635782,
+            "Total Governmental Funds": 635782
+          }
+        },
+        {
+          "label": "Urban redevelopment & housing",
+          "values": {
+            "General Fund": 8642,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 8642
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": 2647532,
+            "Total Governmental Funds": 2647532
+          }
+        },
+        {
+          "label": "Sanitation",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": 1412551,
+            "Combined Capital Improvement Fund": null,
+            "CDBG Recovery Fund": null,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 1412551
+          }
+        },
+        {
+          "label": "Capital projects",
+          "values": {
+            "General Fund": null,
+            "Road Construction & Maintenance Fund": null,
+            "Sanitation Fund": null,
+            "Combined Capital Improvement Fund": 1695922,
+            "CDBG Recovery Fund": 235,
+            "Sewer Construction Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 1696157
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 213742,
+        "Road Construction & Maintenance Fund": null,
+        "Sanitation Fund": null,
+        "Combined Capital Improvement Fund": null,
+        "CDBG Recovery Fund": null,
+        "Sewer Construction Fund": -29716,
+        "Other Governmental Funds": 649665,
+        "Total Governmental Funds": 833691
+      },
+      "total_fund_balances": {
+        "General Fund": 1763742,
+        "Road Construction & Maintenance Fund": 6127717,
+        "Sanitation Fund": 1412551,
+        "Combined Capital Improvement Fund": 1695922,
+        "CDBG Recovery Fund": 235,
+        "Sewer Construction Fund": 581421,
+        "Other Governmental Funds": 9067609,
+        "Total Governmental Funds": 20649197
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 6487343,
+      "Road Construction & Maintenance Fund": 6642917,
+      "Sanitation Fund": 1630494,
+      "Combined Capital Improvement Fund": 6147554,
+      "CDBG Recovery Fund": 235,
+      "Sewer Construction Fund": 3257912,
+      "Other Governmental Funds": 10389347,
+      "Total Governmental Funds": 34555802
+    },
+    "cross_sectional": {
+      "cash": 543913,
+      "investments": 2711991,
+      "receivables": 5549791,
+      "inventory": null,
+      "other_assets": 71914,
+      "transfers_in": 147639,
+      "prepaid_items": null,
+      "total_assets": 6487343,
+      "deferred_outflows": null,
+      "accounts_payable": 609343,
+      "deferred_revenues": null,
+      "government_transfers": 303170,
+      "other_liabilities": 385491,
+      "total_liabilities": 4723601,
+      "deferred_inflows": null,
+      "reserved": 1550000,
+      "unreserved_designated": 214785,
+      "unreserved_undesignated": 213742,
+      "total_fund_balances": 1763742,
+      "total_liabilities_and_fund_balances": 6487343
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General Fund",
+        "reason": "Combined due to component units and due to other governments without individual line items in schema",
+        "extracted": 204452,
+        "alternative": null,
+        "page": 25,
+        "text_snippet": "Due to component units 100,000; Due to other governments 104,452",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities",
+        "fund": "CDBG Recovery Fund",
+        "reason": "Advance from other funds shown as 2,676,491 but no other liability detail provided",
+        "extracted": 2676491,
+        "alternative": null,
+        "page": 25,
+        "text_snippet": "Advance from other funds... $2,676,491",
+        "severity": "low"
+      },
+      {
+        "field": "assets",
+        "fund": "General Fund",
+        "reason": "Advance to other funds line item not included in standard schema, appears as 246,000",
+        "extracted": null,
+        "alternative": 246000,
+        "page": 25,
+        "text_snippet": "Advance to other funds 246,000",
+        "severity": "medium"
+      },
+      {
+        "field": "liabilities",
+        "fund": "Other Governmental Funds",
+        "reason": "Contracts payable of 1,236,225 not included in standard schema; included in other_liabilities calculation",
+        "extracted": null,
+        "alternative": 1236225,
+        "page": 25,
+        "text_snippet": "Contracts payable $1,236,225",
+        "severity": "medium"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "St. Mary",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 7177908,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": 5269357,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_works": {
+        "expenses": 10615442,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "economic_development": {
+        "expenses": 678385,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 5544190,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": 2211677,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 720967,
+        "net_expense_revenue": -720967
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation",
+          "expenses": 3916814,
+          "charges_for_services": null,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": null
+        }
+      ],
+      "total": {
+        "expenses": 36134740,
+        "charges_for_services": 3103389,
+        "operating_grants": 10070461,
+        "capital_grants": 1942566,
+        "net_expense_revenue": null
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 4139897,
+      "sales_taxes": 7291457,
+      "severance_taxes": 985544,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 67454,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 543705,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 208368,
+      "miscellaneous": null,
+      "transfers": -1661385,
+      "other_items": [
+        {
+          "label": "Royalty road funds",
+          "amount": 9171434
+        },
+        {
+          "label": "Payment from St. Mary Library Board",
+          "amount": 500000
+        }
+      ],
+      "total_general_revenues": null
+    },
+    "change_in_net_position": 228150,
+    "net_position_beginning": 100032791,
+    "net_position_ending": 100260941,
+    "cross_sectional": {
+      "property_ad_valorem": 4139897,
+      "sales_use_taxes": 7291457,
+      "severance_taxes": 985544,
+      "other_tax_revenue": 67454,
+      "total_tax_revenue": 12484352,
+      "state_revenue_sharing": 543705,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -1661385,
+      "all_other_revenue": 9879802,
+      "total_other_revenue": 8762122,
+      "total_program_revenue": 15116416,
+      "total_revenues": 38024275,
+      "general_government": -7177908,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -7177908,
+      "public_safety": -5269357,
+      "public_works": -10615442,
+      "economic_development": -678385,
+      "health_and_welfare": -5544190,
+      "culture_and_recreation": -2211677,
+      "interest_debt_service": -720967,
+      "all_other_expenditures": -3916814,
+      "total_expenditures": 36134740
+    },
+    "_uncertainties": [
+      {
+        "field": "economic_development.expenses",
+        "fund": "governmental_activities",
+        "reason": "Combined two line items: Urban redevelopment & housing (435,461) and Economic development & assistance (242,924)",
+        "extracted": 678385,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Urban redevelopment & housing 435,461... Economic development & assistance 242,924",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.all_other_revenue",
+        "fund": "governmental_activities",
+        "reason": "Calculated as sum of royalty road funds (9171434) + payment from library (500000) + investment income (208368) but breakdown not explicit",
+        "extracted": 9879802,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Royalty road funds 9,171,434... Payment from St. Mary Library Board 500,000... Investment income 208,368",
+        "severity": "low"
+      },
+      {
+        "field": "governmental_activities.*.charges_for_services",
+        "fund": "governmental_activities",
+        "reason": "Individual program charges not broken out; only total of 3,103,389 provided",
+        "extracted": null,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Charges for services 3,103,389",
+        "severity": "high"
+      },
+      {
+        "field": "governmental_activities.*.operating_grants",
+        "fund": "governmental_activities",
+        "reason": "Individual program operating grants not broken out; only total of 10,070,461 provided",
+        "extracted": null,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Operating grants and contributions 10,070,461",
+        "severity": "high"
+      },
+      {
+        "field": "governmental_activities.*.capital_grants",
+        "fund": "governmental_activities",
+        "reason": "Individual program capital grants not broken out; only total of 1,942,566 provided",
+        "extracted": null,
+        "alternative": null,
+        "page": 17,
+        "text_snippet": "Capital grants and contributions 1,942,566",
+        "severity": "high"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "St. Mary",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 3457312,
+        "investments": 13074756,
+        "taxes_receivable": null,
+        "other_receivables": 892554,
+        "due_from_other_governments": 11214501,
+        "due_from_component_units": 2498938,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": 71914
+      },
+      "capital_assets": {
+        "non_depreciable": 4770426,
+        "depreciable_net": 102849181,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 107619607
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 131965008,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Gain on refunding",
+            "amount": 220000
+          }
+        ],
+        "total": 220000
+      },
+      "current_liabilities": {
+        "accounts_payable": 1474397,
+        "retainage_payable": 241045,
+        "accrued_liabilities": 540085,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 193963,
+        "other_current_liabilities": 1340677
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 2626000,
+        "bonds_payable_noncurrent": 18236000,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 198000,
+        "net_pension_liability": null,
+        "landfill_closure": 3876000,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 6753900
+      },
+      "total_liabilities": 31704067,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 86318562,
+        "restricted": 13108688,
+        "unrestricted": 833691,
+        "total_net_position": 100260941
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Combined contracts payable (1,236,225), due to component units (100,000), and due to other governments (104,452) as other current liabilities since no specific fields exist for these items",
+        "extracted": 1340677,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Contracts payable 1,236.225 / Due to component units 100,000 / Due to other governments 104,452",
+        "severity": "low"
+      },
+      {
+        "field": "non_depreciable",
+        "fund": "governmental_activities",
+        "reason": "Calculated as sum of Land and improvements (1,870,876) and Construction in progress (2,899,550)",
+        "extracted": 4770426,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Land and improvements 1,870,876 / Construction in progress 2,899,550",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Mapped Other post-employment benefits to other_long_term as no specific OPEB field exists in schema",
+        "extracted": 6753900,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Other post-employment benefits 6,753,900",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined restricted for debt service (2,391,405) and other purposes (10,717,283) as total restricted net position",
+        "extracted": 13108688,
+        "alternative": null,
+        "page": 23,
+        "text_snippet": "Restricted for: Debt service 2,391,405 / Other purposes 10,717,283",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "St. Mary",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 1870876,
+          "increases": null,
+          "decreases": null,
+          "ending": 1870876
+        },
+        "construction_in_progress": {
+          "beginning": 1887343,
+          "increases": 3329766,
+          "decreases": null,
+          "ending": 2899550
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 3758219,
+          "increases": 3329766,
+          "decreases": null,
+          "ending": 4770426
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 17516962,
+          "increases": null,
+          "decreases": null,
+          "ending": 17516962
+        },
+        "machinery_and_equipment": {
+          "beginning": 11507452,
+          "increases": 772020,
+          "decreases": -1032106,
+          "ending": 11247366
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 21701903,
+          "increases": null,
+          "decreases": null,
+          "ending": 24019462
+        },
+        "infrastructure": {
+          "beginning": 130789018,
+          "increases": 188924,
+          "decreases": null,
+          "ending": 130977942
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": 181515335,
+          "increases": 960944,
+          "decreases": -1032106,
+          "ending": 183761732
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -6996508,
+          "increases": -472223,
+          "decreases": null,
+          "ending": -7468731
+        },
+        "machinery_and_equipment": {
+          "beginning": -9484427,
+          "increases": -584895,
+          "decreases": 1032106,
+          "ending": -9037216
+        },
+        "improvements_other_than_buildings": {
+          "beginning": -7956919,
+          "increases": -1032266,
+          "decreases": null,
+          "ending": -8989185
+        },
+        "infrastructure": {
+          "beginning": -52228358,
+          "increases": -3189061,
+          "decreases": null,
+          "ending": -55417419
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": -76666212,
+          "increases": -5278445,
+          "decreases": 1032106,
+          "ending": -80912551
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 104849123,
+        "increases": -4317501,
+        "decreases": null,
+        "ending": 102849181
+      },
+      "total_capital_assets_net": {
+        "beginning": 108607342,
+        "increases": -987735,
+        "decreases": null,
+        "ending": 107619607
+      }
+    },
+    "cross_sectional": {
+      "land": 1870876,
+      "construction_in_progress": 2899550,
+      "other_non_depreciable": null,
+      "buildings_net": 10048231,
+      "improvements_net": 15030277,
+      "machinery_net": 2210150,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 75560523,
+      "total_governmental_net": 107619607
+    },
+    "_uncertainties": [
+      {
+        "field": "construction_in_progress.decreases",
+        "fund": "governmental_activities",
+        "reason": "Shows no value in decreases column but transfers column shows (2,317,559) which represents reclassification from CIP to other assets",
+        "extracted": null,
+        "alternative": -2317559,
+        "page": 60,
+        "text_snippet": "Construction in progress 1,887.343 $ 3,329,766 $ - $ (2,317,559) 2,899,550",
+        "severity": "medium"
+      },
+      {
+        "field": "improvements_other_than_buildings.increases",
+        "fund": "governmental_activities",
+        "reason": "Improvements line shows no increases in the increases column but transfers column shows 2,317,559 which represents reclassification from CIP",
+        "extracted": null,
+        "alternative": 2317559,
+        "page": 60,
+        "text_snippet": "Improvements 21,701,903 2,317,559 24,019,462",
+        "severity": "medium"
+      }
+    ]
+  }
+}

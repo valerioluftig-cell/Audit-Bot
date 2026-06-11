@@ -1,0 +1,894 @@
+{
+  "cbs": {
+    "parish": "Franklin",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Road and Bridge",
+      "Drainage Maintenance",
+      "Parish Sales Equipment",
+      "Tax",
+      "IKE GUSTAV",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 280695,
+        "Road and Bridge": 2771342,
+        "Drainage Maintenance": 313980,
+        "Parish Sales Equipment": 879589,
+        "Tax": 1657381,
+        "IKE GUSTAV": 14284,
+        "Other Governmental Funds": 2643101,
+        "Total Governmental Funds": 8560372
+      },
+      "investments": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 326713,
+        "Road and Bridge": 215084,
+        "Drainage Maintenance": 982769,
+        "Parish Sales Equipment": 714422,
+        "Tax": 93816,
+        "IKE GUSTAV": 215661,
+        "Other Governmental Funds": 1248283,
+        "Total Governmental Funds": 3796748
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": 101158,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 101158
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 708566,
+        "Road and Bridge": 2986426,
+        "Drainage Maintenance": 1296749,
+        "Parish Sales Equipment": 1594011,
+        "Tax": 1751197,
+        "IKE GUSTAV": 229945,
+        "Other Governmental Funds": 3891384,
+        "Total Governmental Funds": 12458278
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 15422,
+        "Road and Bridge": 8473,
+        "Drainage Maintenance": 37003,
+        "Parish Sales Equipment": 34250,
+        "Tax": 92094,
+        "IKE GUSTAV": 229895,
+        "Other Governmental Funds": 80493,
+        "Total Governmental Funds": 497630
+      },
+      "retainage_payable": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": 67733,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 67733
+      },
+      "deposits_payable": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": 63016,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": 38142,
+        "Total Governmental Funds": 101158
+      },
+      "other_liabilities": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "total_liabilities": {
+        "General": 83155,
+        "Road and Bridge": 8473,
+        "Drainage Maintenance": 37003,
+        "Parish Sales Equipment": 34250,
+        "Tax": 155110,
+        "IKE GUSTAV": 229895,
+        "Other Governmental Funds": 118635,
+        "Total Governmental Funds": 666521
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Other General Government",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": 1019996,
+            "Total Governmental Funds": 1019996
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": 599747,
+            "Total Governmental Funds": 599747
+          }
+        },
+        {
+          "label": "Culture and recreation",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": -6300,
+            "Total Governmental Funds": -6300
+          }
+        },
+        {
+          "label": "Public safety",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": 644985,
+            "Total Governmental Funds": 644985
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General": null,
+            "Road and Bridge": 2977953,
+            "Drainage Maintenance": 1259746,
+            "Parish Sales Equipment": 1559761,
+            "Tax": 1596087,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": 774008,
+            "Total Governmental Funds": 8167555
+          }
+        },
+        {
+          "label": "Economic development",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": 709046,
+            "Total Governmental Funds": 709046
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": null,
+            "Other Governmental Funds": 31267,
+            "Total Governmental Funds": 31267
+          }
+        }
+      ],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General": null,
+            "Road and Bridge": null,
+            "Drainage Maintenance": null,
+            "Parish Sales Equipment": null,
+            "Tax": null,
+            "IKE GUSTAV": 50,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 50
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 625411,
+        "Road and Bridge": null,
+        "Drainage Maintenance": null,
+        "Parish Sales Equipment": null,
+        "Tax": null,
+        "IKE GUSTAV": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 625411
+      },
+      "total_fund_balances": {
+        "General": 625411,
+        "Road and Bridge": 2977953,
+        "Drainage Maintenance": 1259746,
+        "Parish Sales Equipment": 1559761,
+        "Tax": 1596087,
+        "IKE GUSTAV": 50,
+        "Other Governmental Funds": 3772749,
+        "Total Governmental Funds": 11791757
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 708566,
+      "Road and Bridge": 2986426,
+      "Drainage Maintenance": 1296749,
+      "Parish Sales Equipment": 1594011,
+      "Tax": 1751197,
+      "IKE GUSTAV": 229945,
+      "Other Governmental Funds": 3891384,
+      "Total Governmental Funds": 12458278
+    },
+    "cross_sectional": {
+      "cash": 280695,
+      "investments": null,
+      "receivables": 326713,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 101158,
+      "prepaid_items": null,
+      "total_assets": 708566,
+      "deferred_outflows": null,
+      "accounts_payable": 15422,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 67733,
+      "total_liabilities": 83155,
+      "deferred_inflows": null,
+      "reserved": null,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 625411,
+      "total_fund_balances": 625411,
+      "total_liabilities_and_fund_balances": 708566
+    },
+    "_uncertainties": [
+      {
+        "field": "accrued_liabilities",
+        "fund": "General",
+        "reason": "Labeled as 'Payroll withholdings payable' which could be classified as other_liabilities rather than accrued_liabilities",
+        "extracted": 67733,
+        "alternative": null,
+        "page": 16,
+        "text_snippet": "Payroll withholdings payable 67,733",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Franklin",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 781880,
+        "charges_for_services": 109310,
+        "operating_grants": 176110,
+        "capital_grants": null,
+        "net_expense_revenue": -496460
+      },
+      "public_safety": {
+        "expenses": 453160,
+        "charges_for_services": 34418,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -418742
+      },
+      "public_works": {
+        "expenses": 6091341,
+        "charges_for_services": 6506,
+        "operating_grants": 518477,
+        "capital_grants": 1607679,
+        "net_expense_revenue": -3958679
+      },
+      "economic_development": {
+        "expenses": 4065049,
+        "charges_for_services": 29773,
+        "operating_grants": 3831571,
+        "capital_grants": 66198,
+        "net_expense_revenue": -137507
+      },
+      "health_and_welfare": {
+        "expenses": 601056,
+        "charges_for_services": 52016,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -549040
+      },
+      "culture_and_recreation": {
+        "expenses": 132615,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -132615
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 12125101,
+        "charges_for_services": 180007,
+        "operating_grants": 4578174,
+        "capital_grants": 1673877,
+        "net_expense_revenue": -5693043
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 3303526,
+      "sales_taxes": 3817919,
+      "severance_taxes": null,
+      "fire_insurance_premiums": 85569,
+      "franchise_fees": null,
+      "other_taxes": 10965,
+      "occupational_licenses": 158503,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 176711,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 86215,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Grants and contributions not restricted to specific programs",
+          "amount": 36450
+        },
+        {
+          "label": "Proceeds from lease",
+          "amount": 70000
+        },
+        {
+          "label": "Gain (Loss) on disposal of assets",
+          "amount": -38951
+        }
+      ],
+      "total_general_revenues": 7706907
+    },
+    "change_in_net_position": 2013864,
+    "net_position_beginning": 26782200,
+    "net_position_ending": 28796064,
+    "cross_sectional": {
+      "property_ad_valorem": 3303526,
+      "sales_use_taxes": 3817919,
+      "severance_taxes": null,
+      "other_tax_revenue": 255037,
+      "total_tax_revenue": 7376482,
+      "state_revenue_sharing": 176711,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 153714,
+      "total_other_revenue": 330425,
+      "total_program_revenue": 6432058,
+      "total_revenues": 14138965,
+      "general_government": -496460,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -496460,
+      "public_safety": -418742,
+      "public_works": -3958679,
+      "economic_development": -137507,
+      "health_and_welfare": -549040,
+      "culture_and_recreation": -132615,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": 12125101
+    },
+    "_uncertainties": [
+      {
+        "field": "state_intergovernmental",
+        "fund": null,
+        "reason": "Cannot separate state vs federal grants from operating_grants and capital_grants totals",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Operating Grants and Contributions $4,578,174 Capital Grants and Contributions $1,673,877",
+        "severity": "medium"
+      },
+      {
+        "field": "federal_intergovernmental",
+        "fund": null,
+        "reason": "Cannot separate state vs federal grants from operating_grants and capital_grants totals",
+        "extracted": null,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Operating Grants and Contributions $4,578,174 Capital Grants and Contributions $1,673,877",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Franklin",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 8560372,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 3796748,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 18743780
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 31100900,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 497630,
+        "retainage_payable": null,
+        "accrued_liabilities": 67733,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": 103567,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": 70000,
+        "other_long_term": 1565906
+      },
+      "total_liabilities": 2304836,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 18541780,
+        "restricted": null,
+        "unrestricted": 10254284,
+        "total_net_position": 28796064
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables not broken down into specific categories; cannot determine if taxes, other, or due from governments",
+        "extracted": 3796748,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Receivables 3,796,748",
+        "severity": "medium"
+      },
+      {
+        "field": "compensated_absences_noncurrent",
+        "fund": "governmental_activities",
+        "reason": "Compensated absences not split between current and noncurrent portions; classified as fully noncurrent",
+        "extracted": 103567,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Compensated absences payable 103,567",
+        "severity": "low"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Combined Certificates of Indebtedness and Net OPEB obligation into other_long_term; unclear split",
+        "extracted": 1565906,
+        "alternative": null,
+        "page": 14,
+        "text_snippet": "Certificates of Indebtedness 132,000 Net OPEB obligation 1,433.906",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Franklin",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 390416,
+          "increases": null,
+          "decreases": null,
+          "ending": 390416
+        },
+        "construction_in_progress": {
+          "beginning": 686392,
+          "increases": 1632281,
+          "decreases": -216623,
+          "ending": 2102050
+        },
+        "other_non_depreciable": [
+          {
+            "label": "Assets under Capital Lease",
+            "beginning": 49969,
+            "increases": 70000,
+            "decreases": -49969,
+            "ending": 70000
+          }
+        ],
+        "total_not_depreciated": {
+          "beginning": 1126777,
+          "increases": 1702281,
+          "decreases": -266592,
+          "ending": 2562466
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 4772535,
+          "increases": null,
+          "decreases": null,
+          "ending": 4772535
+        },
+        "machinery_and_equipment": {
+          "beginning": 1458017,
+          "increases": 468759,
+          "decreases": -153388,
+          "ending": 1773388
+        },
+        "improvements_other_than_buildings": {
+          "beginning": 2593516,
+          "increases": null,
+          "decreases": null,
+          "ending": 2593516
+        },
+        "infrastructure": {
+          "beginning": 90486356,
+          "increases": 276051,
+          "decreases": null,
+          "ending": 90762407
+        },
+        "vehicles": {
+          "beginning": 1200270,
+          "increases": 23703,
+          "decreases": null,
+          "ending": 1223973
+        },
+        "furniture_and_fixtures": {
+          "beginning": 60459,
+          "increases": 3189,
+          "decreases": null,
+          "ending": 63648
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [
+          {
+            "label": "Other equipment",
+            "beginning": 401139,
+            "increases": 94658,
+            "decreases": null,
+            "ending": 495797
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 100972292,
+          "increases": 866360,
+          "decreases": -153388,
+          "ending": 101685264
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -3457134,
+          "increases": -119343,
+          "decreases": null,
+          "ending": -3576477
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": -1669272,
+          "increases": -111001,
+          "decreases": null,
+          "ending": -1780273
+        },
+        "infrastructure": {
+          "beginning": -76779286,
+          "increases": -787355,
+          "decreases": null,
+          "ending": -77566641
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": -59015,
+          "increases": -1119,
+          "decreases": null,
+          "ending": -60134
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": 390416,
+      "construction_in_progress": 2102050,
+      "other_non_depreciable": 70000,
+      "buildings_net": 1196058,
+      "improvements_net": 813243,
+      "machinery_net": null,
+      "other_depreciable_net": 495797,
+      "books_net": null,
+      "furniture_net": 3514,
+      "vehicles_net": null,
+      "bridges_net": 1699752,
+      "leased_property_net": null,
+      "infrastructure_net": 11496014,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "infrastructure.beginning",
+        "fund": "governmental_activities",
+        "reason": "Infrastructure split into roads and bridges; combined both categories",
+        "extracted": 90486356,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Infrastructure - roads 87,120,216; Infrastructure - bridges 3,366,140",
+        "severity": "low"
+      },
+      {
+        "field": "infrastructure.increases",
+        "fund": "governmental_activities",
+        "reason": "Only roads show increases (276,051), bridges show no change",
+        "extracted": 276051,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Infrastructure - roads ... 276,051; Infrastructure - bridges (no additions shown)",
+        "severity": "low"
+      },
+      {
+        "field": "accumulated_depreciation.infrastructure",
+        "fund": "governmental_activities",
+        "reason": "Combined roads and bridges accumulated depreciation",
+        "extracted": -76779286,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Infrastructure - roads (75,156,647) (743,606); Infrastructure - bridges (1,622,639) (43,749)",
+        "severity": "low"
+      },
+      {
+        "field": "machinery_and_equipment",
+        "fund": "governmental_activities",
+        "reason": "Heavy equipment category used instead of standard machinery_and_equipment label",
+        "extracted": 1458017,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Heavy equipment 1,458,017 468,759 (153,388) 1,773,388",
+        "severity": "low"
+      },
+      {
+        "field": "accumulated_depreciation.total_accumulated_depreciation",
+        "fund": "governmental_activities",
+        "reason": "Table appears to be cut off; total accumulated depreciation line not visible in provided text",
+        "extracted": null,
+        "alternative": null,
+        "page": 32,
+        "text_snippet": "Office furniture and equipment (59,015) (1,119) (60,134) -30-",
+        "severity": "high"
+      }
+    ]
+  }
+}

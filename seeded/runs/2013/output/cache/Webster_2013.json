@@ -1,0 +1,804 @@
+{
+  "cbs": {
+    "parish": "Webster",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Special Sales Tax",
+      "Library",
+      "2.5 Mill Tax",
+      "Capital Projects",
+      "Nonmajor Governmental",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 532216,
+        "Special Sales Tax": 778188,
+        "Library": 629174,
+        "2.5 Mill Tax": 852576,
+        "Capital Projects": 164642,
+        "Nonmajor Governmental": 1847745,
+        "Total Governmental Funds": 4804541
+      },
+      "investments": {
+        "General": 2221199,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": 800399,
+        "Capital Projects": 2000000,
+        "Nonmajor Governmental": 1000000,
+        "Total Governmental Funds": 6021598
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 933277,
+        "Special Sales Tax": 323470,
+        "Library": 2861245,
+        "2.5 Mill Tax": 662855,
+        "Capital Projects": null,
+        "Nonmajor Governmental": 927114,
+        "Total Governmental Funds": 5707961
+      },
+      "due_from_other_governments": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": 213669,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": 60466,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 274135
+      },
+      "other_assets": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "total_assets": {
+        "General": 3900361,
+        "Special Sales Tax": 1101658,
+        "Library": 4351284,
+        "2.5 Mill Tax": 1515431,
+        "Capital Projects": 2164642,
+        "Nonmajor Governmental": 3774859,
+        "Total Governmental Funds": 16808235
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 49579,
+        "Special Sales Tax": 15640,
+        "Library": 101230,
+        "2.5 Mill Tax": 24297,
+        "Capital Projects": null,
+        "Nonmajor Governmental": 21920,
+        "Total Governmental Funds": 212666
+      },
+      "retainage_payable": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "accrued_liabilities": {
+        "General": 31934,
+        "Special Sales Tax": null,
+        "Library": 110230,
+        "2.5 Mill Tax": 25536,
+        "Capital Projects": null,
+        "Nonmajor Governmental": 29248,
+        "Total Governmental Funds": 196948
+      },
+      "deposits_payable": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": 10746,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 10746
+      },
+      "due_to_other_funds": {
+        "General": null,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": null
+      },
+      "other_liabilities": {
+        "General": 166317,
+        "Special Sales Tax": null,
+        "Library": 19695,
+        "2.5 Mill Tax": 8039,
+        "Capital Projects": null,
+        "Nonmajor Governmental": 10910,
+        "Total Governmental Funds": 204961
+      },
+      "total_liabilities": {
+        "General": 258576,
+        "Special Sales Tax": 15640,
+        "Library": 231155,
+        "2.5 Mill Tax": 57872,
+        "Capital Projects": null,
+        "Nonmajor Governmental": 62078,
+        "Total Governmental Funds": 625321
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Unavailable revenue-property taxes",
+          "values": {
+            "General": 23819,
+            "Special Sales Tax": null,
+            "Library": 97702,
+            "2.5 Mill Tax": 22634,
+            "Capital Projects": null,
+            "Nonmajor Governmental": 24234,
+            "Total Governmental Funds": 168389
+          }
+        }
+      ],
+      "total": {
+        "General": 23819,
+        "Special Sales Tax": null,
+        "Library": 97702,
+        "2.5 Mill Tax": 22634,
+        "Capital Projects": null,
+        "Nonmajor Governmental": 24234,
+        "Total Governmental Funds": 168389
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "prepaid items",
+          "values": {
+            "General": 213669,
+            "Special Sales Tax": null,
+            "Library": null,
+            "2.5 Mill Tax": 60466,
+            "Capital Projects": null,
+            "Nonmajor Governmental": null,
+            "Total Governmental Funds": 274135
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "Special Sales Tax": 1086018,
+            "Library": 3961961,
+            "2.5 Mill Tax": 1434925,
+            "Capital Projects": 2164642,
+            "Nonmajor Governmental": 3688547,
+            "Total Governmental Funds": 12336093
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Committed",
+          "values": {
+            "General": 2000000,
+            "Special Sales Tax": null,
+            "Library": null,
+            "2.5 Mill Tax": null,
+            "Capital Projects": null,
+            "Nonmajor Governmental": null,
+            "Total Governmental Funds": 2000000
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General": 1404297,
+        "Special Sales Tax": null,
+        "Library": null,
+        "2.5 Mill Tax": null,
+        "Capital Projects": null,
+        "Nonmajor Governmental": null,
+        "Total Governmental Funds": 1404297
+      },
+      "total_fund_balances": {
+        "General": 3617966,
+        "Special Sales Tax": 1086018,
+        "Library": 4022427,
+        "2.5 Mill Tax": 1434925,
+        "Capital Projects": 2164642,
+        "Nonmajor Governmental": 3688547,
+        "Total Governmental Funds": 16014525
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 3900361,
+      "Special Sales Tax": 1101658,
+      "Library": 4351284,
+      "2.5 Mill Tax": 1515431,
+      "Capital Projects": 2164642,
+      "Nonmajor Governmental": 3774859,
+      "Total Governmental Funds": 16808235
+    },
+    "cross_sectional": {
+      "cash": 532216,
+      "investments": 2221199,
+      "receivables": 933277,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": null,
+      "prepaid_items": 213669,
+      "total_assets": 3900361,
+      "deferred_outflows": null,
+      "accounts_payable": 49579,
+      "deferred_revenues": 10746,
+      "government_transfers": null,
+      "other_liabilities": 198251,
+      "total_liabilities": 258576,
+      "deferred_inflows": 23819,
+      "reserved": 213669,
+      "unreserved_designated": 2000000,
+      "unreserved_undesignated": 1404297,
+      "total_fund_balances": 3617966,
+      "total_liabilities_and_fund_balances": 3900361
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General",
+        "reason": "Combined 'Due to other governments' (159,042) and 'Taxes paid under protest' (7,275) which are not standard line items",
+        "extracted": 166317,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Due to other governments 159,042\nTaxes paid under protest 7,275",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Library",
+        "reason": "Only 'Taxes paid under protest' shown as separate line item, categorized as other_liabilities",
+        "extracted": 19695,
+        "alternative": null,
+        "page": 22,
+        "text_snippet": "Taxes paid under protest 7,275 19,695 8,039",
+        "severity": "low"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total does not match sum of individual funds (159042+7275+19695+8039+10910=204961 vs Capital Projects blank)",
+        "extracted": 204961,
+        "alternative": 45919,
+        "page": 23,
+        "text_snippet": "10,910 45,919",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Webster",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 3811573,
+        "charges_for_services": 429369,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -3382204
+      },
+      "public_safety": {
+        "expenses": 2033932,
+        "charges_for_services": 46608,
+        "operating_grants": 23180,
+        "capital_grants": null,
+        "net_expense_revenue": -1964144
+      },
+      "public_works": {
+        "expenses": 2616387,
+        "charges_for_services": null,
+        "operating_grants": 517003,
+        "capital_grants": null,
+        "net_expense_revenue": -2099384
+      },
+      "economic_development": {
+        "expenses": 37713,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -37713
+      },
+      "health_and_welfare": {
+        "expenses": 1022670,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -1022670
+      },
+      "culture_and_recreation": {
+        "expenses": 2509130,
+        "charges_for_services": null,
+        "operating_grants": 32990,
+        "capital_grants": null,
+        "net_expense_revenue": -2476140
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 27114,
+        "net_expense_revenue": -27114
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 12058519,
+        "charges_for_services": 443416,
+        "operating_grants": 582554,
+        "capital_grants": 23180,
+        "net_expense_revenue": -11009369
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5575460,
+      "sales_taxes": 3226199,
+      "severance_taxes": 1132148,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": null,
+      "occupational_licenses": 407410,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 258818,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 566607,
+      "miscellaneous": 667464,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Grants and contributions not restricted for a specific purpose",
+          "amount": 403360
+        },
+        {
+          "label": "Fees, charges and commissions",
+          "amount": 131290
+        }
+      ],
+      "total_general_revenues": 12368756
+    },
+    "change_in_net_position": 1359387,
+    "net_position_beginning": 22839936,
+    "net_position_ending": 24199323,
+    "cross_sectional": {
+      "property_ad_valorem": 5575460,
+      "sales_use_taxes": 3226199,
+      "severance_taxes": 1132148,
+      "other_tax_revenue": 407410,
+      "total_tax_revenue": 10341217,
+      "state_revenue_sharing": 258818,
+      "state_intergovernmental": 403360,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 1365361,
+      "total_other_revenue": 2027539,
+      "total_program_revenue": 1049150,
+      "total_revenues": 13417906,
+      "general_government": -3382204,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -3382204,
+      "public_safety": -1964144,
+      "public_works": -2099384,
+      "economic_development": -37713,
+      "health_and_welfare": -1022670,
+      "culture_and_recreation": -2476140,
+      "interest_debt_service": -27114,
+      "all_other_expenditures": null,
+      "total_expenditures": 12058519
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.charges_for_services",
+        "fund": null,
+        "reason": "Summing sub-categories (Legislative+Judicial+Elections+Finance+Other=18943+410426=429369) but only Judicial and Other General Government show charges",
+        "extracted": 429369,
+        "alternative": 18943,
+        "page": 19,
+        "text_snippet": "Judicial 1,694,896 410,426 / Other general government 669,753 18,943",
+        "severity": "low"
+      },
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": null,
+        "reason": "Calculated by summing all five subcategories net expenses (Legislative -254822, Judicial -1284470, Elections -44592, Finance -1147510, Other -650810)",
+        "extracted": -3382204,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Legislative $ 254,822 (254,822) / Judicial 1,694,896 410,426 (1,284,470) / Elections 44,592 (44,592) / Finance 1,147,510 (1,147,510) / Other 669,753 18,943 (650,810)",
+        "severity": "low"
+      },
+      {
+        "field": "property_taxes",
+        "fund": null,
+        "reason": "Two separate lines: general purposes 5575330 and debt service 130 combined",
+        "extracted": 5575460,
+        "alternative": 5575330,
+        "page": 19,
+        "text_snippet": "Property taxes, levied for general purposes 5,575,330 / Property taxes, levied for debt service 130",
+        "severity": "low"
+      },
+      {
+        "field": "cross_sectional.other_tax_revenue",
+        "fund": null,
+        "reason": "Only licenses/permits available. Unclear if Fees/charges/commissions or Grants not restricted should be included as other tax revenue",
+        "extracted": 407410,
+        "alternative": 538700,
+        "page": 19,
+        "text_snippet": "Licenses and permits 407,410 / Fees, charges and commissions 131,290",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Webster",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 4804541,
+        "investments": 6021598,
+        "taxes_receivable": null,
+        "other_receivables": 5707961,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": 4625,
+        "prepaid_items": 274135,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 1306517,
+        "depreciable_net": 10447733,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 11754250
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 28562485,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 212666,
+        "retainage_payable": null,
+        "accrued_liabilities": 196948,
+        "deposits_payable": null,
+        "unearned_revenue": 10746,
+        "accrued_interest": 14546,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 4363162,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 11457377,
+        "restricted": 9421716,
+        "unrestricted": 2380005,
+        "total_net_position": 24199323
+      }
+    },
+    "component_units": {
+      "total_assets": 2989594,
+      "total_liabilities": 390784,
+      "total_net_position": 2598810
+    },
+    "_uncertainties": [
+      {
+        "field": "other_receivables",
+        "fund": "governmental_activities",
+        "reason": "Receivables line may include taxes receivable and other receivables combined; cannot separate without detail",
+        "extracted": 5707961,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Receivables 5,707,961 430,293",
+        "severity": "medium"
+      },
+      {
+        "field": "other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Escrow payable, due to other governments, and taxes paid under protest may be current liabilities but not categorized in schema",
+        "extracted": null,
+        "alternative": 218204,
+        "page": 18,
+        "text_snippet": "Escrow payable 13,243 Due to other governments 159,042 Taxes paid under protest 45,919",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities shown only as due within one year (402128) and due in more than one year (3321167) without breakdown by type",
+        "extracted": null,
+        "alternative": 3723295,
+        "page": 18,
+        "text_snippet": "Long-term liabilities Due within one year 402,128 79,479 Due in more than one year 3,321,167 1,813",
+        "severity": "high"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Multiple restricted categories summed; calculated as sum of all restricted line items",
+        "extracted": 9421716,
+        "alternative": null,
+        "page": 18,
+        "text_snippet": "Restricted for: Debt service 7,047 Solid waste collection, road and jail 1,086,018 Library 4,384,794...",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Webster",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "construction_in_progress": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": null,
+      "construction_in_progress": null,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_capital_assets_fields",
+        "fund": "Governmental Activities",
+        "reason": "No Capital Assets schedule found in provided PDF pages. Pages contain Financial Data Schedule for housing authority and Community Service fund balance sheets, but no governmental activities capital assets schedule with beginning/increases/decreases/ending columns.",
+        "extracted": null,
+        "alternative": null,
+        "page": 78,
+        "text_snippet": "Pages 78-84 show housing authority financial data and community service fund balances, no capital assets schedule with governmental activities",
+        "severity": "high"
+      }
+    ]
+  }
+}

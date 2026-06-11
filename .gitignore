@@ -10,6 +10,16 @@ pdfs/
 coded_excels/
 output/
 
+# ── Data files (too large for git, store separately) ──────────────────────────
+2013_source/
+2013_coded/
+coded/
+webapp/uvicorn.log
+
+# ── Seeded data IS committed (pre-loaded Training data) ───────────────────────
+!seeded/
+!seeded/**
+
 # ── Build artifacts ───────────────────────────────────────────────────────────
 dist/
 build/

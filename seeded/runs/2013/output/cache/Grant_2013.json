@@ -1,0 +1,412 @@
+{
+  "cbs": null,
+  "soa": {
+    "parish": "Grant",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_safety": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "public_works": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "culture_and_recreation": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "interest_on_long_term_debt": {
+        "expenses": null,
+        "net_expense_revenue": null
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -3179261
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 889307,
+      "sales_taxes": 1159486,
+      "severance_taxes": 538280,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "other_taxes": 159990,
+      "state_revenue_sharing": 79114,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": null,
+      "miscellaneous": null,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Other",
+          "amount": 124581
+        }
+      ],
+      "total_general_revenues": 2950758
+    },
+    "change_in_net_position": -228503,
+    "net_position_beginning": 8407624,
+    "net_position_ending": 8179121,
+    "cross_sectional": {
+      "property_ad_valorem": 889307,
+      "sales_use_taxes": 1159486,
+      "severance_taxes": 538280,
+      "other_tax_revenue": 159990,
+      "total_tax_revenue": 2747063,
+      "state_revenue_sharing": 79114,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 124581,
+      "total_other_revenue": 203695,
+      "total_program_revenue": null,
+      "total_revenues": null,
+      "general_government": null,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": null,
+      "public_safety": null,
+      "public_works": null,
+      "economic_development": null,
+      "health_and_welfare": null,
+      "culture_and_recreation": null,
+      "interest_debt_service": null,
+      "all_other_expenditures": null,
+      "total_expenditures": null
+    },
+    "_uncertainties": [
+      {
+        "field": "net_position_beginning",
+        "fund": "governmental_activities",
+        "reason": "Prior period adjustment shown separately; extracted restated amount per standard practice",
+        "extracted": 8407624,
+        "alternative": 8394999,
+        "page": 15,
+        "text_snippet": "Net Position - Beginning As Originally Reported 8,394,999 Prior Period Adjustment 12,625 As Restated 8,407,624",
+        "severity": "low"
+      },
+      {
+        "field": "governmental_activities.total.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Page shows continuation from previous page; individual function detail not visible on this page",
+        "extracted": -3179261,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Net (Expense) Revenue (Continued From Previous Page) $ (3,179,261)",
+        "severity": "medium"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Grant",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": null,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": null,
+        "due_from_other_governments": null,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": null,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": null
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": null,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": null,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": null,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": null,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": null,
+        "restricted": null,
+        "unrestricted": null,
+        "total_net_position": null
+      }
+    },
+    "component_units": {
+      "total_assets": null,
+      "total_liabilities": null,
+      "total_net_position": null
+    },
+    "_uncertainties": [
+      {
+        "field": "all_governmental_activities_fields",
+        "fund": "governmental_activities",
+        "reason": "Only proprietary fund (Business-Type Activities - Utility System) statement provided; no government-wide Statement of Net Position with Governmental Activities column found in extracted pages",
+        "extracted": null,
+        "alternative": null,
+        "page": 19,
+        "text_snippet": "Statement of Net Position Proprietary Funds - December 31, 2014 Business-Type Activities Utility System",
+        "severity": "high"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Grant",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 203250,
+          "increases": null,
+          "decreases": null,
+          "ending": 203250
+        },
+        "construction_in_progress": {
+          "beginning": 37900,
+          "increases": 22510,
+          "decreases": null,
+          "ending": 60410
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 241150,
+          "increases": 22510,
+          "decreases": null,
+          "ending": 263660
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [],
+        "total_depreciable": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "machinery_and_equipment": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "vehicles": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "furniture_and_fixtures": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [],
+        "total_accumulated_depreciation": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      },
+      "total_capital_assets_net": {
+        "beginning": null,
+        "increases": null,
+        "decreases": null,
+        "ending": null
+      }
+    },
+    "cross_sectional": {
+      "land": 203250,
+      "construction_in_progress": 60410,
+      "other_non_depreciable": null,
+      "buildings_net": null,
+      "improvements_net": null,
+      "machinery_net": null,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": null,
+      "total_governmental_net": null
+    },
+    "_uncertainties": [
+      {
+        "field": "governmental_activities.not_depreciated.construction_in_progress.increases",
+        "fund": "Governmental Activities",
+        "reason": "PDF text is cut off at bottom of page, depreciable assets section not visible",
+        "extracted": 22510,
+        "alternative": null,
+        "page": 31,
+        "text_snippet": "Construction in Process S 37,900 $ 22,510 $ \u2014- $ 60,410",
+        "severity": "low"
+      },
+      {
+        "field": "governmental_activities.total_capital_assets_net",
+        "fund": "Governmental Activities",
+        "reason": "Complete capital assets schedule not shown in provided text - only non-depreciable section visible, missing depreciable and accumulated depreciation sections",
+        "extracted": null,
+        "alternative": null,
+        "page": 31,
+        "text_snippet": "Total 241,150 22,510 263,660",
+        "severity": "high"
+      }
+    ]
+  }
+}

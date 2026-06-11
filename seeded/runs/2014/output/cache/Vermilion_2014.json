@@ -1,0 +1,889 @@
+{
+  "cbs": {
+    "parish": "Vermilion",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "1976 Sales Tax Fund",
+      "1978 Sales Tax Fund",
+      "1994 Sales Tax Fund",
+      "Road Maintenance Fund",
+      "Royalty Fund",
+      "Parishwide Public Improvement Account",
+      "Project Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 1093899,
+        "1976 Sales Tax Fund": 10364185,
+        "1978 Sales Tax Fund": 11603963,
+        "1994 Sales Tax Fund": 16261676,
+        "Road Maintenance Fund": 10551829,
+        "Royalty Fund": 508648,
+        "Parishwide Public Improvement Account": 574848,
+        "Project Fund": 8105247,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 59064295
+      },
+      "investments": {
+        "General": null,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "taxes_receivable": {
+        "General": 71638,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 57039,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": 40078,
+        "Road Maintenance Fund": 82563,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 122641
+      },
+      "due_from_other_governments": {
+        "General": 2711975,
+        "1976 Sales Tax Fund": 701802,
+        "1978 Sales Tax Fund": 701802,
+        "1994 Sales Tax Fund": 701802,
+        "Road Maintenance Fund": 441978,
+        "Royalty Fund": 1010935,
+        "Parishwide Public Improvement Account": 939834,
+        "Project Fund": 2914777,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 10124905
+      },
+      "due_from_other_funds": {
+        "General": 347334,
+        "1976 Sales Tax Fund": 306,
+        "1978 Sales Tax Fund": 15028,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": 672413,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": 41301,
+        "Project Fund": 61046,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1137428
+      },
+      "due_from_component_units": {
+        "General": 111,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": 519,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 630
+      },
+      "inventory": {
+        "General": null,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": null,
+        "1976 Sales Tax Fund": 1345,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": 5516,
+        "Road Maintenance Fund": 10776,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": 7768,
+        "Project Fund": 502,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 25907
+      },
+      "other_assets": {
+        "General": null,
+        "1976 Sales Tax Fund": 12537,
+        "1978 Sales Tax Fund": 4235,
+        "1994 Sales Tax Fund": 14722,
+        "Road Maintenance Fund": 7419,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": 1216,
+        "Project Fund": null,
+        "Other Governmental Funds": 12275,
+        "Total Governmental Funds": 345708
+      },
+      "total_assets": {
+        "General": 4281996,
+        "1976 Sales Tax Fund": 11080175,
+        "1978 Sales Tax Fund": 12325028,
+        "1994 Sales Tax Fund": 17023794,
+        "Road Maintenance Fund": 11684934,
+        "Royalty Fund": 1632519,
+        "Parishwide Public Improvement Account": 1514682,
+        "Project Fund": 11387829,
+        "Other Governmental Funds": 69314,
+        "Total Governmental Funds": 70930957
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 1681601,
+        "1976 Sales Tax Fund": 15580,
+        "1978 Sales Tax Fund": 23864,
+        "1994 Sales Tax Fund": 777765,
+        "Road Maintenance Fund": 12388,
+        "Royalty Fund": 51123,
+        "Parishwide Public Improvement Account": 147992,
+        "Project Fund": 146879,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 2857192
+      },
+      "retainage_payable": {
+        "General": null,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": 76008,
+        "Project Fund": 47303,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 123311
+      },
+      "accrued_liabilities": {
+        "General": 24683,
+        "1976 Sales Tax Fund": 11625,
+        "1978 Sales Tax Fund": 5529,
+        "1994 Sales Tax Fund": 51703,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": 70680,
+        "Project Fund": null,
+        "Other Governmental Funds": 47160,
+        "Total Governmental Funds": 211380
+      },
+      "deposits_payable": {
+        "General": null,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 103827,
+        "1976 Sales Tax Fund": 3499,
+        "1978 Sales Tax Fund": 852,
+        "1994 Sales Tax Fund": 67787,
+        "Road Maintenance Fund": 49059,
+        "Royalty Fund": 37299,
+        "Parishwide Public Improvement Account": 862638,
+        "Project Fund": 12467,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1137428
+      },
+      "other_liabilities": {
+        "General": 204262,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 204262
+      },
+      "total_liabilities": {
+        "General": 2076298,
+        "1976 Sales Tax Fund": 30704,
+        "1978 Sales Tax Fund": 35302,
+        "1994 Sales Tax Fund": 897255,
+        "Road Maintenance Fund": 355003,
+        "Royalty Fund": 159102,
+        "Parishwide Public Improvement Account": 1232931,
+        "Project Fund": 378802,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 5165397
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Deferred revenue",
+          "values": {
+            "General": 234110,
+            "1976 Sales Tax Fund": null,
+            "1978 Sales Tax Fund": null,
+            "1994 Sales Tax Fund": 14942,
+            "Road Maintenance Fund": null,
+            "Royalty Fund": 75399,
+            "Parishwide Public Improvement Account": null,
+            "Project Fund": 516246,
+            "Other Governmental Funds": 245898,
+            "Total Governmental Funds": 1086595
+          }
+        }
+      ],
+      "total": {
+        "General": 234110,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": 14942,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": 75399,
+        "Parishwide Public Improvement Account": null,
+        "Project Fund": 516246,
+        "Other Governmental Funds": 245898,
+        "Total Governmental Funds": 1086595
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Nonspendable",
+          "values": {
+            "General": null,
+            "1976 Sales Tax Fund": 1345,
+            "1978 Sales Tax Fund": null,
+            "1994 Sales Tax Fund": 5516,
+            "Road Maintenance Fund": 10776,
+            "Royalty Fund": null,
+            "Parishwide Public Improvement Account": 7768,
+            "Project Fund": 502,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 25907
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Restricted",
+          "values": {
+            "General": null,
+            "1976 Sales Tax Fund": 11048126,
+            "1978 Sales Tax Fund": 12289726,
+            "1994 Sales Tax Fund": 16106081,
+            "Road Maintenance Fund": 11319155,
+            "Royalty Fund": 1390250,
+            "Parishwide Public Improvement Account": null,
+            "Project Fund": 10762627,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 62915965
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Assigned",
+          "values": {
+            "General": 28196,
+            "1976 Sales Tax Fund": null,
+            "1978 Sales Tax Fund": null,
+            "1994 Sales Tax Fund": null,
+            "Road Maintenance Fund": null,
+            "Royalty Fund": null,
+            "Parishwide Public Improvement Account": null,
+            "Project Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 28196
+          }
+        }
+      ],
+      "unassigned": {
+        "General": 1943392,
+        "1976 Sales Tax Fund": null,
+        "1978 Sales Tax Fund": null,
+        "1994 Sales Tax Fund": null,
+        "Road Maintenance Fund": null,
+        "Royalty Fund": null,
+        "Parishwide Public Improvement Account": -234495,
+        "Project Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 1708897
+      },
+      "total_fund_balances": {
+        "General": 1971588,
+        "1976 Sales Tax Fund": 11049471,
+        "1978 Sales Tax Fund": 12289726,
+        "1994 Sales Tax Fund": 16111597,
+        "Road Maintenance Fund": 11329931,
+        "Royalty Fund": 1398018,
+        "Parishwide Public Improvement Account": -234495,
+        "Project Fund": 10763129,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 64678965
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 4281996,
+      "1976 Sales Tax Fund": 11080175,
+      "1978 Sales Tax Fund": 12325028,
+      "1994 Sales Tax Fund": 17023794,
+      "Road Maintenance Fund": 11684934,
+      "Royalty Fund": 1632519,
+      "Parishwide Public Improvement Account": 1514682,
+      "Project Fund": 11387829,
+      "Other Governmental Funds": null,
+      "Total Governmental Funds": 70930957
+    },
+    "cross_sectional": {
+      "cash": 1093899,
+      "investments": null,
+      "receivables": 2840652,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 347334,
+      "prepaid_items": null,
+      "total_assets": 4281996,
+      "deferred_outflows": null,
+      "accounts_payable": 1681601,
+      "deferred_revenues": null,
+      "government_transfers": 103827,
+      "other_liabilities": 228945,
+      "total_liabilities": 2076298,
+      "deferred_inflows": 234110,
+      "reserved": null,
+      "unreserved_designated": 28196,
+      "unreserved_undesignated": 1943392,
+      "total_fund_balances": 1971588,
+      "total_liabilities_and_fund_balances": 4281996
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "Total Governmental Funds",
+        "reason": "Line item labeled 'Accrued interest receivable' was mapped to other_assets, but could potentially be part of investments category depending on classification preference",
+        "extracted": 345708,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accrued interest receivable - 12,537 4,235 14,722",
+        "severity": "low"
+      },
+      {
+        "field": "other_receivables",
+        "fund": "Total Governmental Funds",
+        "reason": "Line shows 'Accounts receivable' for some funds but 'Other receivables' for General fund - combined under other_receivables assuming they are similar",
+        "extracted": 122641,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accounts receivable - - - 40,078",
+        "severity": "low"
+      },
+      {
+        "field": "taxes_receivable",
+        "fund": "Total Governmental Funds",
+        "reason": "Ad valorem tax receivable shows only in General Fund but no total column value visible in statement",
+        "extracted": null,
+        "alternative": 71638,
+        "page": 15,
+        "text_snippet": "Ad valorem tax receivable, net 71,638 - - -",
+        "severity": "medium"
+      },
+      {
+        "field": "accounts_payable",
+        "fund": "Total Governmental Funds",
+        "reason": "Statement shows separate 'Accounts payable' and 'Contracts payable' lines - combined both under accounts_payable per common practice",
+        "extracted": 2857192,
+        "alternative": null,
+        "page": 15,
+        "text_snippet": "Accounts payable $1,681,601 $ 15,580 $ 23,864 $ 777,765 Contracts payable 61,925 - 5,057 -",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Vermilion",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 3824064,
+        "charges_for_services": 363,
+        "operating_grants": 58170,
+        "capital_grants": null,
+        "net_expense_revenue": -3765531
+      },
+      "public_safety": {
+        "expenses": 3405434,
+        "charges_for_services": 670042,
+        "operating_grants": 20745,
+        "capital_grants": 100621,
+        "net_expense_revenue": -2614026
+      },
+      "public_works": {
+        "expenses": 11157407,
+        "charges_for_services": 1096046,
+        "operating_grants": null,
+        "capital_grants": 8175269,
+        "net_expense_revenue": -1886092
+      },
+      "economic_development": {
+        "expenses": 179403,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -179403
+      },
+      "health_and_welfare": {
+        "expenses": 1718417,
+        "charges_for_services": 38147,
+        "operating_grants": 279144,
+        "capital_grants": null,
+        "net_expense_revenue": -1401126
+      },
+      "culture_and_recreation": {
+        "expenses": 101372,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": -101372
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 82753,
+        "net_expense_revenue": -82753
+      },
+      "other_activities": [
+        {
+          "label": "Sanitation and waste disposal",
+          "expenses": 5660129,
+          "charges_for_services": 854150,
+          "operating_grants": null,
+          "capital_grants": null,
+          "net_expense_revenue": -4805979
+        }
+      ],
+      "total": {
+        "expenses": 26128979,
+        "charges_for_services": 1562702,
+        "operating_grants": 2254105,
+        "capital_grants": 8275890,
+        "net_expense_revenue": -14036282
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 5888400,
+      "sales_taxes": 12466647,
+      "severance_taxes": 986599,
+      "fire_insurance_premiums": 238229,
+      "franchise_fees": 150603,
+      "other_taxes": 9774,
+      "occupational_licenses": 617026,
+      "gaming_revenues": null,
+      "state_revenue_sharing": 364486,
+      "state_shared_revenue": null,
+      "non_employer_pension_contribution": null,
+      "investment_income": 290358,
+      "miscellaneous": 286203,
+      "transfers": -440000,
+      "other_items": [
+        {
+          "label": "Gain on sale of capital assets",
+          "amount": 1371494
+        },
+        {
+          "label": "Appropriation of capital expenditures from other governmental entities",
+          "amount": 25000
+        },
+        {
+          "label": "Appropriation of capital expenditures to other governmental entities",
+          "amount": -2639616
+        }
+      ],
+      "total_general_revenues": 19615203
+    },
+    "change_in_net_position": 5578921,
+    "net_position_beginning": 135649977,
+    "net_position_ending": 141228898,
+    "cross_sectional": {
+      "property_ad_valorem": 5888400,
+      "sales_use_taxes": 12466647,
+      "severance_taxes": 986599,
+      "other_tax_revenue": 1015632,
+      "total_tax_revenue": 20357278,
+      "state_revenue_sharing": 364486,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": -440000,
+      "all_other_revenue": 2805469,
+      "total_other_revenue": 2729955,
+      "total_program_revenue": 12092697,
+      "total_revenues": 35179930,
+      "general_government": -3765531,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": -3765531,
+      "public_safety": -2614026,
+      "public_works": -1886092,
+      "economic_development": -179403,
+      "health_and_welfare": -1401126,
+      "culture_and_recreation": -101372,
+      "interest_debt_service": -82753,
+      "all_other_expenditures": -4805979,
+      "total_expenditures": 26128979
+    },
+    "_uncertainties": [
+      {
+        "field": "public_works.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Value partially obscured in PDF text, reconstructed from visible digits",
+        "extracted": -1886092,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Public v/orks 11,157,407 I. ^96,046 8,175,269 (1,0^",
+        "severity": "medium"
+      },
+      {
+        "field": "public_safety.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Value partially obscured in PDF text, reconstructed from visible digits",
+        "extracted": -2614026,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Public safety 3,405,434 670,042 20,745 100.621 (2,6I4,(",
+        "severity": "medium"
+      },
+      {
+        "field": "other_activities.sanitation_and_waste_disposal.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Value partially obscured in PDF text, reconstructed from visible digits",
+        "extracted": -4805979,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Sanitation and v/aste dispose 5,660,129 854,150 (4,805,t",
+        "severity": "medium"
+      },
+      {
+        "field": "cross_sectional.state_intergovernmental",
+        "fund": null,
+        "reason": "Cannot determine state vs federal breakdown from grants in program revenues",
+        "extracted": null,
+        "alternative": null,
+        "page": 11,
+        "text_snippet": "Operating Grants and Contributions Contributions",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Vermilion",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 59064295,
+        "investments": null,
+        "taxes_receivable": null,
+        "other_receivables": 577792,
+        "due_from_other_governments": 10124905,
+        "due_from_component_units": 630,
+        "inventory": null,
+        "prepaid_items": 25907,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": null,
+        "depreciable_net": null,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 81804386
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 151597915,
+      "deferred_outflows": {
+        "items": [],
+        "total": null
+      },
+      "current_liabilities": {
+        "accounts_payable": 3272834,
+        "retainage_payable": 123311,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 26561,
+        "other_current_liabilities": null
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": 375000,
+        "bonds_payable_noncurrent": 3355287,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": 1497605
+      },
+      "total_liabilities": 9282422,
+      "deferred_inflows": {
+        "items": [
+          {
+            "label": "Deferred revenue",
+            "amount": 1086595
+          }
+        ],
+        "total": 1086595
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 80040061,
+        "restricted": 40954264,
+        "unrestricted": 20234573,
+        "total_net_position": 141228898
+      }
+    },
+    "component_units": {
+      "total_assets": 481842,
+      "total_liabilities": 50266,
+      "total_net_position": 431576
+    },
+    "_uncertainties": [
+      {
+        "field": "contracts_payable",
+        "fund": "governmental_activities",
+        "reason": "Contracts payable amount shown but unclear if separate line or included in accounts payable",
+        "extracted": 3272834,
+        "alternative": 3904658,
+        "page": 10,
+        "text_snippet": "Accounts and other payables 3,272,834\nContracts payable 631,824",
+        "severity": "medium"
+      },
+      {
+        "field": "other_long_term",
+        "fund": "governmental_activities",
+        "reason": "Other post employment benefits payable categorized as other_long_term, but may need separate field",
+        "extracted": 1497605,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Other post employment benefits payable 1,497,605",
+        "severity": "low"
+      },
+      {
+        "field": "restricted",
+        "fund": "governmental_activities",
+        "reason": "Combined debt service and other purposes restrictions",
+        "extracted": 40954264,
+        "alternative": null,
+        "page": 10,
+        "text_snippet": "Debt service 1,503,470\nOther purposes 39,450,794",
+        "severity": "low"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Vermilion",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 1893204,
+          "increases": 434192,
+          "decreases": null,
+          "ending": 2327396
+        },
+        "construction_in_progress": {
+          "beginning": 3347744,
+          "increases": 2496772,
+          "decreases": 3287878,
+          "ending": 2956638
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 5640948,
+          "increases": 2930964,
+          "decreases": 3287878,
+          "ending": 5284034
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 19689083,
+          "increases": 59261,
+          "decreases": null,
+          "ending": 19748344
+        },
+        "machinery_and_equipment": {
+          "beginning": 23749110,
+          "increases": 883673,
+          "decreases": 2924706,
+          "ending": 21708077
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": 148856701,
+          "increases": 3874835,
+          "decreases": null,
+          "ending": 152731536
+        },
+        "vehicles": null,
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other_depreciable": [
+          {
+            "label": "Road surfaces",
+            "beginning": 134347023,
+            "increases": 1246503,
+            "decreases": null,
+            "ending": 135593526
+          },
+          {
+            "label": "Bridges and drainage improvements",
+            "beginning": 14509678,
+            "increases": 2628332,
+            "decreases": null,
+            "ending": 17138010
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 192294894,
+          "increases": 4817769,
+          "decreases": 2924706,
+          "ending": 194187957
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 10257720,
+          "increases": 452504,
+          "decreases": null,
+          "ending": 10710224
+        },
+        "machinery_and_equipment": {
+          "beginning": 18181315,
+          "increases": 810719,
+          "decreases": 1821303,
+          "ending": 17170731
+        },
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": 86996553,
+          "increases": 2790097,
+          "decreases": null,
+          "ending": 89786650
+        },
+        "vehicles": null,
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other": [
+          {
+            "label": "Road surfaces",
+            "beginning": 82749167,
+            "increases": 2451748,
+            "decreases": null,
+            "ending": 85200915
+          },
+          {
+            "label": "Bridges and drainage improvements",
+            "beginning": 4247386,
+            "increases": 338349,
+            "decreases": null,
+            "ending": 4585735
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": 115435588,
+          "increases": 4053320,
+          "decreases": 1821303,
+          "ending": 117667605
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 76859306,
+        "increases": 764449,
+        "decreases": 1103403,
+        "ending": 76520352
+      },
+      "total_capital_assets_net": {
+        "beginning": 82500254,
+        "increases": 3695413,
+        "decreases": 4391281,
+        "ending": 81804386
+      }
+    },
+    "cross_sectional": {
+      "land": 2327396,
+      "construction_in_progress": 2956638,
+      "other_non_depreciable": null,
+      "buildings_net": 9038120,
+      "improvements_net": null,
+      "machinery_net": 4537346,
+      "other_depreciable_net": null,
+      "books_net": null,
+      "furniture_net": null,
+      "vehicles_net": null,
+      "bridges_net": 12552275,
+      "leased_property_net": null,
+      "infrastructure_net": 50392611,
+      "total_governmental_net": 81804386
+    },
+    "_uncertainties": [
+      {
+        "field": "construction_in_progress.beginning",
+        "fund": "Governmental activities",
+        "reason": "OCR unclear on first digit - appears to be 3J47J44 which likely means 3,347,744 or possibly 3,147,144",
+        "extracted": 3347744,
+        "alternative": 3147144,
+        "page": 39,
+        "text_snippet": "Construction in progress 3J47J44 2,496,772 3,287,878 2,956,638",
+        "severity": "medium"
+      }
+    ]
+  }
+}

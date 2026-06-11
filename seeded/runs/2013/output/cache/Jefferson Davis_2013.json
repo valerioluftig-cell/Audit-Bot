@@ -1,0 +1,600 @@
+{
+  "cbs": {
+    "parish": "Jefferson Davis",
+    "year": 2013,
+    "in_thousands": false,
+    "funds": [
+      "General Fund",
+      "Road Sales Tax No. 1 Sales Tax Fund",
+      "Criminal Court Fund",
+      "Section 8 Housing Fund",
+      "Road Sales Tax No. 1 Sinking Fund",
+      "Other Governmental Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General Fund": 6883837,
+        "Road Sales Tax No. 1 Sales Tax Fund": 5955273,
+        "Criminal Court Fund": 1824,
+        "Section 8 Housing Fund": 21961,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 7051908,
+        "Total Governmental Funds": 19914803
+      },
+      "investments": {
+        "General Fund": 678247,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 1433956,
+        "Total Governmental Funds": 2112203
+      },
+      "taxes_receivable": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General Fund": 93939,
+        "Road Sales Tax No. 1 Sales Tax Fund": 460821,
+        "Criminal Court Fund": 116744,
+        "Section 8 Housing Fund": 37,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 746750,
+        "Total Governmental Funds": 1418291
+      },
+      "due_from_other_governments": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_from_other_funds": {
+        "General Fund": 300,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 62102,
+        "Total Governmental Funds": 62402
+      },
+      "due_from_component_units": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_assets": {
+        "General Fund": 1552823,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": 1076217,
+        "Other Governmental Funds": 78619,
+        "Total Governmental Funds": 2707659
+      },
+      "total_assets": {
+        "General Fund": 7656323,
+        "Road Sales Tax No. 1 Sales Tax Fund": 7968917,
+        "Criminal Court Fund": 118568,
+        "Section 8 Housing Fund": 21998,
+        "Road Sales Tax No. 1 Sinking Fund": 1076217,
+        "Other Governmental Funds": 9373335,
+        "Total Governmental Funds": 26215358
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General Fund": 69611,
+        "Road Sales Tax No. 1 Sales Tax Fund": 177370,
+        "Criminal Court Fund": 137571,
+        "Section 8 Housing Fund": 260,
+        "Road Sales Tax No. 1 Sinking Fund": 825,
+        "Other Governmental Funds": 234145,
+        "Total Governmental Funds": 619782
+      },
+      "retainage_payable": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 161303,
+        "Total Governmental Funds": 161303
+      },
+      "accrued_liabilities": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "deposits_payable": {
+        "General Fund": 550500,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 550500
+      },
+      "unearned_revenue": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General Fund": null,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 62402,
+        "Total Governmental Funds": 62402
+      },
+      "other_liabilities": {
+        "General Fund": 140,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": null,
+        "Total Governmental Funds": 140
+      },
+      "total_liabilities": {
+        "General Fund": 620251,
+        "Road Sales Tax No. 1 Sales Tax Fund": 177370,
+        "Criminal Court Fund": 137571,
+        "Section 8 Housing Fund": 260,
+        "Road Sales Tax No. 1 Sinking Fund": 825,
+        "Other Governmental Funds": 457850,
+        "Total Governmental Funds": 1394127
+      }
+    },
+    "deferred_inflows": {
+      "items": [
+        {
+          "label": "Deferred revenues",
+          "values": {
+            "General Fund": 102290,
+            "Road Sales Tax No. 1 Sales Tax Fund": null,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": null,
+            "Road Sales Tax No. 1 Sinking Fund": null,
+            "Other Governmental Funds": 407305,
+            "Total Governmental Funds": 509595
+          }
+        }
+      ],
+      "total": {
+        "General Fund": 102290,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": null,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": 407305,
+        "Total Governmental Funds": 509595
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [],
+      "restricted": [
+        {
+          "label": "Public safety",
+          "values": {
+            "General Fund": null,
+            "Road Sales Tax No. 1 Sales Tax Fund": null,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": null,
+            "Road Sales Tax No. 1 Sinking Fund": null,
+            "Other Governmental Funds": 4888543,
+            "Total Governmental Funds": 4888543
+          }
+        },
+        {
+          "label": "Public works",
+          "values": {
+            "General Fund": null,
+            "Road Sales Tax No. 1 Sales Tax Fund": 6238724,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": null,
+            "Road Sales Tax No. 1 Sinking Fund": null,
+            "Other Governmental Funds": 1919696,
+            "Total Governmental Funds": 8158420
+          }
+        },
+        {
+          "label": "Health and welfare",
+          "values": {
+            "General Fund": null,
+            "Road Sales Tax No. 1 Sales Tax Fund": null,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": 21738,
+            "Road Sales Tax No. 1 Sinking Fund": null,
+            "Other Governmental Funds": 355182,
+            "Total Governmental Funds": 376920
+          }
+        },
+        {
+          "label": "Debt service",
+          "values": {
+            "General Fund": 1552823,
+            "Road Sales Tax No. 1 Sales Tax Fund": null,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": null,
+            "Road Sales Tax No. 1 Sinking Fund": 1075392,
+            "Other Governmental Funds": 29437,
+            "Total Governmental Funds": 2657652
+          }
+        },
+        {
+          "label": "Other general government",
+          "values": {
+            "General Fund": null,
+            "Road Sales Tax No. 1 Sales Tax Fund": null,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": null,
+            "Road Sales Tax No. 1 Sinking Fund": null,
+            "Other Governmental Funds": 1340505,
+            "Total Governmental Funds": 1340505
+          }
+        }
+      ],
+      "committed": [],
+      "assigned": [
+        {
+          "label": "Jail capital project",
+          "values": {
+            "General Fund": 538003,
+            "Road Sales Tax No. 1 Sales Tax Fund": null,
+            "Criminal Court Fund": null,
+            "Section 8 Housing Fund": null,
+            "Road Sales Tax No. 1 Sinking Fund": null,
+            "Other Governmental Funds": null,
+            "Total Governmental Funds": 538003
+          }
+        }
+      ],
+      "unassigned": {
+        "General Fund": 6395779,
+        "Road Sales Tax No. 1 Sales Tax Fund": null,
+        "Criminal Court Fund": -19003,
+        "Section 8 Housing Fund": null,
+        "Road Sales Tax No. 1 Sinking Fund": null,
+        "Other Governmental Funds": -25183,
+        "Total Governmental Funds": 6351593
+      },
+      "total_fund_balances": {
+        "General Fund": 6933782,
+        "Road Sales Tax No. 1 Sales Tax Fund": 7791547,
+        "Criminal Court Fund": -19003,
+        "Section 8 Housing Fund": 21738,
+        "Road Sales Tax No. 1 Sinking Fund": 1075392,
+        "Other Governmental Funds": 8508180,
+        "Total Governmental Funds": 24311636
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General Fund": 7656323,
+      "Road Sales Tax No. 1 Sales Tax Fund": 7968917,
+      "Criminal Court Fund": 118568,
+      "Section 8 Housing Fund": 21998,
+      "Road Sales Tax No. 1 Sinking Fund": 1076217,
+      "Other Governmental Funds": 9373335,
+      "Total Governmental Funds": 26215358
+    },
+    "cross_sectional": {
+      "cash": 6883837,
+      "investments": 678247,
+      "receivables": 93939,
+      "inventory": null,
+      "other_assets": 1552823,
+      "transfers_in": 300,
+      "prepaid_items": null,
+      "total_assets": 7656323,
+      "deferred_outflows": null,
+      "accounts_payable": 69611,
+      "deferred_revenues": null,
+      "government_transfers": null,
+      "other_liabilities": 550640,
+      "total_liabilities": 620251,
+      "deferred_inflows": 102290,
+      "reserved": 1552823,
+      "unreserved_designated": 538003,
+      "unreserved_undesignated": 6395779,
+      "total_fund_balances": 6933782,
+      "total_liabilities_and_fund_balances": 7656323
+    },
+    "_uncertainties": [
+      {
+        "field": "other_assets",
+        "fund": "General Fund",
+        "reason": "Line item 'Restricted cash and cash equivalents' is classified as other_assets but might be intended as restricted cash component",
+        "extracted": 1552823,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Restricted cash and cash eqmvalents 1,552,823",
+        "severity": "medium"
+      },
+      {
+        "field": "other_receivables",
+        "fund": null,
+        "reason": "Statement shows 'Receivables' without breakdown; unclear if taxes, special assessments, or other receivables",
+        "extracted": 1418291,
+        "alternative": null,
+        "page": 13,
+        "text_snippet": "Receivables 93,939 460,821 116,744 37",
+        "severity": "low"
+      }
+    ]
+  },
+  "soa": null,
+  "sona": null,
+  "ca": {
+    "parish": "Jefferson Davis",
+    "year": 2013,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 525705,
+          "increases": 321202,
+          "decreases": null,
+          "ending": 846907
+        },
+        "construction_in_progress": {
+          "beginning": 88007,
+          "increases": 698039,
+          "decreases": 18802,
+          "ending": 767244
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 613712,
+          "increases": 1019241,
+          "decreases": 18802,
+          "ending": 1614151
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 12654039,
+          "increases": 109075,
+          "decreases": null,
+          "ending": 12763114
+        },
+        "machinery_and_equipment": {
+          "beginning": 1619277,
+          "increases": 31966,
+          "decreases": 9101,
+          "ending": 1642142
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 23902567,
+          "increases": 311211,
+          "decreases": null,
+          "ending": 24213778
+        },
+        "vehicles": {
+          "beginning": 5457874,
+          "increases": 669304,
+          "decreases": 149769,
+          "ending": 5977409
+        },
+        "furniture_and_fixtures": {
+          "beginning": 338935,
+          "increases": 15005,
+          "decreases": 2425,
+          "ending": 351515
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other_depreciable": [
+          {
+            "label": "Maintenance equpment",
+            "beginning": 2229143,
+            "increases": 174097,
+            "decreases": 116384,
+            "ending": 2286856
+          },
+          {
+            "label": "Sewer and sewer improvements",
+            "beginning": 318782,
+            "increases": null,
+            "decreases": null,
+            "ending": 318782
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 46520617,
+          "increases": 1310658,
+          "decreases": 277679,
+          "ending": 47553596
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": 4025023,
+          "increases": 407679,
+          "decreases": null,
+          "ending": 4432702
+        },
+        "machinery_and_equipment": {
+          "beginning": 1274212,
+          "increases": 79503,
+          "decreases": 9051,
+          "ending": 1344664
+        },
+        "improvements_other_than_buildings": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "infrastructure": {
+          "beginning": 3878466,
+          "increases": 802770,
+          "decreases": null,
+          "ending": 4681236
+        },
+        "vehicles": {
+          "beginning": 2805389,
+          "increases": 378796,
+          "decreases": 149769,
+          "ending": 3034416
+        },
+        "furniture_and_fixtures": {
+          "beginning": 268608,
+          "increases": 27376,
+          "decreases": 2425,
+          "ending": 293559
+        },
+        "books_and_periodicals": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "leased_property": {
+          "beginning": null,
+          "increases": null,
+          "decreases": null,
+          "ending": null
+        },
+        "other": [
+          {
+            "label": "Maintenance equpment",
+            "beginning": 1246089,
+            "increases": 148275,
+            "decreases": 76326,
+            "ending": 1318038
+          },
+          {
+            "label": "Sewer and sewer improvements",
+            "beginning": 71628,
+            "increases": 7970,
+            "decreases": null,
+            "ending": 79598
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": 13569415,
+          "increases": 1852369,
+          "decreases": 237571,
+          "ending": 15184213
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 32951202,
+        "increases": -541711,
+        "decreases": 40108,
+        "ending": 32369383
+      },
+      "total_capital_assets_net": {
+        "beginning": 33564914,
+        "increases": 477530,
+        "decreases": 58910,
+        "ending": 33983534
+      }
+    },
+    "cross_sectional": {
+      "land": 846907,
+      "construction_in_progress": 767244,
+      "other_non_depreciable": 0,
+      "buildings_net": 8330412,
+      "improvements_net": null,
+      "machinery_net": 297478,
+      "other_depreciable_net": 1208044,
+      "books_net": null,
+      "furniture_net": 57956,
+      "vehicles_net": 2942993,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 19532542,
+      "total_governmental_net": 33983534
+    },
+    "_uncertainties": [
+      {
+        "field": "machinery_and_equipment.increases",
+        "fund": "governmental_activities",
+        "reason": "OCR quality issue - unclear if value is 31,966 or 31,%6",
+        "extracted": 31966,
+        "alternative": null,
+        "page": 37,
+        "text_snippet": "Machinery and equpment 1,619,277 31,%6 9,101 1,642,142",
+        "severity": "low"
+      },
+      {
+        "field": "total_capital_assets_net.decreases",
+        "fund": "governmental_activities",
+        "reason": "Unclear if decreases value is 58,910 or if it's a typographical error in original - appears as $1 58,910",
+        "extracted": 58910,
+        "alternative": 158910,
+        "page": 37,
+        "text_snippet": "Total capital assets, net $ 33,564,914 $ 477,530 $1 58,910 $ $ 33,983,534",
+        "severity": "medium"
+      }
+    ]
+  }
+}

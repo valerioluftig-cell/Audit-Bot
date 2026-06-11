@@ -1,0 +1,872 @@
+{
+  "cbs": {
+    "parish": "Lafourche",
+    "year": 2014,
+    "in_thousands": false,
+    "funds": [
+      "General",
+      "Roads and Bridges",
+      "Drainage",
+      "Solid Waste",
+      "Library Commission",
+      "2005 Road Construction",
+      "Non-Major Capital Projects Funds",
+      "Total Governmental Funds"
+    ],
+    "assets": {
+      "cash_and_deposits": {
+        "General": 2764394,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": 980438,
+        "2005 Road Construction": 12537521,
+        "Non-Major Capital Projects Funds": 3883292,
+        "Total Governmental Funds": 20165645
+      },
+      "investments": {
+        "General": 91,
+        "Roads and Bridges": 4486,
+        "Drainage": 642,
+        "Solid Waste": 869499,
+        "Library Commission": 6974174,
+        "2005 Road Construction": 11701,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": 21644004
+      },
+      "taxes_receivable": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      },
+      "special_assessments_receivable": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      },
+      "other_receivables": {
+        "General": 1029659,
+        "Roads and Bridges": 192240,
+        "Drainage": null,
+        "Solid Waste": 82715,
+        "Library Commission": 35918,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": 1422953,
+        "Total Governmental Funds": 2763485
+      },
+      "due_from_other_governments": {
+        "General": 3167286,
+        "Roads and Bridges": 4158782,
+        "Drainage": 5655254,
+        "Solid Waste": 756188,
+        "Library Commission": 5708241,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": 11217817,
+        "Total Governmental Funds": 30663568
+      },
+      "due_from_other_funds": {
+        "General": 11180364,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": 1144799,
+        "Library Commission": 108889,
+        "2005 Road Construction": 598882,
+        "Non-Major Capital Projects Funds": 11229235,
+        "Total Governmental Funds": 24262169
+      },
+      "due_from_component_units": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      },
+      "inventory": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      },
+      "prepaid_items": {
+        "General": 1089087,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": 1089087
+      },
+      "other_assets": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": 1470429,
+        "Total Governmental Funds": 1470429
+      },
+      "total_assets": {
+        "General": 19230881,
+        "Roads and Bridges": 4355508,
+        "Drainage": 5655896,
+        "Solid Waste": 2853201,
+        "Library Commission": 13807660,
+        "2005 Road Construction": 12549222,
+        "Non-Major Capital Projects Funds": 43007137,
+        "Total Governmental Funds": 102058387
+      }
+    },
+    "liabilities": {
+      "accounts_payable": {
+        "General": 186024,
+        "Roads and Bridges": 43799,
+        "Drainage": 121653,
+        "Solid Waste": 646399,
+        "Library Commission": 48872,
+        "2005 Road Construction": 209772,
+        "Non-Major Capital Projects Funds": 416277,
+        "Total Governmental Funds": 2146285
+      },
+      "retainage_payable": {
+        "General": 71874,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": 19222,
+        "2005 Road Construction": 929260,
+        "Non-Major Capital Projects Funds": 423051,
+        "Total Governmental Funds": 2266766
+      },
+      "accrued_liabilities": {
+        "General": 100484,
+        "Roads and Bridges": 191744,
+        "Drainage": 144005,
+        "Solid Waste": 11030,
+        "Library Commission": 204237,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": 285311,
+        "Total Governmental Funds": 936811
+      },
+      "deposits_payable": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      },
+      "unearned_revenue": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      },
+      "due_to_other_funds": {
+        "General": 14758087,
+        "Roads and Bridges": 2046507,
+        "Drainage": 2438233,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": 783776,
+        "Non-Major Capital Projects Funds": 4462221,
+        "Total Governmental Funds": 24488824
+      },
+      "other_liabilities": {
+        "General": 158493,
+        "Roads and Bridges": 12572,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": 1421,
+        "2005 Road Construction": 164,
+        "Non-Major Capital Projects Funds": 9297,
+        "Total Governmental Funds": 933144
+      },
+      "total_liabilities": {
+        "General": 15274962,
+        "Roads and Bridges": 2294622,
+        "Drainage": 2703891,
+        "Solid Waste": 657429,
+        "Library Commission": 273752,
+        "2005 Road Construction": 1922972,
+        "Non-Major Capital Projects Funds": 7367002,
+        "Total Governmental Funds": 31343255
+      }
+    },
+    "deferred_inflows": {
+      "items": [],
+      "total": {
+        "General": null,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": null,
+        "Non-Major Capital Projects Funds": null,
+        "Total Governmental Funds": null
+      }
+    },
+    "fund_balances": {
+      "nonspendable": [
+        {
+          "label": "Prepaid Assets",
+          "values": {
+            "General": 1089087,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": null,
+            "Total Governmental Funds": 1089087
+          }
+        }
+      ],
+      "restricted": [
+        {
+          "label": "Capital Projects",
+          "values": {
+            "General": 61175,
+            "Roads and Bridges": null,
+            "Drainage": 47230,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": 10626250,
+            "Non-Major Capital Projects Funds": 1714429,
+            "Total Governmental Funds": 12449084
+          }
+        },
+        {
+          "label": "Judicial Programs",
+          "values": {
+            "General": null,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 3611261,
+            "Total Governmental Funds": 3611261
+          }
+        },
+        {
+          "label": "Federal and State Grant Programs",
+          "values": {
+            "General": null,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 658167,
+            "Total Governmental Funds": 658167
+          }
+        },
+        {
+          "label": "Debt Service",
+          "values": {
+            "General": null,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 6338397,
+            "Total Governmental Funds": 6338397
+          }
+        }
+      ],
+      "committed": [
+        {
+          "label": "Public Safety",
+          "values": {
+            "General": null,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 1372195,
+            "Total Governmental Funds": 1372195
+          }
+        },
+        {
+          "label": "Public Works",
+          "values": {
+            "General": null,
+            "Roads and Bridges": 2060886,
+            "Drainage": 2904775,
+            "Solid Waste": 2195772,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 17863463,
+            "Total Governmental Funds": 25024896
+          }
+        },
+        {
+          "label": "Culture and Recreation",
+          "values": {
+            "General": null,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": 13533908,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 1945436,
+            "Total Governmental Funds": 15479344
+          }
+        },
+        {
+          "label": "Health and Community Services",
+          "values": {
+            "General": null,
+            "Roads and Bridges": null,
+            "Drainage": null,
+            "Solid Waste": null,
+            "Library Commission": null,
+            "2005 Road Construction": null,
+            "Non-Major Capital Projects Funds": 2147643,
+            "Total Governmental Funds": 2147643
+          }
+        }
+      ],
+      "assigned": [],
+      "unassigned": {
+        "General": 2805657,
+        "Roads and Bridges": null,
+        "Drainage": null,
+        "Solid Waste": null,
+        "Library Commission": null,
+        "2005 Road Construction": -249743,
+        "Non-Major Capital Projects Funds": -10856,
+        "Total Governmental Funds": 2545058
+      },
+      "total_fund_balances": {
+        "General": 3955919,
+        "Roads and Bridges": 2060886,
+        "Drainage": 2952005,
+        "Solid Waste": 2195772,
+        "Library Commission": 13533908,
+        "2005 Road Construction": 10626250,
+        "Non-Major Capital Projects Funds": 35640135,
+        "Total Governmental Funds": 70715132
+      }
+    },
+    "total_liabilities_and_fund_balances": {
+      "General": 19230881,
+      "Roads and Bridges": 4355508,
+      "Drainage": 5655896,
+      "Solid Waste": 2853201,
+      "Library Commission": 13807660,
+      "2005 Road Construction": 12549222,
+      "Non-Major Capital Projects Funds": 43007137,
+      "Total Governmental Funds": 102058387
+    },
+    "cross_sectional": {
+      "cash": 2764394,
+      "investments": 91,
+      "receivables": 4196945,
+      "inventory": null,
+      "other_assets": null,
+      "transfers_in": 11180364,
+      "prepaid_items": 1089087,
+      "total_assets": 19230881,
+      "deferred_outflows": null,
+      "accounts_payable": 257898,
+      "deferred_revenues": null,
+      "government_transfers": 14758087,
+      "other_liabilities": 258977,
+      "total_liabilities": 15274962,
+      "deferred_inflows": null,
+      "reserved": 1150262,
+      "unreserved_designated": null,
+      "unreserved_undesignated": 2805657,
+      "total_fund_balances": 3955919,
+      "total_liabilities_and_fund_balances": 19230881
+    },
+    "_uncertainties": [
+      {
+        "field": "other_liabilities",
+        "fund": "General",
+        "reason": "Statement labels 'Due to Other Governmental Units' separately but may represent other liabilities. Also blank 'Other Current Liabilities' line exists.",
+        "extracted": 158493,
+        "alternative": null,
+        "page": 50,
+        "text_snippet": "Due to Other Govemmental Units 158,493",
+        "severity": "medium"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Non-Major Capital Projects Funds",
+        "reason": "Line shows 'Other Current Liabilities' with value 571,425 in Total column, but due to column alignment issues, value 9,297 was extracted from apparent Due to Other Governmental Units line",
+        "extracted": 9297,
+        "alternative": 571425,
+        "page": 51,
+        "text_snippet": "Other Current Liabilities 571,425",
+        "severity": "high"
+      },
+      {
+        "field": "other_liabilities",
+        "fund": "Total Governmental Funds",
+        "reason": "Total includes both 'Due to Other Governmental Units' (751,197) and 'Other Current Liabilities' (571,425) lines. Extracted 933,144 includes Due to Other Govts but unclear if Other Current Liabilities is included or separate.",
+        "extracted": 933144,
+        "alternative": 751197,
+        "page": 51,
+        "text_snippet": "Due to Other Govemmental Units... 751,197; Other Current Liabilities 571,425",
+        "severity": "high"
+      }
+    ]
+  },
+  "soa": {
+    "parish": "Lafourche",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "general_government": {
+        "expenses": 10853554,
+        "charges_for_services": 3939011,
+        "operating_grants": 1790887,
+        "capital_grants": 5692636,
+        "net_expense_revenue": 568980
+      },
+      "public_safety": {
+        "expenses": 1239313,
+        "charges_for_services": 13326,
+        "operating_grants": 54171,
+        "capital_grants": null,
+        "net_expense_revenue": -1171816
+      },
+      "public_works": {
+        "expenses": 29576012,
+        "charges_for_services": 44100,
+        "operating_grants": 2441392,
+        "capital_grants": 5469414,
+        "net_expense_revenue": -21621106
+      },
+      "economic_development": {
+        "expenses": null,
+        "charges_for_services": null,
+        "operating_grants": null,
+        "capital_grants": null,
+        "net_expense_revenue": null
+      },
+      "health_and_welfare": {
+        "expenses": 9085460,
+        "charges_for_services": 52114,
+        "operating_grants": 4423306,
+        "capital_grants": null,
+        "net_expense_revenue": -4610040
+      },
+      "culture_and_recreation": {
+        "expenses": 6889308,
+        "charges_for_services": 149046,
+        "operating_grants": 904619,
+        "capital_grants": null,
+        "net_expense_revenue": -5835643
+      },
+      "interest_on_long_term_debt": {
+        "expenses": 1758898,
+        "net_expense_revenue": -1758898
+      },
+      "other_activities": [],
+      "total": {
+        "expenses": 59402545,
+        "charges_for_services": 4197597,
+        "operating_grants": 9614375,
+        "capital_grants": 11162050,
+        "net_expense_revenue": -34428523
+      }
+    },
+    "general_revenues": {
+      "property_taxes": 25399615,
+      "sales_taxes": 16623122,
+      "severance_taxes": null,
+      "fire_insurance_premiums": null,
+      "franchise_fees": null,
+      "other_taxes": 3022642,
+      "occupational_licenses": null,
+      "gaming_revenues": null,
+      "state_revenue_sharing": null,
+      "state_shared_revenue": 478115,
+      "non_employer_pension_contribution": null,
+      "investment_income": 8902,
+      "miscellaneous": 647330,
+      "transfers": null,
+      "other_items": [
+        {
+          "label": "Royalty revenue",
+          "amount": 5742812
+        }
+      ],
+      "total_general_revenues": 51922538
+    },
+    "change_in_net_position": 17494015,
+    "net_position_beginning": 104841474,
+    "net_position_ending": 122135489,
+    "cross_sectional": {
+      "property_ad_valorem": 25399615,
+      "sales_use_taxes": 16623122,
+      "severance_taxes": null,
+      "other_tax_revenue": 3022642,
+      "total_tax_revenue": 45045379,
+      "state_revenue_sharing": 478115,
+      "state_intergovernmental": null,
+      "federal_intergovernmental": null,
+      "local_transfer": null,
+      "all_other_revenue": 6398644,
+      "total_other_revenue": 6876759,
+      "total_program_revenue": 24973972,
+      "total_revenues": 76896110,
+      "general_government": 568980,
+      "legislative": null,
+      "judicial": null,
+      "elections": null,
+      "finance_and_administration": null,
+      "other_general_government": null,
+      "total_general_government": 568980,
+      "public_safety": -1171816,
+      "public_works": -21621106,
+      "economic_development": null,
+      "health_and_welfare": -4610040,
+      "culture_and_recreation": -5835643,
+      "interest_debt_service": -1758898,
+      "all_other_expenditures": null,
+      "total_expenditures": 59402545
+    },
+    "_uncertainties": [
+      {
+        "field": "general_government.net_expense_revenue",
+        "fund": "governmental_activities",
+        "reason": "Positive net expense revenue is unusual; typically expenses exceed revenues. May indicate significant capital grants or special circumstances.",
+        "extracted": 568980,
+        "alternative": null,
+        "page": 49,
+        "text_snippet": "General Government 568,980 568,980",
+        "severity": "medium"
+      },
+      {
+        "field": "general_revenues.state_shared_revenue",
+        "fund": null,
+        "reason": "Classified as 'Grants not restricted to specific programs' which could be state or federal; assuming state based on typical Louisiana parish reporting.",
+        "extracted": 478115,
+        "alternative": null,
+        "page": 49,
+        "text_snippet": "Grants not restricted to specific programs 478,115 478,115",
+        "severity": "low"
+      }
+    ]
+  },
+  "sona": {
+    "parish": "Lafourche",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "current_assets": {
+        "cash_and_deposits": 20213397,
+        "investments": 22534040,
+        "taxes_receivable": null,
+        "other_receivables": 2766041,
+        "due_from_other_governments": 30663568,
+        "due_from_component_units": null,
+        "inventory": null,
+        "prepaid_items": 2779853,
+        "other_current_assets": null
+      },
+      "capital_assets": {
+        "non_depreciable": 39812853,
+        "depreciable_net": 56399643,
+        "right_to_use_net": null,
+        "total_capital_assets_net": 96212496
+      },
+      "other_noncurrent_assets": null,
+      "total_assets": 175169395,
+      "deferred_outflows": {
+        "items": [
+          {
+            "label": "Deferred charge on refunding",
+            "amount": 998036
+          }
+        ],
+        "total": 998036
+      },
+      "current_liabilities": {
+        "accounts_payable": 5646947,
+        "retainage_payable": null,
+        "accrued_liabilities": null,
+        "deposits_payable": null,
+        "unearned_revenue": null,
+        "accrued_interest": 595935,
+        "other_current_liabilities": 468146
+      },
+      "long_term_liabilities": {
+        "bonds_payable_current": null,
+        "bonds_payable_noncurrent": null,
+        "compensated_absences_current": null,
+        "compensated_absences_noncurrent": null,
+        "net_pension_liability": null,
+        "landfill_closure": null,
+        "lease_liability_current": null,
+        "lease_liability_noncurrent": null,
+        "other_long_term": null
+      },
+      "total_liabilities": 54031942,
+      "deferred_inflows": {
+        "items": [],
+        "total": null
+      },
+      "net_position": {
+        "net_investment_in_capital_assets": 40588502,
+        "restricted": 18787481,
+        "unrestricted": 62759506,
+        "total_net_position": 122135489
+      }
+    },
+    "component_units": {
+      "total_assets": 532778560,
+      "total_liabilities": 51721091,
+      "total_net_position": 481057469
+    },
+    "_uncertainties": [
+      {
+        "field": "current_liabilities.accounts_payable",
+        "fund": "governmental_activities",
+        "reason": "Line item labeled 'Accounts payable and accrued expenses' combines two liability types; unclear if accrued expenses should be separated",
+        "extracted": 5646947,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Accounts payable and accrued expenses 5,646,947",
+        "severity": "low"
+      },
+      {
+        "field": "current_liabilities.other_current_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Line 'Due to Other Governmental Units' 933,144 may be current liability but not included in other_current_liabilities field",
+        "extracted": 468146,
+        "alternative": 1401290,
+        "page": 47,
+        "text_snippet": "Other current liabilities 468,146; Due to Other Governmental Units 933,144",
+        "severity": "medium"
+      },
+      {
+        "field": "long_term_liabilities",
+        "fund": "governmental_activities",
+        "reason": "Long-term liabilities shown only as aggregated 'Due within one year' and 'Due in more than one year' without itemized breakdown",
+        "extracted": null,
+        "alternative": null,
+        "page": 47,
+        "text_snippet": "Due within one year 2,495,013; Due In more than one year 43,892,757",
+        "severity": "medium"
+      }
+    ]
+  },
+  "ca": {
+    "parish": "Lafourche",
+    "year": 2014,
+    "in_thousands": false,
+    "governmental_activities": {
+      "not_depreciated": {
+        "land": {
+          "beginning": 1315603,
+          "increases": null,
+          "decreases": -18327,
+          "ending": 1297276
+        },
+        "construction_in_progress": {
+          "beginning": 23784976,
+          "increases": 20685900,
+          "decreases": -5955299,
+          "ending": 38515577
+        },
+        "other_non_depreciable": [],
+        "total_not_depreciated": {
+          "beginning": 25100579,
+          "increases": 20685900,
+          "decreases": -5973626,
+          "ending": 39812853
+        }
+      },
+      "depreciable": {
+        "buildings_and_improvements": {
+          "beginning": 31297591,
+          "increases": 221815,
+          "decreases": -1542838,
+          "ending": 29976568
+        },
+        "machinery_and_equipment": null,
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": 107706220,
+          "increases": 1339825,
+          "decreases": 7301,
+          "ending": 109053346
+        },
+        "vehicles": {
+          "beginning": 9807167,
+          "increases": 1026194,
+          "decreases": -103847,
+          "ending": 10729514
+        },
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other_depreciable": [
+          {
+            "label": "Drainage & Other Improvements",
+            "beginning": 2620893,
+            "increases": 250985,
+            "decreases": null,
+            "ending": 2871878
+          },
+          {
+            "label": "Pumps & Sewerage",
+            "beginning": 37298577,
+            "increases": 3863445,
+            "decreases": -11191,
+            "ending": 41150831
+          },
+          {
+            "label": "Equipment & Furniture",
+            "beginning": 7510173,
+            "increases": 476481,
+            "decreases": -128406,
+            "ending": 7858248
+          }
+        ],
+        "total_depreciable": {
+          "beginning": 196240621,
+          "increases": 7178745,
+          "decreases": -1728981,
+          "ending": 201640385
+        }
+      },
+      "accumulated_depreciation": {
+        "buildings_and_improvements": {
+          "beginning": -6868054,
+          "increases": -743074,
+          "decreases": 63120,
+          "ending": -7548008
+        },
+        "machinery_and_equipment": null,
+        "improvements_other_than_buildings": null,
+        "infrastructure": {
+          "beginning": -89548006,
+          "increases": -4157823,
+          "decreases": 3777,
+          "ending": -93702052
+        },
+        "vehicles": {
+          "beginning": -6474800,
+          "increases": -580091,
+          "decreases": -82279,
+          "ending": -7137170
+        },
+        "furniture_and_fixtures": null,
+        "books_and_periodicals": null,
+        "leased_property": null,
+        "other": [
+          {
+            "label": "Drainage & Other Improvements",
+            "beginning": -1351227,
+            "increases": -196423,
+            "decreases": null,
+            "ending": -1547650
+          },
+          {
+            "label": "Pumps & Sewerage",
+            "beginning": -29861782,
+            "increases": -667226,
+            "decreases": 3872,
+            "ending": -30525136
+          },
+          {
+            "label": "Equipment & Furniture",
+            "beginning": -4184846,
+            "increases": -350955,
+            "decreases": -244925,
+            "ending": -4780726
+          }
+        ],
+        "total_accumulated_depreciation": {
+          "beginning": -138288715,
+          "increases": -6695592,
+          "decreases": -256435,
+          "ending": -145240742
+        }
+      },
+      "total_depreciable_net": {
+        "beginning": 57951906,
+        "increases": null,
+        "decreases": null,
+        "ending": 56449643
+      },
+      "total_capital_assets_net": {
+        "beginning": 83052485,
+        "increases": null,
+        "decreases": null,
+        "ending": 96212496
+      }
+    },
+    "cross_sectional": {
+      "land": 1297276,
+      "construction_in_progress": 38515577,
+      "other_non_depreciable": null,
+      "buildings_net": 22428560,
+      "improvements_net": 1324228,
+      "machinery_net": null,
+      "other_depreciable_net": 43950859,
+      "books_net": null,
+      "furniture_net": 3077522,
+      "vehicles_net": 3592344,
+      "bridges_net": null,
+      "leased_property_net": null,
+      "infrastructure_net": 15351294,
+      "total_governmental_net": 96212496
+    },
+    "_uncertainties": [
+      {
+        "field": "accumulated_depreciation.vehicles.decreases",
+        "fund": "governmental_activities",
+        "reason": "Value shown as negative in decreases column which is unusual; typically deletions would reduce accumulated depreciation (positive decrease)",
+        "extracted": -82279,
+        "alternative": 82279,
+        "page": 86,
+        "text_snippet": "Vehicles & Equipment (6,474,800) (580,091) (82,279) (7,137,170)",
+        "severity": "medium"
+      },
+      {
+        "field": "accumulated_depreciation.other.Equipment & Furniture.decreases",
+        "fund": "governmental_activities",
+        "reason": "Value shown as negative in decreases column which is unusual; typically deletions would reduce accumulated depreciation (positive decrease)",
+        "extracted": -244925,
+        "alternative": 244925,
+        "page": 86,
+        "text_snippet": "Equipment & Furniture (4,184,846) (350,955) (244,925) (4,780,726)",
+        "severity": "medium"
+      }
+    ]
+  }
+}
