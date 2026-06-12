@@ -4277,15 +4277,34 @@ def _find_parish_pdf(year: int, parish: str):
     Search for a PDF matching the given parish name. Checks in order:
     1. pdfs/<year>/  — explicitly uploaded training PDFs
     2. runs/*/pdfs/  — PDFs stored during web UI pipeline runs
+    3. Source folders next to the app
+    Matching is fuzzy: normalise both sides by lowercasing and stripping
+    spaces, underscores, hyphens, digits and common suffixes so that
+    "Bossier 2013.pdf", "bossier_parish_2013_cafr.pdf" all match parish "Bossier".
     """
+    import re as _re
+    def _norm(s: str) -> str:
+        s = s.lower()
+        # remove year digits (4-digit sequences)
+        s = _re.sub(r'\b\d{4}\b', '', s)
+        # remove common non-name words
+        for word in ('parish', 'cafr', 'audit', 'report', 'annual', 'financial',
+                     'statements', 'statement', 'reissue', 'revised', 'final'):
+            s = _re.sub(rf'\b{word}\b', '', s)
+        # collapse punctuation/whitespace
+        s = _re.sub(r'[\s_\-\.]+', '', s)
+        return s.strip()
+
+    target = _norm(parish)
+
+    def _pdf_matches(path: Path) -> bool:
+        stem = _norm(get_parish_name(str(path)))
+        return stem == target or target in stem or stem in target
+
     # 1. Training PDF store (most specific — year-matched)
     training_pdf_dir = _app_dir() / "pdfs" / str(year)
     if training_pdf_dir.exists():
-        match = next(
-            (str(f) for f in training_pdf_dir.glob("*.pdf")
-             if get_parish_name(str(f)) == parish),
-            None,
-        )
+        match = next((str(f) for f in training_pdf_dir.glob("*.pdf") if _pdf_matches(f)), None)
         if match:
             return match
 
@@ -4296,11 +4315,7 @@ def _find_parish_pdf(year: int, parish: str):
             pdf_dir = job_dir / "pdfs"
             if not pdf_dir.exists():
                 continue
-            match = next(
-                (str(f) for f in pdf_dir.glob("*.pdf")
-                 if get_parish_name(str(f)) == parish),
-                None,
-            )
+            match = next((str(f) for f in pdf_dir.glob("*.pdf") if _pdf_matches(f)), None)
             if match:
                 return match
 
@@ -4313,11 +4328,7 @@ def _find_parish_pdf(year: int, parish: str):
     for src_dir in extra_dirs:
         if not src_dir.exists():
             continue
-        match = next(
-            (str(f) for f in src_dir.glob("*.pdf")
-             if get_parish_name(str(f)) == parish),
-            None,
-        )
+        match = next((str(f) for f in src_dir.glob("*.pdf") if _pdf_matches(f)), None)
         if match:
             return match
 
