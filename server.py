@@ -1901,10 +1901,13 @@ _HTML = r"""<!DOCTYPE html>
       .lib-sidebar{position:fixed;left:0;top:52px;bottom:0;z-index:100;transform:translateX(-100%);transition:transform .25s ease;width:260px;box-shadow:4px 0 20px rgba(0,0,0,.15)}
       .lib-sidebar.mob-open{transform:translateX(0)}
       .mob-sidebar-close{display:flex}
-      /* Library data pane: hidden overlay, slides in from right */
-      .lib-data-pane{position:fixed;right:0;top:52px;bottom:0;z-index:100;transform:translateX(100%);transition:transform .25s ease;width:min(280px,88vw);box-shadow:-4px 0 20px rgba(0,0,0,.15)}
-      .lib-data-pane.mob-open{transform:translateX(0)}
-      /* Mobile control bar shown above lib-main content */
+      /* Library data pane: inline 50/50 split (not an overlay on mobile) */
+      .lib-data-pane{position:static;right:auto;top:auto;bottom:auto;z-index:auto;
+        transform:none;transition:none;width:100%;box-shadow:none;
+        border-left:none;border-top:1px solid var(--border);flex:1;min-height:0}
+      .lib-data-pane.mob-open{transform:none}
+      #mob-datapane-btn{display:none!important}
+      /* Mobile control bar (Parishes toggle only now) */
       .mob-lib-bar{display:flex;align-items:center;gap:8px;padding:7px 12px;border-bottom:1px solid var(--border);background:var(--surf);flex-shrink:0}
       .mob-lib-bar button{background:none;border:1px solid var(--border);border-radius:5px;padding:4px 10px;cursor:pointer;font-size:11.5px;color:var(--dim)}
       .mob-lib-bar button:hover{background:var(--surf2)}
@@ -1912,9 +1915,9 @@ _HTML = r"""<!DOCTYPE html>
       .xl-split{flex-direction:column}
       .xl-side{min-height:220px;max-height:44vh}
       .xl-side+.xl-side{border-left:none;border-top:3px solid var(--border)}
-      /* Data view: stack PDF + data pane */
-      .lib-content{flex-direction:column}
-      .lib-pdf-pane{max-height:48vh;min-height:180px}
+      /* Data view: 50/50 column split — PDF top, flags bottom */
+      .lib-content{flex-direction:column;height:100%}
+      .lib-pdf-pane{flex:1;max-height:50%;min-height:0;overflow-y:auto}
     }
   </style>
 </head>
