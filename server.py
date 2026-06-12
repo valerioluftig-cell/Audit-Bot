@@ -4281,8 +4281,12 @@ def _ensure_pipeline_dir():
 
 
 @app.post("/upload-coded")
-async def upload_coded(year: int = Form(...), files: list[UploadFile] = File(...)):
-    """Accept coded Excel files, store them, kick off comparison job."""
+async def upload_coded(
+    year: int = Form(...),
+    files: list[UploadFile] = File(...),
+    pdfs: list[UploadFile] = File(default=[]),
+):
+    """Accept coded Excel files + optional source PDFs, kick off comparison job."""
     _ensure_pipeline_dir()
     job_id = f"compare_{year}_{uuid.uuid4().hex[:8]}"
     coded_dir = _app_dir() / "coded" / str(year)
@@ -4292,6 +4296,15 @@ async def upload_coded(year: int = Form(...), files: list[UploadFile] = File(...
         data = await f.read()
         (coded_dir / f.filename).write_bytes(data)
         print(f"[compare] Stored coded: {f.filename}", flush=True)
+
+    # Store PDFs in the year-specific training PDF store
+    if pdfs:
+        pdf_dir = _app_dir() / "pdfs" / str(year)
+        pdf_dir.mkdir(parents=True, exist_ok=True)
+        for f in pdfs:
+            data = await f.read()
+            (pdf_dir / f.filename).write_bytes(data)
+            print(f"[compare] Stored training PDF: {f.filename} ({year})", flush=True)
 
     _CODED_STORE[year] = str(coded_dir)
     q: queue.Queue[str] = queue.Queue()
@@ -4489,17 +4502,18 @@ def _find_parish_pdf(year: int, parish: str):
             pdf_dir = job_dir / "pdfs"
             if not pdf_dir.exists():
                 continue
-            # Skip runs whose recorded year explicitly doesn't match.
-            # Runs with no year in meta.json are searched (backward-compat).
+            # Only search this run if meta.json confirms the year matches.
+            # Runs without meta.json are searched (pre-meta era). Runs whose
+            # meta.json has no year or a mismatched year are skipped entirely.
             meta_file = job_dir / "meta.json"
             if meta_file.exists():
                 try:
-                    meta = json.loads(meta_file.read_text())
-                    run_year = meta.get("year")
-                    if run_year is not None and run_year != year:
-                        continue
+                    if meta_file.read_text():
+                        meta = json.loads(meta_file.read_text())
+                        if meta.get("year") != year:
+                            continue
                 except Exception:
-                    pass
+                    continue  # Unreadable meta — skip to be safe
             match = next((str(f) for f in pdf_dir.glob("*.pdf") if _pdf_matches(f)), None)
             if match:
                 return match
