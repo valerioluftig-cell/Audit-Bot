@@ -101,6 +101,61 @@ def _get_api_key() -> str:
     """Always returns the freshest key (re-reads config each call)."""
     return _load_api_key()
 
+
+def _migrate_to_flat_structure():
+    """Move JSON cache and Excel outputs from UUID run dirs into flat year-based
+    directories (cache/{year}/, output/{year}/). Idempotent — skips existing files."""
+    app = _app_dir()
+    runs_root = app / "runs"
+    if not runs_root.exists():
+        return
+    moved = 0
+    for job_dir in runs_root.iterdir():
+        if not job_dir.is_dir():
+            continue
+        # JSON cache: ParishName_YYYY.json → cache/{year}/
+        cache_src = job_dir / "output" / "cache"
+        if cache_src.exists():
+            for jf in cache_src.glob("*.json"):
+                m = re.search(r'_(\d{4})\.json$', jf.name)
+                if not m:
+                    continue
+                dest = app / "cache" / m.group(1) / jf.name
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                if not dest.exists():
+                    shutil.copy2(jf, dest)
+                    moved += 1
+        # Excel outputs: Louisiana YYYY *.xlsx → output/{year}/
+        out_src = job_dir / "output"
+        if out_src.exists():
+            for xf in out_src.glob("Louisiana *.xlsx"):
+                m = re.search(r'Louisiana (\d{4})', xf.name)
+                if not m:
+                    continue
+                dest = app / "output" / m.group(1) / xf.name
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                if not dest.exists():
+                    shutil.copy2(xf, dest)
+                    moved += 1
+        # PDFs: use year from meta.json → pdfs/{year}/
+        pdf_src = job_dir / "pdfs"
+        meta_path = job_dir / "meta.json"
+        if pdf_src.exists() and meta_path.exists():
+            try:
+                run_year = json.loads(meta_path.read_text()).get("year")
+            except Exception:
+                run_year = None
+            if run_year:
+                for pf in pdf_src.glob("*.pdf"):
+                    dest = app / "pdfs" / str(run_year) / pf.name
+                    dest.parent.mkdir(parents=True, exist_ok=True)
+                    if not dest.exists():
+                        shutil.copy2(pf, dest)
+                        moved += 1
+    if moved:
+        print(f"[migrate] Promoted {moved} files to flat year-based structure", flush=True)
+
+
 # Feedback database — initialised on first run, path set at startup
 _DB_PATH: str | None = None
 
@@ -1929,7 +1984,7 @@ _HTML = r"""<!DOCTYPE html>
     <button class="tab-btn" onclick="switchTab('library',this)" id="tab-library-btn">Training <span id="library-badge" style="display:none;background:rgba(255,255,255,.25);color:#fff;font-size:10px;font-weight:700;padding:1px 6px;border-radius:10px;margin-left:4px">0</span></button>
     <button class="tab-btn" onclick="switchTab('about',this)">How It Works</button>
   </nav>
-  <button onclick="openSettings()" id="settings-btn" title="Settings" style="margin-left:12px;background:none;border:none;cursor:pointer;color:rgba(255,255,255,.75);font-size:18px;padding:4px 6px;border-radius:4px;line-height:1" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.75)'">&#9881;</button>
+  <button onclick="openSettings()" id="settings-btn" title="Settings" style="margin-left:12px;background:none;border:none;cursor:pointer;color:rgba(255,255,255,.75);font-size:12px;font-weight:600;padding:5px 10px;border-radius:4px;line-height:1;letter-spacing:.2px" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.75)'">Settings</button>
   <span id="key-dot" title="No API key configured" style="width:8px;height:8px;border-radius:50%;background:#f85149;display:inline-block;margin-left:4px;margin-right:4px;vertical-align:middle"></span>
 </div>
 
@@ -1980,7 +2035,7 @@ _HTML = r"""<!DOCTYPE html>
 
 <div id="panel-run" class="panel active"><div class="wrap">
   <div id="no-key-banner" style="display:none;margin-bottom:16px;padding:12px 16px;background:#fff3cd;border:1px solid #ffc107;border-radius:6px;font-size:13px;color:#856404">
-    <b>&#9888; No API key configured.</b> Click the <b>&#9881; gear icon</b> in the top-right to add your Anthropic key before running the pipeline.
+    <b>No API key configured.</b> Click <b>Settings</b> in the top-right to add your Anthropic key before running the pipeline.
   </div>
   <div class="page-title">
     <h2>Run the Pipeline</h2>
@@ -1997,7 +2052,7 @@ _HTML = r"""<!DOCTYPE html>
   <input type="file" id="file-input" multiple accept=".pdf" style="display:none"/>
   <div id="filename-warnings"></div>
   <div class="controls">
-    <label class="year-field unset" id="year-field-wrap">&#128197;
+    <label class="year-field unset" id="year-field-wrap">
       <select id="year-input" class="placeholder" onchange="onYearChange(this)">
         <option value="" disabled selected>Select fiscal year</option>
         <option value="2010">2010</option>
@@ -2087,7 +2142,7 @@ _HTML = r"""<!DOCTYPE html>
     <div class="lib-sidebar">
       <div class="mob-sidebar-close"><span>Parishes</span><button onclick="mobCloseSidebar()" title="Close">&#10005;</button></div>
       <input class="lib-search-input" id="lib-search" placeholder="Search parishes…" oninput="filterLibrary(this.value)">
-      <button class="lib-allflags-btn" id="lib-allflags-btn" onclick="libShowAllFlags()">&#9873; All Flags <span id="allflags-count" style="margin-left:auto;font-size:10.5px;color:var(--dimmer)"></span></button>
+      <button class="lib-allflags-btn" id="lib-allflags-btn" onclick="libShowAllFlags()">All Flags <span id="allflags-count" style="margin-left:auto;font-size:10.5px;color:var(--dimmer)"></span></button>
       <div id="lib-year-list"><div style="padding:20px 14px;font-size:12px;color:var(--dimmer)">Loading…</div></div>
     </div>
     <!-- Main area -->
@@ -2328,7 +2383,7 @@ _HTML = r"""<!DOCTYPE html>
     wrap.style.display='block';
     wrap.innerHTML=warns.map(w=>`
       <div class="fw-row ${w.type}">
-        <span class="fw-icon">${w.type==='bad'?'&#10060;':'&#9888;&#65039;'}</span>
+        <span class="fw-icon">${w.type==='bad'?'&#10007;':'&#9888;'}</span>
         <span>${w.msg}</span>
       </div>`).join('');
   }
@@ -2451,6 +2506,13 @@ _HTML = r"""<!DOCTYPE html>
     }
     makeSection("By Parish — all statements in one file",byParish,"parish");
     makeSection("By Statement — all parishes in one file",byStatement,"statement");
+    const bridge=document.createElement("div");
+    bridge.style.cssText="padding:10px 16px;border-top:1px solid var(--border);background:rgba(26,127,55,.05);display:flex;align-items:center;gap:12px;flex-wrap:wrap";
+    bridge.innerHTML='<span style="font-size:12px;color:var(--green);font-weight:600">Results saved to Training Library</span>'+
+      '<button onclick="switchTab(\'library\',document.getElementById(\'tab-library-btn\'));loadLibrary()" '+
+      'style="margin-left:auto;padding:4px 14px;background:var(--purple);color:#fff;border:none;border-radius:5px;cursor:pointer;font-size:12px;font-weight:600">'+
+      'Open Training Library &rarr;</button>';
+    document.getElementById("downloads-card").appendChild(bridge);
     document.getElementById("downloads-card").style.display="block";
   }
 
@@ -3072,7 +3134,7 @@ _HTML = r"""<!DOCTYPE html>
     html+=`<div class="dash-section-hdr" style="display:flex;align-items:center;gap:10px">
       Coded Excel Comparison
       <span style="margin-left:auto;display:flex;gap:8px">
-        <button class="rv-btn" onclick="libPickFiles(${year})">&#128196; Upload files</button>
+        <button class="rv-btn" onclick="libPickFiles(${year})">Upload Files</button>
         <button class="rv-btn" id="lib-compare-btn" onclick="libRunCompare(${year})">${flags.length?'&#8635; Re-run':'Run Comparison'}</button>
       </span>
     </div>
@@ -3218,7 +3280,7 @@ _HTML = r"""<!DOCTYPE html>
           html+=`<div class="lib-data-section">
             <h4 style="color:var(--orange)">&#9888; ${escHtml(stmtLabel)} &mdash; ${flags.length} Flag${flags.length>1?'s':''} <span style="font-size:11px;font-weight:400;color:var(--dimmer)">(${unresolved} unresolved)</span></h4>
             <div style="margin-bottom:10px;padding:8px 10px;background:rgba(88,166,255,.05);border:1px solid rgba(88,166,255,.18);border-radius:5px">
-              <div style="font-size:10.5px;color:var(--blue);font-weight:700;margin-bottom:5px">&#128172; Note to Claude — ${escHtml(stmtLabel)}</div>
+              <div style="font-size:10.5px;color:var(--blue);font-weight:700;margin-bottom:5px">Note to Claude — ${escHtml(stmtLabel)}</div>
               <textarea id="${noteAreaId}" placeholder="Explain the issue in plain language, e.g. &#34;This is a comparative statement — 2013 values are in the LEFT column, 2012 in the right. Always use the left column.&#34;" style="width:100%;padding:6px 8px;background:var(--surf);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:11px;resize:vertical;min-height:56px;box-sizing:border-box;font-family:inherit"></textarea>
               <div style="display:flex;align-items:center;gap:8px;margin-top:5px">
                 <button onclick="saveStmtNote(${JSON.stringify(parish)},${year},${JSON.stringify(stmtType)},${JSON.stringify(noteAreaId)},this)"
@@ -3251,18 +3313,18 @@ _HTML = r"""<!DOCTYPE html>
                 style="width:100%;padding:5px 8px;background:rgba(111,66,193,.1);border:1px solid rgba(111,66,193,.3);color:var(--purple);border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;margin-bottom:4px;transition:background .1s,transform .08s,box-shadow .1s"
                 onmousedown="this.style.transform='scale(.97)'" onmouseup="this.style.transform=''"
                 onmouseleave="this.style.transform=''" onmouseenter="this.style.background='rgba(111,66,193,.2)'">
-                &#128269; Find in PDF
+                Find in PDF
               </button>
               <button data-xlstmt="${escAttr(f.statement_type||'cbs')}" data-xlval="${escAttr(extVal)}"
                 onclick="document.getElementById('xl-stmt-sel').value=this.dataset.xlstmt;_xlTargetVal=this.dataset.xlval;libSwitchView('sheet')"
                 style="width:100%;padding:5px 8px;background:rgba(26,127,55,.08);border:1px solid rgba(26,127,55,.3);color:var(--green);border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;margin-bottom:4px">
-                &#128196; View in Spreadsheet
+                View in Spreadsheet
               </button>
               <button onclick="libDiagnoseFlag(${f.id},this)"
                 style="width:100%;padding:5px 8px;background:rgba(139,92,246,.08);border:1px solid rgba(139,92,246,.25);color:#a78bfa;border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;margin-bottom:6px;transition:background .1s,transform .08s"
                 onmousedown="this.style.transform='scale(.97)'" onmouseup="this.style.transform=''"
                 onmouseleave="this.style.transform=''" onmouseenter="this.style.background='rgba(139,92,246,.18)'">
-                &#128300; Diagnose — ask Claude to explain this discrepancy
+                Diagnose — ask Claude to explain this discrepancy
               </button>
               <div id="libdiag-${f.id}" style="display:none;margin-bottom:6px"></div>
               ${!resolved?`
@@ -3363,7 +3425,7 @@ _HTML = r"""<!DOCTYPE html>
     const isNull=(value===''||value==='—'||value==='null');
     if(isNull){
       pane.innerHTML=`<div style="padding:20px;font-size:12px;color:var(--orange);line-height:1.6">
-        <strong>&#128683; Pipeline did not extract a value for this field.</strong><br>
+        <strong>Pipeline did not extract a value for this field.</strong><br>
         The PDF may use a layout Claude couldn't parse, or this line item doesn't exist in this parish's statements.<br>
         <span style="color:var(--dimmer)">Use "Note to Claude" above to explain the layout and re-run the pipeline to attempt extraction.</span>
       </div>`;
@@ -3385,7 +3447,7 @@ _HTML = r"""<!DOCTYPE html>
     const origHTML=btn.innerHTML;
     btn.disabled=true; btn.style.opacity='0.75'; btn.style.cursor='default';
     btn.innerHTML='<span style="display:inline-block;animation:spin .7s linear infinite">&#8635;</span> Searching…';
-    pane.innerHTML='<div style="color:var(--dimmer);font-size:12px;padding:40px;text-align:center">&#128269; Locating value in PDF…</div>';
+    pane.innerHTML='<div style="color:var(--dimmer);font-size:12px;padding:40px;text-align:center">Locating value in PDF…</div>';
 
     try{
       let found=false;
@@ -3462,7 +3524,7 @@ _HTML = r"""<!DOCTYPE html>
     // Toggle: if already showing a result, collapse it
     if(panel.style.display!=='none'&&panel.dataset.loaded){
       panel.style.display='none'; panel.dataset.loaded='';
-      btn.innerHTML='&#128300; Diagnose &mdash; ask Claude to explain this discrepancy';
+      btn.innerHTML='Diagnose &mdash; ask Claude to explain this discrepancy';
       return;
     }
     if(!document.getElementById('spin-style')){
@@ -3523,7 +3585,7 @@ _HTML = r"""<!DOCTYPE html>
             <span style="margin-left:auto;font-size:10px;font-weight:700;color:${cColor};letter-spacing:.3px">${cLabel} CONFIDENCE</span>
           </div>
           <p style="margin:0 0 6px;color:var(--text);line-height:1.55;font-size:11.5px">${escHtml(d.explanation||'')}</p>
-          ${d.verdict_reason?`<div style="padding:5px 9px;background:rgba(0,0,0,.2);border-radius:4px;font-size:11px;color:var(--dim);margin-bottom:6px">&#128161; ${escHtml(d.verdict_reason)}</div>`:''}
+          ${d.verdict_reason?`<div style="padding:5px 9px;background:rgba(0,0,0,.2);border-radius:4px;font-size:11px;color:var(--dim);margin-bottom:6px">${escHtml(d.verdict_reason)}</div>`:''}
           ${srcBox('Pipeline read this as',d.pipeline_source,'var(--text)')}
           ${srcBox('Coded Excel used',d.coded_source,'var(--orange)')}
           ${secondGuess}
@@ -3534,7 +3596,7 @@ _HTML = r"""<!DOCTYPE html>
           </div>
         </div>`;
       panel.dataset.loaded='1';
-      btn.innerHTML='&#128300; Diagnosis &#9650; (click to collapse)';
+      btn.innerHTML='Diagnosis &#9650; (click to collapse)';
       btn.disabled=false;
     }catch(e){
       panel.innerHTML=`<div style="padding:8px 10px;border:1px solid rgba(255,60,60,.3);border-radius:6px;font-size:11px;color:var(--red)">&#9888; Diagnosis failed: ${escHtml(e.message||'unknown error')}. Check that the server is running and try again.</div>`;
@@ -3639,7 +3701,8 @@ _HTML = r"""<!DOCTYPE html>
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile, Body as _Body
 from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse
 
-_seed_data()  # pre-populate Training with seeded run data on first start
+_seed_data()             # pre-populate Training with seeded run data on first start
+_migrate_to_flat_structure()  # promote legacy run-dir files into cache/ and output/
 app = FastAPI()
 JOBS: dict[str, dict] = {}
 
@@ -3727,13 +3790,13 @@ def index():
 async def run(files: list[UploadFile] = File(...), year: int = Form(...)):
     if not _get_api_key():
         raise HTTPException(400, "No API key configured. Open Settings (gear icon) and paste your Anthropic key.")
-    job_id  = str(uuid.uuid4())[:8]
-    # Use a permanent runs/ folder next to server.py (resolve() ensures absolute path)
+    job_id    = str(uuid.uuid4())[:8]
     runs_root = _app_dir() / "runs"
-    job_dir   = runs_root / job_id
-    pdf_dir   = job_dir / "pdfs"
-    out_dir   = job_dir / "output"
-    cache_dir = out_dir / "cache"
+    job_dir   = runs_root / job_id          # tracking only: meta.json + log
+    pdf_dir   = _app_dir() / "pdfs"   / str(year)
+    out_dir   = _app_dir() / "output" / str(year)
+    cache_dir = _app_dir() / "cache"  / str(year)
+    job_dir.mkdir(parents=True, exist_ok=True)
     pdf_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -3762,10 +3825,10 @@ async def run(files: list[UploadFile] = File(...), year: int = Form(...)):
     (job_dir / "meta.json").write_text(json.dumps(_meta, indent=2))
     q: queue.Queue[str] = queue.Queue()
     JOBS[job_id] = {"queue": q, "status": "running", "output_dir": str(out_dir),
-                    "pdf_dir": str(pdf_dir), "label": _label,
-                    "year": year, "started_fmt": _meta["started_fmt"]}
+                    "cache_dir": str(cache_dir), "pdf_dir": str(pdf_dir),
+                    "label": _label, "year": year, "started_fmt": _meta["started_fmt"]}
 
-    _log_path = out_dir / "server.log"
+    _log_path = job_dir / "server.log"
 
     def _run():
         import traceback
@@ -3800,9 +3863,13 @@ def library_data():
     """Return all parishes that have cached extraction data, with PDF availability."""
     entries = []
     seen = set()
-    runs_root = _app_dir() / "runs"
-    # Also check flat legacy output dir
     search_dirs = []
+    # Primary: flat cache/{year}/ directories (fast, canonical)
+    cache_root = _app_dir() / "cache"
+    if cache_root.exists():
+        search_dirs += [d for d in sorted(cache_root.iterdir()) if d.is_dir()]
+    # Legacy fallback: run UUID dirs and old flat output/{year}/cache/
+    runs_root = _app_dir() / "runs"
     if runs_root.exists():
         search_dirs += [d / "output" / "cache" for d in runs_root.iterdir()]
     flat_out = _app_dir() / "output"
@@ -3837,15 +3904,17 @@ def library_data():
 @app.get("/library-entry/{year}/{parish}")
 def library_entry(year: int, parish: str):
     """Return the cached extraction JSON for a specific parish+year."""
-    runs_root = _app_dir() / "runs"
     search_dirs = []
+    # Primary: flat cache dir
+    search_dirs.append(_app_dir() / "cache" / str(year))
+    # Legacy fallbacks
+    runs_root = _app_dir() / "runs"
     if runs_root.exists():
         search_dirs += sorted(
             [d / "output" / "cache" for d in runs_root.iterdir()],
             key=lambda p: p.stat().st_mtime if p.exists() else 0, reverse=True
         )
-    flat = _app_dir() / "output" / str(year) / "cache"
-    search_dirs.append(flat)
+    search_dirs.append(_app_dir() / "output" / str(year) / "cache")
     for cache_dir in search_dirs:
         jf = cache_dir / f"{parish}_{year}.json"
         if jf.exists():
@@ -3903,11 +3972,11 @@ def jobs_active():
     result = []
     for jid, info in JOBS.items():
         out_dir = Path(info.get("output_dir", ""))
-        cache_dir = out_dir / "cache"
+        cache_dir = Path(info.get("cache_dir", str(out_dir / "cache")))
         done_count = len(list(cache_dir.glob("*.json"))) if cache_dir.exists() else 0
         pdf_dir = Path(info.get("pdf_dir", ""))
         total = len(list(pdf_dir.glob("*.pdf"))) if pdf_dir.exists() else 0
-        job_dir = out_dir.parent
+        job_dir = (_app_dir() / "runs" / jid)
         meta = _read_run_meta(job_dir)
         result.append({
             "job_id":      jid,
@@ -4115,12 +4184,14 @@ def _find_best_cache(year: int) -> Path:
     whichever has the highest file count (not just the first non-empty one)."""
     candidates: list[tuple[int, Path]] = []
 
-    flat = _app_dir() / "output" / str(year) / "cache"
-    if flat.exists():
-        count = sum(1 for _ in flat.glob(f"*_{year}.json"))
+    # Primary: flat cache dir
+    flat_cache = _app_dir() / "cache" / str(year)
+    if flat_cache.exists():
+        count = sum(1 for _ in flat_cache.glob(f"*_{year}.json"))
         if count:
-            candidates.append((count, flat))
+            candidates.append((count, flat_cache))
 
+    # Legacy: run UUID dirs and old output/{year}/cache/
     runs_root = _app_dir() / "runs"
     if runs_root.exists():
         for job_dir in runs_root.iterdir():
@@ -4131,9 +4202,15 @@ def _find_best_cache(year: int) -> Path:
             if count:
                 candidates.append((count, candidate))
 
+    legacy_flat = _app_dir() / "output" / str(year) / "cache"
+    if legacy_flat.exists():
+        count = sum(1 for _ in legacy_flat.glob(f"*_{year}.json"))
+        if count:
+            candidates.append((count, legacy_flat))
+
     if candidates:
         return max(candidates, key=lambda x: x[0])[1]
-    return flat  # fall back even if empty
+    return flat_cache  # fall back even if empty
 
 _COMPARE_JOBS: dict[str, dict] = {}  # job_id -> {status, summary, error}
 _CODED_STORE: dict[int, str] = {}    # year -> path to coded excel dir
@@ -4254,16 +4331,20 @@ def excel_view(year: int, parish: str, stmt_type: str):
     truth_path = _app_dir() / "coded" / str(year) / filename
     truth_rows = _read_parish_sheet(truth_path)
 
-    # Pipeline output — search runs dirs most recent first
+    # Pipeline output — flat output/{year}/ first, then legacy run dirs
     pipeline_rows = None
-    runs_root = _app_dir() / "runs"
-    if runs_root.exists():
-        for job_dir in sorted(runs_root.iterdir(), reverse=True):
-            p = job_dir / "output" / filename
-            if p.exists():
-                pipeline_rows = _read_parish_sheet(p)
-                if pipeline_rows is not None:
-                    break
+    flat_p = _app_dir() / "output" / str(year) / filename
+    if flat_p.exists():
+        pipeline_rows = _read_parish_sheet(flat_p)
+    if pipeline_rows is None:
+        runs_root = _app_dir() / "runs"
+        if runs_root.exists():
+            for job_dir in sorted(runs_root.iterdir(), reverse=True):
+                p = job_dir / "output" / filename
+                if p.exists():
+                    pipeline_rows = _read_parish_sheet(p)
+                    if pipeline_rows is not None:
+                        break
 
     # Serialize (convert non-string cell values)
     def _ser(rows):
