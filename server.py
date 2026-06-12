@@ -1870,6 +1870,43 @@ _HTML = r"""<!DOCTYPE html>
     /* ── All-flags sidebar ── */
     .lib-allflags-btn{display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;cursor:pointer;border:none;border-bottom:1px solid var(--border);background:var(--surf);font-size:12px;font-weight:600;color:var(--dim);text-align:left;transition:background .1s}
     .lib-allflags-btn:hover{background:var(--surf2)}.lib-allflags-btn.active{background:rgba(111,66,193,.1);color:var(--purple)}
+    /* ── Mobile overlay backdrop ── */
+    .mob-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:99;cursor:pointer}
+    .mob-overlay.open{display:block}
+    .mob-lib-bar{display:none}
+    .mob-sidebar-close{display:none;padding:8px 12px 8px 14px;border-bottom:1px solid var(--border);background:var(--surf2);align-items:center;justify-content:space-between}
+    .mob-sidebar-close span{font-size:12px;font-weight:700;color:var(--text)}
+    .mob-sidebar-close button{background:none;border:none;cursor:pointer;font-size:17px;color:var(--dim);padding:0 4px;line-height:1}
+    /* ── Responsive ── */
+    @media(max-width:768px){
+      body{padding-bottom:40px}
+      .topbar{padding:0 8px}
+      .topbar-title{font-size:11px;padding:14px 0;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+      .tabs{flex:1}
+      .tab-btn{padding:14px 8px 12px;font-size:11.5px}
+      .wrap,.wrap-wide{padding:18px 12px 0}
+      .page-title{margin-bottom:16px}
+      .page-title h2{font-size:17px}
+      .controls{flex-wrap:wrap}
+      /* Library sidebar: hidden overlay, slides in from left */
+      .lib-sidebar{position:fixed;left:0;top:52px;bottom:0;z-index:100;transform:translateX(-100%);transition:transform .25s ease;width:260px;box-shadow:4px 0 20px rgba(0,0,0,.15)}
+      .lib-sidebar.mob-open{transform:translateX(0)}
+      .mob-sidebar-close{display:flex}
+      /* Library data pane: hidden overlay, slides in from right */
+      .lib-data-pane{position:fixed;right:0;top:52px;bottom:0;z-index:100;transform:translateX(100%);transition:transform .25s ease;width:min(280px,88vw);box-shadow:-4px 0 20px rgba(0,0,0,.15)}
+      .lib-data-pane.mob-open{transform:translateX(0)}
+      /* Mobile control bar shown above lib-main content */
+      .mob-lib-bar{display:flex;align-items:center;gap:8px;padding:7px 12px;border-bottom:1px solid var(--border);background:var(--surf);flex-shrink:0}
+      .mob-lib-bar button{background:none;border:1px solid var(--border);border-radius:5px;padding:4px 10px;cursor:pointer;font-size:11.5px;color:var(--dim)}
+      .mob-lib-bar button:hover{background:var(--surf2)}
+      /* Spreadsheet split: stack vertically */
+      .xl-split{flex-direction:column}
+      .xl-side{min-height:220px;max-height:44vh}
+      .xl-side+.xl-side{border-left:none;border-top:3px solid var(--border)}
+      /* Data view: stack PDF + data pane */
+      .lib-content{flex-direction:column}
+      .lib-pdf-pane{max-height:48vh;min-height:180px}
+    }
   </style>
 </head>
 <body>
@@ -2023,12 +2060,19 @@ _HTML = r"""<!DOCTYPE html>
   <div class="lib-layout">
     <!-- Sidebar: year accordion -->
     <div class="lib-sidebar">
+      <div class="mob-sidebar-close"><span>Parishes</span><button onclick="mobCloseSidebar()" title="Close">&#10005;</button></div>
       <input class="lib-search-input" id="lib-search" placeholder="Search parishes…" oninput="filterLibrary(this.value)">
       <button class="lib-allflags-btn" id="lib-allflags-btn" onclick="libShowAllFlags()">&#9873; All Flags <span id="allflags-count" style="margin-left:auto;font-size:10.5px;color:var(--dimmer)"></span></button>
       <div id="lib-year-list"><div style="padding:20px 14px;font-size:12px;color:var(--dimmer)">Loading…</div></div>
     </div>
     <!-- Main area -->
     <div class="lib-main">
+      <!-- Mobile control bar (hidden on desktop) -->
+      <div class="mob-lib-bar">
+        <button onclick="mobToggleLibSidebar()">&#9776; Parishes</button>
+        <span style="flex:1"></span>
+        <button onclick="mobToggleLibDataPane()" id="mob-datapane-btn">Data &#9660;</button>
+      </div>
       <!-- Empty state -->
       <div class="lib-empty" id="lib-empty">
         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--border)"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
@@ -3482,7 +3526,36 @@ _HTML = r"""<!DOCTYPE html>
       document.getElementById('chat-msgs').scrollTop=9999;
     }
   }
+  /* ── Mobile sidebar / data-pane toggles ── */
+  function mobToggleLibSidebar(){
+    const s=document.querySelector('.lib-sidebar');
+    const dp=document.querySelector('.lib-data-pane');
+    const ov=document.getElementById('mob-overlay');
+    const opening=!s.classList.contains('mob-open');
+    s.classList.toggle('mob-open');
+    if(opening){dp.classList.remove('mob-open');ov.classList.add('open')}
+    else ov.classList.remove('open');
+  }
+  function mobToggleLibDataPane(){
+    const dp=document.querySelector('.lib-data-pane');
+    const s=document.querySelector('.lib-sidebar');
+    const ov=document.getElementById('mob-overlay');
+    const opening=!dp.classList.contains('mob-open');
+    dp.classList.toggle('mob-open');
+    if(opening){s.classList.remove('mob-open');ov.classList.add('open')}
+    else ov.classList.remove('open');
+  }
+  function mobCloseSidebar(){
+    document.querySelector('.lib-sidebar').classList.remove('mob-open');
+    document.getElementById('mob-overlay').classList.remove('open');
+  }
+  function mobCloseAll(){
+    document.querySelector('.lib-sidebar').classList.remove('mob-open');
+    document.querySelector('.lib-data-pane').classList.remove('mob-open');
+    document.getElementById('mob-overlay').classList.remove('open');
+  }
 </script>
+<div id="mob-overlay" class="mob-overlay" onclick="mobCloseAll()"></div>
 </body></html>"""
 
 # ══════════════════════════════════════════════════════════════════════════════
