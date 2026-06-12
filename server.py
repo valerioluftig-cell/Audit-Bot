@@ -1870,6 +1870,15 @@ _HTML = r"""<!DOCTYPE html>
     /* ── All-flags sidebar ── */
     .lib-allflags-btn{display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;cursor:pointer;border:none;border-bottom:1px solid var(--border);background:var(--surf);font-size:12px;font-weight:600;color:var(--dim);text-align:left;transition:background .1s}
     .lib-allflags-btn:hover{background:var(--surf2)}.lib-allflags-btn.active{background:rgba(111,66,193,.1);color:var(--purple)}
+    /* ── Import confirmation panel ── */
+    .ic-row{display:flex;align-items:center;gap:8px;padding:6px 12px;border-bottom:1px solid #e8e8e8;font-size:11.5px}
+    .ic-row:last-child{border-bottom:none}
+    .ic-filename{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#1f2328;font-family:monospace;font-size:11px}
+    .ic-toggle{display:flex;border:1px solid #d0d7de;border-radius:5px;overflow:hidden;flex-shrink:0}
+    .ic-tb{background:#fff;border:none;border-right:1px solid #d0d7de;padding:3px 10px;font-size:10.5px;font-weight:500;color:#57606a;cursor:pointer;transition:background .1s,color .1s;line-height:1.4}
+    .ic-tb:last-child{border-right:none}
+    .ic-tb.sel{background:#6f42c1;color:#fff;font-weight:600}
+    .ic-tb:not(.sel):hover{background:#f6f8fa}
     /* ── Mobile overlay backdrop ── */
     .mob-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:99;cursor:pointer}
     .mob-overlay.open{display:block}
@@ -1937,7 +1946,7 @@ _HTML = r"""<!DOCTYPE html>
     <div id="settings-msg" style="margin-top:10px;font-size:12px;min-height:16px"></div>
     <hr style="margin:22px 0 18px;border:none;border-top:1px solid #e0e0e0">
     <h4 style="margin:0 0 5px;font-size:14px;font-weight:700;color:#1f2328">Import Run</h4>
-    <p style="margin:0 0 14px;font-size:12px;color:#57606a">Select all files from a local run folder — PDFs, output Excels, and JSON cache files together. The server sorts them automatically.</p>
+    <p style="margin:0 0 14px;font-size:12px;color:#57606a">Select all files from a local run folder — PDFs, output Excels, and JSON cache files together.</p>
     <div id="import-drop" style="border:1px dashed #d0d7de;border-radius:7px;padding:20px 16px;text-align:center;cursor:pointer;background:#f6f8fa;transition:border-color .18s"
       onclick="document.getElementById('import-file-input').click()"
       ondragover="event.preventDefault();this.style.borderColor='#6f42c1';this.style.background='rgba(111,66,193,.04)'"
@@ -1945,10 +1954,23 @@ _HTML = r"""<!DOCTYPE html>
       ondrop="event.preventDefault();this.style.borderColor='#d0d7de';this.style.background='#f6f8fa';_importFilesChosen(event.dataTransfer.files)">
       <div style="font-size:13px;color:#57606a">Drop <b>all files from a run folder</b> here, or <span style="color:#6f42c1;font-weight:600;text-decoration:underline">browse</span></div>
       <div style="font-size:11px;color:#8c959f;margin-top:4px">PDFs + Excels + JSON cache — mixed is fine</div>
-      <div id="import-preview" style="margin-top:10px;font-size:11.5px;color:#57606a;display:none"></div>
     </div>
     <input type="file" id="import-file-input" multiple accept=".pdf,.xlsx,.json" style="display:none" onchange="_importFilesChosen(this.files)"/>
-    <button onclick="importRunFiles()" style="margin-top:10px;width:100%;padding:7px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Import to Training</button>
+    <!-- Step 2: Confirmation panel (shown after file selection) -->
+    <div id="import-confirm" style="display:none;margin-top:10px;border:1px solid #d0d7de;border-radius:7px;overflow:hidden;font-size:12px">
+      <div style="padding:8px 14px;background:#f6f8fa;border-bottom:1px solid #d0d7de;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <b style="font-size:12.5px;color:#1f2328">Review Import</b>
+        <span id="ic-other-summary" style="font-size:11.5px;color:#57606a"></span>
+        <span style="margin-left:auto;font-size:11.5px;color:#57606a">Year:
+          <select id="ic-year" style="margin-left:4px;border:1px solid #d0d7de;border-radius:4px;padding:2px 8px;font-size:11.5px;background:#fff;color:#1f2328"></select>
+        </span>
+      </div>
+      <div id="ic-excel-list"></div>
+      <div style="padding:8px 14px;background:#f6f8fa;border-top:1px solid #d0d7de;font-size:11px;color:#8c959f">
+        Excels marked <b style="color:#6f42c1">Coded Truth</b> go to <code>coded/{year}/</code> &nbsp;·&nbsp; <b>Pipeline Output</b> go to <code>runs/</code>
+      </div>
+    </div>
+    <button onclick="importRunFiles()" id="import-btn" style="display:none;margin-top:10px;width:100%;padding:7px 16px;background:#6f42c1;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600">Confirm Import</button>
     <div id="import-msg" style="margin-top:8px;font-size:12px;min-height:16px"></div>
   </div>
 </div>
@@ -2434,29 +2456,78 @@ _HTML = r"""<!DOCTYPE html>
   function escAttr(s){return String(s||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');}
 
   // ── Run import (Settings modal) ───────────────────────────────────────────
-  let _importFiles=[];
+  let _importFiles=[], _icExcelTypes={};
   function _importFilesChosen(files){
     _importFiles=Array.from(files);
+    if(!_importFiles.length) return;
     const pdfs=_importFiles.filter(f=>f.name.toLowerCase().endsWith('.pdf'));
     const jsons=_importFiles.filter(f=>f.name.toLowerCase().endsWith('.json'));
     const xlsxs=_importFiles.filter(f=>f.name.toLowerCase().endsWith('.xlsx'));
-    const prev=document.getElementById('import-preview');
-    prev.style.display='block';
-    prev.innerHTML=`<span style="color:var(--purple)">&#128196; ${pdfs.length} PDFs</span> &nbsp; <span style="color:var(--green)">&#128196; ${xlsxs.length} Excels</span> &nbsp; <span style="color:var(--dim)">&#128196; ${jsons.length} JSON cache</span> &nbsp; <b>${_importFiles.length} total</b>`;
+    // Detect year from any filename
+    let detectedYear=null;
+    for(const f of _importFiles){const m=f.name.match(/\b(20\d{2})\b/);if(m){detectedYear=parseInt(m[1]);break;}}
+    // Fill year selector
+    const yearSel=document.getElementById('ic-year');
+    yearSel.innerHTML='<option value="">— unknown —</option>';
+    for(let y=2025;y>=2010;y--){
+      const o=document.createElement('option');
+      o.value=y;o.textContent=y;
+      if(y===detectedYear)o.selected=true;
+      yearSel.appendChild(o);
+    }
+    // Other files summary
+    const parts=[];
+    if(pdfs.length) parts.push(`${pdfs.length} PDF${pdfs.length!==1?'s':''}`);
+    if(jsons.length) parts.push(`${jsons.length} JSON cache`);
+    if(!xlsxs.length) parts.push('no Excels to classify');
+    document.getElementById('ic-other-summary').textContent=parts.join(' · ');
+    // Excel classification rows
+    _icExcelTypes={};
+    const listEl=document.getElementById('ic-excel-list');
+    listEl.innerHTML='';
+    xlsxs.forEach(f=>{
+      const lo=f.name.toLowerCase();
+      const type=(lo.includes('coded')||lo.includes('truth'))?'coded':'pipeline';
+      _icExcelTypes[f.name]=type;
+      const row=document.createElement('div');
+      row.className='ic-row';
+      row.innerHTML=`<span class="ic-filename" title="${escHtml(f.name)}">${escHtml(f.name)}</span>`+
+        `<div class="ic-toggle">`+
+        `<button class="ic-tb${type==='coded'?' sel':''}" data-f="${escHtml(f.name)}" data-t="coded" onclick="icSetType(this,'coded')">Coded Truth</button>`+
+        `<button class="ic-tb${type==='pipeline'?' sel':''}" data-f="${escHtml(f.name)}" data-t="pipeline" onclick="icSetType(this,'pipeline')">Pipeline Output</button>`+
+        `</div>`;
+      listEl.appendChild(row);
+    });
+    document.getElementById('import-confirm').style.display='block';
+    document.getElementById('import-btn').style.display='block';
+    document.getElementById('import-msg').textContent='';
+  }
+  function icSetType(btn,type){
+    _icExcelTypes[btn.dataset.f]=type;
+    btn.closest('.ic-toggle').querySelectorAll('.ic-tb').forEach(b=>b.classList.toggle('sel',b.dataset.t===type));
   }
   async function importRunFiles(){
     const msg=document.getElementById('import-msg');
     if(!_importFiles.length){msg.textContent='No files selected.';msg.style.color='var(--orange)';return;}
     msg.textContent='Uploading…';msg.style.color='var(--dim)';
+    const year=document.getElementById('ic-year').value;
     const form=new FormData();
     _importFiles.forEach(f=>form.append('files',f));
+    if(year) form.append('year',year);
+    form.append('classifications',JSON.stringify(_icExcelTypes));
     try{
       const r=await fetch('/admin/import-run',{method:'POST',body:form});
       const d=await r.json();
       if(!r.ok) throw new Error(d.detail||'Upload failed');
-      msg.innerHTML=`&#10003; Imported: ${d.pdfs} PDFs, ${d.excels} Excels, ${d.cache} cache files into run <code>${d.run_id}</code>`;
+      const xlParts=[];
+      if(d.coded_excels) xlParts.push(`${d.coded_excels} coded truth`);
+      if(d.pipeline_excels) xlParts.push(`${d.pipeline_excels} pipeline output`);
+      const xlSummary=xlParts.length?` (${xlParts.join(', ')})`:'';
+      msg.innerHTML=`&#10003; Imported: ${d.pdfs} PDFs, ${d.excels} Excels${xlSummary}, ${d.cache} JSON cache`;
       msg.style.color='var(--green)';
-      _importFiles=[];document.getElementById('import-preview').style.display='none';
+      _importFiles=[];_icExcelTypes={};
+      document.getElementById('import-confirm').style.display='none';
+      document.getElementById('import-btn').style.display='none';
       loadLibrary();
     }catch(e){msg.textContent='Error: '+e.message;msg.style.color='var(--red)';}
   }
@@ -4066,8 +4137,12 @@ _CODED_STORE: dict[int, str] = {}    # year -> path to coded excel dir
 
 
 @app.post("/admin/import-run")
-async def import_run(files: list[UploadFile] = File(...)):
-    """Accept a mixed batch of files from a local run folder and sort them into the right places."""
+async def import_run(
+    files: list[UploadFile] = File(...),
+    year: str = Form(""),
+    classifications: str = Form(""),
+):
+    """Accept a mixed batch of files and route them based on user classifications."""
     import datetime as _dt
     ts = _dt.datetime.now().strftime("%Y%m%d_%H%M%S")
     run_id = f"imported_{ts}"
@@ -4078,11 +4153,27 @@ async def import_run(files: list[UploadFile] = File(...)):
     for d in (pdf_dir, out_dir, cache_dir):
         d.mkdir(parents=True, exist_ok=True)
 
-    counts = {"pdfs": 0, "excels": 0, "cache": 0, "other": 0}
+    # Parse optional inputs
+    class_map: dict = {}
+    if classifications:
+        try:
+            class_map = json.loads(classifications)
+        except Exception:
+            pass
+    detected_year: int | None = int(year) if year.strip().isdigit() else None
+
+    counts = {"pdfs": 0, "excels": 0, "coded_excels": 0, "pipeline_excels": 0, "cache": 0, "other": 0}
     for f in files:
         data = await f.read()
         name = f.filename or ""
         lo = name.lower()
+
+        # Auto-detect year from filename if not supplied
+        if detected_year is None:
+            m = re.search(r'\b(20\d{2})\b', name)
+            if m:
+                detected_year = int(m.group(1))
+
         if lo.endswith(".pdf"):
             (pdf_dir / name).write_bytes(data)
             counts["pdfs"] += 1
@@ -4092,21 +4183,31 @@ async def import_run(files: list[UploadFile] = File(...)):
             (cache_dir / name).write_bytes(data)
             counts["cache"] += 1
         elif lo.endswith(".xlsx"):
-            (out_dir / name).write_bytes(data)
+            file_type = class_map.get(name, "pipeline")
+            if file_type == "coded" and detected_year:
+                coded_dir = _app_dir() / "coded" / str(detected_year)
+                coded_dir.mkdir(parents=True, exist_ok=True)
+                (coded_dir / name).write_bytes(data)
+                counts["coded_excels"] += 1
+            else:
+                (out_dir / name).write_bytes(data)
+                counts["pipeline_excels"] += 1
             counts["excels"] += 1
         else:
             counts["other"] += 1
 
-    # Write a minimal meta.json if one wasn't included
+    # Write meta.json (skip if one was included in the upload)
     meta_path = run_dir / "meta.json"
     if not meta_path.exists():
-        import datetime as _dt2
-        now = _dt2.datetime.now()
-        meta_path.write_text(json.dumps({
+        now = _dt.datetime.now()
+        meta: dict = {
             "job_id": run_id,
-            "label": f"Imported {now.strftime('%b %d %Y')}",
+            "label": f"Imported {now.strftime('%b %d %Y')}" + (f" ({detected_year})" if detected_year else ""),
             "started_fmt": now.strftime("%b %d %Y, %I:%M %p").replace(" 0", " "),
-        }))
+        }
+        if detected_year:
+            meta["year"] = detected_year
+        meta_path.write_text(json.dumps(meta, indent=2))
 
     return {**counts, "run_id": run_id}
 
@@ -4388,13 +4489,14 @@ def _find_parish_pdf(year: int, parish: str):
             pdf_dir = job_dir / "pdfs"
             if not pdf_dir.exists():
                 continue
-            # Skip runs whose recorded year doesn't match — prevents 2013 PDFs
-            # from appearing as valid matches for 2014/2015 parishes.
+            # Skip runs whose recorded year explicitly doesn't match.
+            # Runs with no year in meta.json are searched (backward-compat).
             meta_file = job_dir / "meta.json"
             if meta_file.exists():
                 try:
                     meta = json.loads(meta_file.read_text())
-                    if meta.get("year") != year:
+                    run_year = meta.get("year")
+                    if run_year is not None and run_year != year:
                         continue
                 except Exception:
                     pass
