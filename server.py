@@ -2441,10 +2441,33 @@ _HTML = r"""<!DOCTYPE html>
       statusEl.textContent=d.truth?'':'No coded file found for this year.';
     }catch(e){statusEl.textContent='Error: '+e.message;}
   }
+  function _goToRunPipeline(){
+    const btn=document.querySelector('.tab-btn');
+    const allBtns=document.querySelectorAll('.tab-btn');
+    const runBtn=Array.from(allBtns).find(b=>b.textContent.trim().startsWith('Run Pipeline'));
+    if(runBtn) switchTab('run',runBtn);
+    if(_xlYear){
+      const sel=document.getElementById('year-input');
+      if(sel){sel.value=String(_xlYear);sel.classList.remove('placeholder');onYearChange(sel);}
+    }
+  }
   function _xlRenderSide(elId,scrollId,rows,targetVal,side){
     const el=document.getElementById(elId);
     const scroll=document.getElementById(scrollId);
-    if(!rows||!rows.length){el.innerHTML='<p class="xl-missing">File not found for this parish.</p>';return;}
+    if(!rows||!rows.length){
+      if(side==='pipe'){
+        el.innerHTML=`<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:32px;text-align:center">
+          <p class="xl-missing" style="margin:0">No pipeline output found for ${_xlYear||'this year'}.</p>
+          <p style="font-size:11px;color:var(--dimmer);margin:0">Run the pipeline for ${_xlYear||'this year'} to generate the comparison spreadsheet.</p>
+          <button onclick="_goToRunPipeline()" style="padding:8px 18px;background:var(--purple);color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">
+            &#9654; Run Pipeline for ${_xlYear||'this year'}
+          </button>
+        </div>`;
+      } else {
+        el.innerHTML='<p class="xl-missing">Coded truth file not found for this year.</p>';
+      }
+      return;
+    }
     // Build HTML table
     const ncols=Math.max(...rows.map(r=>r.length));
     let html='<table class="xl-tbl"><tr class="xl-hdr"><td class="xl-rn">#</td>';
