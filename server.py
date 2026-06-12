@@ -4381,13 +4381,23 @@ def _find_parish_pdf(year: int, parish: str):
         if match:
             return match
 
-    # 2. Web UI run directories (any year, most recent first)
+    # 2. Web UI run directories (year-matched via meta.json, most recent first)
     runs_root = _app_dir() / "runs"
     if runs_root.exists():
         for job_dir in sorted(runs_root.iterdir(), reverse=True):
             pdf_dir = job_dir / "pdfs"
             if not pdf_dir.exists():
                 continue
+            # Skip runs whose recorded year doesn't match — prevents 2013 PDFs
+            # from appearing as valid matches for 2014/2015 parishes.
+            meta_file = job_dir / "meta.json"
+            if meta_file.exists():
+                try:
+                    meta = json.loads(meta_file.read_text())
+                    if meta.get("year") != year:
+                        continue
+                except Exception:
+                    pass
             match = next((str(f) for f in pdf_dir.glob("*.pdf") if _pdf_matches(f)), None)
             if match:
                 return match
