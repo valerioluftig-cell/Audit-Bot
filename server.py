@@ -125,11 +125,11 @@ def _migrate_to_flat_structure():
                 if not dest.exists():
                     shutil.copy2(jf, dest)
                     moved += 1
-        # Excel outputs: Louisiana YYYY *.xlsx → output/{year}/
+        # Excel outputs: any YYYY CBS/SOA/SONA/Capital Assets .xlsx → output/{year}/
         out_src = job_dir / "output"
         if out_src.exists():
-            for xf in out_src.glob("Louisiana *.xlsx"):
-                m = re.search(r'Louisiana (\d{4})', xf.name)
+            for xf in out_src.glob("*.xlsx"):
+                m = re.search(r'\b(\d{4})\b', xf.name)
                 if not m:
                     continue
                 dest = app / "output" / m.group(1) / xf.name
@@ -154,6 +154,27 @@ def _migrate_to_flat_structure():
                         moved += 1
     if moved:
         print(f"[migrate] Promoted {moved} files to flat year-based structure", flush=True)
+
+    # Rename legacy "Multiple Parishes Run N YYYY *.xlsx" → "Louisiana YYYY *.xlsx"
+    # These were created before the label was fixed to always use "Louisiana".
+    renamed = 0
+    output_root = app / "output"
+    if output_root.exists():
+        for year_dir in output_root.iterdir():
+            if not year_dir.is_dir() or not year_dir.name.isdigit():
+                continue
+            yr = year_dir.name
+            for xf in year_dir.glob("*.xlsx"):
+                m = re.match(r'.+\s+(\d{4})\s+(CBS|SOA|SONA|Capital Assets)\.xlsx$', xf.name)
+                if m and not xf.name.startswith("Louisiana"):
+                    new_name = f"Louisiana {m.group(1)} {m.group(2)}.xlsx"
+                    new_path = year_dir / new_name
+                    if not new_path.exists():
+                        xf.rename(new_path)
+                        renamed += 1
+                        print(f"[migrate] Renamed: {xf.name} → {new_name}", flush=True)
+    if renamed:
+        print(f"[migrate] Renamed {renamed} legacy multi-parish Excel files", flush=True)
 
 
 # Feedback database — initialised on first run, path set at startup
@@ -1512,20 +1533,22 @@ def run_pipeline(input_dir, year, output_dir, cache_dir, skip_cache=False,
     if not pdfs: log(f"No PDFs found in {input_dir}"); return
     manual_pages = _load_manual_pages()
     if manual_pages: log(f"Manual overrides loaded for: {', '.join(manual_pages.keys())}")
+    # Count how many PDFs have cached results vs need processing
+    cached_count = sum(1 for f in pdfs
+                       if not skip_cache and os.path.exists(
+                           os.path.join(cache_dir, f"{get_parish_name(f)}_{year}.json")))
+    new_count = len(pdfs) - cached_count
     log(f"Processing {len(pdfs)} parishes for year {year}...")
+    if cached_count:
+        log(f"  {new_count} new  |  {cached_count} from cache (no API call)")
     log(f"  Input:  {input_dir}")
     log(f"  Output: {output_dir}")
     log("")
 
-    # Determine output file label: single parish name, or "Multiple Parishes Run N"
-    if len(pdfs) == 1:
-        label = get_parish_name(pdfs[0])
-    else:
-        existing_runs = [f for f in os.listdir(output_dir)
-                         if re.match(r"Multiple Parishes Run \d+.*CBS", f)]
-        run_num = len(existing_runs) + 1
-        label = f"Multiple Parishes Run {run_num}"
-    log(f"  Label:  {label}")
+    # Combined workbooks always use "Louisiana" label so the Training Library
+    # can find them by the consistent name "Louisiana {year} CBS.xlsx" etc.
+    label = "Louisiana"
+    log(f"  Output file: Louisiana {year} CBS.xlsx (+ SOA, SONA, Capital Assets)")
     log("")
 
     workbooks = {t: _get_or_create_wb(output_dir, t, year, label) for t in ["cbs","soa","sona","ca"]}
@@ -1903,6 +1926,16 @@ _HTML = r"""<!DOCTYPE html>
     .dash-stmt-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--border);margin-right:1px}
     .dash-stmt-dot.ok{background:#1a7f37}
     .dash-section-hdr{font-size:12px;font-weight:700;color:var(--text);margin:20px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+    .xsect-banner{background:linear-gradient(135deg,#4c1d95,#6d28d9);border-radius:8px;padding:14px 16px;margin-bottom:20px;color:#fff}
+    .xsect-banner-title{font-size:12px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;opacity:.8;margin-bottom:3px}
+    .xsect-banner-sub{font-size:11.5px;opacity:.65;margin-bottom:12px}
+    .xsect-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .xsect-card{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:6px;padding:10px 12px;cursor:pointer;transition:background .15s;display:flex;justify-content:space-between;align-items:center}
+    .xsect-card:hover{background:rgba(255,255,255,.22)}
+    .xsect-card.disabled{opacity:.45;cursor:default;pointer-events:none}
+    .xsect-card-name{font-size:12.5px;font-weight:700;margin-bottom:2px}
+    .xsect-card-hint{font-size:10.5px;opacity:.7}
+    .xsect-card-arrow{font-size:14px;opacity:.7}
     /* ── Spreadsheet split view ── */
     .lib-view-tabs{display:flex;border-bottom:1px solid var(--border);background:var(--surf);flex-shrink:0}
     .lib-view-tab{background:none;border:none;border-bottom:2px solid transparent;padding:7px 16px;font-size:11.5px;font-weight:500;color:var(--dim);cursor:pointer;transition:color .15s}
@@ -2598,13 +2631,25 @@ _HTML = r"""<!DOCTYPE html>
   }
 
   // ── Spreadsheet view ──────────────────────────────────────────────────────
-  let _xlYear=null, _xlParish=null, _xlTargetVal=null;
+  let _xlYear=null, _xlParish=null, _xlTargetVal=null, _xlCrossSect=false;
+  // Cross-sectional sheet name per statement type
+  const _CS_SHEET={cbs:'Cross Sectional',soa:'Governmental Cross Sectional',ca:'Cross Sectional',sona:null};
   function libSwitchView(mode){
     document.getElementById('lib-view-data').style.display=mode==='data'?'flex':'none';
     document.getElementById('lib-view-sheet').style.display=mode==='sheet'?'flex':'none';
     document.getElementById('vt-data').classList.toggle('active',mode==='data');
     document.getElementById('vt-sheet').classList.toggle('active',mode==='sheet');
-    if(mode==='sheet'&&_xlYear&&_xlParish) libLoadSpreadsheet();
+    if(mode==='sheet'&&_xlYear&&(_xlParish||_xlCrossSect)) libLoadSpreadsheet();
+  }
+  async function openCrossSection(year,stmtType){
+    _xlYear=year; _xlParish='__xsect__'; _xlCrossSect=true; _xlTargetVal=null;
+    _libCurrent={year,parish:'__xsect__'}; _libActiveYear=year;
+    renderLibSidebar(document.getElementById('lib-search').value);
+    _libShowOnly('viewer');
+    document.getElementById('lib-viewer-title').textContent='Cross Sectional — '+year;
+    _libTotal=0; _libUpdatePageCtrl();
+    document.getElementById('xl-stmt-sel').value=stmtType;
+    libSwitchView('sheet');
   }
   async function libLoadSpreadsheet(targetVal){
     if(targetVal!==undefined) _xlTargetVal=targetVal;
@@ -2613,11 +2658,28 @@ _HTML = r"""<!DOCTYPE html>
     statusEl.textContent='Loading…';
     document.getElementById('xl-truth').innerHTML='<p class="xl-missing">Loading…</p>';
     document.getElementById('xl-pipe').innerHTML='<p class="xl-missing">Loading…</p>';
+    // Cross-sectional mode: use the dedicated sheet name for each stmt type
+    if(_xlCrossSect){
+      const csName=_CS_SHEET[stmt];
+      if(!csName){
+        document.getElementById('xl-truth').innerHTML='<p class="xl-missing">No cross-sectional sheet for SONA.</p>';
+        document.getElementById('xl-pipe').innerHTML='<p class="xl-missing">No cross-sectional sheet for SONA.</p>';
+        statusEl.textContent=''; return;
+      }
+      try{
+        const r=await fetch(`/excel-view/${_xlYear}/${encodeURIComponent(csName)}/${stmt}`);
+        const d=await r.json();
+        _xlRenderSide('xl-truth','xl-truth-scroll',d.truth,_xlTargetVal,'truth');
+        _xlRenderSide('xl-pipe','xl-pipe-scroll',d.pipeline,_xlTargetVal,'pipe',d.pipeline_file_exists);
+        statusEl.textContent='';
+      }catch(e){statusEl.textContent='Error: '+e.message;}
+      return;
+    }
     try{
       const r=await fetch(`/excel-view/${_xlYear}/${encodeURIComponent(_xlParish)}/${stmt}`);
       const d=await r.json();
       _xlRenderSide('xl-truth','xl-truth-scroll',d.truth,_xlTargetVal,'truth');
-      _xlRenderSide('xl-pipe','xl-pipe-scroll',d.pipeline,_xlTargetVal,'pipe');
+      _xlRenderSide('xl-pipe','xl-pipe-scroll',d.pipeline,_xlTargetVal,'pipe',d.pipeline_file_exists);
       statusEl.textContent=d.truth?'':'No coded file found for this year.';
     }catch(e){statusEl.textContent='Error: '+e.message;}
   }
@@ -2631,16 +2693,26 @@ _HTML = r"""<!DOCTYPE html>
       if(sel){sel.value=String(_xlYear);sel.classList.remove('placeholder');onYearChange(sel);}
     }
   }
-  function _xlRenderSide(elId,scrollId,rows,targetVal,side){
+  function _xlRenderSide(elId,scrollId,rows,targetVal,side,pipeFileExists){
     const el=document.getElementById(elId);
     const scroll=document.getElementById(scrollId);
     if(!rows||!rows.length){
       if(side==='pipe'){
+        const yr=_xlYear||'this year';
+        const displayName=_xlCrossSect?'Cross Sectional':(_xlParish||'this parish');
+        const heading=pipeFileExists
+          ?`${displayName} has not been generated for ${yr} yet.`
+          :`No pipeline output found for ${yr}.`;
+        const hint=pipeFileExists
+          ?(_xlCrossSect
+            ?`Run the pipeline for ${yr} — the output file exists but the cross-sectional sheet has not been built yet.`
+            :`The pipeline output for ${yr} exists but does not include ${displayName}. Add this parish's PDF and run the pipeline.`)
+          :`Run the pipeline for ${yr} to generate the ${_xlCrossSect?'cross-sectional':'comparison'} spreadsheet.`;
         el.innerHTML=`<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:32px;text-align:center">
-          <p class="xl-missing" style="margin:0">No pipeline output found for ${_xlYear||'this year'}.</p>
-          <p style="font-size:11px;color:var(--dimmer);margin:0">Run the pipeline for ${_xlYear||'this year'} to generate the comparison spreadsheet.</p>
+          <p class="xl-missing" style="margin:0">${heading}</p>
+          <p style="font-size:11px;color:var(--dimmer);margin:0">${hint}</p>
           <button onclick="_goToRunPipeline()" style="padding:8px 18px;background:var(--purple);color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">
-            &#9654; Run Pipeline for ${_xlYear||'this year'}
+            &#9654; Run Pipeline for ${yr}
           </button>
         </div>`;
       } else {
@@ -3111,8 +3183,32 @@ _HTML = r"""<!DOCTYPE html>
     const totalStmts=stmtCounts.cbs+stmtCounts.sona+stmtCounts.ca+stmtCounts.soa;
     const missingParishes=CANONICAL_PARISHES.filter(p=>!uniqueBaseNames.has(p));
 
+    // Cross-sectional banner — top of dashboard, final product emphasis
+    let html=`<div class="xsect-banner">
+      <div class="xsect-banner-title">Cross Sectional Output — Final Product</div>
+      <div class="xsect-banner-sub">All-parish summary for each statement type. This is the deliverable.</div>
+      <div class="xsect-grid">
+        <div class="xsect-card" onclick="openCrossSection(${year},'cbs')">
+          <div><div class="xsect-card-name">Balance Sheet (CBS)</div><div class="xsect-card-hint">Cross Sectional sheet</div></div>
+          <span class="xsect-card-arrow">&#8594;</span>
+        </div>
+        <div class="xsect-card" onclick="openCrossSection(${year},'soa')">
+          <div><div class="xsect-card-name">Activities (SOA)</div><div class="xsect-card-hint">Cross Sectional sheet</div></div>
+          <span class="xsect-card-arrow">&#8594;</span>
+        </div>
+        <div class="xsect-card" onclick="openCrossSection(${year},'ca')">
+          <div><div class="xsect-card-name">Capital Assets (CA)</div><div class="xsect-card-hint">Cross Sectional sheet</div></div>
+          <span class="xsect-card-arrow">&#8594;</span>
+        </div>
+        <div class="xsect-card disabled">
+          <div><div class="xsect-card-name">Net Position (SONA)</div><div class="xsect-card-hint">No cross-sectional sheet</div></div>
+          <span class="xsect-card-arrow">—</span>
+        </div>
+      </div>
+    </div>`;
+
     // KPI row
-    let html=`<div class="dash-kpi-row">
+    html+=`<div class="dash-kpi-row">
       <div class="dash-kpi"><div class="dash-kpi-val">${_frac(uniqueBaseNames.size,TOTAL_LA_PARISHES)}</div><div class="dash-kpi-label">Parishes cached</div></div>
       <div class="dash-kpi"><div class="dash-kpi-val">${_frac(withPdf,TOTAL_LA_PARISHES)}</div><div class="dash-kpi-label">With PDF</div></div>
       <div class="dash-kpi"><div class="dash-kpi-val">${_frac(totalStmts,TOTAL_LA_PARISHES*4)}</div><div class="dash-kpi-label">Statements extracted</div></div>
@@ -3191,7 +3287,7 @@ _HTML = r"""<!DOCTYPE html>
 
   async function openLibEntry(year, parish){
     _libCurrent={year,parish}; _libActiveYear=year;
-    _xlYear=year; _xlParish=parish; _xlTargetVal=null;
+    _xlYear=year; _xlParish=parish; _xlTargetVal=null; _xlCrossSect=false;
     document.getElementById('lib-allflags-btn').classList.remove('active');
     renderLibSidebar(document.getElementById('lib-search').value);
     _libShowOnly('viewer');
@@ -3842,7 +3938,7 @@ async def run(files: list[UploadFile] = File(...), year: int = Form(...)):
                 except Exception:
                     pass
             run_pipeline(str(pdf_dir), year, str(out_dir), str(cache_dir),
-                         skip_cache=True, progress_callback=_cb, job_id=job_id)
+                         skip_cache=False, progress_callback=_cb, job_id=job_id)
             JOBS[job_id]["status"] = "done"
         except Exception as exc:
             tb = traceback.format_exc()
@@ -4333,15 +4429,18 @@ def excel_view(year: int, parish: str, stmt_type: str):
 
     # Pipeline output — flat output/{year}/ first, then legacy run dirs
     pipeline_rows = None
+    pipeline_file_exists = False
     flat_p = _app_dir() / "output" / str(year) / filename
     if flat_p.exists():
+        pipeline_file_exists = True
         pipeline_rows = _read_parish_sheet(flat_p)
-    if pipeline_rows is None:
+    if not pipeline_file_exists:
         runs_root = _app_dir() / "runs"
         if runs_root.exists():
             for job_dir in sorted(runs_root.iterdir(), reverse=True):
                 p = job_dir / "output" / filename
                 if p.exists():
+                    pipeline_file_exists = True
                     pipeline_rows = _read_parish_sheet(p)
                     if pipeline_rows is not None:
                         break
@@ -4355,7 +4454,8 @@ def excel_view(year: int, parish: str, stmt_type: str):
             out.append([str(v) if v is not None else None for v in row])
         return out
 
-    return {"truth": _ser(truth_rows), "pipeline": _ser(pipeline_rows), "filename": filename}
+    return {"truth": _ser(truth_rows), "pipeline": _ser(pipeline_rows),
+            "pipeline_file_exists": pipeline_file_exists, "filename": filename}
 
 
 def _ensure_pipeline_dir():

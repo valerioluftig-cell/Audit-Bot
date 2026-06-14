@@ -338,13 +338,23 @@ def _validate_ca(data: dict) -> StatementValidation:
         inc_val = inc or 0
         dec_val = dec or 0
         implied_end = beg + inc_val + dec_val
+        ca_note = "Decreases should be negative values; verify sign convention if flagged"
+
+        # PDFs often show decreases as positive numbers. If the roll-forward fails
+        # with raw values but succeeds when decreases are negated, auto-correct.
+        if abs(implied_end - end) > ROUND_TOLERANCE and dec_val > 0:
+            implied_end_neg = beg + inc_val - dec_val
+            if abs(implied_end_neg - end) <= ROUND_TOLERANCE:
+                implied_end = implied_end_neg
+                ca_note = "Sign auto-corrected: decreases negated (PDF presented as positive)"
+
         checks.append(_make_check(
             "CA Roll-Forward (Beginning + Changes = Ending)",
             "Beginning + Increases + Decreases",
             implied_end,
             "Ending Balance",
             end,
-            note="Decreases should be negative values; verify sign convention if flagged",
+            note=ca_note,
         ))
 
     key_fields = {
